@@ -1,0 +1,12 @@
+{
+  "registry_only": {
+    "gcv": 0.8309,
+    "blind": 0.7884,
+    "holdout": 0.7097
+  },
+  "all_modalities_plus_mech": {
+    "gcv": 0.8747,
+    "blind": 0.8079,
+    "holdout": 0.761
+  }
+}

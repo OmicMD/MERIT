@@ -1,0 +1,4 @@
+task,n_drugs,n_trials,n_pos,headline_mof_auc,boot_median,ci95_lo,ci95_hi,boot_sd,n_boot
+overall,753,3133,575,0.7699,0.7706,0.7453,0.7957,0.0132,2000
+safety,620,2640,85,0.7838,0.7846,0.7374,0.8305,0.0238,2000
+efficacy,642,2639,461,0.7649,0.7654,0.742,0.7895,0.0123,2000

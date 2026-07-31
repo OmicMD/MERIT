@@ -1,0 +1,1478 @@
+disease,mortality_1y,mortality_5y,source,confidence
+hepatitis C virus infection,1.0,4.0,"Chronic HCV slow progression; liver-specific case fatality ~0.3-1% over ~5y, all-cause modestly elevated (systematic review, PubMed 26256890; PMC8268172 cohort)",medium
+Type 2 Diabetes,1.4,7.0,~1.4 deaths/100 person-years all-cause in T2D cohorts (PMC6079498); ADA Diabetes Care life-expectancy cohort,high
+Type 2 Diabetes Mellitus,1.4,7.0,~1.4 deaths/100 person-years all-cause in T2D cohorts (PMC6079498); ADA Diabetes Care life-expectancy cohort,high
+Lung Cancer,50.0,72.0,"SEER all-stage: 1y relative survival ~50%, 5y relative survival ~28% (ACS/SEER lung cancer stat facts)",high
+Rheumatoid Arthritis,1.5,8.0,RA all-cause SMR ~1.5-2.2 vs general population (PubMed 36919770; Springer cohort) applied to background mortality,medium
+Breast Cancer,3.0,9.0,SEER female breast cancer all-stage 5y relative survival 91% -> 9% (seer.cancer.gov/statfacts/html/breast.html); 1y ~97%,high
+Major Depressive Disorder,1.0,6.0,"MDD all-natural-cause SMR ~1.5 (PMC); 5y mortality rises with age, near-term elevated post-diagnosis (PMC12434377)",medium
+COVID-19,1.0,1.0,Acute illness; overall IFR ~0.7-1% (WHO; PMC7947934 seroprevalence). 1y~=5y as deaths occur in acute phase,high
+Chronic Obstructive Pulmonary Disease,4.0,25.0,COPD 5y mortality ~25% (Korean nationwide cohort PMC7879613); total ~27-39/1000 PY -> ~3-4% 1y,high
+Prostate Cancer,1.0,2.0,SEER prostate cancer all-stage 5y relative survival 98% -> 2% (ACS/SEER); 1y ~99%,high
+Acute Myeloid Leukemia,50.0,68.0,SEER AML 5y relative survival ~31.7% -> 68% (seer.cancer.gov/statfacts/html/amyl.html); 1y survival ~50% overall,high
+Pain,0.5,3.0,"Symptom, not a disease; non-specific. Set low per instructions for pain/chronic-low-lethality strings",low
+Multiple Myeloma,7.0,38.0,SEER multiple myeloma 5y relative survival ~62% -> 38% (ACS/SEER); 1y ~93%,high
+epilepsy,2.0,10.0,"Epilepsy SMR ~2-2.6; annual all-cause ~20/1000 PY (ILAE; PMC11937074); ~2% 1y, ~10% 5y",medium
+Multiple Sclerosis,0.5,3.0,MS SMR ~1.5 overall (PubMed 34820847); excess mortality mild in first years (PLOS One 27603-pt French cohort),medium
+Metastatic Breast Cancer,22.0,67.0,SEER distant-stage breast cancer 5y relative survival ~32.6% -> 67% (NCI SEER); 1y distant ~75-80%,high
+cystic fibrosis,1.0,6.0,CF 5y observed mortality ~6% standard care (PMC10096446); median predicted survival ~50+ yrs (CF Foundation),high
+schizophrenia,2.0,10.0,Schizophrenia all-cause SMR ~5; ~9.6% died over 5y in 99k China community cohort (PMC10288468),medium
+Depression,1.0,6.0,"Depression all-natural-cause SMR ~1.5; near-term elevated, rises with age (PMC12434377 meta-analysis)",medium
+migraine,0.0,1.0,Low-lethality chronic condition; no meaningful direct mortality excess (population neurology data),medium
+HIV infection,1.0,6.0,Treated HIV modern era ~10-16 deaths/1000 PY (PMC4504463; Lancet HIV 2023); life expectancy near-normal on ART,high
+pain,0.5,3.0,"Symptom, not a disease; non-specific. Set low per instructions for pain/chronic-low-lethality strings",low
+asthma,0.1,1.0,"Asthma-specific mortality ~1/100,000/yr (CDC WONDER); all-cause HR ~1.4 but absolute low (PMC7809422)",high
+anemia,2.0,10.0,Anemia is a marker of underlying disease; elevated all-cause mortality in cohorts esp. elderly (PMC11493523 ARIC; Springer 9y cohort),low
+Hypercholesterolemia,0.5,3.0,"Asymptomatic risk factor; minimal direct short-term mortality, modest CV excess over years",medium
+Parkinson's Disease,4.0,22.0,"PD SMR ~2; ~43-75 deaths/1000 PY first 5y, ~36% over 5.2y in older cohort (MDS Wiley 28727); use ~22% 5y",medium
+Ovarian Cancer,25.0,48.0,SEER ovarian cancer all-stage 5y relative survival ~51.6% -> 48% (ACS/SEER); 1y ~75%,high
+Diabetes,1.4,7.0,All-cause ~1.4/100 person-years (T2D-dominant; PMC6079498); ADA life-expectancy cohort,high
+HIV-1 infection,1.0,6.0,Treated HIV modern era ~10-16 deaths/1000 PY (PMC4504463; Lancet HIV 2023); near-normal life expectancy on ART,high
+Alzheimer's Disease,12.0,50.0,Mean survival after AD diagnosis ~5-6 yrs (Alzheimer's Assoc; Lancet Healthy Longevity meta-analysis) -> ~50% 5y,medium
+Chronic Lymphocytic Leukemia,3.0,12.0,SEER CLL 5y relative survival ~88% -> 12% (seer.cancer.gov/statfacts/html/clyl.html); 1y ~97%,high
+COPD,4.0,25.0,COPD 5y mortality ~25% (Korean nationwide cohort PMC7879613); ~3-4% 1y,high
+Osteoarthritis,1.0,6.0,OA all-cause mortality modestly elevated (HR ~1.5); chronic low-lethality musculoskeletal disease,medium
+Hypertension,1.0,5.0,"Treated/controlled hypertension no significant excess vs normotensive (NHANES III, PMC6010458); chronic low-lethality",high
+Anesthesia,0.0,0.0,"Procedural/setting string, not a disease; anesthesia-attributable mortality negligible (~1/100,000)",high
+gout,1.0,6.0,"Gout all-cause mortality HR ~1.2-1.6 (meta-analysis ScienceDirect; AHA Circulation); chronic, modest excess",medium
+Advanced Breast Cancer,22.0,67.0,Advanced=distant-stage; SEER distant breast cancer 5y relative survival ~32.6% -> 67% (NCI SEER); 1y ~75-80%,high
+Cell Lymphoma,3.0,26.0,Ambiguous truncated string; treated as typical non-Hodgkin lymphoma: SEER NHL 5y relative survival ~74% -> 26% (ACS/SEER); 1y ~88%,low
+Cell Carcinoma,0.5,2.0,ACS basal/squamous cell skin carcinoma (5y rel survival ~95-100%),medium
+"Diabetes Mellitus, Type 2",1.5,7.0,T2D cohorts ~1.4/100 person-years all-cause (Malaysia registry; Diabetes Care),high
+Covid19,1.0,1.0,COVID-19 pooled CFR ~1% general population (meta-analysis PMC8451339),high
+Schizophrenia,1.0,5.0,"Schizophrenia SMR ~2.5-3, absolute mortality ~1%/yr (Nature Schiz; Front Psychiatry)",medium
+Psoriatic Arthritis,0.4,3.0,"PsA SMR ~1.1-1.2, mild CV-related excess (meta-analysis PMC12399637)",medium
+Type 1 Diabetes,0.5,3.0,"T1D near-normal lifespan, SMR ~3-7 but low absolute young mortality (Diabetes in America)",medium
+anemia of chronic kidney disease,8.0,40.0,Anemia of CKD marks advanced CKD; ~2.5x MACE/mortality (StatPearls; Swedish cohort),medium
+Postoperative Pain,0.0,0.0,"Symptom/care setting, not a lethal disease; perioperative 30d mortality low-risk near 0",high
+Pulmonary Arterial Hypertension,15.0,43.0,"REVEAL registry: 1y survival 85%, 5y survival 57% (ScienceDirect REVEAL)",high
+perennial allergic rhinitis,0.0,0.0,Non-lethal chronic allergic condition,high
+Heart Failure,20.0,50.0,"HF ~20-30% 1y, ~45-60% 5y mortality (Framingham; meta-analysis EJHF Jones 2019)",high
+Atopic Dermatitis,0.0,0.3,Non-lethal chronic inflammatory skin disease,high
+chronic obstructive pulmonary disease,4.0,24.0,COPD 5y mortality ~24% (PLOS One England primary care); 1y low,high
+Ulcerative Colitis,0.5,3.0,"UC SMR ~1.0, normal life expectancy (Copenhagen cohort Gastroenterology)",high
+NSCLC,50.0,68.0,NSCLC 5y rel survival ~32% (SEER); 1y survival ~50% all stages,high
+Acute Coronary Syndrome,7.0,17.0,"ACS registry: NSTEMI 1y ~4-5%/5y ~11-15%, STEMI higher (MDPI 5y follow-up)",high
+Cirrhosis,5.0,35.0,"Cirrhosis mixed comp/decomp: comp 1y 1-3%/decomp 1y 20-57%, 5y ~50% if decompensated (PMC3395145)",medium
+seasonal allergic rhinitis,0.0,0.0,Non-lethal seasonal allergic condition,high
+Pancreatic Cancer,75.0,87.0,Pancreatic cancer 5y rel survival ~13% (SEER/ACS); 1y survival ~25%,high
+heart failure,20.0,50.0,"HF ~20-30% 1y, ~45-60% 5y mortality (Framingham; meta-analysis EJHF Jones 2019)",high
+insomnia,0.0,0.0,Non-lethal sleep disorder,high
+plaque psoriasis,0.3,3.0,"Psoriasis SMR ~1.1, mild CV-related excess (meta-analysis PMC12328333)",medium
+atrial fibrillation,4.0,19.0,AF alone GARFIELD-AF ~4.3/100 person-years 1y; 5y ~18-20% (Eur Heart J Suppl),high
+Covid19; SARS-CoV Infection; ards; acute kidney injury,40.0,42.0,Most severe = ARDS; ARDS hospital mortality ~35-45% (combined string),medium
+chronic idiopathic constipation,0.0,0.0,Non-lethal functional GI condition,high
+constipation,0.0,0.0,Non-lethal functional GI symptom,high
+hot flashes,0.0,0.0,Non-lethal menopausal vasomotor symptom,high
+Clostridium Difficile Infection,13.0,40.0,"CDI all-cause 30d ~13%, 1y ~37% (Clin Infect Dis multicenter cohort)",medium
+Duchenne Muscular Dystrophy,1.0,7.0,"DMD progressive, median life expectancy ~22-28y; low annual mortality in youth (IPD meta-analysis PMC8665435)",medium
+smoking cessation,0.0,0.0,"Behavioral intervention/state, not a lethal disease",high
+psoriasis,0.3,3.0,"Psoriasis SMR ~1.1, mild CV-related excess (meta-analysis PMC12328333)",medium
+atopic dermatitis,0.0,0.3,Non-lethal chronic inflammatory skin disease,high
+malaria,0.5,0.5,Uncomplicated treated malaria CFR <1% (StatPearls); acute disease,high
+Thyroid Cancer,0.5,1.5,Thyroid cancer 5y rel survival ~98.5% (SEER/ACS),high
+"Lung Diseases, Interstitial",10.0,55.0,ILD/IPF (severe component): 5y survival ~40% IPF (UK pop study); median 3-5y,medium
+stroke,25.0,50.0,Ischemic stroke 1y mortality ~25% (Medicare); 5y ~50-60% (AHA Stroke),high
+Chronic Kidney Disease,3.0,15.0,CKD overall (mixed stages); advanced/ESRD much higher (~50% 5y stage 5),medium
+Asthma,0.0,0.1,"Asthma death rate ~1/100,000/yr (ALA/CDC); near-zero population mortality",high
+Chemotherapy-Induced Nausea and Vomiting,0.0,1.0,"Supportive-care symptom, not a lethal disease; negligible attributable mortality",high
+Diabetes Mellitus,2.0,10.0,"T2DM cohorts ~1.4/100 person-yr (Malaysian registry ~7%/5y; UK newly-dx ~20%/5y); typical ~2%/1y, ~10%/5y",medium
+Uveitis,1.0,5.0,"Vision-threatening, not life-threatening; modestly elevated mortality from underlying systemic disease (Tandfonline/PubMed 2024)",medium
+vitamin D deficiency,0.0,1.0,"Nutritional deficiency, not directly lethal; negligible attributable short-term mortality",high
+Major Depression,1.0,5.0,"MDD SMR ~1.6-2.0 (meta-analysis); low absolute annual mortality, ~1%/1y ~5%/5y",medium
+irritable bowel syndrome,0.0,1.0,"Swedish nationwide cohort + 29-yr follow-up: no increased mortality, normal life expectancy",high
+Amyotrophic Lateral Sclerosis,26.0,80.0,"ALS survival ~74% at 1y, ~10-20% at 5y (registry cohorts); median survival 2-5y",high
+"Hypertension, Pulmonary",15.0,45.0,"Pulmonary hypertension/PAH; REVEAL registry 1y survival 85%, 5y 57% (use severe PAH component)",medium
+immune thrombocytopenia,5.0,20.0,Danish/population ITP cohorts: 5-y mortality ~20-24% (HR ~1.5 vs general pop),medium
+Idiopathic Pulmonary Fibrosis,20.0,55.0,"IPF 1y survival ~79-84%, 5y ~45% (Canadian/Korean cohorts; meta-analysis 5y 45.6%)",high
+bipolar I disorder,1.0,6.0,Bipolar SMR ~2.0-2.6; 9-13y reduced life expectancy; low absolute annual mortality,medium
+ulcerative colitis,1.0,4.0,UC all-cause SMR ~1.1-1.19 (population meta-analyses); near-general-population mortality,high
+overactive bladder,0.0,1.0,Benign non-life-threatening LUTS syndrome; no direct attributable mortality,high
+Atrial Fibrillation,10.0,30.0,"AF carries substantial excess mortality (Framingham); ~10%/1y, ~30%/5y typical cohorts",medium
+Low back pain,0.0,1.0,Non-lethal musculoskeletal pain condition; negligible attributable mortality,high
+Colorectal Cancer,16.0,36.0,"SEER all-stage relative survival: 1y 84%, 5y 64% (ACS Facts & Figures)",high
+Chronic Myeloid Leukemia,5.0,30.0,SEER CML 5y relative survival ~70.4%; 1y survival high (~93-95%) in TKI era,high
+hypotension,0.0,2.0,"Sign/state, not a disease; severe acute hypotension/shock is dangerous but as a chronic label near-zero",medium
+pulmonary arterial hypertension,15.0,43.0,"REVEAL registry: 1y survival 85%, 5y survival 57% (WHO group 1 PAH)",high
+Chemotherapy-induced Nausea and Vomiting,0.0,1.0,"Supportive-care symptom, not a lethal disease; negligible attributable mortality",high
+acne vulgaris,0.0,0.0,Benign dermatologic condition; no attributable mortality,high
+Gastric Cancer,45.0,62.0,SEER stomach cancer 5y relative survival ~37.9%; all-stage 1y survival ~55% (ACS),high
+Essential Hypertension,0.0,3.0,Controlled HTN ~= normotensive mortality; uncontrolled HR ~1.4 (NHANES III); small 5y excess,medium
+chronic kidney disease,5.0,20.0,"General mixed-stage CKD (not dialysis); HR ~2.7 all-cause; kidney failure 5y survival ~31%, overall CKD lower",medium
+Metastatic Colorectal Cancer,53.0,84.0,"SEER distant-stage CRC: 1y survival ~47%, 5y relative survival ~15.6%",high
+infection,5.0,10.0,Generic infection spans trivial to severe bacterial/sepsis (sepsis 1y mortality ~12-43%); ambiguous term,low
+Cushing syndrome,2.0,10.0,Endogenous Cushing SMR ~3 (active disease ~5.7); modern treated mortality low; historical untreated 50%/5y,medium
+sedation,0.0,0.0,"Procedural/anesthesia setting, not a disease; near-zero attributable mortality",high
+Coronary Artery Disease,3.0,15.0,"Stable CAD: modern revascularized ~4%/5y, older cohorts ~27%/5y; typical ~3%/1y ~15%/5y",medium
+Nonalcoholic Steatohepatitis,3.0,13.0,"NASH/NAFLD all-cause ~28.6/1000 person-yr (Swedish cohort); ~3%/1y, ~13%/5y",medium
+in Cancer,20.0,30.0,"Non-specific cancer string; SEER all-sites combined 1y survival ~78%, 5y ~70%",low
+Smoking Cessation,0.0,0.0,"Behavioral intervention indication, not a disease; no attributable mortality",high
+Sickle Cell Disease,1.0,6.0,"SCD ~11.7 deaths/1000 person-yr; median survival ~54-59y; ~1%/1y, ~6%/5y",medium
+"Pain, Postoperative",0.0,1.0,"Postoperative pain symptom, not a lethal disease; negligible attributable mortality",high
+Erosive Esophagitis,0.0,1.0,Benign GERD-spectrum condition; negligible attributable mortality,high
+"Tuberculosis, Multidrug-Resistant; Infection, Bacterial; Pulmonary Tuberculoses",18.0,35.0,MDR-TB most severe component: ~20% die during treatment (WHO); 5y mortality ~35%,medium
+"Intracranial Hemorrhages; Intracranial Hemorrhage, Hypertensive; Subarachnoid Hemorrhage; Subdural Hematoma; Intraventricular Hemorrhage; Atrial Fibrillation; Atrial Flutter; Small Vessel Cerebrovascular Disease; Microhaemorrhage",45.0,60.0,"Most severe component intracerebral hemorrhage: case fatality ~42% 30d, ~50% 1y; SAH 1y ~37%",medium
+Cell Cancer,10.0,30.0,Ambiguous 'cell cancer'; used pooled solid-tumor average (SEER all-sites ~33% 5y mortality),low
+Delirium,25.0,40.0,"Delirium 1y mortality ~25-35% (elderly inpatient cohorts, e.g. Witlox JAMA 2010)",medium
+Endometrial Cancer,5.0,18.0,SEER endometrial/uterine corpus all-stages 5y relative survival ~81-84%,high
+Fibromyalgia,0.0,1.0,Fibromyalgia not directly lethal; near-zero excess all-cause mortality,high
+Gastric Ulcers; Duodenal Ulcers,1.0,5.0,Peptic ulcer disease low CFR; perforation/bleed mortality drives small figure,medium
+Healthy,0.0,0.0,Non-disease string (healthy volunteers); no disease mortality,high
+Human Immunodeficiency Virus,2.0,10.0,Treated HIV near-normal life expectancy; small excess mortality on ART,medium
+Infertility,0.0,0.0,Infertility not lethal,high
+Influenza,0.1,0.5,Seasonal influenza CFR ~0.1% general population (CDC); low cumulative,high
+Metastatic Melanoma,40.0,67.0,SEER distant melanoma 5y relative survival ~32-35%; 1y distant survival ~55-60%,high
+Neck Cancer,15.0,45.0,Head and neck (SEER) all-stages 5y relative survival ~50-68%; used pooled,medium
+Nicotine Dependence,0.0,2.0,Nicotine dependence per se low short-term mortality; long-term excess,medium
+Osteoarthrosis,0.0,2.0,Osteoarthritis not directly lethal; small long-term excess mortality,high
+Pain Management,0.0,0.0,"Procedural/symptom string, not a disease",high
+Polycythemia Vera,3.0,20.0,SEER PV 5y relative survival ~80%; low 1y mortality,high
+Sepsis,30.0,50.0,Sepsis ~30-day/1y mortality ~25-35%; 5y ~50% (post-sepsis excess),high
+Systemic Lupus Erythematosus,2.0,7.0,SLE 5y survival ~92-95% in modern cohorts,high
+Tuberculosis,10.0,15.0,Treated TB CFR ~5-15% (WHO global CFR ~15%),high
+With Cancer,10.0,33.0,Nonspecific 'with cancer'; SEER all-sites combined ~33% 5y mortality,low
+allergic rhinitis,0.0,0.0,Allergic rhinitis not lethal,high
+autism spectrum disorder,0.0,1.0,ASD small excess mortality (epilepsy/accidents); near-zero direct,medium
+chronic cough,0.0,1.0,"Chronic cough symptom, not directly lethal",high
+contraception,0.0,0.0,Non-disease (contraception indication),high
+coronary artery disease,2.0,10.0,Stable CAD annual mortality ~1-3%; 5y ~10% (registry/cohort),high
+cytomegalovirus infection,5.0,10.0,CMV in immunocompetent benign; figures reflect at-risk/disease context,low
+dry eye syndrome,0.0,0.0,Dry eye not lethal,high
+essential hypertension,0.0,2.0,Uncomplicated hypertension low short-term mortality; small long-term excess,high
+functional constipation,0.0,0.0,Functional constipation not lethal,high
+nicotine dependence,0.0,2.0,Nicotine dependence low short-term mortality; long-term excess,medium
+obesity,0.0,2.0,Obesity low 1y mortality; modest 5y excess (chronic risk factor),high
+opioid use disorder,5.0,15.0,OUD high overdose/all-cause mortality ~1-2%/yr; cumulative 5y ~15%,medium
+postpartum hemorrhage,2.0,2.0,PPH case fatality ~1-3% (higher in low-resource); acute event,medium
+skin and soft tissue bacterial infection,1.0,2.0,SSTI/cellulitis low CFR; sepsis drives small figure,medium
+uterine fibroids,0.0,0.0,"Uterine fibroids benign, not lethal",high
+valvular heart disease,3.0,15.0,Symptomatic VHD annual mortality ~2-5%; 5y ~15-20% untreated,medium
+Acute Myocardial Infarction,13.0,25.0,AMI 1y mortality ~10-15%; 5y ~25-30% (cohort/AHA),high
+Acute Pain,0.0,0.0,"Acute pain symptom, not lethal",high
+Advanced Gastric Cancer,55.0,90.0,Metastatic gastric SEER distant 5y survival ~7%; 1y distant survival ~40-45%,high
+Advanced Lung Cancer,70.0,92.0,SEER distant lung 5y relative survival ~8%; 1y distant survival ~25-30%,high
+Anaplastic Lymphoma,15.0,40.0,Anaplastic large cell lymphoma 5y survival ~50-70% (ALK+) to lower (ALK-); pooled,low
+Asthma; Wheezing,0.0,1.0,Asthma low mortality (~0.1% deaths among patients); cumulative small,high
+"Bariatric Surgery Candidate; Perioperative Complication; Nausea; Vomiting, Postoperative; Drug Effect",0.0,1.0,Perioperative/symptom string; low procedural mortality,medium
+Benign Prostatic Hyperplasia,0.0,1.0,"BPH benign, not directly lethal",high
+Benzodiazepine Refractory Status Epilepticus,20.0,30.0,Refractory status epilepticus in-hospital mortality ~20-40%,medium
+Bipolar Disorder,1.0,3.0,Bipolar excess mortality (suicide/medical) ~1-2x; small absolute,medium
+Blood Loss,2.0,3.0,"Acute blood loss/hemorrhage; CFR depends on severity, modest acute",low
+Bone Mineral Density Quantitative Trait Locus 7,0.0,0.0,"Genetic trait locus, not a lethal disease",high
+Brain Cancer; Glioblastoma Multiforme,60.0,94.0,Glioblastoma 1y survival ~40%; 5y survival ~5-7%,high
+Chronic Myelogenous Leukemia,3.0,25.0,SEER CML 5y relative survival ~71% (TKI era higher); low 1y,high
+Chronic pain,0.0,0.0,"Chronic pain symptom, not directly lethal",high
+Coronavirus Infection,1.0,2.0,COVID-19 overall IFR ~0.3-1% (Ioannidis WHO Bull); population figure,medium
+Crohn's Disease,0.0,2.0,Crohn's near-normal life expectancy; small excess mortality,high
+Crohn's disease,0.0,2.0,Crohn's near-normal life expectancy; small excess mortality,high
+Cystic Fibrosis,1.0,5.0,CF annual mortality ~1-2%; median survival now ~50+ yrs (CF registry),medium
+Epilepsy,1.0,5.0,Epilepsy excess mortality (SUDEP/status) ~1-2x; small absolute,medium
+Epilepsy; Partial Seizures,1.0,5.0,Epilepsy excess mortality ~1-2x; small absolute,medium
+Follicular Lymphoma,3.0,10.0,SEER follicular lymphoma 5y relative survival ~90%,high
+Gastric Ulcer,1.0,5.0,Peptic ulcer low CFR; bleed/perforation drives small figure,medium
+Hyperlipidemia,0.0,1.0,"Hyperlipidemia risk factor, near-zero direct short-term mortality",high
+Labor induction,0.0,0.0,"Obstetric procedure, not a disease",high
+Liver Cancer,50.0,78.0,SEER liver/HCC all-stages 5y relative survival ~22%; 1y survival ~50%,high
+Low Back Pain,0.0,0.0,Low back pain not lethal,high
+Metastatic Pancreatic Cancer,78.0,97.0,SEER distant pancreatic 5y survival ~3%; 1y distant survival ~22%,high
+Metastatic Prostate Cancer,25.0,65.0,SEER distant prostate 5y relative survival ~37%; 1y distant survival ~75%,high
+Migraine,0.0,0.0,Migraine not lethal,high
+Myopia,0.0,0.0,Myopia not lethal,high
+Non-Hodgkin's Lymphoma,12.0,27.0,SEER NHL all-types 5y relative survival ~73-75%,high
+Obesity,0.0,2.0,Obesity low 1y mortality; modest 5y excess,high
+"Polycystic Kidney, Autosomal Dominant",1.0,5.0,ADPKD slowly progressive; mortality mainly from ESRD/CV over decades,medium
+Polycystic Ovary Syndrome,0.0,0.0,PCOS not directly lethal,high
+Primary Peritoneal Cancer,15.0,65.0,Primary peritoneal (~advanced ovarian) 5y survival ~30-40%,medium
+Recurrent urinary tract infections,0.0,1.0,Recurrent UTI low mortality; urosepsis drives small figure,high
+SARS-CoV-2 Infection,1.0,2.0,COVID-19 overall IFR ~0.3-1%; population figure,medium
+Septic Shock,45.0,60.0,"Septic shock in-hospital mortality ~35-40%; 1y ~45-50%, 5y ~60%",high
+Solid Tumors,10.0,33.0,Nonspecific solid tumors; SEER all-sites ~33% 5y mortality,low
+Sore Throat,0.0,0.0,Sore throat/pharyngitis not lethal,high
+Stroke,20.0,50.0,Ischemic stroke 1y mortality ~18-25%; 5y ~50%,high
+Type 1 Diabetes Mellitus,0.0,2.0,T1DM low short-term mortality; modest long-term excess (DKA/CV),high
+actinic keratosis,0.0,0.0,"Actinic keratosis precancerous, not lethal",high
+ankle sprain,0.0,0.0,Ankle sprain not lethal,high
+bacterial pneumonia,8.0,25.0,Community-acquired pneumonia 30-day mortality ~5-15%; 1y ~25-30%,high
+bipolar disorder,1.0,3.0,Bipolar excess mortality; small absolute,medium
+cardiac arrest,90.0,92.0,OHCA survival to discharge ~8-10%; ~90% 30-day mortality,high
+cardiomyopathy,5.0,20.0,Dilated/general cardiomyopathy annual mortality ~3-5%; 5y ~20%,medium
+cervical ripening,0.0,0.0,"Obstetric procedure, not a disease",high
+chronic rhinosinusitis with nasal polyps,0.0,0.0,CRSwNP not lethal,high
+complicated urinary tract infection,2.0,4.0,Complicated UTI/urosepsis low-moderate CFR ~1-3%,medium
+episodic migraine,0.0,0.0,Migraine not lethal,high
+fibromyalgia,0.0,1.0,Fibromyalgia not directly lethal,high
+gastric cancer,40.0,70.0,Gastric cancer all-stages SEER 5y relative survival ~33%; 1y ~60%,high
+gastroesophageal reflux disease,0.0,0.0,GERD not lethal,high
+hypertrophic cardiomyopathy,1.0,5.0,HCM annual mortality ~0.5-1%; 5y ~5%,medium
+mania,1.0,3.0,Mania/bipolar excess mortality; small absolute,medium
+nasal polyps,0.0,0.0,Nasal polyps not lethal,high
+non-24-hour sleep-wake disorder,0.0,0.0,"Circadian disorder, not lethal",high
+open-angle glaucoma,0.0,0.0,"Glaucoma causes blindness, not death",high
+pneumonia,8.0,25.0,Pneumonia 30-day mortality ~5-15%; 1y ~25-30%,high
+postoperative pain,0.0,0.0,"Postoperative pain symptom, not lethal",high
+preeclampsia,1.0,1.0,Preeclampsia maternal CFR ~0.5-1% (developed); higher globally; acute,medium
+total hip arthroplasty,0.0,1.0,Elective surgical procedure; 90-day mortality <1%,high
+type 2 diabetes mellitus,1.0,5.0,T2DM low 1y mortality; modest 5y excess (CV/renal),high
+vasospastic angina,1.0,3.0,Vasospastic (Prinzmetal) angina low mortality with treatment,medium
+venous thromboembolism,5.0,20.0,VTE 30-day mortality ~5-10%; 1y ~15-20% (often comorbidity-driven),high
+visceral Leishmaniasis,10.0,10.0,Visceral leishmaniasis treated CFR ~10% (>95% untreated),high
+Acute Coronary Syndromes,12.0,25.0,ACS 1y mortality ~10-13%; 5y ~25%,high
+Acute Ischaemic Stroke; Transient Ischaemic Attack,20.0,50.0,Ischemic stroke 1y mortality ~18-25%; 5y ~50% (most severe component),high
+Acute Lymphoblastic Leukemia; Precursor B-Cell Lymphoblastic Leukemia; Precursor T-Cell Lymphoblastic Leukemia,15.0,55.0,Adult ALL 5y survival ~40-45%; 1y ~85%,high
+Acute Pain; Ambulances,0.0,0.0,"Acute pain/ambulance setting, not a lethal disease",high
+Acute Pain; Post Operative Pain; Pain,0.0,0.0,"Pain symptom, not lethal",high
+Advanced Colorectal Cancer,30.0,85.0,SEER distant colorectal 5y relative survival ~15%; 1y distant ~70% survival,high
+Advanced Gastric Adenocarcinoma,55.0,90.0,Metastatic gastric SEER distant 5y survival ~7%,high
+Advanced Melanoma,40.0,67.0,SEER distant melanoma 5y survival ~32-35%; 1y survival ~55-60%,high
+Alcohol Use Disorder,3.0,12.0,AUD excess all-cause mortality ~2-4x; cumulative meaningful,medium
+Alopecia Areata,0.0,0.0,Alopecia areata not lethal,high
+Alzheimer disease,15.0,50.0,"Alzheimer median survival ~5-8 yrs from diagnosis; 1y ~10-15%, 5y ~50%",high
+Anal Cancer,10.0,31.0,SEER anal cancer all-stages 5y relative survival ~69%,high
+Anal Intraepithelial Neoplasia; High-grade Squamous Intraepithelial Lesion; HIV Infection,2.0,10.0,AIN/HSIL precancerous; HIV component drives small figure,low
+"Anesthesia, General",0.0,0.0,"Anesthesia setting, not a disease; perioperative mortality near-zero",high
+"Anesthesia, General; Neuromuscular Transmission Disorders",0.0,1.0,"Anesthesia/NMT setting, minimal disease mortality",medium
+Anticoagulation in Pregnancy,1.0,1.0,Indication/management context; VTE risk in pregnancy drives small figure,low
+Anxiety,0.0,1.0,Anxiety disorder near-zero direct mortality,high
+Autism Spectrum Disorder,0.0,1.0,ASD small excess mortality; near-zero direct,medium
+Autosomal Dominant Polycystic Kidney Disease (ADPKD),1.0,5.0,ADPKD slowly progressive; mortality from ESRD/CV over decades,medium
+Back Pain Lower Back Chronic,0.0,0.0,Low back pain not lethal,high
+Bipolar I Disorder,1.0,3.0,Bipolar excess mortality (suicide/medical); small absolute,medium
+Bowel Preparation,0.0,0.0,"Procedural prep, not a disease",high
+COVID 19,1.0,2.0,COVID-19 overall IFR ~0.3-1%; population figure,medium
+COVID; COVID-19; SARS-CoV 2; Coronavirus; Corona Virus Infection,1.0,2.0,COVID-19 overall IFR ~0.3-1%; population figure,medium
+Cancer; Cancer Metastatic; BRAF V600E; MEK1 Gene Mutation; MEK2 Gene Mutation; ERK Mutation; RAF1 Gene Mutation,40.0,67.0,"Metastatic cancer (BRAF/MAPK, melanoma-type) distant 5y survival ~32-35%",low
+Cardiovascular Diseases,3.0,15.0,Broad CVD; mixed CAD/HF annual mortality ~2-5%; 5y ~15%,medium
+Cellulitis,1.0,2.0,Cellulitis low CFR; sepsis drives small figure,high
+Child Comfort; Morphine; Intensive Care Units; Pediatric,0.0,1.0,"Pediatric ICU comfort/symptom context, not a defined lethal disease",low
+Chronic Allergic Conjunctivitis,0.0,0.0,Allergic conjunctivitis not lethal,high
+Chronic Hepatitis B,1.0,5.0,Chronic HBV slow progression; cirrhosis/HCC mortality over decades,medium
+Chronic Kidney Diseases,5.0,30.0,CKD annual mortality rises with stage; advanced/ESRD 5y mortality high ~30-50%,medium
+Chronic Lymphocytic Leukemia; Mantle Cell Lymphoma; Diffuse Large B-cell Lymphoma; Indolent Non-Hodgkin's Lymphoma,15.0,40.0,"Mixed; DLBCL (most aggressive component) 5y survival ~65%, 1y ~85%",medium
+Chronic Lymphocytic Leukemia; Small Lymphocytic Lymphoma,3.0,15.0,SEER CLL/SLL 5y relative survival ~85-88%,high
+Chronic Peripheral Post-traumatic Neuropathic Pain,0.0,0.5,"Chronic pain condition, not directly lethal; negligible disease-specific mortality (clinical consensus)",medium
+Chronic Thromboembolic Pulmonary Hypertension,3.0,15.0,"CTEPH survival cohorts (ERJ 2025; AHA Circulation 2016): ~1y survival 95-98%, 5y 85%",high
+Cognitive Change; Behavior,0.0,1.0,Non-lethal symptom descriptor (cognitive/behavioral); negligible disease-specific mortality,low
+Colonoscopy,0.0,0.0,"Procedure, not a disease; procedural mortality ~0",high
+Community-acquired Bacterial Pneumonia,12.0,35.0,"Hospitalized CAP cohort (Clin Infect Dis 2017): 30-day ~13%, 1y ~30.6%; 5y higher",high
+Complicated Intra-abdominal Infection,8.0,20.0,cIAI 30-day mortality ~5-10% (published surgical-sepsis cohorts),medium
+Complicated Urinary Tract Infection; Acute Pyelonephritis,3.0,10.0,cUTI/pyelonephritis short-term mortality low single digits (published cohorts),medium
+Corona Virus Infection,3.0,5.0,COVID-19 typical infection (post-vaccine era) low CFR ~1-3%; pre-treatment hospitalized higher,low
+Coronary Artery Disease (CAD),2.0,10.0,Stable CAD annual mortality ~2%/yr (cardiology cohorts); 5y ~10%,medium
+Coronary Artery Disease; Endothelial Function,2.0,10.0,Stable CAD annual mortality ~2%/yr (cardiology cohorts); 5y ~10%,medium
+Coronavirus; Severe Acute Respiratory Syndrome,10.0,12.0,SARS/severe-coronavirus CFR ~10% (WHO SARS); severe hospitalized course,low
+Covid19; Viral Pneumonia Human Coronavirus; Severe Acute Respiratory Syndrome,15.0,18.0,Severe COVID viral pneumonia/ARDS hospitalized mortality ~15% (most severe component),low
+Cystoscopes; Baxter Anaesthesia Brand of Desflurane; Sevoflurane,0.0,0.0,"Procedural/anesthesia setting, not a disease; mortality ~0",high
+Cytomegalovirus (CMV),8.0,15.0,CMV disease in transplant recipients increased mortality (~6-8% SOT; OFID/PMC cohorts),medium
+Delirium; Impaired Cognition; Long Term Psychologic Disorders,15.0,30.0,Delirium associated with elevated 1y mortality ~15-30% (geriatric ICU/inpatient cohorts),low
+Diabetes Mellitus Type 2,1.0,5.0,"T2DM chronic low-lethality; modest excess mortality, ~1%/yr (registry cohorts)",high
+"Diabetic Neuropathy, Painful",1.0,8.0,Diabetic neuropathy reflects diabetes mortality; small annual excess (registry),medium
+Drug Resistant Malaria Due to Plasmodium Falciparum,5.0,5.0,Severe/resistant P. falciparum malaria CFR ~severe-malaria 5-20% treated (WHO),low
+Duchenne muscular dystrophy,2.0,12.0,"DMD median life expectancy ~28y (IPD meta-analysis 2021); low annual mortality, chronic",medium
+Duodenal Ulcer,1.0,3.0,Uncomplicated peptic/duodenal ulcer low mortality; complications (bleed) raise it,medium
+Dysmenorrhea,0.0,0.0,"Benign condition, not lethal; mortality ~0",high
+Early Recovery in Elderly Patients; Cognitive Function,1.0,5.0,Perioperative recovery/cognition descriptor in elderly; low disease-specific mortality,low
+End Stage Renal Disease; Restless Legs Syndrome,22.0,60.0,"ESRD on dialysis (USRDS): 1y ~20-25%, 5y ~60% (most severe component)",high
+Endometrial Carcinoma,5.0,18.0,SEER endometrial/uterine: 5y relative survival ~81-84%; overall stage mix,high
+Epilepsy; Generalized Tonic-clonic Seizures,1.0,5.0,Epilepsy modest excess mortality (SUDEP/status); ~1%/yr (population cohorts),medium
+Esophageal Cancer,46.0,80.0,"SEER esophageal: 1y relative survival ~54%, 5y ~20%",high
+Fever,0.0,0.0,"Symptom, not a disease; mortality ~0",high
+Fragile X Syndrome,0.0,1.0,Genetic neurodevelopmental disorder; near-normal life expectancy,medium
+Functional Endoscopic Sinus Surgery (FESS),0.0,0.0,"Surgical procedure, not a disease; procedural mortality ~0",high
+Gastric Adenocarcinoma; Gastroesophageal Junction Adenocarcinoma,45.0,65.0,SEER stomach/gastric: 5y relative survival ~33-38%; 1y ~50-55%,high
+Gastrointestinal Cancer,40.0,65.0,Aggregate GI cancer (colorectal/gastric/esophageal/pancreatic mix); ~5y survival 30-50%,low
+Gastrointestinal Stromal Tumors,5.0,15.0,SEER/ACS GIST: overall 5y survival ~85%,high
+General Anesthesia,0.0,0.0,"Anesthesia setting, not a disease; mortality ~0",high
+Graft Versus Host Disease,25.0,50.0,Severe acute/chronic GVHD high mortality; ~5y NRM 40-50% (HSCT cohorts),low
+Graft-versus-host Disease,25.0,50.0,Severe acute/chronic GVHD high mortality; ~5y NRM 40-50% (HSCT cohorts),low
+Graves disease,0.5,2.0,Graves/hyperthyroidism low mortality if treated; small excess (registry),medium
+HIV,2.0,8.0,Treated HIV near-normal life expectancy; small annual excess mortality (cohorts),medium
+HIV; Tuberculosis,18.0,30.0,HIV-TB coinfection high CFR; ~18% during TB treatment in HIV+ (meta-analysis),medium
+Headache,0.0,0.0,"Benign symptom, not lethal; mortality ~0",high
+Healthy Volunteers,0.0,0.0,Not a disease (healthy subjects); mortality ~0,high
+Heart Failure With Preserved Ejection Fraction,15.0,55.0,"HFpEF cohorts (ACC 2025): 1y mortality ~15-25%, 5y ~55-75%",high
+Heartburn,0.0,0.0,"Benign symptom (GERD-related), not lethal; mortality ~0",high
+Hormone-Sensitive Metastatic Breast Cancer,10.0,66.0,SEER distant HR+ breast: 5y relative survival ~34% (metastatic stage),high
+Hypercholesterolemia; Hypertension,0.5,3.0,"Chronic risk factors, low direct lethality; small annual excess (registry)",high
+Hyperlipidemias,0.5,3.0,"Chronic risk factor, low direct lethality; small annual excess (registry)",high
+Immune Thrombocytopenia,2.0,10.0,ITP modest excess mortality (bleeding/infection); ~5y survival ~90% (cohorts),medium
+"Influenza, Human",0.5,1.0,Seasonal influenza CFR ~0.1-1% (CDC); higher in elderly,medium
+Ischemic Stroke,18.0,40.0,"Ischemic stroke cohorts: 1y mortality ~18-25%, 5y ~40% (AHA/registry)",high
+Labor pain,0.0,0.0,"Physiologic state/symptom, not a disease; mortality ~0",high
+Latent Tuberculosis Infection,0.0,0.5,Latent TB asymptomatic; negligible mortality unless reactivation (WHO),high
+Lennox-Gastaut syndrome,3.0,15.0,LGS severe epileptic encephalopathy; elevated mortality ~3-7%/5y (cohorts),low
+"Leukemia, Myeloid, Acute",48.0,68.0,SEER AML: 5y relative survival ~31.9% (5y mortality ~68%); 1y mortality ~45-50%,high
+Leukemia; Acute Myeloid Leukemia (AML); Myelodysplastic Syndromes (MDS),48.0,68.0,SEER AML (most severe component): 5y survival ~32% (5y mortality ~68%); 1y ~45-50%,high
+Locoregional Analgesia in Breast Surgery,0.0,0.0,"Anesthesia/analgesia procedural setting, not a disease; mortality ~0",high
+Lupus Nephritis,3.0,8.0,"Lupus nephritis cohorts (NDT 2012; PMC): 5y survival ~94%, 10y ~86%",high
+Lymphocytic Colitis,0.0,1.0,Benign microscopic colitis; near-normal life expectancy,medium
+MDS,15.0,55.0,SEER/ACS MDS: 5y relative survival ~40-47%; risk-group dependent,high
+MULTIPLE MYELOMA,12.0,38.0,"SEER multiple myeloma: 1y survival ~88%, 5y relative survival ~62%",high
+Macular Edema,0.0,0.5,"Ocular condition (vision-threatening, not lethal); negligible mortality",high
+Malaria,3.0,3.0,Malaria treated CFR low; severe falciparum higher (WHO); population estimate,low
+Menopause,0.0,0.0,"Physiologic life stage, not a disease; mortality ~0",high
+Metabolic Syndrome,1.0,5.0,"Cluster of risk factors, low direct lethality; modest excess (cohorts)",medium
+Metastatic Pancreatic Adenocarcinoma,78.0,97.0,"SEER distant pancreatic: 1y survival ~22%, 5y relative survival ~3%",high
+Multiple System Atrophy,5.0,55.0,MSA cohorts: median survival ~9y from onset; ~50% mortality by 4y from first visit,medium
+"Multiple Trauma; Pain, Acute",10.0,15.0,Multiple/polytrauma acute mortality variable ~10% (trauma registries),low
+Mutant Melanoma,20.0,45.0,BRAF-mutant metastatic melanoma 5y survival up to ~50-60% modern therapy; advanced stage,medium
+Myasthenia Gravis,2.0,5.0,MG low mortality with treatment; myasthenic crisis raises it (cohorts),medium
+Myelodysplastic Syndromes,15.0,55.0,SEER/ACS MDS: 5y relative survival ~40-47%; risk-group dependent,high
+Myelofibrosis; Primary Myelofibrosis; Post Essential Thrombocythemia Myelofibrosis; Post Polycythemia Vera Myelofibrosis,12.0,49.0,Primary myelofibrosis: median survival ~5y; ~49% die within 5y (population cohorts),high
+Myocardial Infarction,10.0,25.0,"AMI cohorts: 1y mortality ~7-11%, 5y ~22-25% (registry)",high
+Myocardial Infarction; ST Segment Elevation Myocardial Infarction (STEMI),10.0,22.0,"STEMI cohorts: 1y mortality ~7-11%, 5y ~20-22%",high
+Nasopharyngeal Carcinoma,15.0,39.0,SEER nasopharyngeal: overall 5y relative survival ~61%; 1y ~75-85%,high
+Non-Proliferative Diabetic Retinopathy; Cataract,1.0,5.0,Ocular complications of diabetes; mortality reflects underlying diabetes (low),medium
+Non-Small Cell Lung Cancer,55.0,72.0,SEER NSCLC: overall 5y relative survival ~28%; 1y mortality high,high
+Non-small-cell Lung Cancer With Somatic EGFR Mutations,25.0,55.0,EGFR-mutant NSCLC better prognosis with TKIs; 5y survival ~30-50% vs overall NSCLC,medium
+Orthopedic Disorders,0.0,1.0,Musculoskeletal disorders generally non-lethal; negligible disease-specific mortality,medium
+Other Acute Postoperative Pain,0.0,0.5,"Postoperative pain symptom, not a disease; negligible mortality",high
+Overactive Bladder Syndrome,0.0,0.0,"Benign urologic condition, not lethal; mortality ~0",high
+Overactive Bladder; Urinary Incontinence,0.0,0.0,"Benign urologic condition, not lethal; mortality ~0",high
+Pain Relief,0.0,0.0,"Symptom/treatment goal, not a disease; mortality ~0",high
+"Pain, Postoperative; Tooth Diseases",0.0,0.5,"Postoperative dental pain; benign, negligible mortality",high
+Parental/Caregiver Anxiety; Child's Anxiety,0.0,0.0,"Anxiety symptom descriptor, not lethal; mortality ~0",high
+Patent Ductus Arteriosus,2.0,5.0,PDA in preterm infants; mortality reflects prematurity; treated PDA low (neonatology),low
+Pediatric Bipolar Disorder,0.5,2.0,Bipolar disorder elevated suicide risk; low absolute annual mortality (psychiatric cohorts),low
+Peripheral Vertigo.,0.0,0.0,"Benign vestibular symptom, not lethal; mortality ~0",high
+Plaque Psoriasis,0.5,3.0,Psoriasis modest excess mortality (cardiometabolic comorbidity); low direct (cohorts),medium
+Plasmodium falciparum malaria,3.0,3.0,Falciparum malaria treated CFR low; severe higher (WHO); population estimate,low
+Platelet Reactivity,0.0,0.0,"Laboratory/biomarker descriptor, not a disease; mortality ~0",low
+Post Partum Hemorrhage,0.5,1.0,PPH acute event; developed-country case fatality low (~0.2-1%) (ACOG/registry),medium
+Post Traumatic Stress Disorder,0.5,2.0,PTSD elevated suicide/comorbidity risk; low absolute annual mortality (cohorts),low
+Post-Surgical Ocular Pain; Post-Surgical Ocular Inflammation,0.0,0.0,"Postoperative ocular symptom, not lethal; mortality ~0",high
+Postoperative Nausea and Vomiting,0.0,0.0,"Benign postoperative symptom, not lethal; mortality ~0",high
+Prediabetes; Type 2 Diabetes,1.0,5.0,T2DM/prediabetes chronic low-lethality; small annual excess (registry),high
+Previously Treated Chronic Lymphocytic Leukemia,5.0,25.0,SEER CLL: overall 5y relative survival ~75-88%; relapsed/treated worse,medium
+Previously Untreated Chronic Lymphocytic Leukemia,3.0,15.0,SEER CLL: 5y relative survival ~88% (recent); untreated often indolent,high
+Primary Breast Cancer,3.0,10.0,"SEER breast (overall, early-stage predominant): 5y relative survival ~90%",high
+Psoriasis,0.5,3.0,Psoriasis modest excess mortality (comorbidity); low direct (cohorts),medium
+Quality of Bowel Preparation for the Colon Capsule; Colon Capsule Completion Rates; Colon Capsule Polyp Detection,0.0,0.0,"Procedural/diagnostic-quality endpoints, not a disease; mortality ~0",high
+Recurrent Waldenstrom Macroglobulinemia; Refractory Waldenstrom Macroglobulinemia; Waldenstrom Macroglobulinemia,10.0,30.0,SEER/ACS Waldenstrom: overall 5y survival ~78%; relapsed/refractory worse,medium
+Relapsed Prostate Cancer,10.0,40.0,Relapsed/advanced prostate; SEER distant 5y survival ~30%; relapse heterogeneous,medium
+Renal Insufficiency,3.0,15.0,Chronic kidney disease (pre-ESRD) elevated mortality; stage-dependent (cohorts),low
+ST Elevation Myocardial Infarction,10.0,22.0,"STEMI cohorts: 1y mortality ~7-11%, 5y ~20-22%",high
+Secondary Hyperparathyroidism; Chronic Kidney Disease,8.0,40.0,CKD/ESRD-associated (most severe component); advanced CKD elevated mortality,low
+Sedation or Anesthesia,0.0,0.0,"Anesthesia/sedation setting, not a disease; mortality ~0",high
+Sepsis; Septic Shock,40.0,55.0,Septic shock hospital mortality ~37-40%; 1y mortality up to ~46% (cohorts),high
+Sickle Cell Anemia; Sickle Cell Disease; Malaria,2.0,8.0,"Sickle cell disease chronic; reduced life expectancy, low annual mortality (cohorts)",medium
+Skin Structures and Soft Tissue Infections,2.0,5.0,ABSSSI generally low mortality; necrotizing forms higher (published cohorts),medium
+Sleep Disorder,0.0,1.0,Sleep disorders generally non-lethal; OSA modest long-term excess (cohorts),medium
+Spinal anesthesia-induced hypotension,0.0,0.0,"Anesthesia-related physiologic event, not a disease; mortality ~0",high
+Status Epilepticus,10.0,25.0,"Status epilepticus cohorts (Neurology 2022): 30-day ~8.5% (adult ~10%), 1y ~25%",high
+Status Epilepticus; Epilepsy,10.0,25.0,"Status epilepticus (most severe component): 30-day ~8.5%, 1y ~25%",high
+Stomach Neoplasms,45.0,65.0,SEER stomach/gastric: 5y relative survival ~33-38%; 1y ~50-55%,high
+Stress Ulcer Prophylaxis,0.0,0.0,"Preventive intervention setting, not a disease; mortality ~0 (reflects ICU population)",low
+Thrombocytopenia,3.0,10.0,Thrombocytopenia (heterogeneous); mortality depends on cause; ITP-like ~low,low
+Tract Carcinoma,40.0,60.0,"Ambiguous (GI/urinary tract carcinoma); generic carcinoma estimate, ~5y survival 30-50%",low
+Transplantation Infection; Cytomegalovirus Infections,8.0,18.0,Post-transplant CMV/infection; increased mortality (~6-8% SOT) (OFID cohorts),medium
+Traumatic Brain Injury,30.0,45.0,Severe TBI cohorts: 1y mortality ~36-44%; moderate-severe overall lower,medium
+Traumatic Femur Fracture,5.0,20.0,Femur fracture (esp. hip/elderly): 1y mortality ~5-10%; elderly hip ~20%/1y,low
+Treatment Resistant Depression,1.0,3.0,TRD elevated suicide/comorbidity risk; low absolute annual mortality (cohorts),low
+Treatment of Major Depressive Disorder,0.5,2.0,MDD elevated suicide risk; low absolute annual mortality (psychiatric cohorts),low
+Tricuspid Regurgitation; Right Ventricular Dilatation,10.0,40.0,"Severe tricuspid regurgitation: 1y mortality ~10-15%, 5y high ~40-50% (cardiology)",medium
+Triple Negative Breast Cancer,10.0,23.0,SEER TNBC: 5y relative survival ~77%; 1y survival ~90%,high
+Tube Cancer,30.0,55.0,Ambiguous (fallopian tube carcinoma); ~5y survival ~45-55% (gynecologic cohorts),low
+"Tuberculosis, Pulmonary, Drug Sensitive; Tuberculosis, Pulmonary, Multi Drug-resistant",10.0,20.0,MDR-TB (most severe component): treatment-period CFR higher ~10-15% (WHO),medium
+Type II Diabetes Mellitus,1.0,5.0,T2DM chronic low-lethality; modest excess mortality (registry),high
+Unexplained Infertility,0.0,0.0,"Infertility, not lethal; mortality ~0",high
+Upper Gastrointestinal Bleeding,10.0,20.0,Acute UGIB 30-day mortality ~5-12% (peptic ulcer); higher long-term (cohorts),high
+Urothelial Carcinoma,15.0,45.0,SEER bladder/urothelial: overall 5y relative survival ~55-77%; stage-dependent,medium
+Vaginal Cancer,20.0,42.0,SEER vaginal: overall 5y relative survival ~58-64%; 1y higher,high
+Vaginal Infection,0.0,0.0,"Benign infection (e.g., vaginitis), not lethal; mortality ~0",high
+Venous Thromboembolism,15.0,30.0,"VTE/PE cohorts: 1y mortality ~20-26% (often comorbidity-driven), 5y higher",high
+"Vomiting, Postoperative; Postoperative Complications; Hypotension",1.0,3.0,Postoperative complications (heterogeneous); generally low mortality,low
+Waldenström's Macroglobulinemia,8.0,22.0,SEER/ACS Waldenstrom: overall 5y relative survival ~78%,high
+adenovirus infection,1.0,2.0,Adenovirus typically self-limiting; severe in immunocompromised higher (cohorts),low
+alcohol dependence,2.0,10.0,Alcohol use disorder elevated mortality (liver/injury/cardiac); ~standardized mortality ratio high,medium
+allergic conjunctivitis,0.0,0.0,"Benign allergic eye condition, not lethal; mortality ~0",high
+bacterial infection,2.0,5.0,Generic bacterial infection (heterogeneous); mortality varies widely by site/severity,low
+breast cancer,2.0,10.0,SEER breast 5y relative survival ~91% overall,high
+cataract,0.0,0.0,Non-lethal ophthalmologic condition; no disease mortality,high
+cell Lymphoma,8.0,30.0,NHL aggregate; SEER NHL 5y relative survival ~74% (variable by subtype),medium
+chronic hepatitis B virus infection,1.0,5.0,Untreated CHB; cirrhosis/HCC drive mortality over decades (WHO/registries),medium
+chronic migraine,0.0,0.0,Non-lethal chronic disorder; negligible direct mortality,high
+delirium,25.0,50.0,In-hospital/elderly delirium 1y mortality ~25-40% (cohort studies); marker of frailty,medium
+diabetes Mellitus,1.0,5.0,T2DM modest excess mortality; low single digits short-term (registry/cohort),high
+diabetic foot ulcer,10.0,45.0,"DFU 5y mortality ~40-50% (cohort studies), 1y ~5-10%",medium
+diabetic macular edema,0.0,1.0,Vision-threatening but non-lethal; mortality reflects underlying diabetes,high
+erythropoietic protoporphyria,0.0,1.0,Normal life expectancy except ~10% liver disease (Orphanet/Merck),high
+fasciculation,0.0,0.0,Symptom/benign sign; not a lethal disease per se,medium
+fecal incontinence,0.0,1.0,Non-lethal functional disorder; mortality reflects comorbidity,high
+fibrodysplasia ossificans progressiva,1.0,5.0,Median lifespan ~56y; excess mortality begins ~age 30 (FOP registry),medium
+fluid overload,5.0,15.0,Symptom of HF/renal disease; mortality reflects underlying cause,low
+focal epilepsy,1.0,5.0,Epilepsy SMR 2-3x; modest excess mortality (registries),medium
+generalized anxiety disorder,0.0,1.0,Non-lethal psychiatric disorder; small excess mortality,high
+hemodynamic instability,15.0,30.0,Symptom/critical-care state; mortality reflects underlying cause,low
+hip fracture,20.0,50.0,"Elderly hip fracture 1y mortality ~16-25%, ~50% at 5y (cohort/registry)",high
+hyperphosphatemia,3.0,15.0,Lab abnormality of CKD; mortality reflects renal disease,low
+infertility,0.0,0.0,Non-lethal reproductive condition,high
+influenza,0.0,1.0,Seasonal flu case-fatality ~0.1% overall; higher in elderly (CDC/WHO),high
+liposarcoma or leiomyosarcoma,10.0,40.0,"Soft tissue sarcoma; liposarcoma 5y ~57-82%, leiomyosarcoma worse (SEER)",medium
+male hypogonadism,0.0,1.0,Non-lethal endocrine condition,high
+medical abortion,0.0,0.0,"Procedure, not a disease; negligible mortality",high
+mixed dyslipidemia,0.0,2.0,Risk factor not acute disease; low direct short-term mortality,high
+neonatal abstinence syndrome,1.0,2.0,NAS low direct mortality with care; treatable neonatal condition,medium
+neurogenic bladder,1.0,5.0,Non-lethal; mortality reflects underlying neuro condition/complications,medium
+neuropsychiatric symptoms of neurodegenerative disease,15.0,60.0,Reflects underlying dementia; high mortality over years,low
+opioid dependence,3.0,15.0,Opioid use disorder elevated mortality; SMR ~6-20x (cohort),medium
+photoaging,0.0,0.0,Cosmetic dermatologic condition; no mortality,high
+pituitary-dependent Cushing's disease,2.0,10.0,Cushing's SMR ~2-4x untreated; cardiovascular/infection deaths (cohort),medium
+positive Melanoma,2.0,10.0,"Melanoma overall; SEER all-stage 5y ~93%, localized very high",medium
+preterm labor and delivery,1.0,2.0,Maternal mortality negligible; fetal/neonatal risk separate,medium
+progressive familial intrahepatic cholestasis,10.0,40.0,High mortality without transplant; median death ~age 4 in some cohorts (Orphanet),medium
+purpura,2.0,5.0,"Heterogeneous; ITP/HSP low, TTP high; using mild-moderate aggregate",low
+restless legs syndrome,0.0,0.0,Non-lethal sleep/movement disorder,high
+rhinitis,0.0,0.0,Allergic rhinitis; non-lethal chronic condition,high
+rosacea,0.0,0.0,Chronic skin condition; no mortality,high
+scabies,0.0,0.0,Parasitic skin infestation; negligible mortality (treatable),high
+septic shock,40.0,55.0,"Septic shock in-hospital ~39%, 1y ~46% (meta-analysis/cohort)",high
+severe hypertriglyceridemia,1.0,5.0,Pancreatitis risk; modest direct mortality,medium
+skin and soft tissue Staphylococcus aureus infection,2.0,5.0,Uncomplicated SSTI low mortality; higher if bacteremic,medium
+status epilepticus,30.0,40.0,"30-day mortality ~10-22%, 1y ~30% adults (Neurology cohort)",high
+tinea pedis,0.0,0.0,Athlete's foot; non-lethal fungal infection,high
+tobacco use disorder,1.0,8.0,Long-term excess mortality; minimal short-term direct mortality,medium
+transthyretin amyloid cardiomyopathy,10.0,64.0,ATTR-CM median survival ~2.6-5y; ~36% alive at 5y untreated (cohort),high
+traumatic brain injury,10.0,20.0,Overall TBI mild-moderate-severe mix; severe ~33-44% 1y mortality (cohort),medium
+tuberculosis,15.0,20.0,Treated TB CFR ~3.5-15%; untreated ~50-70% (WHO/meta-analysis),high
+1mg Vs 3 mg of Granisetron,0.0,0.0,"Dose comparison, not a disease; antiemetic study setting",high
+ACE inhibitor-induced angioedema,1.0,2.0,Low mortality unless airway compromise (case series),medium
+AL Amyloidosis,20.0,40.0,"1y mortality ~12-30%, 5y ~50% (often early deaths) (Blood Cancer J/Mayo)",high
+ALOPECIA AREATA,0.0,0.0,Autoimmune hair loss; non-lethal,high
+AML; MDS; CMML,50.0,68.0,"AML 5y relative survival ~32% (most severe component, SEER)",high
+Abdominal Aortic Aneurysms,4.0,15.0,Unruptured AAA ~3.8% mortality; rupture ~46-75% (cohort/StatPearls),medium
+Abdominal Cancer,15.0,50.0,Generic abdominal/GI malignancy aggregate; variable by organ,low
+Acetabular Fractures,5.0,15.0,Major trauma fracture; mortality reflects injury severity/age,low
+Acetaminophen; Drug Overdose; Acetaminophen Overdose; Acetaminophen Poisoning; Drug-induced Liver Injury; Liver Failure; Liver Toxicity,15.0,20.0,Acetaminophen-induced acute liver failure; mortality ~10-25% (most severe component),medium
+Acne,0.0,0.0,Non-lethal skin condition,high
+Active Dermatomyositis,5.0,20.0,Dermatomyositis 5y mortality ~10-25%; malignancy/ILD drive deaths (cohort),medium
+Acute Abdominal Pain,2.0,5.0,Symptom; mortality reflects underlying cause (variable),low
+Acute Coronary Syndrome; Percutaneous Coronary Intervention,5.0,15.0,ACS 1y mortality ~5-10% post-PCI; higher with comorbidity (registry),medium
+Acute Coronary Syndrome; Unstable Angina,3.0,12.0,Unstable angina/NSTE-ACS 1y mortality ~3-8% (registry),medium
+Acute Hematogenous Osteomyelitis,1.0,3.0,Low mortality with antibiotics; higher if sepsis,medium
+Acute Ischemic Stroke,24.0,45.0,"30-day CFR ~12.6%, 1y ~23.6% (AHA/Stroke cohort)",high
+Acute Kidney Injury; Exercise-associated Hyponatremia; Perceived Exertion,15.0,30.0,AKI most severe component; hospitalized AKI ~20-25% mortality (cohort),medium
+Acute Leukemia,50.0,60.0,Aggregate acute leukemia; AML drives high early mortality (SEER),medium
+Acute Lymphoblastic Leukemia,20.0,45.0,"Adult ALL; 5y survival ~30-43% adults, better younger (SEER)",high
+Acute Mountain Sickness,0.0,0.0,Self-limiting altitude illness; HACE/HAPE rare and severe,high
+Acute Musculoskeletal Disease; Sprains; Sprains and Strains; Injuries; Emergencies; Trauma; Acute Pain,0.0,1.0,Minor musculoskeletal injury; negligible mortality,high
+Acute Myelogenous Leukemia,50.0,68.0,AML 5y relative survival ~32% (SEER); 1y ~50% mortality,high
+Acute Myeloid Leukemia; Myelodysplastic Syndrome; Chronic Myelomonocytic Leukemia,50.0,68.0,"AML 5y relative survival ~32% (most severe component, SEER)",high
+Acute Myocardial Infarction; Heart Failure,15.0,40.0,"MI with HF; 1y mortality ~10-20%, higher with HF (registry)",medium
+Acute Myocardial Infarction; Left Ventricular Thrombosis; Anticoagulants and Bleeding Disorders,12.0,30.0,AMI with LV thrombus; elevated embolic/bleeding mortality (cohort),medium
+Acute Pain Due to Trauma,0.0,1.0,Pain symptom; mortality reflects underlying trauma,high
+Acute Post-op Pain,0.0,0.0,Postoperative pain symptom; negligible direct mortality,high
+Acute Post-operative Pain; Chronic Post Operative Pain; Narcotic Use; Opioid Use; Opioid Addiction,1.0,5.0,Pain/opioid-use cluster; opioid dependence drives modest excess mortality,medium
+Acute ST Segment Elevation Myocardial Infarction; Thrombolysis in Myocardial Infarction Flow,8.0,18.0,STEMI 1y mortality ~7-12% (registry),medium
+Acute Traumatic Pain,0.0,1.0,Pain symptom; mortality reflects underlying trauma,high
+Acute Upper Gastrointestinal Bleeding,10.0,20.0,Acute UGIB in-hospital mortality ~5-10% (cohort/registry),medium
+Acute Urticaria,0.0,0.0,Self-limiting allergic skin condition,high
+Adenocarcinoma of the Pancreas; Advanced Solid Tumors; Cancer; Cancer of Pancreas; Cancer of the Pancreas; Metastases; Metastatic Cancer; Metastatic Pancreatic Cancer; Pancreas Cancer; Pancreatic Cancer; Bone Metastases; Endocrine Cancer; Oncology; Oncology Patients; Solid Tumors; Advanced Malignancy,78.0,97.0,"Metastatic pancreatic cancer 1y survival ~22%, 5y ~3% (SEER distant)",high
+Adenocarcinoma of the Pancreas; Locally Advanced; Unresectable,70.0,90.0,Locally advanced unresectable pancreatic cancer; median OS ~12mo (SEER/cohort),high
+Adult T-Cell Leukemia,57.0,76.0,"ATLL aggressive; 1y OS ~43%, 5y OS ~23% (cohort)",high
+Adults and Children With Pulmonary Fibrosis,15.0,60.0,IPF median survival ~3-5y; 5y mortality ~50-70% (registry),medium
+Advance Melanoma,30.0,65.0,"Advanced/metastatic melanoma; distant 5y ~35% (improved with immunotherapy, SEER)",medium
+Advanced BRAFV600 Wild-type Melanoma,30.0,65.0,Advanced melanoma; distant 5y ~35% (SEER),medium
+Advanced Cancer,40.0,70.0,Generic advanced/metastatic malignancy aggregate; poor prognosis,low
+Advanced Cervical Cancer,30.0,65.0,"Advanced cervical cancer; stage IVB 1y survival ~24%, distant 5y ~17% (SEER)",medium
+Advanced Endometrial Cancer,25.0,82.0,Distant endometrial cancer 5y survival ~18% (SEER),medium
+Advanced Esophageal Cancer,60.0,95.0,"Distant esophageal cancer 5y survival ~5%, median ~5mo (SEER)",high
+Advanced Hepatocellular Carcinoma,86.0,97.0,"Distant HCC 1y survival ~14%, 5y ~3% (SEER)",high
+Advanced Non-Squamous Non-Small Cell Lung Cancer,65.0,91.0,Distant NSCLC 5y survival ~9%; 1y survival ~30-40% (SEER),high
+Advanced Pancreatic Cancer,78.0,97.0,"Metastatic pancreatic cancer 1y ~22%, 5y ~3% (SEER distant)",high
+Advanced Rectal Cancer,25.0,85.0,Distant rectal cancer 5y survival ~15-18% (SEER),medium
+Advanced Rectal Carcinoma,25.0,85.0,Distant rectal cancer 5y survival ~15-18% (SEER),medium
+Advanced Solid Tumor; Non-Small Cell Lung Cancer; Colorectal Cancer,50.0,85.0,Advanced solid tumor mix; metastatic disease poor prognosis (SEER),low
+Advanced Solid Tumors,50.0,85.0,Generic advanced/metastatic solid tumor; poor prognosis,low
+Aging; Insulin Sensitivity; Chronic Disease; Mitochondria; Insulin Resistance,0.0,2.0,Metabolic/aging research setting; not an acute lethal disease,medium
+Alcohol Dependence,3.0,15.0,Alcohol use disorder SMR ~3-8x; elevated mortality (cohort),medium
+Alcoholic Hepatitis,30.0,55.0,Severe alcoholic hepatitis 90-day mortality ~30-44% (meta-analysis),high
+Alcoholic Hepatitis; Alcoholic Liver Disease,30.0,55.0,Severe alcoholic hepatitis 90-day mortality ~30-44%; ALD cirrhosis worse long-term,high
+Alcoholism,3.0,15.0,Alcohol use disorder elevated mortality; SMR ~3-8x (cohort),medium
+Alopecia Areata; Alopecia Totalis; Alopecia Universalis,0.0,0.0,Autoimmune hair loss; non-lethal,high
+Altitude Sickness,0.0,0.0,Acute mountain sickness self-limiting; HACE/HAPE rare/severe,high
+Alzheimer Disease,15.0,60.0,Alzheimer's median survival ~4-8y from diagnosis; high 5y mortality (cohort),high
+Alzheimer's disease biomarker measurement,0.0,5.0,Biomarker measurement study; reflects underlying AD risk not acute mortality,medium
+Ambulatory Cancer,15.0,40.0,Generic ambulatory cancer cohort; variable by type/stage,low
+"Amino Acid Metabolism, Inborn Errors",3.0,10.0,"Inborn errors of amino acid metabolism; variable, treatable with management",low
+Anal Carcinoma,5.0,40.0,Anal SCC 5y relative survival ~58-66% overall; distant ~30% (SEER),medium
+Anal Incontinence,0.0,1.0,Non-lethal functional disorder,high
+"Analgesia; Surgery; Cancer of Head and Neck; Oropharyngeal Cancer; Carcinoma of Unknown Primary; Pain, Postoperative; Postoperative Pain",15.0,45.0,Head and neck cancer most severe component; 5y survival ~50-65% (SEER),medium
+Anemia,2.0,8.0,Heterogeneous; mortality reflects underlying cause,low
+Anesthesia With Use of LMA (Laryngeal Mask Airway),0.0,0.0,Anesthesia procedural setting; not a disease,high
+Anesthesia for Elective Surgery Patients,0.0,0.0,Anesthesia procedural setting; not a disease,high
+"Anesthesia, General; Anesthesia, Intravenous",0.0,0.0,Anesthesia procedural setting; not a disease,high
+"Anesthesia, Intravenous",0.0,0.0,Anesthesia procedural setting; not a disease,high
+Anesthesia-induced hypotension,0.0,1.0,Transient procedural complication; low direct mortality,high
+Anesthesia; Functional; Anesthesia,0.0,0.0,Anesthesia procedural setting; not a disease,high
+"Anesthetic, Sedative or Analgesic Complications in Labor or Delivery",0.0,1.0,Obstetric anesthesia complication; very low mortality,high
+Angina,2.0,10.0,"Stable angina/CAD; 1y mortality low, ~10-20% over 5y (registry)",medium
+Angina; Pulmonary Arterial Hypertension,10.0,40.0,PAH most severe component; PAH 5y mortality ~30-40% (REVEAL registry),medium
+"Angioedema, Hereditary, Types I and II",1.0,3.0,HAE low mortality with treatment; airway attacks historically fatal (registry),medium
+Ankylosing Spondylitis,0.0,3.0,AS modest excess mortality; SMR ~1.5x (cohort),high
+Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis; Microscopic Polyangiitis; Wegener Granulomatosis,8.0,20.0,AAV 5y survival ~75-88% (meta-analysis/cohort),high
+"Anxiety Neuroses; Anxiety States, Neurotic; Neuroses, Anxiety",0.0,1.0,Non-lethal psychiatric disorder; small excess mortality,high
+Anxiety; Preoperative Anxiety,0.0,0.0,Perioperative anxiety symptom; non-lethal,high
+Aortic Coarctation; Erector Spinae Plane Block; Paediatric,1.0,3.0,Pediatric aortic coarctation repair setting; low contemporary mortality,medium
+Aortic Valve Disease; Aortic Valve Stenosis; Aortic Valve Failure,5.0,30.0,Severe symptomatic aortic stenosis untreated ~50% 2y mortality; using moderate aggregate,medium
+Aortic Valve Stenosis; Cardiovascular Diseases; Heart Valve Diseases; Ventricular Outflow Obstruction; Thrombosis,5.0,30.0,Aortic stenosis; severe symptomatic untreated high mortality (cohort),medium
+Apathy,0.0,1.0,Neuropsychiatric symptom; reflects underlying disease,medium
+Apnea of Prematurity,2.0,3.0,Apnea of prematurity; low mortality with monitoring; reflects prematurity,medium
+Arterial Hypertension,0.0,2.0,Chronic hypertension; low direct short-term mortality (risk factor),high
+Arterial Hypertension; Albuminuria,1.0,5.0,Hypertension with albuminuria; elevated cardiorenal risk,medium
+"Arthritis, Juvenile",0.0,1.0,JIA; very low mortality with treatment,high
+"Arthritis; Osteoarthritis, Knee; Osteoarthritis, Hip; Thromboembolism",0.0,2.0,Osteoarthritis non-lethal; VTE component small acute risk,high
+Ascites; Hepatic Cirrhosis,20.0,50.0,Decompensated cirrhosis with ascites; 5y mortality ~50% (cohort),high
+Atherosclerotic Disease; Perioperative Bleeding,5.0,20.0,Atherosclerotic CV disease; 5y mortality ~15-25% depending on burden,medium
+"Atopic Dermatitis; Atopic Dermatitis, Unspecified; Eczema; Eczema, Atopic",0.1,0.5,Atopic dermatitis non-lethal chronic skin disease; near-zero excess mortality (population cohorts),high
+Atrial Fibrillation; Cardiac Surgery; Colchicine Adverse Reaction,5.0,20.0,AF cohorts (Framingham/registry); ~1yr ~5% rising to ~20% at 5yr most-severe component (AF),medium
+Atrial Fibrillation; End-stage Kidney Disease,22.0,65.0,USRDS ESRD ~20-25% 1yr / ~50-65% 5yr mortality (most severe component),high
+Atrial Fibrillation; Heart Diseases,5.0,20.0,AF/heart disease registries ~5% 1yr / ~20% 5yr,medium
+Atrial Fibrillation; Intracerebral Hemorrhage,40.0,55.0,"ICH 30-day mortality ~40%, 1yr ~50%; using ICH most severe component",high
+Atrial Fibrillation; Periodontal Disease; Hemorrhage,5.0,20.0,AF most-severe component (Framingham/registry),medium
+Atrial Fibrillation; Stroke,20.0,45.0,"Ischemic stroke 1yr mortality ~20-25%, 5yr ~45-50% (stroke component)",high
+Atrial Fibrillation; Stroke; Bleeding,20.0,45.0,Stroke component 1yr ~20% / 5yr ~45%,high
+Atrial High Rate Episodes,3.0,15.0,Subclinical AF/AHRE registries; modest excess mortality,medium
+Atrophic Vaginitis,0.0,0.5,Benign non-lethal menopausal condition; no excess mortality,high
+Attention Deficit Hyperactivity Disorder (ADHD),0.1,0.5,ADHD slightly elevated all-cause mortality (accidents) but near-zero absolute 1-5yr,high
+"Atypical; Mycobacterium, Pulmonary, Tuberculous",8.0,27.0,NTM-PD pooled 5yr all-cause mortality ~27% (systematic review); 1yr ~8%,high
+Autism Spectrum Disorders,0.2,1.0,ASD modest excess mortality (epilepsy/accidents); low absolute 1-5yr,high
+Autistic Disorder in Children and Adolescents,0.1,0.5,Childhood ASD; low absolute mortality,high
+Autoimmune Diseases; Sjogren's Syndrome; Dry Eye,1.0,5.0,Primary Sjogren's near-normal life expectancy; small excess (lymphoma) at 5yr,medium
+Autosomal Dominant Polycystic Kidney Disease,1.0,5.0,ADPKD slow progression to ESRD ~age 55-60; low 1-5yr mortality,high
+Autosomal Dominant Polycystic Kidney Disease （ADPKD),1.0,5.0,ADPKD slow progression; low 1-5yr mortality,high
+"Azoospermia, Nonobstructive; Oligozoospermia",0.0,0.0,"Male infertility; non-lethal condition, no excess mortality",high
+BPH With Other Lower Urinary Tract Symptoms,0.5,3.0,BPH benign; mortality reflects age of population not disease,high
+Back Pain; Neck Pain,0.2,1.0,Musculoskeletal pain non-lethal; near-zero excess mortality,high
+Bacteremia,15.0,30.0,"Bacteremia/bloodstream infection 30-day mortality ~15-20%, 1yr higher",medium
+Bacterial Pneumonia; Community-Acquired Infections,12.0,30.0,CAP 30-day mortality ~10-12%; 1yr ~25-30% (older cohorts),high
+Bariatric Surgery Candidate,1.0,5.0,Severe obesity; modest excess mortality over 1-5yr (procedural/condition),medium
+Barrett's Esophagus,1.0,5.0,Barrett's low annual progression to EAC (~0.3%/yr); low mortality,high
+Behcet syndrome,1.0,5.0,Behcet's near-normal survival; mortality from vascular/CNS involvement,medium
+Benign Prostatic Hyperplasia; Enlarged Prostate,0.5,3.0,BPH benign; mortality reflects population age,high
+Bicuspid Aortic Valve,1.0,5.0,"BAV; mortality from valve dysfunction/aortopathy over years, low short-term",medium
+Biochemical Relapse After Definitive Treatment for Prostate Cancer,2.0,13.0,BCR prostate cancer 5yr OS ~85-87%; long indolent course (median 8yr to mets),high
+Bladder Cancer,22.0,23.0,SEER bladder cancer 5yr relative survival ~77% (all stages); 1yr ~78%,high
+Bleeding; ERCP,2.0,10.0,Procedural bleeding/post-ERCP; low procedural mortality,medium
+Blepharitis,0.0,0.5,Benign eyelid inflammation; no excess mortality,high
+Blood Cancer,20.0,40.0,Hematologic malignancy aggregate; SEER leukemia/lymphoma mixed ~60% 5yr survival,medium
+Bloodstream Infections (BSI) Due to CRE; Hospital-Acquired Bacterial Pneumonia (HABP) Due to CRE; Ventilator-Associated Bacterial Pneumonia (VABP) Due to CRE; Complicated Urinary Tract Infection (cUTI) Due to CRE; Acute Pyelonephritis (AP) Due to CRE,45.0,55.0,CRE bloodstream infection 30-day mortality ~40-53%; very high case-fatality,high
+Bone Metastases,55.0,87.0,Bone mets 1yr survival ~10-51% by primary (lung lowest); 5yr ~13% best (breast),high
+Borderline personality disorder,1.0,4.0,BPD elevated suicide mortality (~4-10% lifetime); low absolute 1-5yr,medium
+Bowel Cleansing; Colon Capsule Completion Times,0.0,0.0,"Procedural/diagnostic prep; not a disease, no mortality",high
+"Brachial Plexus Block; Pain, Postoperative",0.0,0.0,Anesthesia/postoperative pain setting; near-zero mortality,high
+Brain Injuries,25.0,35.0,TBI moderate-severe 1yr mortality ~25-30%; varies by severity,medium
+Brain Tumor Treated With Cranial or Cranial-Spinal Radiation,30.0,50.0,"Brain tumor aggregate (survivor cohort); variable, using moderate estimate",low
+Breast Cancer; Heart Failure; Cardiotoxicity,5.0,20.0,Breast cancer SEER 5yr ~91%; HF component ~20% 5yr (most severe = HF),medium
+Breast Cancer; Lung Cancer; Ovarian Cancer; Oesophageal Cancer; Head Cancer Neck; Cervical Cancer; Endometrial Cancer,40.0,60.0,Most severe component oesophageal/lung cancer; SEER ~20% 5yr survival,medium
+Breast Cancer; Ovarian Cancer; Pancreas Cancer; Prostate Cancer; BRCA1 Mutation; BRCA-Mutated Ovarian Carcinoma; BRCA-Associated Breast Carcinoma; HRD Positive Advanced Ovarian Cancer,30.0,55.0,"Most severe = advanced ovarian/pancreas; SEER ovarian 5yr ~50%, advanced lower",medium
+Breast Diseases,2.0,9.0,Aggregate breast disease (mostly benign + cancer); using breast cancer SEER ~91% 5yr lower bound,low
+Breast Neoplasms; BRCA 1 Gene Mutation; BRCA 2 Gene Mutation,3.0,9.0,Breast cancer SEER 5yr relative survival ~91% (all stages),high
+Bronchopulmonary Dysplasia,10.0,15.0,BPD preterm infants; in-hospital/1yr mortality ~10-15% in moderate-severe,medium
+Bronchoscopy,0.0,0.0,Diagnostic procedure; not a disease,high
+Bronchoscopy; Conscious Sedation,0.0,0.0,Procedure/sedation setting; not a disease,high
+Bulimia Nervosa,0.2,1.0,Bulimia nervosa standardized mortality ~2x; low absolute 1-5yr,medium
+Bullous Pemphigoid,24.0,40.0,"BP meta-analysis 1yr mortality ~23.5%; elderly population, ~40% by ~3-5yr",high
+CDKL5 deficiency disorder,2.0,8.0,"CDD rare epileptic encephalopathy; males die in 1st-2nd decade, females better; estimated",low
+CMV Disease,15.0,30.0,CMV disease in immunocompromised; significant mortality in transplant/AIDS,medium
+COVID-19 Pneumonia,15.0,18.0,COVID-19 pneumonia hospitalized mortality ~15-20% (pre-vaccine cohorts),medium
+COVID-19; Corona Virus Infection; ARDS; Acute Respiratory Distress Syndrome,40.0,45.0,COVID-ARDS mortality ~40-45% (most severe component ARDS),high
+COVID-19; SARS-CoV 2,3.0,4.0,"COVID-19 overall IFR/CFR varies; hospitalized higher, overall infection low",medium
+COVID-19; Severe Acute Respiratory Syndrome,40.0,45.0,Severe/ARDS COVID component ~40% mortality,medium
+COVID-19; Thrombosis Embolism; Bleeding,15.0,18.0,COVID-19 with thrombotic complications; hospitalized mortality estimate,medium
+COVID-19; Viral Respiratory Illnesses,3.0,4.0,COVID-19/viral respiratory aggregate; low overall mortality,medium
+COVID-19; ards,40.0,45.0,COVID-ARDS ~40-45% mortality,high
+COVID-19; cytokine release syndrome,30.0,35.0,COVID with CRS/severe inflammation; high mortality estimate,medium
+COVID; COVID-19; SARS-CoV-2; SARS (Severe Acute Respiratory Syndrome),10.0,11.0,"COVID/SARS aggregate; SARS CFR ~10%, COVID lower",medium
+CTEPH,10.0,30.0,"CTEPH untreated 5yr survival poor; treated median 6-7yr; ~10% 1yr, ~30% 5yr",high
+Cachexia in Advanced Cancer,70.0,95.0,Advanced cancer cachexia median survival ~3-6 months; ~25% of cancer deaths,high
+Cancer,30.0,40.0,All-cancer aggregate; SEER all-sites 5yr relative survival ~68% (so ~32% at 5yr),medium
+Cancer Malignancies,30.0,40.0,All-cancer aggregate; SEER all-sites ~68% 5yr survival,medium
+Cancer Patients With COVID-19 Infection,30.0,45.0,Cancer + COVID; elevated mortality (cancer component + acute infection),medium
+Cancer of Stomach,45.0,65.0,SEER stomach cancer 5yr relative survival ~36% (all stages); 1yr ~55%,high
+Cancer; Tumour; Surgery,30.0,40.0,Cancer aggregate undergoing surgery; SEER all-sites ~68% 5yr,low
+"Carcinoma, Non-Small-Cell Lung",55.0,75.0,SEER NSCLC 5yr relative survival ~26% (all stages); 1yr ~45-50%,high
+"Carcinoma, Pancreatic Ductal",70.0,87.0,SEER pancreatic cancer 5yr relative survival ~13%; 1yr ~30%,high
+Cardiac Arrest,90.0,92.0,Out-of-hospital cardiac arrest survival to discharge ~10%; very high mortality,high
+Cardiac Disease,5.0,20.0,"Aggregate cardiac disease; CHD/HF mixed ~5% 1yr, ~20% 5yr",low
+Cardiac Edema,8.0,30.0,Cardiac edema = heart failure manifestation; HF ~8% 1yr / ~30% 5yr,medium
+Cardiac Surgery; Congenital Heart Defects; Cardiopulmonary Bypass,3.0,8.0,Congenital cardiac surgery operative mortality ~2-5%; longer-term low,medium
+Cardiac-induced Edema,8.0,30.0,Heart failure manifestation; HF ~8% 1yr / ~30% 5yr,medium
+Cardiomyopathies; Chemotherapy Effect; Diastolic Dysfunction; Systolic Dysfunction,8.0,30.0,Cardiomyopathy/HF; ~8% 1yr / ~30% 5yr mortality,medium
+"Cardiomyopathy, Hypertrophic; Cardiomyopathy, Hypertrophic, Familial",1.0,3.0,HCM annual mortality ~0.5-1%; near-normal life expectancy with management,high
+Cardiopulmonary Bypass,2.0,5.0,Cardiac surgery with CPB; operative mortality low-moderate,low
+Cardiothoracic Surgery; Vascular Surgery,3.0,10.0,Major cardiothoracic/vascular surgery; perioperative + condition mortality,low
+Cardiovascular Disease,5.0,20.0,CVD aggregate; CHD/HF mixed ~5% 1yr / ~20% 5yr,medium
+Cardiovascular Disease; Insulin Resistance; Glucose Intolerance; Obesity,5.0,20.0,CVD most severe component ~5% 1yr / ~20% 5yr,medium
+Carotid Artery Occlusion; Middle Cerebral Artery Occlusion; Stroke,20.0,45.0,Ischemic stroke (MCA) 1yr ~20-25% / 5yr ~45-50%,high
+Carotid Artery Stenosis; Strokes,20.0,45.0,Stroke component 1yr ~20% / 5yr ~45%,high
+Carpal Tunnel Syndrome,0.0,0.5,Benign nerve entrapment; no excess mortality,high
+Cataract,0.0,1.0,Benign ocular; mortality reflects population age not disease,high
+Cerebral Aneurysm,10.0,20.0,Unruptured aneurysm low; ruptured SAH ~30-40% mortality; using mixed estimate,low
+Cerebral Vein Thrombosis,8.0,12.0,CVST mortality ~5-10% acute; relatively good long-term prognosis,medium
+Cervical Carcinoma,15.0,33.0,SEER cervical cancer 5yr relative survival ~67% (all stages); 1yr ~85%,high
+Cesarean Section Complications,0.1,0.3,C-section maternal mortality very low in developed settings,high
+"Cesarean Section Complications; Blood Loss, Surgical; Misoprostol; Tranexamic Acid",0.1,0.3,Obstetric surgical setting; very low maternal mortality,high
+Cesarean complications,0.1,0.3,C-section complications; very low maternal mortality,high
+Chemoradiotherapy in Cervical Cancer,15.0,33.0,"Cervical cancer SEER 5yr ~67% (all stages, treatment-context)",medium
+Chemotherapy Induced Nausea and Vomiting,0.0,0.0,Supportive-care symptom; not a lethal disease itself,high
+Child Preschool,0.05,0.1,Age descriptor not a disease; baseline childhood mortality near zero,high
+Children With Febrile Urinary Tract Infection,0.1,0.3,Pediatric febrile UTI; very low mortality with treatment,high
+"Chorea, Huntington",2.0,10.0,Huntington's disease median survival ~15-20yr from onset; ~2% 1yr / ~10% 5yr,medium
+Chronic Graft Versus Host Disease,15.0,35.0,cGVHD 5yr OS ~52-67% by severity; using ~35% mortality at 5yr,high
+Chronic Graft-Versus-Host Disease,15.0,35.0,cGVHD 5yr OS ~52-67%; ~35% mortality 5yr,high
+Chronic Heart Failure With Reduced Ejection Fraction,8.0,40.0,HFrEF 1yr mortality ~8-10%; 5yr ~40-50%,high
+Chronic Heart Failure With Reduced Ejection Fraction (HFrEF),8.0,40.0,HFrEF 1yr ~8-10% / 5yr ~40-50% mortality,high
+Chronic Heart Failure; Acute Heart Failure; Diabetes Mellitus,10.0,45.0,Acute/chronic HF most severe; ~10% 1yr / ~45% 5yr,high
+Chronic Hepatitis C,1.0,5.0,Chronic HCV slow progression; low 1-5yr mortality (cirrhosis develops over decades),high
+Chronic Idiopathic Urticaria,0.0,0.2,Benign chronic urticaria; no excess mortality,high
+Chronic Inflammatory Demyelinating Polyradiculopathy,2.0,8.0,"CIDP ~87% ambulatory at 5yr; low but non-zero mortality, estimated",medium
+Chronic Kidney Disease; Depression,5.0,25.0,CKD (non-dialysis aggregate) ~5% 1yr / ~20-25% 5yr; varies by stage,medium
+"Chronic Kidney Disease; Hyperparathyroidism; Hyperparathyroidism, Secondary; Kidney Disease; Secondary Hyperparathyroidism",10.0,40.0,Advanced CKD/ESRD-associated; ~10% 1yr / ~40% 5yr,medium
+Chronic Leukemia,5.0,20.0,Chronic leukemia (CLL/CML) aggregate; SEER 5yr survival ~70-88%,medium
+Chronic Lymphocytic Leukaemia,5.0,12.0,SEER CLL 5yr relative survival ~88%; indolent course,high
+Chronic Myelogenous Leukemia; Acute Lymphoblastic Leukemia; Acute Myeloid Leukemia; Acute Biphenotypic Leukemia; Myelodysplastic Syndrome; Myeloproliferative Neoplasm; Non-Hodgkin Lymphoma; Hodgkins Disease; Chronic Lymphocytic Leukemia; Multiple Myeloma,30.0,70.0,Most severe = AML; SEER AML 5yr relative survival ~30%; 1yr ~50-60%,medium
+Chronic Pain,0.2,1.0,Chronic pain non-lethal; small excess mortality (suicide/opioid),high
+Chronic Rhinosinusitis With Nasal Polyps,0.0,0.2,Benign sinonasal disease; no excess mortality,high
+Chronic Rhinosinusitis With Polyposis,0.0,0.2,Benign sinonasal disease; no excess mortality,high
+Chronic Subdural Hematomas,10.0,25.0,"Chronic SDH (elderly); 1yr mortality ~10-15%, higher with comorbidity",medium
+Chronic Viral Hepatitis B Without Delta-agent,1.0,4.0,Chronic HBV slow progression; low 1-5yr mortality absent cirrhosis/HCC,high
+Churg-Strauss Syndrome; Eosinophilic Granulomatosis With Polyangiitis,3.0,10.0,EGPA treated 5yr survival ~90-95%; ~3% 1yr / ~10% 5yr mortality,high
+Circulatory; Change,5.0,20.0,Vague circulatory aggregate; using CVD-like estimate,low
+Cirrhosis; Hepatic Encephalopathy; Hyponatremia,30.0,60.0,Decompensated cirrhosis (HE) 1yr mortality ~30-40%; 5yr ~60-70%,high
+"Cirrhosis; Hypertension, Portal; Bleeding Esophageal Varices; Portal Vein Thrombosis",30.0,65.0,Decompensated cirrhosis with variceal bleed; 1yr ~30-40% / 5yr ~65%,high
+Classical progressive supranuclear palsy,5.0,45.0,"PSP-RS median survival ~6yr from onset; ~5% 1yr, ~45% by 5yr",high
+Clostridium Difficile,8.0,25.0,C. difficile infection 30-day all-cause mortality ~8-10%; 1yr higher (elderly),high
+"Colitis, Ulcerative",0.5,2.0,Ulcerative colitis near-normal life expectancy; small excess mortality,high
+Colon Cancer,20.0,35.0,SEER colon/colorectal 5yr relative survival ~65%; 1yr ~80%,high
+Colon Cancer; Inflammatory Bowel Diseases; Gastrointestinal Bleed; Colon Polyp,20.0,35.0,Colon cancer most severe; SEER ~65% 5yr survival,medium
+Colorectal Cancer; Metastases,55.0,85.0,SEER metastatic (distant) colorectal 5yr relative survival ~15%; 1yr ~45%,high
+Colorectal Neoplasms; Neoplasm Metastasis; Intestinal Neoplasms; Gastrointestinal Neoplasms; Digestive System Neoplasms,55.0,85.0,Metastatic colorectal/GI; SEER distant ~15% 5yr survival,medium
+Colorectal and Pancreas Cancer,55.0,80.0,Most severe = pancreatic; SEER pancreatic ~13% 5yr survival,medium
+Community Acquired Bacterial Pneumonia,12.0,30.0,CAP 30-day mortality ~10-12%; 1yr ~25-30%,high
+Community Acquired Pneumonia,12.0,30.0,CAP 30-day mortality ~10-12%; 1yr ~25-30%,high
+Community Acquired Respiratory Disease Syndrome,12.0,30.0,CAP/respiratory infection; ~12% 1yr / ~30% 5yr,medium
+Community-acquired Pneumonia; Bacterial Pneumonia,12.0,30.0,CAP 30-day mortality ~10-12%; 1yr ~25-30%,high
+Complicated Intra-abdominal Infections; Complicated Appendicitis,5.0,12.0,Complicated intra-abdominal infection mortality ~5-10% acute,medium
+Complicated Skin and Soft Tissue Infection,3.0,10.0,cSSTI mortality low-moderate; higher with sepsis/comorbidity,medium
+Complicated Urinary Tract Infection; Complicated Intra-abdominal Infection,5.0,12.0,"Complicated infection aggregate; ~5% acute mortality, higher long-term",medium
+Complications of Bone Marrow Transplant; Hematologic Neoplasms,25.0,45.0,Allo-HSCT complications/hematologic malignancy; ~25% 1yr / ~45% 5yr NRM+relapse,medium
+Congenital Adrenal Hyperplasia,1.0,3.0,CAH near-normal life expectancy with treatment; adrenal crisis risk,medium
+Congenital Cystic Kidney Disease,2.0,5.0,Congenital cystic/polycystic kidney; low 1-5yr mortality (slow progression),low
+Congenital Cytomegalovirus Infection,5.0,10.0,"Congenital CMV; symptomatic cases higher mortality/morbidity, estimated",low
+Congenital Cytomegalovirus Infection; Sensorineural Hearing Loss,5.0,10.0,Congenital CMV with SNHL; symptomatic estimate,low
+Congenital Heart Disease With Fontan Circulation,2.0,8.0,Fontan cohorts (single-ventricle); 10y survival ~85-90%,medium
+Congenital Heart Disease in Children; Inflammatory Response,1.0,3.0,Pediatric CHD registries; most-severe component,low
+Congestive heart failure,22.0,55.0,"Framingham/Mayo Clin Proc: ~20-30% 1y, ~45-60% 5y mortality",high
+Constipation,0.0,1.0,Chronic functional GI condition; negligible direct mortality,high
+Contraceptive Usage,0.0,0.0,Non-disease (contraception use); no disease mortality,high
+Corona Virus Infection; Acute Respiratory Distress Syndrome; SARS-CoV Infection; Coronavirus; Coronavirus Infections,39.0,40.0,COVID-ARDS pooled in-hospital mortality ~39% (most severe component),medium
+Coronary Artery Bypass,2.0,10.0,"CABG = procedure for CAD; ~30d mortality 1-3%, 5y ~8-12%",medium
+Coronary Artery Disease (CAD); Acute Coronary Syndrome (ACS),5.0,15.0,"Post-ACS registries (GRACE): ~5% 1y, ~15% 5y mortality",medium
+Coronary Artery Disease; Acute Coronary Syndrome,5.0,15.0,"Post-ACS registries (GRACE): ~5% 1y, ~15% 5y mortality",medium
+Coronary Artery Disease; Angina Pectoris,2.0,10.0,Stable CAD/angina cohorts; annual mortality ~1-2%,medium
+Coronary Artery Disease; Chronic Kidney Disease; Hypovitaminosis D; Secondary Hyperparathyroidism,8.0,30.0,"CAD+CKD (most severe); CKD-stage dependent, elevated CV mortality",low
+Coronary Artery Disease; Myocardial Ischemia; Myocardial Infarction; Stent Thrombosis; Cardiovascular Diseases,6.0,18.0,"Post-MI/stent cohorts; ~5-7% 1y, ~15-20% 5y mortality",medium
+"Coronavirus Infection; Pneumonia, Viral; Acute Respiratory Distress Syndrome",39.0,40.0,COVID-ARDS pooled in-hospital mortality ~39%,medium
+"Coronavirus Infections; Pneumonia, Viral",10.0,11.0,COVID viral pneumonia hospitalized ~10-15% mortality,medium
+Coronavirus; Acute Respiratory Infection; SARS-CoV Infection,5.0,6.0,COVID/SARS infection overall hospitalized mortality,low
+Cough,0.0,0.0,"Symptom, not lethal disease; negligible mortality",high
+Covid-19 Pneumonia,12.0,13.0,Hospitalized COVID pneumonia ~10-15% mortality,medium
+Covid-19; Hypoxia,15.0,16.0,Hypoxic (severe) COVID hospitalized mortality ~15-20%,medium
+Covid19; Covid-19 ARDS,39.0,40.0,COVID-ARDS pooled in-hospital mortality ~39%,medium
+Covid19; Hypoxia,15.0,16.0,Hypoxic (severe) COVID hospitalized mortality ~15-20%,medium
+Covid19; SARS-CoV Infection,5.0,6.0,COVID infection overall hospitalized mortality,low
+Coxarthrosis; Arthroplasties Hip Replacement; Perioperative Blood Loss,0.0,2.0,Hip osteoarthritis/elective arthroplasty; minimal direct mortality,medium
+Critical Illness,25.0,40.0,"ICU critical illness; ~20-30% in-hospital, higher long-term",medium
+Critical Illness; Sedation; Mechanical Ventilation,30.0,45.0,Mechanically ventilated ICU; ~30-40% mortality,medium
+Critical Ischemia,20.0,50.0,"Critical limb ischemia; ~20% 1y, ~50% 5y mortality",medium
+Crohn disease,1.0,3.0,"IBD cohorts; near-normal life expectancy, slightly elevated SMR",high
+Cryptococcal Meningitis; Fungal Meningitis,55.0,65.0,"HIV-assoc cryptococcal meningitis ~50% 10wk, ~65% 1y (varies by region)",medium
+Cutaneous Leishmaniasis,1.0,1.0,Cutaneous form rarely fatal (vs visceral); low mortality,medium
+Cutaneous Melanoma,3.0,7.0,SEER melanoma overall: 5y RS ~93% (100-93=7); 1y high survival,high
+Cutaneous T-Cell Lymphoma,12.0,22.0,CTCL/MF overall 5y OS ~78% (plateau 1997-2005),medium
+Cutaneous T-Cell Lymphoma/Mycosis Fungoides,12.0,22.0,CTCL/MF overall 5y OS ~78%,medium
+Cystic Fibrosis Pulmonary Exacerbation,3.0,10.0,"CF exacerbation; CF median survival now ~50y, exacerbation elevates short-term risk",low
+Cytokine Storm (Covid-19); cytokine release syndrome,30.0,32.0,Severe COVID cytokine storm; high in-hospital mortality ~30-40%,low
+Cytomegalovirus Disease,10.0,15.0,CMV disease in immunocompromised; elevated mortality,low
+Cytomegalovirus Disease; Kidney Transplant Infection,8.0,15.0,CMV in transplant recipients; moderate elevated mortality,low
+Deep Vein Thrombosis,5.0,15.0,"DVT cohorts; mortality largely comorbidity/PE driven, ~5% 1y",medium
+Deep Vein Thrombosis; Pulmonary Embolism,10.0,20.0,VTE/PE (most severe); PE ~10-15% 1y mortality,medium
+Deep Venous Thrombosis,5.0,15.0,DVT cohorts; ~5% 1y mortality,medium
+Delirium; Critical Illness; Intensive Care Psychosis; Cognitive Impairment; Cognitive Decline,25.0,40.0,ICU delirium/critical illness; elevated mortality ~25% 1y,low
+Dementia,33.0,60.0,"Hospitalized dementia ~30-38% 1y, ~58-65% 5y mortality",medium
+Dengue Hemorrhagic Fever,3.0,3.0,DHF treated CFR ~2-5%; acute illness (no separate 5y),medium
+"Depressive Disorder, Major",0.0,2.0,"MDD; modestly elevated all-cause/suicide mortality, low absolute",high
+"Dermatitis, Atopic",0.0,0.0,Atopic eczema; negligible mortality,high
+Dermatomyositis; Polymyositis,5.0,20.0,"IIM cohorts; 5y mortality ~15-25%, malignancy/ILD-associated",medium
+Development,0.0,0.0,Non-disease string (development); no mortality,high
+Dexamethasone-induced Hiccup in Chemotherapy,0.0,0.0,Symptom/side-effect string; no disease mortality,high
+"Diabetes Mellitus, Type 1",0.0,2.0,"T1D; near-normal short-term, modestly elevated long-term mortality",high
+"Diabetes Mellitus, Type 2; Cognitive Functions Confusion",1.0,5.0,"T2D; low-single-digit mortality, CV-driven over time",high
+"Diabetes Mellitus, Type 2; Coronary Artery Disease",4.0,14.0,T2D+CAD (most severe); post-ACS-like elevated CV mortality,medium
+"Diabetes, Type I; Diabetes, Type II; Angina; Coronary Artery Disease",4.0,14.0,Diabetes+CAD/angina (most severe); elevated CV mortality,medium
+Diabetes; Glucose Tolerance,1.0,4.0,Diabetes/IGT; low chronic mortality,high
+Diabetes; Microalbuminuria,2.0,8.0,Diabetic nephropathy onset; elevated CV/renal mortality,medium
+Diabetic Nephropathies,5.0,25.0,Diabetic kidney disease; high CV/ESRD-driven 5y mortality,medium
+Diabetic Patients,1.0,5.0,Generic diabetes; low chronic mortality,medium
+Diabetic Retinopathy,1.0,8.0,DR marks advanced diabetes; mortality reflects systemic disease,medium
+Diffuse Large B Cell Lymphoma,15.0,36.0,SEER/ACS DLBCL 5y RS ~64% (100-64=36),high
+Diffuse Large B-Cell Lymphoma,15.0,36.0,SEER/ACS DLBCL 5y RS ~64%,high
+Disease Progression in Chronic Obstructive Pulmonary Disease,5.0,30.0,"COPD cohorts; ~5% 1y, advanced 5y mortality 20-40%",medium
+Diverticulitis,1.0,5.0,"Diverticulitis; low mortality, complications elevate risk",medium
+Drug Resistant Partial Onset Seizure,1.0,5.0,Refractory focal epilepsy; elevated SUDEP/all-cause mortality,medium
+Duchenne Muscular Dystrophy (DMD),1.0,4.0,"DMD survival ~99.8% at 10y, ~59% at 20y; childhood 5y mortality low",medium
+Duchenne Muscular Dystrophy; Becker Muscular Dystrophy,1.0,3.0,DMD/BMD (BMD milder); low childhood mortality,medium
+Duchenne Muscular Dystrophy; Becker Muscular Dystrophy; Dystrophinopathy,1.0,3.0,Dystrophinopathy; low childhood mortality,medium
+Dyslipidemias,0.0,1.0,Lipid disorder; negligible direct short-term mortality,high
+Dyspareunia,0.0,0.0,Painful intercourse; no mortality,high
+Dyspepsia; Anxiety; Depression,0.0,1.0,Functional/psychiatric; negligible mortality,high
+Dysphagia,2.0,10.0,Dysphagia; mortality driven by underlying cause/aspiration,low
+Dysphasia,1.0,5.0,Language disorder (often post-stroke); reflects underlying cause,low
+Dystrophia Myotonica Type 1; Myotonia Congenita; Paramyotonia Congenita; Hyperkalemic Periodic Paralysis; Potassium-Aggravated Myotonia,2.0,12.0,"DM1 (most severe); reduced life expectancy, cardiac/respiratory deaths",medium
+Early Breast Cancer,1.0,10.0,"Early-stage breast cancer; SEER localized 5y RS ~99%, regional ~86%",medium
+Early Primary Breast Cancer,1.0,10.0,"Early breast cancer; high survival, ~90% 5y",medium
+"Ehlers-Danlos Syndrome, Vascular Type",3.0,20.0,"Vascular EDS; median survival ~48y, arterial/organ rupture risk",medium
+Embolic Stroke of Undetermined Source,8.0,30.0,"Ischemic stroke cohorts; ~8-15% 1y, ~30-40% 5y mortality",medium
+Endometrial Clear Cell Adenocarcinoma; Endometrial Serous Adenocarcinoma; Stage IIIA Uterine Corpus Cancer; Stage IIIB Uterine Corpus Cancer; Stage IIIC Uterine Corpus Cancer; Stage IVA Uterine Corpus Cancer,20.0,55.0,Advanced (stage III-IV) high-grade uterine cancer; 5y survival ~30-55%,medium
+Endometriosis,0.0,0.0,Benign gynecologic condition; negligible mortality,high
+Enterovirus; Rhinovirus,0.0,0.0,Common respiratory viruses; negligible mortality in general population,high
+Eosinophilic Granulomatosis With Polyangiitis,2.0,12.0,EGPA/Churg-Strauss; 5y survival ~88-97% with treatment,medium
+Epidural Catheterization; Thoracic; Procedural Pain,0.0,0.0,Procedural/pain string; no disease mortality,high
+Epilepsy; Generalized Tonic-Clonic Seizures,1.0,5.0,"Epilepsy; elevated SUDEP/all-cause mortality, low absolute",medium
+Erosive Esophagitis; GERD,0.0,1.0,GERD/erosive esophagitis; negligible direct mortality,high
+Esketamine Treatment in Participants With Treatment Resistant Depression,0.0,3.0,"Treatment-resistant depression; elevated suicide/all-cause, low absolute",medium
+Esophageal Disease,2.0,10.0,Generic esophageal disease (benign-weighted); modest mortality,low
+Extended Antithrombotic Prophylaxis After Laparoscopic Surgery for Colorectal Cancer,5.0,40.0,Colorectal cancer surgery context; CRC overall ~35% 5y mortality,low
+Failed labor induction,0.0,0.0,Obstetric procedural condition; negligible maternal mortality,high
+Familial Chylomicronemia Syndrome (FCS) (HLP Type I),1.0,3.0,"FCS; pancreatitis risk, near-normal life expectancy",medium
+Familial adenomatous polyposis,0.0,5.0,"FAP; near-100% CRC risk if untreated, mortality from CRC over decades",medium
+Febrile Neutropenia,5.0,10.0,Febrile neutropenia episodes; ~5-10% mortality per episode,medium
+First-Line Treatment of Advanced Non-Small Cell Lung Cancer,60.0,88.0,"Advanced/metastatic NSCLC; ~35-45% 1y survival, distant 5y RS ~12%",high
+Forearm Fracture,0.0,1.0,Forearm fracture; negligible mortality,high
+Frailty; Sarcopenic Obesity; Aging,5.0,25.0,Frailty in older adults; markedly elevated all-cause mortality,low
+Friedreich ataxia,1.0,8.0,"Friedreich ataxia; median survival ~35-40y, cardiomyopathy deaths",medium
+Fuchs' endothelial dystrophy,0.0,0.0,Corneal dystrophy; no mortality,high
+Functional Dyspepsia,0.0,0.0,Functional GI disorder; negligible mortality,high
+Fungal Infection; Hematopoietic and Lymphoid Cell Neoplasm,25.0,50.0,Invasive fungal infection in hematologic malignancy; high mortality,low
+GIST,10.0,20.0,GIST; SEER 5y RS ~80-85% overall,medium
+"GVHD,Acute",30.0,45.0,Acute GVHD grade III-IV; 12mo OS ~30-42% (severe); overall lower,medium
+Gallbladder Carcinoma,55.0,81.0,SEER gallbladder cancer 5y RS ~19% (100-19=81); ~30% 1y survival,high
+Gastric Adenocarcinoma,50.0,62.0,SEER gastric cancer 5y RS ~38% (100-38=62),high
+Gastric Bypass; Parathyroid Hormone,0.0,1.0,Bariatric surgery/PTH context; negligible disease mortality,medium
+Gastric Carcinoma,50.0,62.0,SEER gastric cancer 5y RS ~38%,high
+Gastric Neoplasm; Early Gastric Cancer,10.0,30.0,Early gastric cancer; localized 5y RS ~70%+,medium
+Gastric Neoplasms; Gastroesophageal Junction Adenocarcinoma,50.0,65.0,Gastric/GEJ adenocarcinoma; ~35% 5y survival,medium
+Gastric Residual Volume,0.0,0.0,Measurement/feeding-tolerance string; no disease mortality,high
+Gastro Oesophageal Reflux Disease,0.0,1.0,GERD; negligible direct mortality,high
+Gastroenteritis,0.0,1.0,Acute gastroenteritis; low mortality in general population,high
+Gastroenteritis; Vomiting; Acute Gastroenteritis,0.0,1.0,Acute gastroenteritis; low mortality,high
+Gastroesophageal Cancer,50.0,65.0,Gastroesophageal adenocarcinoma; ~35% 5y survival,medium
+Gastroesophageal Reflux Disease; Heartburn,0.0,1.0,GERD/heartburn; negligible direct mortality,high
+Gastrointestinal Bleeding,5.0,15.0,Acute GI bleed; ~5-10% in-hospital/30d mortality,medium
+Gastrointestinal Hemorrhage,5.0,15.0,Acute GI hemorrhage; ~5-10% short-term mortality,medium
+"Gastrointestinal Hemorrhage (Clinically Important, Upper)",8.0,18.0,"Upper GI bleed; ~5-10% mortality, higher with comorbidity",medium
+Gastrointestinal Neoplasms; Chemotherapy-induced Nausea and Vomiting,40.0,60.0,GI cancer context (most severe); aggregate GI cancer mortality,low
+Gastrointestinal Stromal Tumor (GIST),10.0,20.0,GIST; SEER 5y RS ~80-85%,medium
+Gastrointestinal Surgery,2.0,5.0,Major GI surgery; perioperative ~1-3% mortality,low
+General Anaesthesia,0.0,0.0,Anesthesia setting; no disease mortality,high
+General Anesthesia; Elective Surgery,0.0,1.0,Elective surgery setting; very low perioperative mortality,high
+Geographic Atrophy,0.0,0.0,"Advanced dry AMD; vision loss, no direct mortality",high
+Gland Cancer,30.0,50.0,Nonspecific glandular cancer (adenocarcinoma); aggregate moderate mortality,low
+Glaucoma,0.0,0.0,"Glaucoma; blindness risk, no direct mortality",high
+Glioblastoma,42.0,93.0,SEER GBM: 1y RS ~40%; 5y RS ~7% (100-7=93),high
+Glioblastoma; Adult-type Diffuse Gliomas,42.0,93.0,GBM/high-grade glioma; SEER 5y RS ~7%,high
+Globus,0.0,0.0,Globus sensation (functional); no mortality,high
+"Glomerulonephritis, IGA",1.0,5.0,"IgA nephropathy; slow progression, ESRD over decades, low 5y mortality",medium
+Glucose Transporter Type 1 Deficiency Syndrome,1.0,3.0,"GLUT1 DS; near-normal survival with treatment, seizure/SUDEP risk",low
+Glucose Transporter Type 1 Deficiency Syndrome (Glut1 DS),1.0,3.0,GLUT1 DS; near-normal survival with treatment,low
+Graft Versus Host Disease; Ocular Surface Disease; oGVHD; Ocular Graft vs Host Disease; Brimonidine Tartrate; Lubricant Eye Drops; Ophthalmic Solutions; Graft vs Host Disease,5.0,20.0,Ocular/chronic GVHD; reflects underlying GVHD mortality,low
+Graft vs Host Disease,15.0,30.0,GVHD (acute+chronic mix); ~15-30% attributable mortality,medium
+Graft-versus-Host Disease; Immune System Disorders,15.0,30.0,GVHD; ~15-30% mortality,medium
+Graft-versus-host Disease (GVHD),15.0,30.0,GVHD; ~15-30% mortality,medium
+Granulomatous Colitis; Crohn's Disease; Crohn's Enteritis; Granulomatous Enteritis,1.0,3.0,Crohn's disease; near-normal life expectancy,high
+Gynecological Outpatient Surgery,0.0,0.0,Outpatient surgical setting; negligible mortality,high
+HIV Infection,1.0,3.0,"Treated HIV; near-normal life expectancy on ART, low mortality",high
+HIV Infection; Herpes Simplex Type II; HIV Infections,1.0,3.0,Treated HIV (most severe); low mortality on ART,high
+HIV Infections; Cytomegalovirus; CMV,5.0,12.0,HIV with CMV disease (advanced/AIDS); elevated mortality,medium
+HIV-1,1.0,3.0,Treated HIV-1; near-normal life expectancy on ART,high
+HIV-1 Infection; Kaposi's Sarcoma,5.0,15.0,HIV with Kaposi sarcoma (AIDS-defining); elevated mortality,medium
+HIV-1 Infections,1.0,3.0,Treated HIV-1; low mortality on ART,high
+HIV; HIV Infections,1.0,5.0,NA-ACCORD/NACC cohorts: treated HIV modern-era excess 5y mortality ~2.6% over baseline (PMC9477443),high
+HIV; Salivary Gland Disease; Benign Lymphoepithelial Lesion,1.0,5.0,Most severe = treated HIV; NA-ACCORD modern-era (PMC9477443); salivary/benign lesion non-lethal,high
+HIV; Smoking Cessation,1.0,5.0,Most severe = treated HIV; NA-ACCORD modern-era (PMC9477443),high
+Hand Wound; Wrist Wound; Forearm Wound; Hand Fracture; Wrist Fracture; Forearm Fracture,0.0,1.0,Upper-limb wounds/fractures non-lethal; negligible attributable mortality,high
+Headache; Intranasal Ketamine,0.0,0.0,Headache benign + procedural drug-administration string; not a lethal disease,high
+Healthcare-Associated Pneumonia; Ventilator-Associated Pneumonia; Lung Diseases,30.0,40.0,"VAP/HCAP attributable + crude in-hospital mortality 20-50% (ATS/IDSA, ICU cohorts)",medium
+Healthcare-associated Pneumonia (HCAP); Hospital Acquired Pneumonia (HAP); Ventilator Associated Pneumonia (VAP),30.0,40.0,HAP/VAP crude mortality 20-50% (ATS/IDSA guideline cohorts),medium
+Heart Failure With Preserved Ejection Fraction (HFpEF),15.0,55.0,"HFpEF 1y mortality ~15% post-hosp, 5y ~55-60% (Wikipedia/JACC 5y outcomes)",medium
+Heart Failure With Reduced Ejection Fraction (HF-rEF),20.0,60.0,"HFrEF 1y ~10-20% (ASIAN-HF/ESC registries), 5y ~50-75% (GWTG-HF)",medium
+Heart Failure With Reduced Ejection Fraction (HFrEF),20.0,60.0,"HFrEF 1y ~10-20% (ASIAN-HF/ESC registries), 5y ~50-75% (GWTG-HF)",medium
+Heart Failure; Coronary Artery Disease,20.0,50.0,"Heart failure overall 1y ~20%, 5y ~50% (Framingham/registry standard)",medium
+Heart Failure; Dyspnea,20.0,50.0,"Most severe = heart failure; 1y ~20%, 5y ~50% (registry standard)",medium
+"Heart Failure; Heart Failure, Systolic; Erectile Dysfunction",20.0,60.0,"Most severe = systolic (reduced-EF) HF; 1y ~20%, 5y ~60% (GWTG-HF)",medium
+Heart Valve Diseases,5.0,20.0,"Valvular heart disease broad; symptomatic untreated 5y mortality variable ~15-30% (ACC/AHA, aortic stenosis cohorts)",low
+HeartPhone Cancer,0.0,0.0,Non-disease/garbled string ('HeartPhone'); not a recognized disease,high
+Heartburn; Gastroesophageal Reflux Disease,0.0,1.0,"GERD chronic low-lethality; negligible 1y, minimal 5y excess (standard)",high
+Helicobacter Pylori Infection; Gastritis; Vonoprazan; Adolescents,0.0,1.0,"H. pylori/gastritis treatable, low-lethality; drug/age-group string non-disease",high
+Hematologic Neoplasms,15.0,40.0,Broad blood cancers (leukemia/lymphoma/myeloma mix); pooled SEER ~60% 5y survival,low
+Hemodialysis; Chronic Renal Failure,15.0,55.0,"ESRD/dialysis 1y mortality ~15-20%, 5y ~50-60% (USRDS)",medium
+Hemoptysis,5.0,15.0,Symptom; massive hemoptysis acute mortality high but most cases mild; underlying-disease dependent,low
+"Hemorrhage, Postpartum; Placenta Previa",2.0,3.0,"PPH case-fatality ~1-5% (developed setting <1%, low-resource 3-6%); acute event (WOMAN/ACOG)",medium
+Hemorrhagic Shock; Trauma Injury,40.0,45.0,Traumatic hemorrhagic shock acute mortality ~30-40% (Eastridge Transfusion 2019),medium
+Hemorrhoids,0.0,0.0,Benign anorectal condition; non-lethal,high
+"Hepatitis B; HBV; Hepatitis B, Chronic",2.0,10.0,"Chronic HBV all-cause ~1.5/100PY; cirrhosis progression 8-20% over 5y (cohort, PMC11514616)",medium
+Hepatitis C,1.0,5.0,Chronic HCV low acute mortality; cirrhosis over 10-20y; 5y mortality ~5% (CDC/cohort),medium
+Hepatitis Delta Virus,3.0,15.0,"HDV most severe chronic viral hepatitis, accelerated cirrhosis (EASL); estimated higher than HBV/HCV",low
+Hepatocellular Carcinoma,64.0,84.0,"SEER HCC overall: 1y survival ~36%, 5y survival ~16% (ACS/SEER)",high
+Hepatocellular Carcinoma; Recurrence,64.0,84.0,"SEER HCC overall: 1y survival ~36%, 5y survival ~16% (ACS/SEER)",high
+Herpes Zoster,0.0,1.0,Shingles low-lethality; rare complications in elderly/immunocompromised,high
+High Risk Polycythemia Vera; High Risk Essential Thrombocythemia,3.0,12.0,High-risk PV/ET median survival 14-18y; 5y mortality ~10-15% (Tefferi/Mayo),medium
+Hip Fracture; Anemia,20.0,55.0,"Hip fracture 1y mortality ~20-30%, 5y ~50-65% in elderly (orthopedic cohorts)",medium
+Hip Fracture; Blood Loss,20.0,55.0,"Hip fracture 1y mortality ~20-30%, 5y ~50-65% in elderly (orthopedic cohorts)",medium
+Hodgkin Lymphoma,5.0,11.0,SEER Hodgkin lymphoma 5y relative survival ~89% (ACS/SEER); 1y mortality low,high
+Hodgkin lymphoma,5.0,11.0,SEER Hodgkin lymphoma 5y relative survival ~89% (ACS/SEER); 1y mortality low,high
+Human Immunodeficiency Virus (HIV) Infections; Acquired Immunodeficiency Syndrome (AIDS) Virus,3.0,12.0,AIDS (advanced HIV) higher than early HIV; treated AIDS-stage 5y mortality elevated (cohort),medium
+Human Immunodeficiency Virus; Herpes Simplex,1.0,5.0,Most severe = treated HIV; NA-ACCORD modern-era (PMC9477443),high
+Huntington Disease,2.0,8.0,HD median survival 15-20y from diagnosis; low near-term mortality (Wikipedia/Rare Disease Advisor),medium
+Hydatidiform Mole,0.0,1.0,"Benign/premalignant gestational trophoblastic disease; near-100% curable, very low mortality",high
+Hyperactive Delirium,10.0,30.0,Delirium associated with elevated mortality in hospitalized elderly (1y ~10-35%); marker of severity,low
+Hypercholesterolaemia,0.0,1.0,Risk factor not acute disease; negligible direct short-term mortality (standard),high
+Hypercholesterolemia in Coronaory Heart Disease,2.0,10.0,Most severe = coronary heart disease; stable CHD ~2-3%/yr mortality (AHA),medium
+Hypercholesterolemia; Atherosclerosis; Statin Adverse Reaction,1.0,8.0,Atherosclerosis/dyslipidemia; CV mortality accrues over years (AHA),low
+Hypercholesterolemia; Familial Hypercholesterolemia,1.0,5.0,FH elevates long-term CV mortality; low near-term (registry),low
+Hyperlipidemia or Mixed Dyslipidemia at High Risk for Cardiovascular Events,1.0,8.0,High-CV-risk dyslipidemia; CV mortality accrues over years (AHA risk pools),low
+Hyperlipidemia; Hypertension,1.0,5.0,"Combined risk factors; low near-term, modest 5y CV mortality (AHA)",medium
+"Hyperparathyroidism, Primary; Hypercalcemia",0.0,2.0,Primary HPT low-lethality; modest long-term CV/excess mortality (endocrine cohorts),medium
+Hypersensitivity Reactions,0.0,1.0,Allergic/hypersensitivity reactions mostly non-lethal; anaphylaxis case-fatality very low,high
+Hypertension With Hyperlipidemia,1.0,5.0,"Combined CV risk factors; low near-term, modest 5y CV mortality (AHA)",medium
+Hypertension; Cardiovascular Disease,2.0,10.0,Most severe = established CVD; ~2-3%/yr CV mortality (AHA),medium
+Hypertension; Hyperlipidemia,1.0,5.0,"Combined risk factors; low near-term, modest 5y CV mortality (AHA)",medium
+Hypertension; Kidney Transplantation,3.0,15.0,Most severe = kidney transplant status; 5y graft-recipient mortality ~12-20% (USRDS/SRTR),medium
+Hypertension; Sleep Apnea,1.0,5.0,Hypertension + OSA; low-lethality chronic; modest long-term CV mortality (standard),medium
+Hypogonadism; Obesity,0.0,2.0,Both chronic low-lethality conditions; modest long-term excess mortality (standard),high
+Hyponatremia,5.0,15.0,Hyponatremia marker of illness severity; in-hospital + 1y mortality elevated 5-30% (cohorts),low
+Hyponatremia; Dilutional Hyponatremia; Inappropriate ADH Syndrome,5.0,15.0,Hyponatremia/SIADH; mortality reflects underlying illness severity (cohorts),low
+Hypotension; Nausea; Vomiting,0.0,0.0,Symptoms/perioperative side effects; not a lethal disease,high
+IBS - Irritable Bowel Syndrome,0.0,0.0,IBS benign functional disorder; no excess mortality (standard),high
+INFECTION,5.0,10.0,"Generic 'infection' string; wide range, modest pooled estimate",low
+IV Melanoma,40.0,65.0,Interpreted as stage IV (metastatic) melanoma; SEER distant 5y survival ~35% (ACS/SEER),medium
+IVF; GnRH Antagonist; PPOS,0.0,0.0,Fertility/IVF protocol string; not a disease,high
+Ibrutinib-Resistant Chronic Lymphocytic Leukemia,4.0,15.0,Disease = CLL; SEER 5y survival ~88% (resistant subset worse); 1y low (SEER statfacts),medium
+Idiopathic Nephrotic Syndrome,1.0,5.0,Nephrotic syndrome low near-term mortality; thrombotic/infectious risk; long-term ESRD-dependent,low
+Immediate Postpartum Hemorrhage,2.0,3.0,PPH case-fatality ~1-5% (developed setting <1%); acute event (WOMAN/ACOG),medium
+Immune Reconstitution Inflammatory Syndrome; HIV; Tuberculosis,5.0,12.0,Most severe = HIV-TB-IRIS; TB co-infection elevates mortality (WHO/cohort),low
+Immune Thrombocytopenic Purpura,1.0,5.0,ITP low mortality; bleeding risk modest; near-normal life expectancy (hematology guidelines),medium
+Improved Postoperative Pain,0.0,0.0,Postoperative pain management string; not a lethal disease,high
+Improving Outcomes in People With Knee Osteoarthritis Pain,0.0,0.0,Knee OA pain non-lethal; descriptive trial string,high
+Inclusion Body Myositis,2.0,15.0,sIBM slowly progressive; normal-to-mildly-reduced lifespan; aspiration risk late (neuromuscular),low
+Induction and Maintenance of General Anesthesia,0.0,0.0,Anesthesia setting string; not a disease,high
+Induction of Anesthesia,0.0,0.0,Anesthesia setting string; not a disease,high
+Induction of Labor Affected Fetus / Newborn,0.0,1.0,Obstetric procedure string; very low neonatal/maternal mortality (developed setting),high
+Induction of Labor Affected Fetus / Newborn; Rupture of Membranes Prior to Onset of Labor,0.0,1.0,Obstetric procedure string; low mortality (developed setting),high
+Indwelling Urinary Catheter; Male Patients; General Anesthesia,0.0,0.0,Catheter/anesthesia procedural string; not a lethal disease,high
+"Infant, Newborn, Diseases; Cardiovascular Insufficiency",15.0,20.0,Neonatal cardiovascular insufficiency/critical newborn illness; NICU mortality elevated,low
+"Infant, Newborn; Infant, Small for Gestational Age; Infant, Very Low Birth Weight; Infant, Premature; Bronchopulmonary Dysplasia",15.0,20.0,VLBW/extreme prematurity + BPD; NICU/infant mortality ~10-25% (neonatology),low
+Infantile Spasms,5.0,15.0,"West syndrome; mortality ~5% by early childhood, up to ~15-30% long-term in symptomatic cases",low
+"Infection, Human Immunodeficiency Virus; HIV Infections",1.0,5.0,Treated HIV; NA-ACCORD modern-era (PMC9477443),high
+Infection; Surgery; Nervous System Diseases,5.0,15.0,"Most severe = CNS disease/surgical infection; variable, modest pooled estimate",low
+Infection; Surgical Site Infection,2.0,5.0,SSI elevates mortality modestly; most non-lethal (CDC/NHSN),low
+Infections,5.0,10.0,"Generic infection string; wide range, modest pooled estimate",low
+Infectious Disease; SARS-CoV Infection; Covid19,3.0,4.0,COVID-19 overall IFR ~0.5-2% (age-dependent); near-term deaths (WHO/CDC),medium
+Infectious Pneumonia; Severe COVID-19,15.0,18.0,Severe/hospitalized COVID-19 pneumonia in-hospital mortality ~10-25% (CDC/ICU cohorts),medium
+"Infertility, Female",0.0,0.0,Infertility non-lethal condition,high
+Infertility; Poor Ovarian Response,0.0,0.0,Infertility non-lethal condition,high
+Inflammation; Macrophage Infiltration; Cardiovascular Disease,2.0,10.0,Most severe = cardiovascular disease; ~2-3%/yr CV mortality (AHA),medium
+Inflammatory Macular Edema,0.0,0.0,Ocular condition; non-lethal (affects vision not survival),high
+Inguinal Hernia; Femoral Hernia,0.0,1.0,Hernia low-lethality; rare strangulation mortality (surgical),high
+Insertion of Intrauterine Contraception,0.0,0.0,Contraceptive procedure string; not a disease,high
+Insomnia; End Stage Renal Disease,15.0,55.0,"Most severe = ESRD; 1y mortality ~15-20%, 5y ~50-60% (USRDS)",medium
+Insulin Resistance; Microvascular Disease,1.0,5.0,"Chronic metabolic/microvascular disease; low near-term, modest 5y excess (standard)",low
+Internal Hemorrhoids,0.0,0.0,Benign anorectal condition; non-lethal,high
+Intervertebral Disc Prolapse,0.0,0.0,Disc herniation non-lethal musculoskeletal condition,high
+Intestinal Neoplasm; Perioperative Care,15.0,40.0,Colorectal/intestinal neoplasm SEER all-stage 5y survival ~63% (SEER colorectal),low
+Intra-abdominal Infections,10.0,20.0,"Complicated intra-abdominal infection mortality ~5-20% (severity-dependent, surgical cohorts)",low
+Intraoperative hypotension,0.0,0.0,Intraoperative event; not a disease per se,high
+Intrapartum - Moderate and Severe Anaemia,1.0,2.0,"Maternal anaemia; low direct mortality (developed setting), higher if severe/hemorrhage",low
+Invasive Candidiases,40.0,50.0,Invasive candidiasis in-hospital crude mortality ~30-40% (CDC/IDSA),medium
+Irreversible Pulpitis,0.0,0.0,Dental pulp condition; non-lethal,high
+Is an Only Child,0.0,0.0,Non-disease demographic descriptor string,high
+Ischaemic Stroke,20.0,50.0,"Ischemic stroke 1y case-fatality ~20-24%, 5y mortality ~50% (AHA/Stroke cohorts)",high
+Ischemic Cardiomyopathy; Nonischemic Cardiomyopathy; Heart Failure,20.0,55.0,"Cardiomyopathy with HF; 1y ~20%, 5y ~50-60% (registry standard)",medium
+Ischemic stroke,20.0,50.0,"Ischemic stroke 1y case-fatality ~20-24%, 5y mortality ~50% (AHA/Stroke cohorts)",high
+Junction Cancer,55.0,75.0,Gastroesophageal junction adenocarcinoma; SEER esophageal/gastric 5y survival ~20-33% (SEER),low
+Junction Carcinoma,55.0,75.0,Gastroesophageal junction carcinoma; SEER esophageal/gastric 5y survival ~20-33% (SEER),low
+Juvenile Idiopathic Arthritis,0.0,1.0,JIA low mortality; near-normal life expectancy (pediatric rheumatology),high
+Kidney Transplantation (Status Post),3.0,15.0,Post kidney transplant 5y recipient mortality ~12-20% (USRDS/SRTR),medium
+"Kidney Transplantation, Mannitol",3.0,15.0,Post kidney transplant 5y recipient mortality ~12-20% (USRDS/SRTR),medium
+Knee Arthropathy,0.0,0.0,Knee joint disorder; non-lethal musculoskeletal,high
+Knee Injury,0.0,0.0,Knee injury; non-lethal musculoskeletal,high
+Knee Osteoarthritis,0.0,1.0,Knee OA non-lethal; small long-term excess mortality from immobility (standard),high
+Laparoscopic Cholecystectomy; Postoperative Nausea and Vomiting,0.0,0.0,Surgical procedure + PONV string; very low mortality,high
+Laparoscopic Colecctomy,0.0,1.0,Laparoscopic colectomy procedure; low perioperative mortality (~1-2%),medium
+Left Ventricular Thrombus,10.0,30.0,LV thrombus (usually post-MI/cardiomyopathy); embolic/cardiac mortality reflects underlying disease,low
+Left Ventricular Thrombus; ST Segment Elevation Myocardial Infarction,10.0,25.0,"STEMI 1y mortality ~7-10%, higher with LV thrombus; 5y ~20-25% (AHA/registry)",medium
+Local Anesthesia,0.0,0.0,Anesthesia setting string; not a disease,high
+Locally Advanced or Metastatic Medullary Thyroid Cancer; Medullary Thyroid Cancer,15.0,60.0,Distant/advanced MTC SEER 5y survival ~38-43% (ACS/SEER),medium
+Loiasis,0.0,1.0,Loa loa filariasis; rarely fatal except severe encephalopathy complications (WHO),medium
+Lower Ureteric Stones,0.0,0.0,Ureteric/kidney stones; non-lethal,high
+Lumbar Sciatic Pain,0.0,0.0,Sciatica/back pain; non-lethal,high
+Lung Cancer; Head and Neck Cancer,55.0,85.0,"Most severe = lung cancer; SEER NSCLC all-stage 5y survival ~25%, advanced much lower (ACS/SEER)",medium
+"Lung Disease, Interstitial",12.0,55.0,"ILD broad; IPF prototype median survival 3-5y, 5y survival ~30-45% (UpToDate/cohort)",medium
+Lung Diseases; Diagnosis; Anesthesia,5.0,15.0,Generic lung disease + procedural string; modest pooled estimate,low
+Lung Transplantation,15.0,41.0,"ISHLT post-transplant 1y survival ~85%, 5y ~59% (ISHLT registry)",high
+Lung-transplant Recipients,15.0,41.0,"ISHLT post-transplant 1y survival ~85%, 5y ~59% (ISHLT registry)",high
+"Lymphoma, Non-Hodgkin",10.0,26.0,SEER NHL 5y relative survival ~74% (ACS/SEER),high
+"MAC Lung Disease; Treatment Refractory MAC Lung Disease; Mycobacterium Infections, Nontuberculous",6.0,27.0,MAC pulmonary disease pooled 5y all-cause mortality ~27% (systematic review PMC5934808),medium
+MEMBRANOUS NEPHROPATHY,1.0,8.0,"Membranous nephropathy; ~1/3 remit, 1/3 ESRD; modest mortality, long-term CV/ESRD risk (nephrology)",low
+MUltiple Sclerosis,0.0,2.0,"MS near-normal life expectancy; modest excess mortality, lifespan reduced ~7y (MS registries)",high
+MV(Mitral Valve) Repair,1.0,5.0,"Mitral valve repair procedure; low operative mortality ~1-2%, good long-term survival",medium
+Maintaining Remission After the First Flare of Steroid Sensitive Nephrotic Syndrome,0.0,1.0,"Steroid-sensitive nephrotic syndrome (pediatric); excellent prognosis, very low mortality",high
+Maintenance Therapies in Advanced Non Small Cell Lung Cancer,55.0,91.0,"Advanced/metastatic NSCLC; SEER distant 5y survival ~9%, 1y survival ~40-50% (ACS/SEER)",high
+Major Non-cardiac Surgery,2.0,10.0,Major non-cardiac surgery 30-day mortality ~1-4%; 1y elevated (perioperative cohorts),low
+"Malaria, Vivax",0.0,1.0,P. vivax malaria lower case-fatality than falciparum; mostly non-fatal with treatment (WHO),medium
+Malignant Melanoma,2.0,9.0,SEER melanoma all-stage 5y relative survival ~90.5% (ACS/SEER),high
+Malignant Pleural Mesothelioma,52.0,88.0,"SEER pleural mesothelioma 1y survival ~43-50%, 5y survival ~12% (ACS/SEER)",high
+Mammaplasty,0.0,0.0,Breast surgery procedure; not a disease,high
+Management of Gestational Diabetes,0.0,0.0,"Gestational diabetes; very low maternal mortality, managed condition (standard)",high
+Mantle Cell Lymphoma,12.0,40.0,SEER 5y relative survival ~60-65% (2015-2019); 1y est,medium
+Mantle Cell Lymphoma; Non-Hodgkin's Lymphoma,12.0,40.0,SEER MCL (most severe component) 5y RS ~60-65%,medium
+Marfan syndrome,0.5,3.0,Marfan untreated aortic dissection risk; near-normal life expectancy with management (published cohorts),medium
+Medication-assisted Treatment of Opioid Use Disorder,2.0,12.0,Opioid use disorder cohort mortality ~1-2%/yr; ~10-20% at 5-10y (registry),medium
+Melanoma; Metastatic Melanoma,40.0,65.0,"SEER distant melanoma 5y RS ~35% (most severe component, metastatic)",high
+Mesothelioma,27.0,88.0,"SEER pleural mesothelioma 1y RS ~73%, 5y RS ~12%",high
+Metabolic Syndrome X,0.5,3.0,Metabolic syndrome modest excess CV mortality; low short-term (cohort studies),medium
+Metabolic Syndrome; Endothelial Dysfunction,0.5,3.0,"Metabolic syndrome excess CV mortality, low short-term",medium
+Metastatic Cancer,40.0,80.0,Generic distant/metastatic solid tumor pooled survival estimate,low
+Metastatic Castration-Resistant Prostate Cancer; Ovarian Cancer; Epithelial Ovarian Cancer; Fallopian Tube Cancer; Peritoneal Cancer; Other Solid Tumor,35.0,70.0,mCRPC median OS ~1.6-3y; 5y ~30% (most severe component),medium
+Metastatic Castration-resistant Prostate Cancer; Metastatic Breast Cancer,35.0,70.0,mCRPC 5y ~30%; metastatic breast distant 5y ~30% (NCI/SEER),medium
+Metastatic Cervical Cancer,40.0,83.0,SEER distant cervical cancer 5y RS ~15-19%,high
+Metastatic Esophageal Carcinoma,75.0,95.0,SEER distant esophageal 5y survival <5%; median OS ~4-6 mo,high
+Metastatic Gastric Cancer,70.0,93.0,SEER distant gastric 5y survival ~6.6%; median OS <1y,high
+Metastatic Kidney Cancer,45.0,85.0,SEER distant kidney/renal 5y RS ~15%,high
+Metastatic Nasopharyngeal Cancer,30.0,78.0,Metastatic NPC 5y OS ~20-25%; 1y ~60-75%,medium
+Metastatic Nasopharyngeal Carcinoma,30.0,78.0,Metastatic NPC 5y OS ~20-25%; 1y ~60-75%,medium
+Metastatic Pancreas Cancer; Locally Advanced Pancreatic Cancer; Pancreatic Adenocarcinoma,78.0,97.0,"SEER distant pancreatic 1y ~22%, 5y ~3% (most severe component)",high
+Metastatic Pancreatic Ductal Adenocarcinoma,78.0,97.0,"SEER distant pancreatic 1y RS ~22%, 5y RS ~3%",high
+Metastatic Triple-Negative Breast Cancer,55.0,89.0,Metastatic TNBC median OS ~11-13 mo; 5y OS ~11%,high
+Metastatic Urothelial Carcinoma,55.0,94.0,Metastatic urothelial median OS ~12-15 mo; 5y ~5-6%,high
+Metastatic Uveal Melanoma,55.0,92.0,Metastatic uveal melanoma median OS ~1 yr; 5y ~8-15%,high
+Metastatic or Locally Advanced Unresectable Pancreatic Adenocarcinoma,78.0,97.0,"SEER distant pancreatic 1y ~22%, 5y ~3%",high
+Methicillin-Resistant Staphylococcus Aureus; Bacterial Infections; Staphylococcal Skin Infections,10.0,15.0,"MRSA invasive infection 30-day/1y mortality ~10-20%; skin infections low (registry, most severe)",low
+Mild Pulmonary Vascular Disease,2.0,10.0,Mild pulmonary vascular disease low early mortality (est),low
+Moderate and Severe COPD,9.0,25.0,"COPD all-patient 1y ~9.5%, 5y ~25% mortality; higher in severe",medium
+Mucositis Pain,0.0,0.0,"Symptom/pain condition, not lethal disease",high
+Multiple Sclerosis; Infusion Reaction,0.3,2.0,"MS modest excess mortality, near-normal early survival (cohorts)",medium
+Muscle Relaxation,0.0,0.0,"Procedural/pharmacodynamic setting, not a disease",high
+"Muscular Dystrophy, Duchenne",1.0,5.0,"DMD median life expectancy ~28-30y; low childhood mortality, rises in 20s-30s",medium
+"Muscular Dystrophy, Duchenne; Muscular Dystrophies; Muscular Disorders, Atrophic; Muscular Diseases; Musculoskeletal Disease; Neuromuscular Diseases; Nervous System Diseases; Genetic Diseases, X-Linked; Genetic Diseases, Inborn",1.0,5.0,DMD median life expectancy ~28-30y; low childhood mortality,medium
+"Muscular Dystrophy, Duchenne; Muscular Dystrophies; Muscular Disorders, Atrophic; Muscular Diseases; Musculoskeletal Diseases; Neuromuscular Diseases; Nervous System Diseases; Genetic Diseases, X-Linked; Genetic Diseases, Inborn",1.0,5.0,DMD median life expectancy ~28-30y; low childhood mortality,medium
+Musculoskeletal Pain,0.0,0.0,"Pain condition, not a lethal disease",high
+Myelodysplastic Syndrome,15.0,55.0,MDS overall heterogeneous; median OS years; higher-risk worse (registry),medium
+Myelodysplastic Syndrome (MDS); Chronic Myelomonocytic Leukemia (CMML),20.0,60.0,Higher-risk MDS/CMML median OS ~1-2y; CMML poor,medium
+Myelofibrosis (MF),10.0,45.0,Myelofibrosis 5y RS ~50-55%; intermediate-2/high worse,medium
+Myeloid Malignancy; Bone Marrow Failure Syndrome; Transfusion-dependent Red Blood Cell (RBC) Defect; Congenital Immunodeficiency; Metabolic Disease; Severe Immune Dysregulation,20.0,55.0,Myeloid malignancy/marrow failure (most severe component) pooled est,low
+Myeloma; Venous Thromboembolism,17.0,38.0,"Multiple myeloma 1y mortality ~17%, 5y RS ~62%",medium
+Myocardial Infarction; Peripheral Vascular Disease; Aortic Aneurism,12.0,30.0,AMI/PAD 1y mortality ~10-13%; 5y ~30% (most severe component),medium
+Myocardial Infarction; STEMI,11.0,25.0,STEMI 1y mortality ~9.6-13.3%; 5y est ~25%,high
+Myocardial Injury After Noncardiac Surgery (MINS),10.0,25.0,MINS 30-day mortality ~8-10%; elevated 1y/longer-term (cohorts),medium
+NAFLD - Nonalcoholic Fatty Liver Disease,0.5,5.0,NAFLD (without advanced fibrosis) low excess mortality (cohorts),medium
+Narcolepsy Type 1 (NT 1),0.0,1.0,Narcolepsy near-normal life expectancy; minimal excess mortality,high
+Narcolepsy Type 1 (NT1); Narcolepsy Type 2 (NT2),0.0,1.0,Narcolepsy near-normal life expectancy,high
+Neck Carcinoma,12.0,45.0,Head and neck carcinoma 5y RS ~50-65% overall (SEER est),low
+Negative Behaviour Change,0.0,0.0,"Behavioral construct, not a disease",high
+Neoadjuvant Treatment of Patients With High-risk Early Breast Cancer,2.0,10.0,Early-stage breast cancer high 5y survival (SEER localized/regional ~90%),medium
+"Neonatal Diseases and Abnormalities; Neonatal Mortality; Pulmonary Arterial Hypertension; Pulmonary Arterial Hypertension, Children",20.0,40.0,Pediatric/neonatal PAH (most severe component) high mortality (registry est),low
+Neoplasm; Venous Thromboembolism,30.0,60.0,Generic neoplasm pooled survival; VTE marker of poor prognosis,low
+Neoplasms,30.0,60.0,Generic cancer pooled survival estimate,low
+Nephrolithiasis,0.0,0.5,Kidney stones not lethal; negligible mortality,high
+Nephrotic Syndrome,2.0,10.0,"Nephrotic syndrome modest excess mortality (thrombosis/infection, cohorts)",low
+Neurofibromatosis; NF1; Plexiform Neurofibromas,1.0,5.0,NF1 reduced life expectancy ~8-15y; MPNST risk; low short-term,medium
+Neurogenic Detrusor Overactivity,0.0,1.0,"Bladder dysfunction, low direct mortality",medium
+Neuropathic Pain,0.0,0.0,"Chronic pain condition, not lethal",high
+Newly-diagnosed Glioblastoma,65.0,95.0,"Glioblastoma median OS ~15 mo; 1y ~30-40% survival, 5y ~5-7%",high
+Nicotine Addiction,0.5,3.0,Nicotine/smoking long-term excess mortality; low short-term,medium
+Non Alcoholic Steatohepatitis,1.0,10.0,NASH 5y mortality ~7-16% (with progression higher),medium
+Non-Alcoholic Fatty Liver Disease,0.5,5.0,NAFLD low excess mortality without advanced fibrosis,medium
+Non-CNS Germ Cell Tumors (Seminomas and Nonseminomas),3.0,5.0,Testicular/germ cell tumor 5y RS ~95%+ (SEER),high
+Non-cephalic Presentation; Inhalation of Nitrous Oxide; Pregnancy Complications; Complications; Cesarean Section; Fetus or Neonate Affected by External Version Before Labor,0.0,0.0,Obstetric/procedural setting; maternal mortality very low in developed settings,high
+Non-melanoma Skin Cancer,1.0,3.0,"Non-melanoma skin cancer (BCC/SCC) excellent prognosis, very low mortality",high
+Nonalcoholic Steatohepatitis (NASH) With Fibrosis,2.0,15.0,NASH with fibrosis 5y mortality ~16% (fibrosis = strongest predictor),medium
+Nonalcoholic Steatohepatitis; Liver Cirrhosis; Non-alcoholic Fatty Liver Disease,5.0,25.0,NASH cirrhosis (most severe component) compensated cirrhosis ~5y mortality ~20-25%,medium
+Nonviable pregnancy,0.0,0.0,Obstetric condition (miscarriage/loss); maternal mortality negligible,high
+Noonan Syndrome,1.0,3.0,Noonan syndrome near-normal life expectancy; congenital heart risk,medium
+Obese Children and Adolescents,0.0,0.5,Childhood obesity negligible short-term mortality,high
+Obesity; Insulin Resistance,0.3,2.0,"Obesity modest excess mortality, low short-term (cohorts)",medium
+Obsessive-compulsive Disorder,0.2,1.0,OCD modest excess mortality (suicide risk); low overall,medium
+Obstetrical Complications; Hemorrhage; Labor and Delivery,0.1,0.1,Obstetric hemorrhage; maternal mortality low in developed settings,medium
+Open Heart Surgery,3.0,10.0,Cardiac surgery operative mortality ~2-5%; longer-term per underlying disease,low
+Operable HER2 Positive Breast Cancer,2.0,10.0,Operable HER2+ early breast cancer high survival (SEER localized/regional ~90%),medium
+Opioid Use Disorder,2.0,12.0,OUD cohort mortality ~1-2%/yr; overdose/complications,medium
+Oral SubMucous Fibrosis,1.0,5.0,Oral submucous fibrosis premalignant; mortality from malignant transformation (est),low
+Organ Preservation in Rectal Cancer,3.0,25.0,Rectal cancer 5y RS ~65-70% overall (SEER est),medium
+Oropharyngeal Cancer,12.0,31.0,"SEER oropharyngeal 1y survival ~88%, 5y ~69%",high
+Osteo Arthritis of the Knee,0.0,1.0,Osteoarthritis not directly lethal; negligible disease mortality,high
+"Outpatient Surgery; Pain, Postoperative",0.0,0.0,"Procedural/pain setting, not a lethal disease",high
+Overactive Bladder (OAB); Pharmacokinetics of Mirabegron,0.0,0.5,Overactive bladder not lethal; PK study,high
+Overweight; Autism Spectrum Disorder,0.2,1.0,Overweight/ASD low short-term mortality (ASD modest excess),medium
+PCOS,0.0,1.0,PCOS not directly lethal; long-term metabolic risk,high
+PCOS (Polycystic Ovary Syndrome) of Bilateral Ovaries,0.0,1.0,PCOS not directly lethal,high
+PDA,2.0,5.0,"Patent ductus arteriosus; isolated PDA low mortality, higher in preterm",low
+PPI Resistant Gastroesophageal Reflux Disease,0.0,0.5,"GERD chronic, low-lethality condition",high
+PRK Post-operative Pain,0.0,0.0,"Post-surgical pain (eye surgery), not lethal",high
+PTSD,0.3,2.0,PTSD excess mortality (suicide/CV); low short-term (cohorts),medium
+Pain During Labour,0.0,0.0,"Labor pain/obstetric setting, not lethal disease",high
+Pain Management After Surgery,0.0,0.0,"Postoperative pain, not a lethal disease",high
+Pain; Breast Cancer; Lung Cancer,30.0,75.0,Lung cancer (most severe component) SEER 5y RS ~25%; lung cancer pain context,low
+Pain; Hyperalgesia; Inflammatory Response,0.0,0.0,"Pain/inflammation construct, not a lethal disease",high
+Pain; Long-bone Fractures,0.5,2.0,Fracture pain; long-bone fracture mortality low in non-elderly,low
+Pain; Traumatic Limb Injury,0.5,2.0,Limb injury/trauma pain; low mortality for isolated limb injury,low
+Painful Diabetic Neuropathy,1.0,8.0,Diabetic neuropathy marks advanced diabetes; mortality from diabetes (cohorts),medium
+Painful Diabetic Peripheral Neuropathy (PDPN),1.0,8.0,Diabetic peripheral neuropathy; mortality from underlying diabetes,medium
+Pancreas Adenocarcinoma,65.0,88.0,"Pancreatic adenocarcinoma all-stage SEER 1y ~30-40%, 5y ~12%",high
+Pancreatic Adenocarcinoma (Ductal Adenocarcinoma),65.0,88.0,Pancreatic ductal adenocarcinoma all-stage SEER 5y RS ~12%,high
+Parkinson Disease,1.0,15.0,Parkinson disease modest reduced life expectancy; mortality rises over years,medium
+Parkinson' Disease,1.0,15.0,Parkinson disease modest reduced life expectancy,medium
+Paroxysmal Nocturnal Hemoglobinuria,2.0,15.0,PNH untreated 10y mortality ~29%; thrombosis-driven (treatment improves),medium
+Partial Seizures,0.5,2.0,Focal epilepsy modest excess mortality (SUDEP); low short-term,medium
+Participants With Diabetic Neuropathic Pain,1.0,8.0,Diabetic neuropathic pain; mortality from underlying diabetes,medium
+Participants With Extensive Stage Small Cell Lung Cancer,70.0,97.0,Extensive-stage SCLC median OS ~8-13 mo; 5y survival ~1-5%,high
+Participants With Higher-Risk Myelodysplastic Syndrome,40.0,80.0,Higher-risk MDS median OS ~1.5y (very high ~0.8y),high
+Participants With Idiopathic Pulmonary Fibrosis,13.0,50.0,"IPF 1y mortality ~13%, 5y survival ~50% (median survival ~3.5y)",high
+Participants With Locally Advanced or Metastatic Triple-Negative Breast Cancer,55.0,89.0,Metastatic TNBC median OS ~11-13 mo; 5y OS ~11%,high
+Patent Ductus Arteriosus After Premature Birth,10.0,15.0,PDA in preterm infants; mortality driven by prematurity (est),low
+Patients Undergoing Surgery for Non-Small Cell Lung Cancer,5.0,40.0,Resectable/early NSCLC SEER localized 5y RS ~60-65% (est),medium
+Patients With Antiphospholipid Syndrome,2.0,10.0,APS thrombosis-driven mortality; catastrophic APS high (cohorts),medium
+Patients With Moderate or Severe COVID-19,15.0,18.0,Moderate-severe/hospitalized COVID-19 in-hospital/short-term mortality ~10-20%,medium
+Patients With Resected Pancreatic Cancer,20.0,75.0,Resected pancreatic cancer 5y RS ~20-25% (better than unresected),medium
+Patients With Rheumatoid Arthritis,0.5,4.0,RA modest excess mortality (CV/infection); low short-term (cohorts),medium
+Patients With Scleroderma Related Lung Fibrosis,5.0,30.0,Scleroderma-ILD major mortality driver; 5y mortality ~30% (cohorts),medium
+Pediatric Asthma,0.0,0.1,Childhood asthma very low mortality,high
+Pediatric Congestive Heart Failure (CHF) Patients With Volume Overload,10.0,30.0,Pediatric heart failure significant mortality (registry est),low
+Pediatric Crohn's Disease,0.2,1.0,Crohn's disease near-normal life expectancy; low mortality,medium
+Pelvic Organ Prolapse; PONV,0.0,0.0,"Prolapse/postoperative nausea, not lethal",high
+Pemphigus,2.0,8.0,Pemphigus vulgaris untreated historically high; treated mortality ~5-10% over years,medium
+Pemphigus Vulgaris,2.0,8.0,Pemphigus vulgaris treated mortality ~5-10% (infection/complications),medium
+Pemphigus Vulgaris; Pemphigus Foliaceus,2.0,8.0,Pemphigus vulgaris (most severe component) mortality ~5-10%,medium
+Peptic Ulcer,1.0,5.0,Peptic ulcer; mortality mainly from hemorrhage/perforation (cohorts),medium
+Peptic Ulcer Hemorrhage,8.0,15.0,Peptic ulcer bleeding mortality ~5-10% acute; higher in elderly,medium
+Peri-operative Hemorrhage or Hematoma; Surgery; Retrognathism,0.5,2.0,Perioperative bleeding in elective surgery; low mortality,low
+Perioperative Anxiety,0.0,0.0,"Anxiety in surgical setting, not a lethal disease",high
+Perioperative Bleeding; Venous Thrombosis; Arterial Thrombosis,5.0,15.0,Perioperative VTE/arterial thrombosis; mortality varies (est),low
+Peripheral Arterial Disease,5.0,30.0,"PAD ~5y mortality ~30% (CV-driven, MACE 3-6x general population)",medium
+Peripheral Artery Disease,5.0,30.0,PAD ~5y mortality ~30% (CV-driven),medium
+"Peripheral Artery Disease; Atherosclerosis; Artery Diseases, Peripheral; Plaque, Atherosclerotic; Occlusive Arterial Disease",5.0,30.0,PAD/atherosclerosis ~5y mortality ~30% (CV-driven),medium
+Peritoneal Cancer,25.0,60.0,Primary peritoneal carcinoma 5y survival ~40% (advanced ~20-50%),medium
+Persistent Pregnancy of Unknown Location; Ectopic Pregnancy,0.1,0.1,Ectopic pregnancy; maternal mortality low with treatment in developed settings,medium
+Philadelphia Chromosome Positive (PH+) Chronic Myelogenous Leukemia in Chronic Phase (CML-CP),2.0,15.0,CML chronic phase on TKI 5y RS ~85-90%; near-normal with treatment,high
+Phospholamban R14del Mutation-related Cardiomyopathy,3.0,20.0,PLN R14del cardiomyopathy; progressive arrhythmia/HF mortality (cohorts),low
+Placenta Previa,0.1,0.1,Placenta previa; maternal mortality low with management in developed settings,medium
+Placenta previa,0.1,0.1,Placenta previa; maternal mortality low with management,medium
+"Plague, Bubonic; Plague, Pneumonic",50.0,55.0,Pneumonic plague (most severe) treated case-fatality >50%; ~100% untreated,medium
+Plasmodium Falciparum Infection,1.0,1.0,P. falciparum malaria treated CFR <1%; severe untreated high (WHO),medium
+Platelet Inhibition; Coronary Stent Implantation,3.0,12.0,Post-PCI/stent coronary disease; ~5y mortality ~10-15% (cohorts),low
+Pleural Mesothelioma Malignant Advanced,40.0,92.0,Advanced pleural mesothelioma 5y RS ~8-12%; distant ~8%,high
+Pmm2-CDG; Phosphomannomutase 2 Deficiency; Phosphomannomutase 2 Congenital Disorder of Glycosylation; Phosphomannomutase II Congenital Disorder of Glycosylation; Phosphomannomutase II Deficiency,8.0,20.0,PMM2-CDG ~20% mortality in first ~4-5 yr of life (NORD/FCDGC/GeneReviews),high
+Pneumonia,10.0,28.0,"CAP cohorts: 30-day ~6-8% hospitalized, 1-yr ~30%, 5-yr ~36% (ATS/AJRCCM, AFP)",medium
+"Pneumonia, Pneumocystis; Coronavirus; COVID-19",18.0,22.0,Pneumocystis pneumonia in-hospital ~15-20% (most severe component); severe COVID pneumonia ~30% in-hospital,medium
+Polycystic Ovary Syndrome; Insulin Resistance,0.1,0.5,PCOS is non-lethal chronic endocrine condition; negligible direct mortality,high
+Polycystic Ovary Syndrome; Vitamin D Deficiency/Insufficiency,0.1,0.5,PCOS / vitamin D deficiency non-lethal chronic conditions; negligible mortality,high
+Poor Glycemic Control,0.5,3.0,Glycemic control component of type 2 diabetes; low short-term mortality (CDC/registry T2DM),medium
+Portal Hypertension; Esophageal Varices; Liver Cirrhosis,30.0,60.0,"Decompensated cirrhosis with varices: ~1-yr survival ~50%, 5-yr ~40% (Garcia-Tsao/UpToDate)",medium
+Post Operative Cognitive Dysfunction,0.0,0.0,"Perioperative cognitive symptom, not a lethal disease; negligible direct mortality",high
+Post Operative Dental Pain,0.0,0.0,"Pain/procedural setting, not a lethal disease; mortality ~0",high
+Post Operative Nausea and Vomiting; Sleeve Gastrectomy; Morbid Obesity,0.1,1.0,PONV/bariatric perioperative setting; sleeve gastrectomy 30-day mortality <0.3%,high
+Post Partum Haemorrhage,0.5,0.5,"PPH case-fatality ~1-3% LMIC, <<1% high-income; acute peripartum event (WOMAN trial/ACOG)",medium
+Post Traumatic Stress Disorder; Alcohol Abuse,0.5,3.0,"PTSD/alcohol use disorder chronic; elevated suicide/accident risk, low absolute 1-yr mortality",low
+Post Uterine Artery Embolization Pain,0.0,0.0,"Procedural pain setting, not a lethal disease; mortality ~0",high
+Post-ERCP Acute Pancreatitis,1.0,1.0,"Post-ERCP pancreatitis mostly mild; severe-case mortality ~2-3%, overall ~1% acute",medium
+Post-Operative Pain,0.0,0.0,"Pain setting, not a lethal disease; mortality ~0",high
+Post-Sternotomy Pain,0.0,0.0,"Pain setting, not a lethal disease; mortality ~0",high
+Post-Traumatic Headache,0.0,0.0,"Headache/pain setting, not a lethal disease; mortality ~0",high
+Post-cesarean pain,0.0,0.0,"Pain setting, not a lethal disease; mortality ~0",high
+Post-herpetic Neuralgia,0.0,1.0,"Chronic neuropathic pain in older adults; non-lethal, deaths from age/comorbidity only",high
+Post-operative Pain,0.0,0.0,"Pain setting, not a lethal disease; mortality ~0",high
+Post-surgical Pain,0.0,0.0,"Pain setting, not a lethal disease; mortality ~0",high
+Postmenopausal Cancer,8.0,30.0,"Generic cancer string; using mixed-cancer SEER all-sites ~1-yr 8%, 5-yr ~30% mortality",low
+Postoperative Confusion,0.0,0.0,"Perioperative delirium symptom, not a lethal disease; negligible direct mortality",high
+Postoperative Depression,0.2,1.0,"Depression in perioperative setting; non-lethal, low absolute mortality",medium
+Postoperative Nausea and Vomiting; Vomiting,0.0,0.0,"PONV symptom, not a lethal disease; mortality ~0",high
+Postoperative Retention of Urine,0.0,0.0,"Urinary retention symptom, not a lethal disease; mortality ~0",high
+Postoperative Urinary Retention,0.0,0.0,"Urinary retention symptom, not a lethal disease; mortality ~0",high
+Postpartum Hemorrhage; Tranexamic Acid,0.5,0.5,"PPH case-fatality ~1-3% LMIC, <<1% high-income; acute peripartum event (WOMAN trial)",medium
+Postprandial Hypoglycemia,0.1,0.5,"Functional/reactive hypoglycemia; non-lethal metabolic condition, negligible mortality",medium
+Pre- and Postoperative Pain,0.0,0.0,"Pain setting, not a lethal disease; mortality ~0",high
+Pre-Eclampsia,0.3,0.3,Pre-eclampsia case-fatality ~1% (much lower high-income); acute peripartum (preeclampsia.org/WHO),medium
+Pre-eclampsia,0.3,0.3,Pre-eclampsia case-fatality ~1% (much lower high-income); acute peripartum (preeclampsia.org/WHO),medium
+Pre-eclampsia; Fetus or Newborn; Effects of Induction of Labor,0.3,0.3,Pre-eclampsia maternal case-fatality ~1% (most severe component); acute peripartum,medium
+Pre-frail Elderly,2.0,15.0,Pre-frailty in elderly; ~5-yr mortality ~15% vs frail higher (frailty cohort literature),low
+Pregnancy Related; COVID; Covid-19,0.5,0.5,COVID-19 IFR ~0.3-0.9%; pregnancy modestly elevates severe-COVID risk (acute),low
+"Pregnancy, Unwanted",0.0,0.0,"Family-planning/contraception context, not a lethal disease; mortality ~0",high
+Pregnancy; Respiratory Distress Syndrome; Pregnancy Outcomes; Preterm Birth,3.0,4.0,Neonatal RDS/preterm birth; neonatal mortality for moderate-late preterm low single digits,low
+Preoperative Sedation,0.0,0.0,"Anesthesia/sedation setting, not a disease; mortality ~0",high
+Preterm Birth; Twin Dichorionic Diamniotic Placenta,3.0,4.0,"Preterm twin birth; neonatal mortality varies by gestational age, low single digits for late preterm",low
+Preterm premature rupture of membranes,3.0,4.0,"PPROM; perinatal mortality depends on gestational age, low single digits at later gestation",low
+Prevention,0.0,0.0,Non-disease/procedural string (prevention); mortality ~0,high
+Prevention & Control,0.0,0.0,Non-disease/procedural string; mortality ~0,high
+Prevention of Cytomegalovirus Infection,0.0,2.0,CMV prophylaxis context (transplant); CMV disease can be serious but prophylaxis target ~0 baseline,low
+Prevention of Graft-versus-Host Disease,0.0,0.0,"GVHD prevention context, not the disease itself; baseline ~0 (GVHD itself is lethal)",low
+Prevention of Ovarian Hyperstimulation Syndrome,0.0,0.0,OHSS prevention context; OHSS rarely fatal; mortality ~0,high
+Prevention of Pain,0.0,0.0,"Pain prevention setting, not a lethal disease; mortality ~0",high
+Primary Biliary Cholangitis,6.0,12.0,"PBC survival ~94% at 1 yr, ~88% at 5 yr (UDCA-era cohorts)",high
+Primary Dysmenorrhoea,0.0,0.0,"Menstrual pain, non-lethal benign condition; mortality ~0",high
+Primary Hyperlipidemia and Mixed Dyslipidemia,0.2,2.0,Dyslipidemia chronic risk factor; low direct short-term mortality (long-term CV risk),high
+"Primary MDS (Very Low, Low or Intermediate IPSS-R With <5% Blasts); Anemia",8.0,45.0,Lower-risk MDS median survival ~5 yr (IPSS-R low ~5.3 yr),medium
+Primary Mitochondrial Myopathy,3.0,15.0,"Primary mitochondrial myopathy; variable course, moderate progressive mortality (mito disease cohorts)",low
+Primary Myelofibrosis (MF),10.0,49.0,Primary myelofibrosis median survival ~5 yr; ~49% die within 5 yr,high
+Primary Myelofibrosis; MPN-associated Myelofibrosis,10.0,49.0,Primary/secondary myelofibrosis median survival ~5 yr; ~49% die within 5 yr,high
+Primary Myelofibrosis; Post-Polycythemia Vera Myelofibrosis; Post-Essential Thrombocythemia Myelofibrosis,10.0,49.0,Myelofibrosis (primary/post-PV/post-ET) median survival ~5 yr; ~49% 5-yr mortality,high
+Primary Myelofibrosis; Post-polycythemia Vera Myelofibrosis; Post-essential Thrombocythemia Myelofibrosis,10.0,49.0,Myelofibrosis (primary/post-PV/post-ET) median survival ~5 yr; ~49% 5-yr mortality,high
+Primary Sclerosing Cholangitis,3.0,12.0,PSC median transplant-free survival ~13-21 yr; 5-yr survival ~85-90%,medium
+Procedural Pain,0.0,0.0,"Pain/procedural setting, not a lethal disease; mortality ~0",high
+Procedural Sedation and Analgesia,0.0,0.0,"Sedation/analgesia setting, not a disease; mortality ~0",high
+Prostate Cancer Metastatic,15.0,66.0,Distant-stage prostate cancer 5-yr relative survival ~34% (SEER); 1-yr ~85%,high
+Prostate Cancer; Castration Resistant Prostate Cancer; Pain; Prostatic Neoplasms,20.0,70.0,"Castration-resistant/metastatic prostate cancer; most-severe component, distant SEER ~34% 5-yr survival",medium
+Prostrate Cancer,3.0,5.0,Prostate cancer (typo); overall all-stage 5-yr relative survival ~97% (SEER),high
+Proteinuria,0.5,5.0,"Proteinuria marker of CKD; low direct short-term mortality, long-term renal/CV risk",low
+Psoriasis Vulgaris,0.1,1.0,Psoriasis chronic non-lethal skin disease; negligible direct mortality,high
+Psychomotor Agitation,0.2,2.0,Agitation symptom across psych/medical settings; low direct mortality,low
+Psychotic Disorders; Personality Disorders; Clinical High Risk,0.5,3.0,"Psychotic/personality disorders chronic; elevated suicide risk, low absolute 1-yr mortality",low
+Pulmonary Arterial Hypertension; Chronic Thromboembolic Pulmonary Hypertension,15.0,43.0,"PAH REVEAL registry: 1-yr survival ~85%, 5-yr ~57%",high
+Pulmonary Arterial Hypertension; Pulmonary Hypertension,15.0,43.0,"PAH REVEAL registry: 1-yr survival ~85%, 5-yr ~57%",high
+Pulmonary Embolism,15.0,35.0,"PE 30-day mortality ~8%, 1-yr ~20%, 5-yr ~30-40% (single-center registries)",medium
+Pulpitis,0.0,0.0,"Dental pulp inflammation, non-lethal; mortality ~0",high
+Purpura; Idiopathic Thrombocytopenic Purpura,1.0,3.0,"ITP: low mortality, mainly from rare severe bleeding/older age (registry data)",medium
+Radiotherapy; Toripalimab; Sorafenib; Advanced Hepatocellular Carcinoma,86.0,97.0,"Advanced/distant HCC: 1-yr survival ~14%, 5-yr ~3% (SEER)",high
+Rapid Atrial Fibrillation; Heart Rate Control,1.0,10.0,"Atrial fibrillation chronic arrhythmia; low direct 1-yr mortality, elevated stroke/CV 5-yr risk",medium
+Recurrent or Metastatic Head and Neck Cancer,50.0,82.0,Recurrent/metastatic HNSCC median OS ~12 mo; metastatic 5-yr survival ~8-18% (SEER/cohorts),high
+Reducing Psychological Side Effects of Ketamine,0.0,0.0,"Drug side-effect mitigation setting, not a disease; mortality ~0",high
+Reduction of Gestational Diabetes,0.1,1.0,"Gestational diabetes; low direct maternal mortality, primarily perinatal/metabolic risk",medium
+Reflux Esophagitis,0.0,1.0,GERD/reflux esophagitis chronic benign; negligible direct mortality,high
+Refractory Cancer,15.0,50.0,"Generic refractory (treatment-resistant) cancer; advanced disease, high mortality estimate",low
+Refractory Chronic Leukemia,15.0,50.0,"Refractory chronic leukemia (e.g., CLL); refractory disease poor prognosis estimate",low
+Refractory Colorectal Cancer,25.0,85.0,Metastatic/refractory CRC median OS ~1.7-2.5 yr; distant 5-yr survival ~10-15% (SEER),high
+Relapse Prevention in Adult Participants With Treatment-resistant Depression,0.5,3.0,"Treatment-resistant depression chronic; elevated suicide risk, low absolute 1-yr mortality",low
+Renal Cell Carcinoma (RCC),15.0,22.0,RCC overall SEER 5-yr relative survival ~78%; 1-yr ~85%,high
+Renal Colic,0.0,0.0,"Acute kidney-stone pain, non-lethal; mortality ~0",high
+Renal Failure; Critical Care; Gram Positive Bacteria,30.0,50.0,Critical-illness renal failure with infection; acute kidney injury in ICU mortality ~30-50%,low
+Renal Function After Partial Nephrectomy,0.5,3.0,Post-nephrectomy renal function context; perioperative mortality low,medium
+"Renal Insufficiency, Chronic",5.0,28.0,CKD (mostly stage 3) all-cause mortality; ~5-yr ~25-30% (EPIRAN/systematic reviews),medium
+Respiratory Infection,1.0,5.0,"Generic respiratory infection; mostly self-limited, low mortality except severe/elderly",low
+Rhinosinusitis,0.0,0.0,"Sinus inflammation, non-lethal benign condition; mortality ~0",high
+Richter's Transformation,50.0,80.0,Richter transformation median OS ~8-12 mo; 2-yr survival ~20-40%,high
+Risk of Disease,0.0,0.0,Non-disease/prevention string (risk of disease); mortality ~0,high
+Roux en Y Gastric Bypass Surgery,0.3,2.0,"Bariatric surgery setting; 30-day mortality ~0.3%, low procedural mortality",high
+SARS-CoV-2,0.5,0.5,COVID-19 IFR ~0.3-0.9% overall (seroprevalence-based); acute disease,medium
+SCLC,67.0,93.0,"Small cell lung cancer SEER: 1-yr survival ~33%, 5-yr ~6-7%",high
+ST Segment Elevation Myocardial Infarction,10.0,22.0,STEMI 1-yr mortality ~10% (primary PCI era); 5-yr ~20-25%,high
+Schizoaffective and Schizophreniform Disorders; Schizophrenia,0.8,4.0,"Schizophrenia-spectrum chronic; SMR ~3, life-expectancy gap ~15-20 yr, low absolute 1-yr mortality",medium
+Schizophrenia; Medication Nonadherence; Schizo Affective Disorder,0.8,4.0,"Schizophrenia chronic; SMR ~3 (suicide/CV), low absolute 1-yr mortality",medium
+Schizophrenia; Schizoaffective Disorder,0.8,4.0,"Schizophrenia-spectrum chronic; SMR ~3, ~5-yr mortality low single digits",medium
+Schizophrenia; Schizoaffective Disorder; Schizophreniform Disorder; Psychosis NOS,0.8,4.0,"Schizophrenia-spectrum chronic; SMR ~3, low absolute 1-yr mortality",medium
+Schizophrenia; Schizoaffective Disorder; Schizophreniform Disorders,0.8,4.0,"Schizophrenia-spectrum chronic; SMR ~3, low absolute 1-yr mortality",medium
+Schizophrenia; Schizophreniform Disorders; Bipolar I Disorder,0.8,4.0,"Severe mental illness chronic; SMR ~2-3, elevated suicide risk, low absolute 1-yr mortality",medium
+Scoliosis; Adolescence; Anesthesia Recovery Period,0.0,0.0,"Adolescent scoliosis/anesthesia recovery setting; non-lethal, perioperative mortality ~0",high
+Seborrheic Dermatitis; Papulopustular Rosacea,0.0,0.0,Benign chronic skin conditions; mortality ~0,high
+Secondary Cancer,8.0,30.0,Generic secondary/second-primary cancer; mixed-cancer SEER estimate ~30% 5-yr mortality,low
+"Secondary Hyperparathyroidism, Chronic Kidney Disease",6.0,35.0,SHPT in CKD/dialysis; advanced CKD/ESRD mortality elevated (~5-yr survival of dialysis ~50%),low
+Secondary Hyperparathyroidism-Chronic Kidney Disease,6.0,35.0,SHPT in CKD/dialysis; advanced CKD/ESRD mortality elevated (~5-yr survival ~50% on dialysis),low
+Sedation in Intensive Care,0.0,0.0,"ICU sedation setting, not a disease itself; mortality ~0 (attributable to underlying illness)",medium
+Septic Shock; Sepsis,40.0,60.0,"Septic shock 28/30-day mortality ~37%; 1-yr higher ~45-50%, 5-yr ~60-70%",high
+Septic Shock; Vasopressor Resistance,45.0,65.0,Refractory/vasopressor-resistant septic shock; higher than typical septic shock ~37% short-term,medium
+Severe COVID-19 Pulmonary Infection,30.0,32.0,Severe/hospitalized COVID-19 pneumonia in-hospital mortality ~30% (cohort data),medium
+Severe Cancer,20.0,55.0,Generic severe/advanced cancer string; high mortality estimate (mixed advanced disease),low
+Shivering,0.0,0.0,"Perioperative shivering symptom, not a disease; mortality ~0",high
+Shoulder Arthritis,0.0,0.0,"Degenerative joint disease, non-lethal; mortality ~0",high
+Sickle Cell Anemia,1.0,5.0,"Sickle cell disease chronic; reduced life expectancy ~52 yr, low absolute annual mortality",medium
+Sickle Cell Anemia in Children,0.5,2.0,"Pediatric SCD; ~95% of US children with SCD reach age 18, low annual mortality",medium
+Sickle Cell Disease; Sickle Cell Anemia,1.0,5.0,"Sickle cell disease chronic; reduced life expectancy ~52 yr, low absolute annual mortality",medium
+Skin and Subcutaneous Tissue Bacterial Infections,0.5,3.0,Skin/soft-tissue infections (cellulitis); low mortality except severe/comorbid,medium
+Skin and Subcutaneous Tissue Bacterial Infections; Skin Structures and Soft Tissue Infections,0.5,3.0,Skin/soft-tissue infections; low mortality except severe/necrotizing,medium
+Smoking Among Cancer,8.0,30.0,Smoking-cessation-in-cancer context; using mixed-cancer SEER ~30% 5-yr mortality,low
+Spinal Fusion,0.2,2.0,Spinal fusion surgical setting; low perioperative mortality (<0.5%),high
+"Spondylitis, Ankylosing",0.2,2.0,"Ankylosing spondylitis chronic inflammatory; modestly elevated CV mortality, low short-term",high
+Squamous Cell Carcinoma of the Head and Neck,15.0,50.0,"HNSCC all-stage; overall 5-yr survival ~50-68%, advanced lower (SEER)",medium
+Squamous Cell Lung and Head and Neck Cancer,25.0,60.0,"Squamous lung + H&N cancers; lung SCC poorer (5-yr ~25%), combined estimate",low
+Staphylococcus Aureus Bacteremia,30.0,40.0,"S. aureus bacteremia 30-day mortality ~18-20%, 90-day ~30%, 1-yr ~30-35%",high
+"Stent Thrombosis; Myocardial Infarction, Acute",15.0,25.0,Stent thrombosis/acute MI; stent thrombosis associated with high MI/mortality (~10-25% mortality),medium
+Steroid Refractory GVHD,40.0,60.0,"Steroid-refractory acute GVHD; very poor prognosis, ~50-70% mortality",medium
+Steroid-Dependent Nephrotic Syndrome,0.5,3.0,"Steroid-dependent nephrotic syndrome (often pediatric); low mortality, relapsing course",medium
+Stroke; Secondary Prevention,15.0,40.0,"Ischemic stroke; 30-day ~10-15%, 1-yr ~25-30%, 5-yr ~40-50% (registry); secondary-prevention cohort lower",medium
+Subfertility,0.0,0.0,"Infertility/subfertility, non-lethal reproductive condition; mortality ~0",high
+Subjects Who Have Participated in a Study of Tivozanib Versus Sorafenib in Kidney Carcinoma,15.0,82.0,Advanced/metastatic RCC (extension cohort); distant RCC 5-yr survival ~18% (SEER),medium
+Subjects With Idiopathic Pulmonary Fibrosis,14.0,55.0,"IPF median survival ~3-5 yr; 1-yr mortality ~13-15%, 5-yr ~50-60%",high
+Subjects With Platinum Resistant Ovarian Cancer,50.0,90.0,Platinum-resistant ovarian cancer median OS ~11-12 mo; 5-yr survival ~10%,high
+Superficial Vein Thrombosis,0.2,2.0,"Superficial vein thrombosis; benign, low mortality (risk from VTE progression)",medium
+Surgically Resected Pancreatic Cancer,28.0,80.0,"Resected pancreatic cancer 1-yr survival ~70-75%, actual 5-yr ~17-20% (SEER)",high
+Symptomatic Aortic Stenosis; Eligible for Transcatheter Aortic Valve Replacement,15.0,50.0,"Symptomatic severe aortic stenosis; untreated ~50% 2-yr mortality, post-TAVR cohorts ~15% 1-yr",medium
+Symptomatic Superficial Vein Thrombosis,0.2,2.0,"Symptomatic superficial vein thrombosis; benign, low mortality",medium
+Systemic Sclerosis,5.0,25.0,Systemic sclerosis overall 5-yr survival ~75%; 1-yr ~95%,high
+Systemic Sclerosis; Scleroderma; Interstitial Lung Disease,8.0,25.0,SSc-ILD: 5-yr survival ~80-90%; ILD is leading cause of SSc mortality,medium
+T2DM; Type 2 Diabetes Mellitus,1.0,8.0,"Type 2 diabetes chronic; low direct 1-yr mortality, modestly elevated 5-yr (CDC/registry)",high
+TSH Control in Patients With Chronic Kidney Disease,8.0,30.0,CKD (non-dialysis) cohort all-cause mortality; USRDS/registry. Most severe component = CKD,medium
+Tardive Dyskinesia,1.0,5.0,"Movement disorder, not directly lethal; near-background mortality (estimated)",medium
+Thalassemia; Iron Overload,2.0,8.0,"Transfusion-dependent thalassemia with iron overload; cardiac complications (registry, estimated)",medium
+Therapy of Premature Ventricular Contractions in Patients With Structural Heart Disease,5.0,25.0,Structural heart disease (most severe component); HF/post-MI cohort mortality,medium
+Thrombocytopenia in Patients With Chronic Liver Disease,10.0,40.0,Chronic liver disease/cirrhosis (most severe component); decompensated cirrhosis cohorts,medium
+Thrombocytopenia; Hematologic Diseases,3.0,12.0,"Thrombocytopenia/hematologic disease, broad; estimated",low
+Thromboembolism,8.0,20.0,VTE 1-year all-cause mortality ~10-20% (registry RIETE/cohort),medium
+Thrombosis,8.0,20.0,Venous thromboembolism registry all-cause mortality (RIETE/cohort),medium
+Thyroid-associated Ophthalmopathy; Dry Eye Syndrome,0.0,1.0,Non-lethal ocular conditions (estimated),high
+Thyroidectomy; Thyroid Diseases,0.0,2.0,"Mostly benign/well-differentiated thyroid disease; surgical setting, low mortality (estimated)",medium
+Total Blood Loss,0.0,0.0,Non-disease/procedural string (blood loss measurement); set ~0,high
+Total Knee Arthoplasty,0.0,1.0,Procedural string (knee arthroplasty); 90-day mortality <0.5% (estimated),high
+Tourette Syndrome,0.0,1.0,"Neurodevelopmental disorder, near-background mortality (estimated)",high
+Tract Cancer,15.0,45.0,"Generic 'tract cancer' (e.g., urinary/biliary tract); approximate aggregate SEER",low
+Tranexamic Acid,0.0,0.0,"Drug name, not a disease; set ~0 per rules",high
+Transfusion-dependent Beta-Thalassemia,2.0,8.0,"Transfusion-dependent beta-thalassemia; cardiac iron complications (registry, estimated)",medium
+Transient Ischemic Attack; Stroke; Atrial Fibrillation,12.0,40.0,"Ischemic stroke (most severe component); 1-yr mortality ~12-25%, 5-yr ~40-50% (registry)",medium
+Trauma Pain,0.0,0.0,Pain symptom string; set ~0,high
+Traumatic Hemorrhage,15.0,20.0,Major traumatic hemorrhage acute mortality (trauma registry); much in-hospital,medium
+Traveler's Diarrhea,0.0,0.0,"Self-limited infectious diarrhea, negligible mortality (estimated)",high
+Treat Cancer,15.0,40.0,Generic 'cancer'; SEER all-sites all-stage ~1-yr 85% / 5-yr ~68% survival,low
+Treatment Resistant Late-Life Depression,2.0,10.0,Late-life depression elevated mortality (suicide+medical); geriatric cohort (estimated),medium
+Treatment of Acute Pain,0.0,0.0,Pain symptom string; set ~0,high
+Treatment of Chronic Hepatitis C Infection,1.0,5.0,Chronic HCV natural history; slow progression to cirrhosis (estimated/cohort),medium
+Treatment of Graft-Versus-Host Disease,20.0,50.0,Acute/chronic GVHD; high non-relapse mortality (transplant registry),medium
+Treatment of Ocular Inflammation and Pain,0.0,0.0,"Ocular inflammation/pain, non-lethal; set ~0",high
+Treatment of Patients With Recurrent or Metastatic Squamous Cell Carcinoma,55.0,90.0,Recurrent/metastatic SCC (head & neck); SEER distant 5-yr survival ~10-30%,medium
+Treatment of Type 2 Diabetes,1.0,5.0,Type 2 diabetes low short-term mortality; ~1-2%/yr excess (registry),high
+Treatment of the Depressive Episode in Participants With Bipolar I Disorder,1.0,5.0,Bipolar I; elevated mortality (suicide+medical comorbidity) (estimated),medium
+Treatment-resistant Depression,1.0,5.0,Major depression elevated all-cause mortality cohorts (estimated),medium
+Triple-Negative Breast Neoplasms; Breast Neoplasm; Breast Cancer; Triple-Negative Breast Cancer,10.0,23.0,SEER TNBC all-stages 5-yr survival ~77%; 1-yr ~90%,high
+"Trypanosomiasis, African; Sleeping Sickness; Trypanosomiasis; Gambian",30.0,95.0,"HAT (gambiense) natural history: near-100% fatal untreated, median ~3 yr to death (WHO)",medium
+Tuberculosis; HIV,15.0,40.0,TB-HIV coinfection; high case fatality (WHO TB report),medium
+Tuberculosis; Respiratory Tract Infections; Pneumonia,7.0,15.0,Active TB untreated/treated case fatality (WHO); pneumonia component,medium
+Tuberculosis; Tuberculous Meningitis; Drug-Induced Liver Injury,30.0,45.0,Tuberculous meningitis (most severe component); high mortality ~20-40% (cohort),medium
+Tuberculosis; Tuberculous Meningitis; Drug-Induced Liver Injury; HIV; IRIS,40.0,55.0,TB meningitis with HIV/IRIS (most severe); very high mortality (cohort),medium
+Tumor Lysis Syndrome,21.0,40.0,TLS in-hospital mortality ~21% (NIS); 5-yr dominated by underlying malignancy,medium
+Type 2 DIAbetes,1.0,5.0,Type 2 diabetes low short-term mortality (registry),high
+Type 2 DiAbetes Mellitus,1.0,5.0,Type 2 diabetes low short-term mortality (registry),high
+Type 2 Diabetes Mellitus (T2DM),1.0,5.0,Type 2 diabetes low short-term mortality (registry),high
+Type 2 Diabetic Patients,1.0,5.0,Type 2 diabetes low short-term mortality (registry),high
+Type II; Diabetes,1.0,5.0,Type 2 diabetes low short-term mortality (registry),high
+Type1 Diabetes Mellitus,1.0,4.0,Type 1 diabetes low short-term mortality; modest excess (registry),high
+Type2 Diabetes Mellitus,1.0,5.0,Type 2 diabetes low short-term mortality (registry),high
+Uncomplicated Knowlesi Malaria,1.0,1.0,"Uncomplicated malaria; low case fatality if treated (WHO, estimated)",medium
+Uncomplicated Urinary Tract Infection,0.0,0.0,"Uncomplicated UTI, negligible mortality (estimated)",high
+"Unspecified Adult Solid Tumor, Protocol Specific",20.0,50.0,Generic adult solid tumor; approximate aggregate SEER (estimated),low
+Untreated Patients With Follicular Lymphoma,4.0,11.0,SEER follicular lymphoma 5-yr survival ~89%; 1-yr ~96%,high
+Urinary Bladder Neoplasms,11.0,22.0,SEER bladder cancer all-stages 1-yr survival ~89% / 5-yr ~78%,high
+Urinary Bladder Overactive; Overactive Bladder; Urgency Incontinence; Urinary Bladder Diseases\Urologic Diseases,0.0,1.0,"Overactive bladder, non-lethal benign urologic condition (estimated)",high
+Urinary Bladder Overactive; Urinary Bladder Diseases\Urologic Diseases; Overactive Bladder; Urgency Incontinence,0.0,1.0,"Overactive bladder, non-lethal benign urologic condition (estimated)",high
+Urinary Retention; Urinary Tract Infections,0.0,1.0,"Urinary retention / UTI, low mortality (estimated)",medium
+Urinary Symptoms in Parkinson Disease,4.0,25.0,"Parkinson disease (most severe component); ~2-5x mortality, 5-yr ~25% (cohort)",medium
+Urinary Tract Infection Complicated; Acute Pyelonephritis,2.0,5.0,Complicated UTI/pyelonephritis; low but non-zero (urosepsis risk) mortality,medium
+Urinary Tract Infections,0.0,1.0,"UTI, low mortality except complicated (estimated)",high
+Urinary Tract Infections; Acute Pyelonephritis,2.0,5.0,"Pyelonephritis; low mortality, urosepsis in elderly (estimated)",medium
+Urologic Diseases; Hypospadias; Undescended Testes; Chordee; Hydrocele; Orchiectomy,0.0,0.0,"Benign congenital/surgical urologic conditions, non-lethal (estimated)",high
+"Urologic Diseases; Urinary Bladder, Overactive; Urinary Bladder Diseases",0.0,1.0,Overactive bladder / benign urologic disease (estimated),high
+Use in Conjunction With Buprenorphine in Adults With Opioid Use Disorder,2.0,10.0,Opioid use disorder; high overdose/all-cause mortality cohorts,medium
+Uterine Myomas,0.0,0.0,"Uterine fibroids, benign, non-lethal (estimated)",high
+Vasculitis,10.0,18.0,"ANCA-associated vasculitis 1-yr mortality ~10%, 5-yr ~12-20% (cohort)",medium
+Vasomotor Symptoms; Menopausal Symptoms,0.0,0.0,"Menopausal vasomotor symptoms, non-lethal (estimated)",high
+Vasoplegic syndrome,28.0,40.0,Vasoplegic syndrome post-cardiac surgery mortality ~25-30% (cohort),medium
+Venous Thromboembolism (VTE); Deep Vein Thrombosis (DVT); Pulmonary Embolism (PE); Cancer,25.0,60.0,Cancer-associated VTE (most severe); high 1-yr mortality driven by malignancy (registry),medium
+Venous Thromboembolism (VTE); Pulmonary Embolism; Deep Vein Thrombosis (DVT),10.0,20.0,VTE/PE all-cause 1-yr mortality ~10-20% (RIETE/registry),medium
+Venous Thromboembolism; Secondary Prevention,8.0,18.0,VTE all-cause mortality (registry); secondary prevention population,medium
+Ventilator-associated Bacterial Pneumonia,30.0,45.0,VAP crude mortality ~25-50% (ICU cohort/meta-analysis),medium
+Ventricular Septal Defect; Atrioventricular Septal Defect; Primum Atrial Septal Defect,3.0,8.0,"Congenital septal defects; surgical mortality low, AVSD higher (registry, estimated)",medium
+Vertigo,0.0,0.0,"Vertigo symptom, non-lethal (estimated)",high
+Vertigo; Autonomic Dysfunction,0.0,1.0,"Vertigo/autonomic dysfunction, low mortality (estimated)",medium
+"Very Low Risk, Low Risk, or Intermediate Risk MDS Per IPSS-R",10.0,40.0,Lower/intermediate-risk MDS; IPSS-R median survival ~3-8 yr (cohort),medium
+Visceral Leishmaniasis,75.0,95.0,VL natural history: >95% fatal untreated within ~2 yr (WHO),medium
+Vitiligo,0.0,0.0,"Vitiligo, non-lethal autoimmune skin condition (estimated)",high
+Vivax Malaria,1.0,1.0,"Vivax malaria; low case fatality, occasional severe (WHO, estimated)",medium
+Vomiting Postoperative,0.0,0.0,"Postoperative nausea/vomiting symptom, non-lethal (estimated)",high
+Von Hippel-Lindau Syndrome,1.0,5.0,VHL: near-normal short-term survival; reduced life expectancy over decades (cohort),medium
+Vulvovaginal Atrophy; Menopause; Dyspareunia; Painful Intercourse,0.0,0.0,"Menopausal/vulvovaginal symptoms, non-lethal (estimated)",high
+Vulvovaginal Candidiasis,0.0,0.0,"Vaginal yeast infection, non-lethal (estimated)",high
+Waldenstrom's Macroglobulinemia,10.0,22.0,SEER/ACS Waldenstrom 5-yr relative survival ~78%; 1-yr ~90%,high
+With Leukemia,30.0,40.0,"Generic leukemia; SEER all-leukemia 5-yr survival ~65% (aggregate, estimated)",low
+With Melanoma,5.0,8.0,SEER melanoma all-stages 5-yr survival ~94%; 1-yr ~98%,medium
+With Sarcoma,20.0,35.0,SEER soft-tissue sarcoma all-stages 5-yr survival ~65% (aggregate),low
+Withdrawal Syndrome,1.0,5.0,"Substance withdrawal; low if managed, elevated in severe (estimated)",low
+Women and Men With Hormone-receptor Positive Locally Advanced or Metastatic Breast Cancer,15.0,70.0,Metastatic HR+ breast cancer; SEER distant 5-yr survival ~30-40%,medium
+Wounds and Injuries; Acute Coagulopathy,15.0,20.0,Trauma with acute coagulopathy; high acute mortality (trauma registry),medium
+Your Cancer,15.0,40.0,Generic 'cancer'; SEER all-sites all-stage approximate,low
+acne,0.0,0.0,"Acne, non-lethal dermatologic condition (estimated)",high
+acute malnutrition,10.0,20.0,Severe acute malnutrition case fatality ~5-20% (WHO/cohort),medium
+acute pharyngitis,0.0,0.0,"Acute pharyngitis, self-limited, negligible mortality (estimated)",high
+acute respiratory distress syndrome,40.0,55.0,ARDS in-hospital mortality ~40% (international cohort); continued post-discharge mortality,high
+alcohol use disorder,3.0,15.0,Alcohol use disorder elevated all-cause mortality (cohort/GBD),medium
+alcohol use disorder measurement,3.0,15.0,Alcohol use disorder (measurement string) elevated mortality (cohort),medium
+alopecia,0.0,0.0,"Hair loss, non-lethal (estimated)",high
+amyotrophic lateral sclerosis,34.0,85.0,"ALS 1-yr mortality ~34% (registry); median survival 2-3 yr, most dead by 5 yr",high
+androgenetic alopecia,0.0,0.0,"Pattern hair loss, non-lethal (estimated)",high
+ankylosing spondylitis,0.0,3.0,Ankylosing spondylitis; modest excess mortality long-term (cohort),medium
+arrhythmia,3.0,12.0,"Arrhythmia (broad); AF/ventricular mix, variable mortality (estimated)",low
+aspergillosis,30.0,50.0,Invasive aspergillosis; high mortality ~30-50% (cohort),medium
+attention deficit hyperactivity disorder,0.0,1.0,"ADHD; slightly elevated mortality (accidents), near-background (cohort)",high
+autosomal dominant polycystic kidney disease,1.0,5.0,"ADPKD; slow progression to ESKD over decades (registry, estimated)",medium
+binge eating disorder,0.0,2.0,"Binge eating disorder; modestly elevated mortality (cohort, estimated)",medium
+blepharitis,0.0,0.0,"Eyelid inflammation, non-lethal (estimated)",high
+bronchiectasis,4.0,20.0,Non-CF bronchiectasis; 5-yr mortality ~20% (cohort),medium
+cancer,15.0,32.0,"SEER all-sites all-stage: 1-yr survival ~85%, 5-yr ~68%",medium
+cannabis use disorder,0.0,2.0,"Cannabis use disorder; low excess mortality (cohort, estimated)",medium
+capillary infantile hemangioma,0.0,0.0,"Infantile hemangioma, benign, self-involuting (estimated)",high
+cardiorenal syndrome,35.0,60.0,Cardiorenal syndrome high 1-yr mortality (HF+renal cohort); 5-yr high,medium
+cardiovascular disease,5.0,20.0,Established CVD secondary-prevention cohorts; ~2-4%/yr mortality,medium
+cervical intraepithelial neoplasia,0.0,0.0,"CIN (pre-malignant cervical lesion), non-lethal (estimated)",high
+cervical spondylotic myelopathy,1.0,5.0,Cervical myelopathy; low direct mortality (estimated),medium
+chronic hepatitis C virus infection,1.0,5.0,Chronic HCV natural history; slow cirrhosis progression (cohort),medium
+chronic inflammatory demyelinating polyradiculoneuropathy,1.0,5.0,CIDP long-term mortality ~1-11% (cohort),medium
+chronic venous disease,0.0,1.0,"Chronic venous insufficiency, non-lethal (estimated)",high
+cocaine dependence,2.0,12.0,Cocaine dependence elevated all-cause mortality (cohort),medium
+colorectal cancer,20.0,35.0,SEER colorectal all-stages 5-yr survival ~65%; 1-yr ~83%,high
+colorectal carcinoma,20.0,35.0,SEER colorectal all-stages 5-yr survival ~65%; 1-yr ~83%,high
+combined generalized and focal epilepsy,1.0,8.0,"Epilepsy elevated mortality (SUDEP, status); ~2-3x general population (cohort)",medium
+complicated intra-abdominal infection,8.0,15.0,Complicated intra-abdominal infection; mortality ~5-15% (cohort),medium
+congenital heart disease,3.0,8.0,"Congenital heart disease (broad); variable, infant surgical mortality (registry, estimated)",low
+congestive heart failure,20.0,50.0,"Heart failure 1-yr mortality ~20%, 5-yr ~50% (Framingham/registry)",high
+coronary artery bypass,2.0,10.0,CABG operative mortality ~2%; 5-yr ~10% (STS registry),medium
+critical illness,25.0,40.0,"ICU/critical illness; in-hospital ~20-30%, continued post-discharge (cohort)",medium
+cutaneous Leishmaniasis,0.0,1.0,"Cutaneous leishmaniasis, rarely fatal (WHO, estimated)",high
+depressive disorder,1.0,5.0,Major depression elevated all-cause mortality (cohort),medium
+diabeTes,1.0,5.0,Diabetes (type 2 default) low short-term mortality (registry),high
+diabetes,1.0,5.0,Diabetes (type 2 default) low short-term mortality (registry),high
+diabetes mellitus,1.0,5.0,Diabetes mellitus low short-term mortality (registry),high
+diabetic foot infection,5.0,30.0,Diabetic foot infection/ulcer; 5-yr mortality ~30-50% (cohort),medium
+diabetic nephropathy,5.0,25.0,Diabetic kidney disease; elevated CV/ESKD mortality (cohort),medium
+diabetic neuropathy,2.0,15.0,Diabetic neuropathy; elevated mortality marker of advanced diabetes (cohort),medium
+drug-resistant epilepsy,2.0,12.0,Drug-resistant epilepsy; higher SUDEP/mortality than general epilepsy (cohort),medium
+drug-resistant focal epilepsy,2.0,12.0,Drug-resistant focal epilepsy; elevated mortality (cohort),medium
+dysuria,0.0,0.0,"Dysuria symptom, non-lethal (estimated)",high
+end-stage kidney disease,15.0,55.0,"ESKD on dialysis; ~15-20%/yr mortality, 5-yr survival ~40% (USRDS)",high
+endometrial hyperplasia,0.0,1.0,Endometrial hyperplasia (pre-malignant); low mortality (estimated),high
+epidermolysis bullosa,2.0,5.0,"EB spectrum; most (EBS) near-normal life expectancy, severe JEB high infant mortality (cohort)",medium
+erectile dysfunction,0.0,1.0,Erectile dysfunction; non-lethal but CVD marker (estimated),high
+excessive daytime sleepiness,0.2,1.0,"symptom, not a lethal disease; baseline population mortality",low
+extramammary Paget disease,3.0,15.0,"SEER/cohorts 5y OS 75-95%, mostly non-cancer deaths",medium
+facial angiofibroma,0.0,0.5,benign skin lesion (tuberous sclerosis feature); non-lethal,low
+filariasis,0.3,2.0,"WHO: chronic disabling NTD, very low direct case-fatality",medium
+for Cancer,0.0,0.0,non-disease/parsing fragment; set to ~0,high
+gastric adenocarcinoma,43.0,62.0,SEER stomach cancer 5y RS ~38%; 1y RS ~57%,high
+generalized tonic-clonic seizures,1.0,5.0,"epilepsy SMR 2-3x; SUDEP ~1/1000/yr, status epilepticus risk",low
+genital herpes,0.0,0.2,"HSV-2 chronic, non-lethal except rare neonatal/immunocompromised",high
+giant cell arteritis,6.0,20.0,"cohorts 1y survival ~94%, 5y ~79% (near age-matched controls)",medium
+glioblastoma multiforme,57.0,93.0,5y survival ~6.8%; ~40-45% survive 1y (median 15-16 mo),high
+gonorrhea,0.0,0.1,curable bacterial STI; negligible mortality,high
+gram-positive bacterial infections,5.0,8.0,"heterogeneous; treated infections, depends on invasiveness/bacteremia",low
+growth hormone deficiency,0.3,2.0,chronic endocrine; modest excess CV mortality if untreated,low
+heart failure with reduced ejection fraction,20.0,50.0,"cohorts 1y mortality ~17-20%, 5y ~50%",high
+heart transplant rejection,10.0,20.0,"post-transplant 1y survival ~90%, 5y ~80% (rejection a cause)",medium
+helminth infection,0.1,1.0,"WHO: chronic, very low direct case-fatality",medium
+hemangioma,0.0,0.2,"benign vascular tumor; non-lethal, usually involutes",high
+hemophagocytic lymphohistiocytosis,40.0,50.0,"aggressive; adult mortality 40-60%, secondary HLH ~40% at 1y",medium
+hepatic encephalopathy,55.0,80.0,1y mortality ~50-64%; cirrhosis+HE 5y survival ~16-22%,high
+huntington disease,2.0,12.0,chronic neurodegen; median survival 15-20y after onset,medium
+hyperemesis gravidarum,0.1,0.2,pregnancy condition; very low maternal mortality with care,high
+hyperhidrosis,0.0,0.0,benign sweating disorder; non-lethal,high
+hyperlipidemia,0.5,3.0,"chronic risk factor; low direct mortality, raises CV risk over time",medium
+hypertension,0.5,3.0,chronic risk factor; low short-term mortality (CDC/AHA),high
+hyperuricemia,0.2,2.0,"chronic metabolic; gout/CKD risk, low direct mortality",medium
+idiopathic hypersomnia,0.2,1.0,chronic sleep disorder; baseline population mortality,low
+impetigo,0.0,0.1,superficial bacterial skin infection; negligible mortality,high
+inflammation,0.0,0.0,"non-specific process, not a disease; set to ~0",high
+inflammatory bowel disease,0.5,3.0,Crohn/UC near-normal to slightly elevated mortality (SMR ~1.4),medium
+intra-abdominal infection,12.0,20.0,complicated IAI overall mortality ~25-30% in ICU; lower community,medium
+intracerebral hemorrhage,47.0,70.0,"population cohorts 1y mortality ~45-50%, 5y ~70%",high
+intraoperative hypotension,0.0,0.0,"intraoperative event/setting, not a disease; set to ~0",high
+ischemic stroke,25.0,48.0,1y mortality ~25%; 5y ~45-50%,high
+isolated growth hormone deficiency type IA,0.5,2.0,"congenital GHD subtype; chronic, treatable with GH",low
+juvenile idiopathic arthritis,0.3,1.0,chronic pediatric arthritis; low mortality with modern care,medium
+late-onset Pompe disease,1.0,12.0,"chronic; median survival ~27y after dx, respiratory decline",medium
+leiomyosarcoma,20.0,50.0,"overall 5y survival ~50% (localized 63%, distant 14%)",medium
+lentigo maligna melanoma,2.0,12.0,melanoma in situ/early invasive; good prognosis if treated,medium
+limited cutaneous systemic sclerosis,3.0,10.0,"lcSSc 5y survival ~90%, 10y ~80-92%",medium
+liver cancer,50.0,80.0,SEER liver 5y RS ~20%; 1y RS ~50%,high
+low back pain,0.0,0.2,non-lethal musculoskeletal condition,high
+major depressive disorder,0.5,3.0,all-cause SMR ~2x; suicide + natural-cause excess deaths,medium
+male infertility,0.0,0.0,reproductive condition; non-lethal,high
+melasma,0.0,0.0,benign pigmentation disorder; non-lethal,high
+metastatic colorectal cancer,30.0,85.0,SEER distant CRC 5y RS ~15%; 1y RS ~70%,high
+methylmalonic acidemia or propionic acidemia,20.0,45.0,"organic acidemias; 5y survival ~50-60%, mut0/PA worse",medium
+microcytic anemia with liver iron overload,0.5,2.0,"chronic anemia/IRIDA-type; manageable, low mortality",low
+motion sickness,0.0,0.0,transient symptom; non-lethal,high
+multiple sclerosis,0.5,4.0,"chronic; life expectancy reduced ~7-10y, low short-term mortality",medium
+mutant Melanoma,5.0,15.0,cutaneous melanoma overall SEER 5y RS ~94% but stage-variable,low
+myelofibrosis,12.0,50.0,median survival ~5y; ~49% die within 5y,high
+myocardial infarction,15.0,35.0,1y mortality ~15% (older ~24%); 5y ~30-51%,high
+myotonic dystrophy type 1,1.5,9.0,"chronic; life expectancy reduced to ~50s, ~3x mortality",medium
+narcolepsy,0.2,1.0,chronic sleep disorder; baseline population mortality,high
+narcolepsy without cataplexy,0.2,1.0,chronic sleep disorder; baseline population mortality,high
+neuropathic pain,0.2,1.0,chronic pain syndrome; non-lethal directly,medium
+newborn respiratory distress syndrome,8.0,10.0,neonatal RDS mortality ~5-10% with modern NICU care,medium
+nocturnal enuresis,0.0,0.0,pediatric bedwetting; non-lethal,high
+non-dystrophic myotonia,0.0,0.5,"channelopathy; non-progressive, normal life expectancy",medium
+non-functioning pituitary adenoma,0.5,3.0,"benign tumor; modest excess mortality, treatable",medium
+obstructive sleep apnea,0.5,5.0,"chronic; severe OSA HR ~1.9 all-cause, treatable with CPAP",medium
+ocular trauma,0.0,0.2,localized eye injury; non-lethal,high
+of Cancer,0.0,0.0,non-disease/parsing fragment; set to ~0,high
+onchocerciasis,0.1,1.0,"river blindness NTD; chronic, low direct case-fatality",medium
+opioid withdrawal,0.5,2.0,"withdrawal syndrome; low direct mortality, OD relapse risk",low
+opioid-induced constipation,0.0,0.2,GI side effect; non-lethal directly,high
+oral lichen planus,0.0,0.5,chronic mucosal; small malignant transformation risk,medium
+oral submucous fibrosis,0.5,3.0,premalignant; ~7-13% transform to oral cancer over time,low
+organophosphate poisoning,15.0,18.0,acute poisoning case-fatality ~10-25%,medium
+orthostatic hypotension,1.0,5.0,"chronic; marker of frailty/CV/autonomic disease, falls risk",low
+osteoarthritis,0.3,2.0,non-lethal joint disease; slight excess mortality from comorbidity,medium
+otomycosis,0.0,0.0,fungal ear infection; non-lethal,high
+palmoplantar pustulosis,0.0,0.2,chronic skin condition; non-lethal,high
+pancreatic cancer,67.0,87.0,SEER 5y RS ~13%; 1y RS ~30%,high
+pemphigus vulgaris,3.0,8.0,"autoimmune blistering; historically high, now ~5-10% with treatment",medium
+peripheral neuropathy,0.3,2.0,"heterogeneous; depends on cause, low direct mortality",low
+peroxisome biogenesis disorder,40.0,60.0,"Zellweger spectrum; severe form death <1y, milder survive longer",medium
+pheochromocytoma and paraganglioma,3.0,12.0,overall 5y survival ~85-90%; metastatic worse,medium
+polymorphic light eruption,0.0,0.0,benign photodermatosis; non-lethal,high
+portopulmonary hypertension,15.0,55.0,"1y survival ~85%, 5y ~40-50%",medium
+post-kala-azar dermal leishmaniasis,0.0,1.0,non-fatal skin sequela of treated visceral leishmaniasis,medium
+post-traumatic stress disorder,0.5,3.0,chronic; elevated suicide and all-cause mortality,low
+postoperative ileus,0.5,2.0,post-surgical complication; low direct mortality,low
+postoperative urinary retention,0.0,0.5,post-surgical complication; non-lethal,high
+premature ejaculation,0.0,0.0,sexual dysfunction; non-lethal,high
+presbyopia,0.0,0.0,age-related vision change; non-lethal,high
+primary biliary cirrhosis,2.0,12.0,PBC 10y mortality ~20-24%; 5y transplant-free survival ~87%,medium
+primary mitochondrial disease,15.0,40.0,"heterogeneous; ~74% die within 10y, severe pediatric forms worse",medium
+primary myelofibrosis,12.0,50.0,median survival ~5y; ~49% die within 5y,high
+pulmonary tuberculosis,10.0,15.0,global CFR ~15%; treated cohorts ~5-15%,high
+pyruvate kinase deficiency,0.5,3.0,chronic hemolytic anemia; near-normal life expectancy,medium
+radiation-induced brachial plexopathy,0.5,3.0,"treatment sequela; non-lethal itself, reflects prior cancer",low
+refracTory pAncreaTic cancEr,75.0,92.0,refractory/advanced pancreatic cancer; worse than overall SEER ~13%,medium
+renal cell carcinoma,10.0,22.0,SEER kidney 5y RS ~78%; 1y ~90%,high
+respiratory failure,40.0,55.0,"acute resp failure in-hospital ~20-25%, 1y ~40-50%",medium
+retinopathy of prematurity,3.0,5.0,"eye disease of prematurity; mortality reflects prematurity, not ROP",low
+rheumatoid arthritis,0.7,5.0,"chronic; SMR ~1.4, life expectancy reduced ~10y",medium
+rhinosinusitis,0.0,0.1,common sinus inflammation; negligible mortality,high
+rotator cuff tear,0.0,0.0,musculoskeletal injury; non-lethal,high
+schistosomiasis,0.5,3.0,"chronic NTD; low CFR (~1/1000/yr), advanced cases higher",medium
+severe aplastic anemia,18.0,28.0,treated 5y survival ~70-75%; untreated most die <1y,medium
+sialorrhea,0.0,0.2,excessive drooling symptom; non-lethal (aspiration risk in some),low
+sickle cell disease,1.0,6.0,"chronic; mean age at death ~43-54y, low short-term mortality",medium
+skin infection,0.2,0.5,"heterogeneous; most low, severe cellulitis/necrotizing higher",low
+sleep apnea,0.5,5.0,chronic; severe OSA HR ~1.9 all-cause mortality,medium
+sleep disorder,0.2,1.0,"heterogeneous, mostly non-lethal sleep conditions",low
+sodium channelopathy-related small fiber neuropathy,0.2,1.0,chronic sensory neuropathy; non-lethal directly,low
+solid tumor,20.0,50.0,non-specific aggregate of solid cancers; broad estimate,low
+spinal cord injury,6.0,14.0,"1y mortality ~4-8% (worse with tetraplegia), reduced long-term",medium
+spinocerebellar ataxia type 2,1.0,8.0,chronic; survival 10-20y after onset,medium
+spondyloarthritis,0.5,3.0,chronic inflammatory; modest excess CV mortality,medium
+spontaneous abortion,0.0,0.1,pregnancy loss event; very low maternal mortality,high
+stridor,1.0,2.0,"sign of airway obstruction; depends on cause, acute risk",low
+submental fat,0.0,0.0,cosmetic condition (double chin); non-lethal,high
+supraventricular tachycardia,0.2,1.0,"arrhythmia; usually benign, low mortality",medium
+tardive dyskinesia,0.2,1.0,drug-induced movement disorder; non-lethal directly,low
+tenosynovial giant cell tumor,0.0,1.0,benign tumor; rarely fatal (malignant variant uncommon),medium
+threatened miscarriage,0.0,0.1,pregnancy condition; very low maternal mortality,high
+transthyretin amyloid polyneuropathy,4.0,28.0,hATTR; median survival ~7-12y from onset,medium
+trichomoniasis,0.0,0.0,curable parasitic STI; negligible mortality,high
+tuberous sclerosis,1.0,5.0,genetic; mortality from SEGA/renal/epilepsy complications,low
+tyrosinemia type I,12.0,28.0,untreated severe (2y survival <30%); treated >90% survive,medium
+unspecified peripheral T-cell lymphoma,40.0,68.0,PTCL-NOS 5y OS ~32%; 1y ~60%,high
+upper gastrointestinal bleeding,12.0,30.0,30-day mortality ~10%; 5y higher from comorbidity,medium
+ureteral stent-related symptoms,0.0,0.0,stent-related discomfort; non-lethal,high
+urinary retention,0.5,2.0,"symptom; low direct mortality, reflects underlying cause",low
+urinary tract infection,0.5,2.0,mostly benign; urosepsis in elderly raises mortality,medium
+urticaria,0.0,0.0,hives; non-lethal (rare anaphylaxis separate),high
+vaginal dryness,0.0,0.0,menopausal/atrophic symptom; non-lethal,high
+vascular disease,2.0,12.0,heterogeneous; PAD/atherosclerosis raise CV mortality over time,low
+wet macular degeneration,0.5,4.0,"vision-threatening, not directly lethal; elderly baseline mortality",medium

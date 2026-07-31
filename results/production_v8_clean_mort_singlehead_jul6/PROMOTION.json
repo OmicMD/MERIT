@@ -1,0 +1,14 @@
+{
+ "supersedes": "production_v8_clean_mort_gapBD_jun28",
+ "change": "safety head noisy-OR -> single GBM (+0.053); thiamine+bortezomib label corrections (EXCLUDE)",
+ "cohort": "training_dataset_v8_clean_mort.csv (+safety_label_corrections_dsmb_audit_jul6.csv)",
+ "command": "retrain_calibrated.py --calibrate isotonic --skip-crosstask --safety-head single --include-endogenous",
+ "headline": {
+  "overall": 0.77,
+  "efficacy": 0.765,
+  "safety": 0.784,
+  "safety_phase3": 0.731,
+  "safety_ci": "0.739-0.831"
+ },
+ "date": "2026-07-06"
+}

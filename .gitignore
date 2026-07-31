@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large third-party databases retrieved at run time
+data/cache/
+data/raw/
+*.db
+*.sqlite
+*.tar
+*.tar.gz
+*.h5
+*.bgz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+~$*
+.vscode/
+.idea/

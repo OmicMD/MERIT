@@ -1,0 +1,79 @@
+drug,indication,verdict,confidence,rationale,source
+gemcitabine,Nasopharyngeal Carcinoma,EXCLUDE,high,gem+cis NCCN 1L NPC; also chemo backbone,onclive NCCN NPC
+colchicine,Cardiovascular Diseases,EXCLUDE,high,LODOCO FDA-approved 2023; AHA/ACC IIb,drugs.com/history/lodoco
+venetoclax,"Leukemia, Myeloid, Acute",EXCLUDE,high,FDA-approved AML 2020; also backbone,fda venetoclax AML
+metoprolol,"Muscular Dystrophy, Duchenne",KEEP,med,SOC only for DMD cardiomyopathy not disease; no FDA,OJRD DMD
+Dexmedetomidine,Traumatic Brain Injury,KEEP,high,approved sedation only; TBI investigational,ctgov NCT01007773
+nitazoxanide,COVID 19,KEEP,high,antiparasitic only; no COVID approval,Lancet eClinMed
+metformin,Autosomal Dominant Polycystic Kidney Disease,KEEP,high,TAME-PKD early-phase; tolvaptan approved,Kidney Int TAME-PKD
+baricitinib,Myelodysplastic Syndromes,KEEP,high,no MDS approval/SOC,PMC10281621
+empagliflozin,Cardiovascular Diseases,EXCLUDE,high,FDA-approved HF/CV,BI Jardiance HFrEF
+midodrine,heart failure with reduced ejection fraction,KEEP,high,approved OH only; HFrEF off-label,PMC10953504
+ritonavir,COVID-19,KEEP,med,only Paxlovid combo approved not ritonavir alone,FDA Paxlovid
+upadacitinib,Systemic Lupus Erythematosus,KEEP,high,not approved SLE; Ph3 ongoing,ctgov NCT05843643
+venetoclax,Myelodysplastic Syndromes,KEEP,high,VERONA Ph3 MISSED OS Jun2025; FAIL is correct,AbbVie VERONA
+esketamine,Endometriosis,KEEP,high,approved TRD only; endometriosis RCT,ctgov NCT06161805
+ruxolitinib,primary myelofibrosis,EXCLUDE,high,FDA-approved 2011 myelofibrosis,Incyte Jakafi MF
+sunitinib,Metastatic Cancer,KEEP-AMBIG,low,vague indication string,FDA sunitinib label
+minocycline,intracerebral hemorrhage,KEEP,high,investigational; small trials only,Stroke AHA
+selinexor,Endometrial Cancer,KEEP,high,approved MM/DLBCL only; EC Ph3,Karyopharm EC
+capecitabine,Nasopharyngeal Carcinoma,EXCLUDE,high,NCCN H&N 2025 metronomic capecitabine NPC,JNCCN NPC
+clopidogrel,Systemic Sclerosis,KEEP,high,proof-of-concept only; no SSc approval,PMC4869184
+fenofibrate,Diabetic Retinopathy,KEEP,med,NOT FDA-approved for DR; ADA rec is conditional/recent; clean single-agent prevention RCT (NCT04661358 fenofibrate vs placebo) = genuine forward bet,ADA Standards Care
+minocycline,Stroke,KEEP,high,only tPA/thrombectomy SOC,PMC3169090
+cilostazol,Stroke,KEEP,high,PAD label only; not Western stroke guideline,Stroke AHA cilostazol
+baricitinib,Acute Lymphoblastic Leukemia,KEEP,high,no ALL approval,baricitinib label
+trametinib,Cancer,KEEP-AMBIG,low,vague indication string,FDA trametinib label
+olaparib,Endometrial Cancer,KEEP,high,no FDA approval EC as of Jun2026,JCO DUO-E
+cyclophosphamide,Acute Lymphoblastic Leukemia,EXCLUDE,high,standard multi-agent ALL backbone (NCI PDQ),NCI PDQ ALL
+alectinib,Cancer,KEEP-AMBIG,low,vague indication string,FDA alectinib
+metformin,Familial adenomatous polyposis,KEEP,high,Ph2/3 chemoprevention only; no FAP approval,OJRD FAP
+carboplatin,Bladder Cancer,EXCLUDE,high,NCCN cat-1 gem/carbo urothelial,JNCCN bladder
+empagliflozin,Embolic Stroke of Undetermined Source,KEEP,high,EMPA-ESUS recruiting; no ESUS approval,ctgov NCT06715449
+trilaciclib,Bladder Cancer,KEEP,high,approved CIM in SCLC only; bladder trial-stage,urologytimes trilaciclib
+lorazepam,Delirium,KEEP,high,guidelines recommend AGAINST benzos for delirium,APA delirium guideline
+baricitinib,Acute Myeloid Leukemia,KEEP,high,no AML approval; absent from AML guidelines,PMC7692236
+melphalan,Metastatic Uveal Melanoma,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+ketorolac,Acute Pain,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+tapinarof,Atopic Dermatitis,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+olanzapine,Chemotherapy Induced Nausea and Vomiting,EXCLUDE,high,PASS-bet established use (guideline-SOC),web-verified jun22 (PASS-side)
+baricitinib,alopecia,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+ketamine,Pain,EXCLUDE,high,PASS-bet established use (approved-ambiguous),web-verified jun22 (PASS-side)
+lenalidomide,Diffuse Large B-Cell Lymphoma,EXCLUDE,high,PASS-bet established use (approved-combo),web-verified jun22 (PASS-side)
+Elafibranor,primary biliary cirrhosis,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+sufentanil,Pain Management,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+lenvatinib,renal cell carcinoma,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+trametinib,Metastatic Melanoma,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+cabozantinib,renal cell carcinoma,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+upadacitinib,juvenile idiopathic arthritis,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+capecitabine,Esophageal Cancer,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+prednisone,Vasculitis,EXCLUDE,high,PASS-bet established use (guideline-SOC),web-verified jun22 (PASS-side)
+ketorolac,Pain Management,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+lumateperone,schizophrenia,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+ribociclib,Early Breast Cancer,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+paclitaxel,Gastric Adenocarcinoma,EXCLUDE,high,PASS-bet established use (approved-combo),web-verified jun22 (PASS-side)
+propofol,Septic Shock,EXCLUDE,high,PASS-bet established use (approved-sedation),web-verified jun22 (PASS-side)
+lumateperone,Bipolar Disorder,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+vincristine,Diffuse Large B-Cell Lymphoma,EXCLUDE,high,PASS-bet established use (guideline-SOC),web-verified jun22 (PASS-side)
+raloxifene,Breast Cancer,EXCLUDE,high,PASS-bet established use (approved-prevention),web-verified jun22 (PASS-side)
+elacestrant,Breast Cancer,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+ribociclib,Metastatic Breast Cancer,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+methotrexate,Graft-versus-host Disease (GVHD),EXCLUDE,high,PASS-bet established use (guideline-SOC),web-verified jun22 (PASS-side)
+bendamustine,Chronic Lymphocytic Leukemia,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+bupivacaine,Breast Cancer,EXCLUDE,high,PASS-bet established use (approved-anesthetic),web-verified jun22 (PASS-side)
+enalapril,Hypertension,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+pemetrexed,"Carcinoma, Non-Small-Cell Lung",EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+ezetimibe,Coronary Artery Disease,EXCLUDE,high,PASS-bet established use (guideline-SOC),web-verified jun22 (PASS-side)
+ozanimod,"Colitis, Ulcerative",EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+rivaroxaban,Multiple Myeloma,EXCLUDE,high,PASS-bet established use (guideline-SOC),web-verified jun22 (PASS-side)
+cyclophosphamide,Breast Cancer,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+carboplatin,Triple Negative Breast Cancer,EXCLUDE,high,PASS-bet established use (guideline-SOC),web-verified jun22 (PASS-side)
+carboplatin,"Carcinoma, Non-Small-Cell Lung",EXCLUDE,high,PASS-bet established use (guideline-SOC),web-verified jun22 (PASS-side)
+ticagrelor,Cardiac Disease,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+propofol,pneumonia,EXCLUDE,high,PASS-bet established use (approved-sedation),web-verified jun22 (PASS-side)
+remimazolam,sedation,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+levonorgestrel,contraception,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+topotecan,SCLC,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+ezetimibe,mixed dyslipidemia,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)
+olanzapine,Multiple Myeloma,EXCLUDE,high,PASS-bet established use (guideline-SOC),web-verified jun22 (PASS-side)
+Bortezomib,Multiple Myeloma,EXCLUDE,high,PASS-bet established use (approved),web-verified jun22 (PASS-side)

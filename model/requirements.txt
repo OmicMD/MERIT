@@ -1,0 +1,8 @@
+# Pinned to match serialization environment
+pandas==2.3.3
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.6.1
+xgboost==3.0.3
+lightgbm==4.6.0
+networkx==3.5

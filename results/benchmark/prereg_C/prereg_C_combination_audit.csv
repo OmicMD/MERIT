@@ -1,0 +1,28 @@
+bet,drug,indication,NCT_ID,junior_partner_code,novel_code_codrug,control_arm_only,completion_past_lock,prim_comp,has_results,status,committed_exclusion,co_exp_drugs
+FAIL,metformin,Familial adenomatous polyposis,NCT06545526,0,,0,0,2026-06-24,,RECRUITING,0,celecoxib
+FAIL,upadacitinib,Systemic Lupus Erythematosus,NCT05843643,0,,0,0,2027-03,,ACTIVE_NOT_RECRUITING,0,
+FAIL,cilostazol,Stroke,NCT06919835,0,,0,0,2029-07-31,,NOT_YET_RECRUITING,0,
+PASS,atorvastatin,Prostate Cancer,NCT03819101,0,,0,0,2042-03,,RECRUITING,0,Acetylsalicylic acid; Acetylsalicylic acid
+PASS,Apatinib,Hepatocellular Carcinoma,NCT05320692,0,,0,0,2026-07-30,,ACTIVE_NOT_RECRUITING,0,
+PASS,hydroxychloroquine,Systemic Lupus Erythematosus,NCT05799378,0,,0,0,2028-12-31,,RECRUITING,0,
+PASS,levetiracetam,Septic Shock,NCT06851078,0,,0,0,2027-06-15,,NOT_YET_RECRUITING,0,
+PASS,simvastatin,Cirrhosis,NCT03654053,0,,0,0,2026-12-31,,ACTIVE_NOT_RECRUITING,0,
+PASS,acetylcysteine,autism spectrum disorder,NCT05494398,0,,0,0,2028-07-31,,ENROLLING_BY_INVITATION,0,
+PASS,ketamine,Acute Ischemic Stroke,NCT03223220,0,,0,0,2026-12-31,,NOT_YET_RECRUITING,0,Midazolam injection
+PASS,hydroxychloroquine,preeclampsia,NCT05287321,0,,0,1,2025-12-31,,RECRUITING,0,
+PASS,ondansetron,Gastroenteritis,NCT05876585,0,,0,1,2025-06-01,,NOT_YET_RECRUITING,0,
+PASS,metformin,Parkinson Disease,NCT07055958,0,,0,1,2025-06-30,,ACTIVE_NOT_RECRUITING,0,
+PASS,dydrogesterone,Subfertility,NCT03859921,0,,0,1,2025-12-30,,RECRUITING,0,
+PASS,gabapentin,overactive bladder,NCT07429734,0,,0,0,2026-10,,NOT_YET_RECRUITING,0,
+PASS,caffeine,Alzheimer disease,NCT04570085,0,,0,0,2027-12,,RECRUITING,0,
+PASS,tranexamic acid,Sepsis,NCT04910464,0,,0,0,2027-01-10,,RECRUITING,0,
+PASS,vibegron,Neurogenic Detrusor Overactivity,NCT05491525,0,,0,0,2030-03,,RECRUITING,0,
+PASS,baricitinib,"Diabetes Mellitus, Type 1",NCT07222137,0,,0,0,2031-07,,RECRUITING,0,
+PASS,baricitinib,"Diabetes Mellitus, Type 1",NCT07222332,0,,0,0,2028-07,,RECRUITING,0,
+PASS,ketamine,status epilepticus,NCT06907173,0,,0,0,2029-06,,RECRUITING,0,
+PASS,tamoxifen,Infertility,NCT03011684,0,,0,0,2028-03-31,,RECRUITING,0,Letrozole
+PASS,bumetanide,Cirrhosis,NCT06941415,0,,0,0,2029-03-01,,RECRUITING,0,Furosemide
+PASS,acalabrutinib,Diffuse Large B-Cell Lymphoma,NCT04529772,0,,0,0,2027-02-22,,ACTIVE_NOT_RECRUITING,0,Prednisone; Rituximab; Cyclophosphamide; Vincristine; Doxorubicin
+PASS,landiolol,Septic Shock,NCT04931225,0,,0,0,2026-07,,RECRUITING,0,
+PASS,baricitinib,Uveitis,NCT04088409,0,,0,1,2023-07-17,,ACTIVE_NOT_RECRUITING,0,
+PASS,nitazoxanide,hepatic encephalopathy,NCT04161053,0,,0,0,2028-11,,RECRUITING,0,

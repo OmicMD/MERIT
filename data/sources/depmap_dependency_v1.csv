@@ -1,0 +1,2337 @@
+IK14,Disease,depmap_dep_lin,depmap_selectivity,depmap_has
+ZHPMYDSXGRRERG,Major Depressive Disorder,0.0,0.0,0
+ZHPMYDSXGRRERG,Depression,0.0,0.0,0
+WDQPAMHFFCXSNU,"MAC Lung Disease; Treatment Refractory MAC Lung Disease; Mycobacterium Infections, Nontuberculous",0.0,0.0,0
+KXMZDGSRSGHMMK,Lung Cancer,-0.026955244621110767,0.01761775009632559,1
+BJXYHBKEQFQVES,Dermatomyositis; Polymyositis,0.0,0.0,0
+JYVSYFGHYFXYBE,Advanced Lung Cancer,-0.29618274267990646,-0.04527923143571255,1
+DYDCUQKUCUHJBH,Fibromyalgia,0.0,0.0,0
+CHNUOJQWGUIOLD,Pmm2-CDG; Phosphomannomutase 2 Deficiency; Phosphomannomutase 2 Congenital Disorder of Glycosylation; Phosphomannomutase II Congenital Disorder of Glycosylation; Phosphomannomutase II Deficiency,0.0,0.0,0
+KZFFYEPYCVDOGE,"Very Low Risk, Low Risk, or Intermediate Risk MDS Per IPSS-R",0.0,0.0,0
+XHEFDIBZLJXQHF,Covid19; SARS-CoV Infection,0.0,0.0,0
+SOJDTNUCCXWTMG,limited cutaneous systemic sclerosis,0.0,0.0,0
+RIKMMFOAQPJVMX,Acetaminophen; Drug Overdose; Acetaminophen Overdose; Acetaminophen Poisoning; Drug-induced Liver Injury; Liver Failure; Liver Toxicity,-0.04018915115595966,-0.04215460807943274,1
+RHGKLRLOHDJJDR,Ventricular Septal Defect; Atrioventricular Septal Defect; Primum Atrial Septal Defect,0.0,0.0,0
+FWYSMLBETOMXAG,HIV Infections; Cytomegalovirus; CMV,0.0,0.0,0
+PCHKPVIQAHNQLW,Ovarian Cancer,0.0,0.20928503891988262,1
+HCDMJFOHIXMBOV,Glioblastoma; Adult-type Diffuse Gliomas,-0.376347217393392,-0.19210863642738454,1
+MQXWPWOCXGARRK,Amyotrophic Lateral Sclerosis,0.0,0.0,0
+KQDRVXQXKZXMHP,Infectious Pneumonia; Severe COVID-19,0.0,0.0,0
+GRTDDIZIUSADLD,Ulcerative Colitis,0.0,0.0,0
+QMPBBNUOBOFBFS,Respiratory Infection,0.0,0.0,0
+ROTWSDMXHVGAHZ,Acute Coronary Syndrome,0.0,0.0,0
+GTQPEQGDLVSFJO,Participants With Diabetic Neuropathic Pain,0.0,0.0,0
+LEBVLXFERQHONN,Urologic Diseases; Hypospadias; Undescended Testes; Chordee; Hydrocele; Orchiectomy,0.0,0.0,0
+PYOQIOLRFIRRSO,"Spondylitis, Ankylosing",0.0,0.0,0
+WDQPAMHFFCXSNU,HIV; Tuberculosis,0.0,0.0,0
+POZRVZJJTULAOH,Adults and Children With Pulmonary Fibrosis,0.0,0.0,0
+PIBARDGJJAGJAJ,Geographic Atrophy,0.0,0.0,0
+LTMHDMANZUZIPE,Pancreatic Cancer,-1.368115817953754,-0.16431208882672332,1
+VYKCLMALANGCDF,Ovarian Cancer,0.0,1.5358526117065696,1
+UXHQLGLGLZKHTC,Chronic Kidney Diseases,0.04370768329594571,0.0012938164046210482,1
+DDLPYOCJHQSVSZ,Type 1 Diabetes,0.0,0.0,0
+PBAPPPCECJKMCM,Overactive Bladder (OAB); Pharmacokinetics of Mirabegron,0.0,-0.03205803588418919,1
+RJMUSRYZPJIFPJ,Covid19,0.0,0.0,0
+HWXVIOGONBBTBY,Biochemical Relapse After Definitive Treatment for Prostate Cancer,-0.20829645186341933,-0.061679562835513235,1
+WDZCUPBHRAEYDL,HIV; Tuberculosis,0.0,0.0,0
+NHTGHBARYWONDQ,Breast Cancer,-0.03666520165975265,0.032175020864463555,1
+YFHRCLAKZBDRHN,Congenital Cystic Kidney Disease,-0.27201239413107,-0.11471573185287073,1
+ZQPDJCIXJHUERQ,Myelofibrosis; Primary Myelofibrosis; Post Essential Thrombocythemia Myelofibrosis; Post Polycythemia Vera Myelofibrosis,0.0,0.0,0
+OZOGDCZJYVSUBR,COVID-19,0.0,0.0,0
+ZCGNOVWYSGBHAU,Covid19,0.0,0.0,0
+UZWDCWONPYILKI,Cancer; Cancer Metastatic; BRAF V600E; MEK1 Gene Mutation; MEK2 Gene Mutation; ERK Mutation; RAF1 Gene Mutation,0.0,0.0,0
+NMUSYJAQQFHJEW,Myelodysplastic Syndromes,0.0,0.0,0
+KGSXMPPBFPAXLY,Covid19; SARS-CoV Infection; ards; acute kidney injury,-0.057094780829337395,0.009637785465582478,1
+VUAFHZCUKUDDBC,Covid19,0.0,0.0,0
+HTQMVQVXFRQIKW,Covid19; SARS-CoV Infection; ards; acute kidney injury,-0.057094780829337395,0.009637785465582478,1
+OROAFUQRIXKEMV,Covid19; SARS-CoV Infection; ards; acute kidney injury,-0.057094780829337395,0.009637785465582478,1
+MVGWUTBTXDYMND,Crohn's Disease,0.0,0.0,0
+JPIAJLPRTOWAEC,Autosomal Dominant Polycystic Kidney Disease,0.13599352371196935,0.05373804151652406,1
+XXSMGPRMXLTPCZ,COVID-19,0.0,0.0,0
+YOSHYTLCDANDAN,Covid19; SARS-CoV Infection; ards; acute kidney injury,-0.057094780829337395,0.009637785465582478,1
+JNPRPMBJODOFEC,Cancer; Cancer Metastatic; BRAF V600E; MEK1 Gene Mutation; MEK2 Gene Mutation; ERK Mutation; RAF1 Gene Mutation,0.0,0.0,0
+PSIFNNKUMBGKDQ,Cancer Patients With COVID-19 Infection,0.0,0.0,0
+PSIFNNKUMBGKDQ,Covid19; SARS-CoV Infection; ards; acute kidney injury,-0.057094780829337395,0.009637785465582478,1
+JGCMEBMXRHSZKX,Chronic Thromboembolic Pulmonary Hypertension,0.0,0.0,0
+YQNQNVDNTFHQSW,COVID-19,0.0,0.0,0
+VTRAEEWXHOVJFV,Covid19; SARS-CoV Infection; ards; acute kidney injury,-0.057094780829337395,0.009637785465582478,1
+KGFYHTZWPPHNLQ,COVID-19,0.0,0.0,0
+RMMXLENWKUUMAY,Covid19; SARS-CoV Infection; ards; acute kidney injury,-0.057094780829337395,0.009637785465582478,1
+ACWBQPMHZXGDFX,Covid19; SARS-CoV Infection; ards; acute kidney injury,-0.057094780829337395,0.009637785465582478,1
+LSXUTRRVVSPWDZ,Cell Carcinoma,0.0,0.0,0
+RMRJXGBAOAMLHD,Post Traumatic Stress Disorder; Alcohol Abuse,0.0,0.0,0
+OIPILFWXSMYKGL,HeartPhone Cancer,0.0,0.0,0
+RKUNBYITZUJHSG,Myopia,0.0,0.0,0
+XUZMWHLSFXCVMG,Primary Biliary Cholangitis,0.0,0.0,0
+RYYVLZVUVIJVGH,Apnea of Prematurity,0.0,0.0,0
+KZSKGLFYQAYZCO,Primary Sclerosing Cholangitis,0.0,0.0,0
+DCYBPMFXJCWXNB,"Leukemia, Myeloid, Acute",-0.6968691698344578,0.0483371424231579,1
+CUHVIMMYOGQXCV,Rapid Atrial Fibrillation; Heart Rate Control,0.0,0.0,0
+VLULRUCCHYVXOH,metastatic colorectal cancer,-0.12486437089016368,0.020813020246898947,1
+KTUFNOKKBVMGRW,Loiasis,0.0,0.0,0
+KTBSXLIQKWEBRB,Treatment of Graft-Versus-Host Disease,0.0,0.0,0
+WHXMKTBCFHIYNQ,Amyotrophic Lateral Sclerosis,0.0,0.0,0
+NHTKGYOMICWFQZ,Tract Cancer,0.0,0.0,0
+LCFFREMLXLZNHE,Pemphigus,0.0,0.0,0
+VUJZFNSWCNSGDV,Nasopharyngeal Carcinoma,0.0,0.0,0
+WAEXFXRVDQXREF,Cutaneous T-Cell Lymphoma/Mycosis Fungoides,-1.3167188063375805,-0.09369108925171243,1
+ISBHYKVAFKTATD,Atopic Dermatitis,0.0,0.0,0
+BZZKEPGENYLQSC,Granulomatous Colitis; Crohn's Disease; Crohn's Enteritis; Granulomatous Enteritis,0.0,0.0,0
+ONIQOQHATWINJY,Thyroid Cancer,-0.1194412416294027,-0.004838641995433435,1
+WQZGKKKJIJFFOK,Urinary Tract Infections,0.0,0.0,0
+CUHVIMMYOGQXCV,Withdrawal Syndrome,0.0,0.0,0
+CTPOHARTNNSRSR,Pulmonary Arterial Hypertension,0.0,0.0,0
+URCMKDJBULWNAI,Cough,0.0,0.0,0
+LNEPOXFFQSENCJ,Delirium; Critical Illness; Intensive Care Psychosis; Cognitive Impairment; Cognitive Decline,0.0,0.0,0
+XYFPWWZEPKGCCK,Recurrent Waldenstrom Macroglobulinemia; Refractory Waldenstrom Macroglobulinemia; Waldenstrom Macroglobulinemia,0.0,0.0,0
+MBOMYENWWXQSNW,Recurrent Waldenstrom Macroglobulinemia; Refractory Waldenstrom Macroglobulinemia; Waldenstrom Macroglobulinemia,0.0,0.0,0
+WOSKHXYHFSIKNG,Thyroid Cancer,-0.1194412416294027,0.06479733933660475,1
+PSIFNNKUMBGKDQ,NAFLD - Nonalcoholic Fatty Liver Disease,-0.08939982249660766,-0.022667256201687788,1
+HMABYWSNWIZPAG,Endometrial Cancer,-0.18685696513899464,0.022428073780887986,1
+MLDQJTXFUGDVEO,Thyroid Cancer,-0.6024071813563389,-0.42277495386236574,1
+GEJDGVNQKABXKG,Tourette Syndrome,0.0,0.0,0
+UHTHHESEBZOYNR,Thyroid Cancer,-0.26431767888590607,0.090559200256905,1
+YFHRCLAKZBDRHN,"Polycystic Kidney, Autosomal Dominant",-0.27201239413107,-0.11471573185287073,1
+HKTBYUWLRDZAJK,Prostate Cancer,0.03475097873018242,0.03067005014571355,1
+JGPMMRGNQUBGND,Duchenne muscular dystrophy,0.0,0.0,0
+JUSFANSTBFGBAF,Stomach Neoplasms,0.0,0.0,0
+JUSFANSTBFGBAF,Cancer of Stomach,0.0,0.0,0
+KDGFLJKFZUIJMX,Lung Cancer,-0.07767852166784511,0.010142174799151249,1
+IEDVJHCEMCRBQM,Idiopathic Pulmonary Fibrosis,0.0,0.0,0
+PKWRMUKBEYJEIX,Solid Tumors,0.0,0.0,0
+PNDKCRDVVKJPKG,Nonalcoholic Steatohepatitis,0.0,0.0,0
+PNDKCRDVVKJPKG,Nonalcoholic Steatohepatitis; Liver Cirrhosis; Non-alcoholic Fatty Liver Disease,-0.06312572699414633,0.020344263925641662,1
+CMSMOCZEIVJLDB,Blood Cancer,0.0,0.0,0
+NGYNBSHYFOFVLS,Disease Progression in Chronic Obstructive Pulmonary Disease,0.0,0.0,0
+XAUDJQYHKZQPEU,Acute Myeloid Leukemia,-0.5878162354736143,0.007886673931410626,1
+ZHKNLJLMDFQVHJ,diabeTes,0.0,0.0,0
+WKDNQONLGXOZRG,Alzheimer's Disease,0.0,0.0,0
+XZWYZXLIPXDOLR,Type 2 Diabetes,0.0,0.0,0
+XZXHXSATPCNXJR,Advanced Pancreatic Cancer,-0.18925638633428166,0.008170132697129046,1
+WHMMKPWGWNYYFE,Acute Leukemia,-0.06608338919575225,0.012331694846842878,1
+AHJRHEGDXFFMBM,Breast Cancer,-1.6440829492340658,-0.39816403262546696,1
+JHDKZFFAIZKUCU,Acute Myeloid Leukemia,-1.4231809007573857,-0.20015318367151758,1
+VSZGPKBBMSAYNT,Nonalcoholic Steatohepatitis,0.0,0.0,0
+PJHKBYALYHRYSK,Glucose Transporter Type 1 Deficiency Syndrome (Glut1 DS),0.0,0.0,0
+TYNLGDBUJLVSMA,epidermolysis bullosa,0.0,0.0,0
+HPNSFSBZBAHARI,Kidney Transplantation (Status Post),-0.5517340392691602,0.00147191683091763,1
+PRAAPINBUWJLGA,With Melanoma,-0.22669389430364523,-0.04326310533171171,1
+KSGCNXAZROJSNW,Duchenne Muscular Dystrophy,0.0,0.0,0
+WDOGQTQEKVLZIJ,Subjects With Platinum Resistant Ovarian Cancer,0.0,1.9553952535603567,1
+XXSMGPRMXLTPCZ,Rheumatoid Arthritis,0.0,0.0,0
+HOIIHACBCFLJET,Alzheimer's Disease,0.0,0.0,0
+XYFPWWZEPKGCCK,Hodgkin Lymphoma,-0.12782927447705325,-0.11713577377976685,1
+JGPMMRGNQUBGND,Duchenne Muscular Dystrophy (DMD),0.0,0.0,0
+IUBSYMUCCVWXPE,Chronic Obstructive Pulmonary Disease,0.0,0.0,0
+AKQXQLUNFKDZBN,Parkinson's Disease,0.0,0.0,0
+CYXKNKQEMFBLER,"Cardiomyopathy, Hypertrophic; Cardiomyopathy, Hypertrophic, Familial",0.0,0.0,0
+KLPWJLBORRMFGK,Attention Deficit Hyperactivity Disorder (ADHD),0.0,0.0,0
+PLHJCIYEEKOWNM,Myelodysplastic Syndromes,0.0,0.0,0
+QYSXJUFSXHHAJI,Asthma,0.0,0.0,0
+CMQOKZCYVZFZLZ,Painful Diabetic Peripheral Neuropathy (PDPN),0.0,0.0,0
+JUSFANSTBFGBAF,Advanced Gastric Adenocarcinoma,0.0,1.2587328143255367,1
+JDUBGYFRJFOXQC,Advanced Gastric Adenocarcinoma,0.0,0.08657614510773096,1
+ULXXDDBFHOBEHA,Non-small-cell Lung Cancer With Somatic EGFR Mutations,-0.32521217790037726,0.02966470124243381,1
+XLCNVWUKICLURR,Plasmodium Falciparum Infection,0.0,0.0,0
+FGXWKSZFVQUSTL,Gastroenteritis,0.0,0.0,0
+MWUFVYLAWAXDHQ,AML; MDS; CMML,0.0,0.0,0
+IHIUGIVXARLYHP,Hypercholesterolemia,0.0,0.0,0
+JNGVJMBLXIUVRD,Breast Cancer,0.08266392990380525,-0.01273324873934123,1
+TVTXCJFHQKSQQM,Acute Myeloid Leukemia,-0.4687788684480851,0.17800685480544426,1
+YQEZLKZALYSWHR,Status Epilepticus,0.0,0.0,0
+ACCFLVVUVBJNGT,Lung Cancer,-1.2013094066024155,0.05742340772312127,1
+DRLFMBDRBRZALE,for Cancer,0.0,0.0,0
+WBXPDJSOTKVWSJ,Non-small-cell Lung Cancer With Somatic EGFR Mutations,-0.9446053657300832,-0.1251255823195463,1
+XKLMZUWKNUAPSZ,Angina,0.0,0.0,0
+BLGWHBSBBJNKJO,Lung Cancer,-0.4942036723624354,0.010904755442500302,1
+MUJMYVFVAWFUJL,Treatment of Patients With Recurrent or Metastatic Squamous Cell Carcinoma,0.0,0.0,0
+MUJMYVFVAWFUJL,Lung Cancer,-0.32521217790037726,0.02966470124243381,1
+MUMGGOZAMZWBJJ,Infertility; Poor Ovarian Response,0.0,-0.09539717864314648,1
+PJHKBYALYHRYSK,Glucose Transporter Type 1 Deficiency Syndrome,0.0,0.0,0
+OGWKCGZFUXNPDA,Acute Myeloid Leukemia,-2.2141398079936034,-0.25874455443324673,1
+DRLFMBDRBRZALE,Metastatic Cancer,0.0,0.0,0
+VFLDPWHFBUODDF,Prostate Cancer,0.0,0.0,0
+XTOSKUWVIRIKJD,Acute Myocardial Infarction,0.0,0.0,0
+QVCAATSEPLQVBX,Solid Tumors,0.0,0.0,0
+KGFYHTZWPPHNLQ,Stroke,0.0,0.0,0
+HFNKQEVNSGCOJV,Colorectal Cancer,-0.014055372898984776,0.05442314540469234,1
+IQFYYKKMVGJFEH,Chronic Hepatitis B,0.0,0.0,0
+PKWRMUKBEYJEIX,Myelodysplastic Syndrome (MDS); Chronic Myelomonocytic Leukemia (CMML),-0.3618918895234277,-0.1332853026655431,1
+PCHKPVIQAHNQLW,Breast Cancer,-0.23302431386492528,-0.02373927494504266,1
+DEVSOMFAQLZNKR,Richter's Transformation,0.0,0.0,0
+YRVIKLBSVVNSHF,Nicotine Addiction,0.0,0.0,0
+DAPFMGRCDFSUSN,Asthma,0.0,0.0,0
+AXTAPYRUEKNRBA,Acute Myeloid Leukemia,-0.10440537850322297,-0.017829233395492014,1
+KIHYPELVXPAIDH,Active Dermatomyositis,0.0,0.0,0
+BMQGVNUXMIRLCK,Metastatic Colorectal Cancer,-1.170006409901971,0.7853888436583858,1
+MIWWSGDADVMLTG,Visceral Leishmaniasis,0.0,0.0,0
+MPYACSQFXVMWNO,Systemic Lupus Erythematosus,0.0,0.0,0
+RVAQIUULWULRNW,NSCLC,0.0,0.0,0
+BOJKULTULYSRAS,Ulcerative Colitis,0.0,0.0,0
+CGIGDMFJXJATDK,Post-ERCP Acute Pancreatitis,0.054024808140925674,-0.025593354385771476,1
+FCRFVPZAXGJLPW,Rheumatoid Arthritis,0.0,0.0,0
+ACWZRVQXLIRSDF,Peritoneal Cancer,0.0,0.0,0
+JUVQLZBJFOGEEO,Alzheimer's Disease,0.0,0.0,0
+DTGLZDAWLRGWQN,Sickle Cell Disease,0.0,0.0,0
+WOXKDUGGOYFFRN,"Muscular Dystrophy, Duchenne",0.0,0.0,0
+BPEGJWRSRHCHSN,Glioblastoma,0.0,0.0,0
+LIRYPHYGHXZJBZ,Acute Myeloid Leukemia,-0.255103894145124,-0.0679324640348754,1
+BPQMGSKTAYIVFO,cell Lymphoma,-0.07872192824792786,0.006619201222061638,1
+FWLMVFUGMHIOAA,Malignant Pleural Mesothelioma,0.0,0.0,0
+YUTIXVXZQIQWGY,Adenocarcinoma of the Pancreas; Locally Advanced; Unresectable,-0.09413781159139549,0.0016351275776253643,1
+NDAZATDQFDPQBD,NSCLC,0.0,0.0,0
+GXJABQQUPOEUTA,heart transplant rejection,0.0,0.0,0
+WDDPHFBMKLOVOX,Myeloid Malignancy; Bone Marrow Failure Syndrome; Transfusion-dependent Red Blood Cell (RBC) Defect; Congenital Immunodeficiency; Metabolic Disease; Severe Immune Dysregulation,0.0,0.0,0
+DDLPYOCJHQSVSZ,Bullous Pemphigoid,0.0,0.0,0
+ZBNZXTGUTAYRHI,Advanced Cancer,0.0,0.0,0
+HCYAFALTSJYZDH,Lung Cancer,-0.07558308842313782,-0.023134981501202835,1
+UREBDLICKHMUKA,Postoperative Nausea and Vomiting; Vomiting,0.0,0.0,0
+IHIUGIVXARLYHP,Cardiovascular Diseases,0.0,0.0,0
+KVWDHTXUZHCGIO,Treatment-resistant Depression,0.0,0.0,0
+RYMZZMVNJRMUDD,Rhinosinusitis,0.0,0.0,0
+VOBHXZCDAVEXEY,Major Depressive Disorder,0.0,0.0,0
+PAFKTGFSEFKSQG,Prostate Cancer,-0.2645388102368098,-0.23545447409031928,1
+ZFPZEYHRWGMJCV,Fragile X Syndrome,0.0,0.0,0
+NMUSYJAQQFHJEW,Leukemia; Acute Myeloid Leukemia (AML); Myelodysplastic Syndromes (MDS),-0.5878162354736143,0.007886673931410626,1
+CWHUFRVAEUJCEF,Prostate Cancer,-0.5616893878904449,-0.05658096008550917,1
+DSLPMJSGSBLWRE,Breast Cancer,0.05484441554539565,0.012972886747338853,1
+DOAKLVKFURWEDJ,Febrile Neutropenia,0.0,0.0,0
+XAUDJQYHKZQPEU,Acute Myelogenous Leukemia,-0.5878162354736143,0.007886673931410626,1
+JRWROCIMSDXGOZ,Crohn's Disease,0.0,0.0,0
+XGALLCVXEZPNRQ,Lung Cancer; Head and Neck Cancer,-0.22656977302642697,0.010757319451468988,1
+VSNHCAURESNICA,Multiple Sclerosis,0.0,0.0,0
+GMVPRGQOIOIIMI,newborn respiratory distress syndrome,0.0,0.0,0
+GXALXAKNHIROPE,Hepatitis C,0.0,0.0,0
+GOTYRUGSSMKFNF,Leukemia; Acute Myeloid Leukemia (AML); Myelodysplastic Syndromes (MDS),-2.135370211337415,-0.034386385579817436,1
+FELGMEQIXOGIFQ,Obsessive-compulsive Disorder,0.0,0.0,0
+CUIHSIWYWATEQL,Gastrointestinal Stromal Tumor (GIST),0.0,0.0,0
+JQXXHWHPUNPDRT,Multiple System Atrophy,0.0,0.0,0
+UCEQXRCJXIVODC,Lung Cancer,-0.048746341951219845,-0.011422172937428123,1
+GYHCTFXIZSNGJT,Hyponatremia,0.0,0.0,0
+CUIHSIWYWATEQL,wet macular degeneration,0.0,0.0,0
+VJYDOJXJUCJUHL,Acute Coronary Syndrome,0.0,0.0,0
+JNAHVYVRKWKWKQ,Liver Cancer,-0.13823118894018452,0.0710538499796981,1
+YUTIXVXZQIQWGY,rheumatoid arthritis,0.0,0.0,0
+DFJSJLGUIXFDJP,Breast Cancer,-0.6700322375180416,-0.31515535837523057,1
+IMOZEMNVLZVGJZ,Patients With Rheumatoid Arthritis,0.0,0.0,0
+DSLPMJSGSBLWRE,Endometrial Cancer,0.03280400541279553,-0.009067523385261268,1
+XDAOLTSRNUSPPH,Tuberculosis,0.0,0.0,0
+UREBDLICKHMUKA,Immune Thrombocytopenic Purpura,0.0,0.0,0
+UGJMXCAKCUNAIE,Pain; Breast Cancer; Lung Cancer,-0.5265048635665275,-0.02920954116312796,1
+XIESSJVMWNJCGZ,Benign Prostatic Hyperplasia,0.0,0.0,0
+KBOPZPXVLCULAV,Diverticulitis,0.0,0.0,0
+RJKFOVLPORLFTN,Traumatic Brain Injury,0.0,0.0,0
+BPEGJWRSRHCHSN,Liver Cancer,0.0,0.0,0
+UCEQXRCJXIVODC,Non-CNS Germ Cell Tumors (Seminomas and Nonseminomas),0.0,0.0,0
+BPKAHTKRCLCHEA,Coronary Artery Disease; Chronic Kidney Disease; Hypovitaminosis D; Secondary Hyperparathyroidism,-0.05232930601272791,0.005950368568489975,1
+RYMZZMVNJRMUDD,Moderate and Severe COPD,0.0,0.0,0
+GYHCTFXIZSNGJT,Hyponatremia; Dilutional Hyponatremia; Inappropriate ADH Syndrome,0.0,0.0,0
+ZEUITGRIYCTCEM,Acute Post-operative Pain; Chronic Post Operative Pain; Narcotic Use; Opioid Use; Opioid Addiction,0.0,0.0,0
+ZUZXCJZLFRPFBD,Multiple System Atrophy,0.0,0.0,0
+SDEAXTCZPQIFQM,Metastatic Breast Cancer,-0.6700322375180416,-0.31515535837523057,1
+LSXUTRRVVSPWDZ,Neck Cancer,0.0,0.0,0
+XAUDJQYHKZQPEU,refracTory pAncreaTic cancEr,-0.5987606476120164,-0.0030577382069915116,1
+OBWASQILIWPZMG,Postprandial Hypoglycemia,0.0,0.0,0
+IRSCQMHQWWYFCW,respiratory failure,0.0,0.0,0
+ZRUFVDPYHLTYPD,"Angioedema, Hereditary, Types I and II",0.0,0.0,0
+VOSAWOSMGPKQEQ,Narcolepsy Type 1 (NT 1),0.0,0.0,0
+XVKTYEAUJPZPDZ,Chronic Hepatitis B,0.0,0.0,0
+KTYZKXFERQUCPX,"Dermatitis, Atopic",0.0,0.0,0
+BSMCAPRUBJMWDF,Gastrointestinal Cancer,0.0,0.0,0
+SJVQHLPISAIATJ,Ibrutinib-Resistant Chronic Lymphocytic Leukemia,-0.30676416979093446,-0.10660273206553991,1
+XXSMGPRMXLTPCZ,Gastrointestinal Cancer,0.0,0.0,0
+KTBSXLIQKWEBRB,"GVHD,Acute",0.0,0.0,0
+KISZAGQTIXIVAR,Advanced Breast Cancer,-0.33033499306052333,-0.2774030028172715,1
+VOSAWOSMGPKQEQ,Narcolepsy Type 1 (NT1); Narcolepsy Type 2 (NT2),0.0,0.0,0
+BKWJAKQVGHWELA,Acute Myeloid Leukemia,-2.591535015470472,-0.00844974109634311,1
+CUHVIMMYOGQXCV,Septic Shock; Vasopressor Resistance,0.0,0.0,0
+PRMWGUBFXWROHD,Amyotrophic Lateral Sclerosis,0.0,0.0,0
+YNBBKDMAVRSYRE,Advanced Solid Tumor; Non-Small Cell Lung Cancer; Colorectal Cancer,-0.8818230702733801,-0.15692145307409,1
+WPVFJKSGQUFQAP,Congenital Cytomegalovirus Infection,0.0,0.0,0
+WXCXUHSOUPDCQV,Prostate Cancer,-0.2645388102368098,-0.35993598887995626,1
+QNZCBYKSOIHPEH,Stroke,0.0,0.0,0
+GMPZPHGHNDMRKL,Autism Spectrum Disorder,0.0,0.0,0
+ONIQOQHATWINJY,Gland Cancer,0.0,0.0,0
+GHBCIXGRCZIPNQ,Painful Diabetic Neuropathy,0.0,0.0,0
+SDMBRCRVFFHJKR,Non-Alcoholic Fatty Liver Disease,0.0,0.0,0
+VOBHXZCDAVEXEY,Bulimia Nervosa,0.0,0.0,0
+JZRWCGZRTZMZEH,Cardiac Arrest,0.0,0.0,0
+HJBWBFZLDZWPHF,Prostate Cancer,-0.2645388102368098,-0.35993598887995626,1
+JFRWOHRGXFCADF,Endometriosis,-0.02359518561584704,-0.0305848583796672,1
+PSBBWFNMHDUTRH,Alzheimer's Disease,0.0,0.0,0
+UHDGCWIWMRVCDJ,Acute Myeloid Leukemia,-3.207428950424149,-0.04445061762487468,1
+GHBCIXGRCZIPNQ,Post-herpetic Neuralgia,0.0,0.0,0
+XXSMGPRMXLTPCZ,Lung Cancer,0.0,0.0,0
+WPEWQEMJFLWMLV,Nasopharyngeal Carcinoma,0.0,0.0,0
+HGVDHZBSSITLCT,Atrial High Rate Episodes,0.0,0.0,0
+AACUJFVOHGRMTR,Alzheimer's Disease,0.0,0.0,0
+VZSAMEOETVNDQH,Solid Tumors,0.0,0.0,0
+XJGVXQDUIWGIRW,Neuropathic Pain,0.0,0.0,0
+YBBLVLTVTVSKRW,Metastatic Breast Cancer,-0.0492118307572316,-0.03621052123357958,1
+GXJABQQUPOEUTA,AL Amyloidosis,0.0,0.0,0
+IFSDAJWBUCMOAH,Waldenstrom's Macroglobulinemia,0.0,0.0,0
+GYQYAJJFPNQOOW,Lung Cancer,-0.14884750535352373,-0.002230616325617635,1
+HPJKCIUCZWXJDR,Metastatic Breast Cancer,-0.0492118307572316,-0.03621052123357958,1
+BEUQXVWXFDOSAQ,Metastatic Breast Cancer,-0.7229730765846267,-0.21786464877969103,1
+ZEUITGRIYCTCEM,Depression,0.0,0.0,0
+ZXERDUOLZKYMJM,Alcoholic Hepatitis,0.0,0.0,0
+BDXXSFOJPYSYOC,Type 2 Diabetes Mellitus,0.0,0.0,0
+BQJCRHHNABKAKU,Cancer,0.0,0.0,0
+CDAISMWEOUEBRE,retinopathy of prematurity,0.0,0.0,0
+BXNMTOQRYBFHNZ,Cell Carcinoma,0.0,0.0,0
+PIQCTGMSNWUMAF,Colorectal and Pancreas Cancer,-0.16186566818299883,0.035560850848411873,1
+PHXJVRSECIGDHY,Squamous Cell Lung and Head and Neck Cancer,-0.010067315286271214,0.017513641950758496,1
+GXJABQQUPOEUTA,Multiple Myeloma,0.0,1.895267179264142,1
+PIQCTGMSNWUMAF,Von Hippel-Lindau Syndrome,0.0,0.0,0
+SHGAZHPCJJPHSC,Alzheimer's Disease,0.0,0.0,0
+FPOHNWQLNRZRFC,Cell Lymphoma,-0.33682844211403556,-0.2045574504339936,1
+MUJMYVFVAWFUJL,"Unspecified Adult Solid Tumor, Protocol Specific",0.0,0.0,0
+HFNKQEVNSGCOJV,Adult T-Cell Leukemia,-0.13343888144865607,-0.06496036314497895,1
+SDUQYLNIPVEERB,Bladder Cancer,0.0,3.185811563107934,1
+ULDXWLCXEDXJGE,Breast Cancer,-0.28023758631263157,-0.19366144120490061,1
+WPTTVJLTNAWYAO,Type 2 Diabetes,0.0,0.0,0
+ZBNZXTGUTAYRHI,Lung Cancer,-0.10458828262357756,0.00774563261259853,1
+XAUDJQYHKZQPEU,Acute Lymphoblastic Leukemia; Precursor B-Cell Lymphoblastic Leukemia; Precursor T-Cell Lymphoblastic Leukemia,-0.5878162354736143,0.007886673931410626,1
+WAEXFXRVDQXREF,Acute Lymphoblastic Leukemia; Precursor B-Cell Lymphoblastic Leukemia; Precursor T-Cell Lymphoblastic Leukemia,-1.4231809007573857,-0.20015318367151758,1
+VDHAWDNDOKGFTD,"Chronic Kidney Disease; Hyperparathyroidism; Hyperparathyroidism, Secondary; Kidney Disease; Secondary Hyperparathyroidism",-0.00998730478180725,-0.004694737539529072,1
+UFNVPOGXISZXJD,Operable HER2 Positive Breast Cancer,-2.2446930475135694,-0.28929779395321265,1
+ZQTNQVWKHCQYLQ,Atrial Fibrillation,0.0,0.0,0
+AAKJLRGGTJKAMG,Pancreatic Cancer,-0.331731629149892,-0.09440453667199605,1
+GOTYRUGSSMKFNF,Chronic Lymphocytic Leukaemia,0.0,0.0,0
+HHZIURLSWUIHRB,Pulmonary Arterial Hypertension,0.0,0.0,0
+PHWXUGHIIBDVKD,"Hypertension, Pulmonary",0.0,0.0,0
+PHWXUGHIIBDVKD,Pulmonary Arterial Hypertension; Pulmonary Hypertension,0.0,0.0,0
+LEBVLXFERQHONN,Pain,0.0,0.0,0
+LSQZJLSUYDQPKJ,Helicobacter Pylori Infection; Gastritis; Vonoprazan; Adolescents,0.0,0.0,0
+GKTWGGQPFAXNFI,"Stent Thrombosis; Myocardial Infarction, Acute",0.0,0.0,0
+JVHXJTBJCFBINQ,Type 2 Diabetes,0.0,0.0,0
+NBGABHGMJVIVBW,insomnia,0.0,0.0,0
+DPYMFVXJLLWWEU,Early Recovery in Elderly Patients; Cognitive Function,0.0,0.0,0
+JAUOIFJMECXRGI,allergic rhinitis,0.0,0.0,0
+SUBDBMMJDZJVOS,Gastro Oesophageal Reflux Disease,0.0,0.006746290480102829,1
+PJMPHNIQZUBGLI,Procedural Pain,0.0,0.0,0
+PPSNFPASKFYPMN,hot flashes,0.0,0.0,0
+DRLFMBDRBRZALE,"Neonatal Diseases and Abnormalities; Neonatal Mortality; Pulmonary Arterial Hypertension; Pulmonary Arterial Hypertension, Children",0.0,0.0,0
+OLBCVFGFOZPWHH,General Anesthesia,0.0,0.0,0
+OLBCVFGFOZPWHH,Anesthesia,0.0,0.0,0
+CYHWMBVXXDIZNZ,intraoperative hypotension,0.0,0.0,0
+IWUCXVSUMQZMFG,Dengue Hemorrhagic Fever,0.0,0.0,0
+DFEYYRMXOJXZRJ,Early Recovery in Elderly Patients; Cognitive Function,0.0,0.0,0
+WOXKDUGGOYFFRN,BPH With Other Lower Urinary Tract Symptoms,0.0,0.0,0
+XFYDIVBRZNQMJC,postoperative urinary retention,0.0,0.0,0
+RZVAJINKPMORJF,Pain,0.0,0.0,0
+OFCNXPDARWKPPY,gout,0.0,0.0,0
+IMOZEMNVLZVGJZ,plaque psoriasis,0.0,0.0,0
+QIVUCLWGARAQIO,migraine,0.0,0.0,0
+VOVIALXJUBGFJZ,Chronic Rhinosinusitis With Nasal Polyps,0.0,0.0,0
+LEBVLXFERQHONN,hemodynamic instability,0.0,0.0,0
+LEBVLXFERQHONN,postoperative pain,0.0,0.0,0
+RUEYEZADQJCKGV,anemia,0.0,0.0,0
+UREBDLICKHMUKA,Laparoscopic Cholecystectomy; Postoperative Nausea and Vomiting,0.0,0.0,0
+OLNTVTPDXPETLC,Hypercholesterolemia,0.0,0.0,0
+RWTNPBWLLIMQHL,seasonal allergic rhinitis,0.0,0.0,0
+LNEPOXFFQSENCJ,Hyperactive Delirium,0.0,0.0,0
+JCQLYHFGKNRPGE,hepatic encephalopathy,0.0,0.0,0
+JCQLYHFGKNRPGE,Cirrhosis,0.0,0.0,0
+FWYSMLBETOMXAG,Prevention of Cytomegalovirus Infection,0.0,0.0,0
+FBPFZTCFMRRESA,traumatic brain injury,0.0,0.0,0
+DRLFMBDRBRZALE,Anxiety; Preoperative Anxiety,0.0,0.0,0
+XZWYZXLIPXDOLR,T2DM; Type 2 Diabetes Mellitus,0.0,0.0,0
+XZWYZXLIPXDOLR,Covid19,0.0,0.0,0
+TTWJBBZEZQICBI,upper gastrointestinal bleeding,0.0,0.0,0
+DQCKKXVULJGBQN,Alcohol Use Disorder,0.0,0.0,0
+NXFQHRVNIOXGAQ,Recurrent urinary tract infections,0.0,0.0,0
+SUBDBMMJDZJVOS,in Cancer,0.0,0.0,0
+MVFGUOIZUNYYSO,hemodynamic instability,0.0,0.0,0
+RJKFOVLPORLFTN,Infertility,0.0,0.0,0
+OLBCVFGFOZPWHH,"Anesthesia, General; Neuromuscular Transmission Disorders",0.0,0.0,0
+CYHWMBVXXDIZNZ,Healthy,0.0,0.0,0
+CYHWMBVXXDIZNZ,atrial fibrillation,0.0,0.0,0
+KRNAOFGYEFKHPB,migraine,0.0,0.0,0
+RAPZEAPATHNIPO,Schizophrenia; Schizoaffective Disorder,0.0,0.0,0
+ZKMNUMMKYBVTFN,Post-surgical Pain,0.0,0.0,0
+DFEYYRMXOJXZRJ,"Anesthesia, General; Neuromuscular Transmission Disorders",0.0,0.0,0
+UCTRAOBQFUDCSR,sleep apnea,0.0,0.0,0
+DRHKJLXJIQTDTD,Postoperative Retention of Urine,0.0,0.0,0
+HUNGUWOZPQBXGX,actinic keratosis,0.0,0.0,0
+UJLAWZDWDVHWOW,Alopecia Areata; Alopecia Totalis; Alopecia Universalis,0.0,0.0,0
+TVYLLZQTGLZFBW,Acute Pain; Post Operative Pain; Pain,0.0,0.0,0
+GYDJEQRTZSCIOI,"Hemorrhage, Postpartum; Placenta Previa",0.0,0.0,0
+GFNANZIMVAIWHM,pain,0.0,0.0,0
+MSYKRHVOOPPJKU,neuropathic pain,0.0,0.0,0
+ZPMNHBXQOOVQJL,Colon Cancer; Inflammatory Bowel Diseases; Gastrointestinal Bleed; Colon Polyp,0.10875330930128613,0.010346057004592846,1
+IMOZEMNVLZVGJZ,palmoplantar pustulosis,0.0,0.0,0
+QIVUCLWGARAQIO,chronic migraine,0.0,0.0,0
+MBUVEWMHONZEQD,seasonal allergic rhinitis,0.0,0.0,0
+KUVIULQEHSCUHY,asthma,0.0,0.0,0
+XYLJNLCSTIOKRM,presbyopia,0.0,0.0,0
+LEBVLXFERQHONN,pain,0.0,0.0,0
+QWCRAEMEVRGPNT,Vertigo; Autonomic Dysfunction,0.0,0.0,0
+RYYVLZVUVIJVGH,Pain,0.0,0.0,0
+KPWSJANDNDDRMB,autism spectrum disorder,0.0,0.0,0
+IAKHMKGGTNLKSZ,Ischemic stroke,0.0,0.0,0
+JVHXJTBJCFBINQ,Chronic Kidney Diseases,-0.06212915646936647,0.004845939418117798,1
+XDXWLKQMMKQXPV,purpura,0.0,0.0,0
+OBWASQILIWPZMG,Chronic Heart Failure; Acute Heart Failure; Diabetes Mellitus,0.0,0.0,0
+WSEQXVZVJXJVFP,Major Depressive Disorder,0.0,0.0,0
+VOXZDWNPVJITMN,Dyspareunia,0.0,0.0,0
+OVBPIULPVIDEAO,Gastric Residual Volume,0.0,0.0,0
+UGJMXCAKCUNAIE,Post Operative Nausea and Vomiting; Sleeve Gastrectomy; Morbid Obesity,0.0,0.0,0
+PGTVWKLGGCQMBR,tuberous sclerosis,0.0,0.0,0
+YOSHYTLCDANDAN,Essential Hypertension,0.0,0.0,0
+MBOMYENWWXQSNW,Multiple Myeloma,0.0,3.118722617494211,1
+YQEZLKZALYSWHR,Postoperative Depression,0.0,0.0,0
+OZWKMVRBQXNZKK,total hip arthroplasty,0.0,0.0,0
+HDKWFBCPLKNOCK,blepharitis,0.0,0.0,0
+JGCMEBMXRHSZKX,Pulmonary Arterial Hypertension,0.0,0.0,0
+KJFBVJALEQWJBS,cytomegalovirus infection,0.0,0.0,0
+RLCLASQCAPXVLM,hypertrophic cardiomyopathy,0.0,0.0,0
+RLCLASQCAPXVLM,cardiomyopathy,0.0,0.0,0
+DMJNNHOOLUXYBV,Complicated Urinary Tract Infection; Acute Pyelonephritis,0.0,0.0,0
+XZWYZXLIPXDOLR,Huntington Disease,0.0,0.0,0
+XZWYZXLIPXDOLR,Diabetes,0.0,0.0,0
+XZWYZXLIPXDOLR,Type 2 Diabetes Mellitus,0.0,0.0,0
+XZWYZXLIPXDOLR,Epilepsy,0.0,0.0,0
+VKHAHZOOUSRJNA,Labor induction,0.0,0.0,0
+OJLOPKGSLYJEMD,Labor induction,0.0,0.0,0
+SFLSHLFXELFNJZ,Anesthesia-induced hypotension,0.0,0.0,0
+YTFHCXIPDIHOIA,fibrodysplasia ossificans progressiva,0.0,0.0,0
+NNACHAUCXXVJSP,excessive daytime sleepiness,0.0,0.0,0
+NNACHAUCXXVJSP,idiopathic hypersomnia,0.0,0.0,0
+MNDBXUUTURYVHR,type 2 diabetes mellitus,0.0,0.0,0
+YOZBGTLTNGAVFU,anemia,0.0,0.0,0
+VGKDLMBJGBXTGI,Major Depressive Disorder,0.0,0.0,0
+GGCSSNBKKAUURC,total hip arthroplasty,0.0,0.0,0
+LDEKQSIMHVQZJK,HIV infection,0.0,0.0,0
+UEJJHQNACJXSKW,Transfusion-dependent Beta-Thalassemia,0.0,0.0,0
+NLVFBUXFDBBNBW,Total Knee Arthoplasty,0.0,0.0,0
+TVYLLZQTGLZFBW,Shivering,0.0,0.0,0
+WYQFJHHDOKWSHR,atopic dermatitis,0.0,0.0,0
+NIJJYAXOARWZEE,migraine,0.0,0.0,0
+RNOAOAWBMHREKO,hemophagocytic lymphohistiocytosis,0.0,0.0,0
+RKUNBYITZUJHSG,Anesthesia,0.0,0.0,0
+HEFNNWSXXWATRW,Pain Management,0.0,0.0,0
+FNHKPVJBJVTLMP,Colorectal Cancer,-0.3621958642161082,-0.16476934518469752,1
+SNHRLVCMMWUAJD,oral submucous fibrosis,0.0,0.0,0
+LEBVLXFERQHONN,Mammaplasty,0.0,0.0,0
+QHMBSVQNZZTUGM,fibromyalgia,0.0,0.0,0
+OGHNVEJMJSYVRP,Tricuspid Regurgitation; Right Ventricular Dilatation,0.0,0.0,0
+ZKLPARSLTMPFCP,Lower Ureteric Stones,0.0,0.0,0
+QYSXJUFSXHHAJI,Pre-frail Elderly,0.0,0.0,0
+KPBZROQVTHLCDU,stroke,0.0,0.0,0
+GKTWGGQPFAXNFI,Ischemic Stroke,0.0,0.0,0
+IAKHMKGGTNLKSZ,COVID-19; cytokine release syndrome,0.0,0.0,0
+IAKHMKGGTNLKSZ,atrial fibrillation,0.0,0.0,0
+UREBDLICKHMUKA,Coronavirus Infection,0.0,0.0,0
+JVHXJTBJCFBINQ,Heart Failure,0.0,0.0,0
+UREBDLICKHMUKA,Covid19; Viral Pneumonia Human Coronavirus; Severe Acute Respiratory Syndrome,0.0,0.0,0
+UREBDLICKHMUKA,Post Uterine Artery Embolization Pain,0.0,0.0,0
+UREBDLICKHMUKA,Covid19,0.0,0.0,0
+UREBDLICKHMUKA,Macular Edema,0.0,0.0,0
+UREBDLICKHMUKA,Chemoradiotherapy in Cervical Cancer,-0.0264292847556327,-0.018924063137479616,1
+DKYWVDODHFEZIM,low back pain,0.0,0.0,0
+LUZRJRNZXALNLM,migraine,0.0,0.0,0
+YIMYDTCOUQIDMT,Multiple Sclerosis,0.0,0.0,0
+ZEUITGRIYCTCEM,Improving Outcomes in People With Knee Osteoarthritis Pain,0.0,0.0,0
+HGVDHZBSSITLCT,CTEPH,0.0,0.0,0
+OBWASQILIWPZMG,Tricuspid Regurgitation; Right Ventricular Dilatation,0.0,0.0,0
+WSEQXVZVJXJVFP,Parkinson's Disease,0.0,0.0,0
+VJJPUSNTGOMMGY,Lung Cancer,-2.6820224501729757,-0.14603313907467985,1
+VJJPUSNTGOMMGY,SCLC,0.0,0.0,0
+ZCGNOVWYSGBHAU,COVID-19,0.0,0.0,0
+PJMPHNIQZUBGLI,Acute Pain; Ambulances,0.0,0.0,0
+RFHAOTPXVQNOHP,Invasive Candidiases,0.0,0.0,0
+GKDRMWXFWHEQQT,pneumonia,0.0,0.0,0
+ZZUFCTLCJUWOSV,preeclampsia,0.0,0.0,0
+ZZUFCTLCJUWOSV,heart failure,0.0,0.0,0
+SDUQYLNIPVEERB,Metastatic Pancreatic Ductal Adenocarcinoma,-3.285229495153491,-0.09941793204555704,1
+SFNSLLSYNZWZQG,Acute Myeloid Leukemia; Myelodysplastic Syndrome; Chronic Myelomonocytic Leukemia,-0.07602796360576294,0.00931316586422655,1
+MFWNKCLOYSRHCJ,1mg Vs 3 mg of Granisetron,0.0,0.0,0
+MFWNKCLOYSRHCJ,"Bariatric Surgery Candidate; Perioperative Complication; Nausea; Vomiting, Postoperative; Drug Effect",0.0,0.0,0
+VSNHCAURESNICA,Sickle Cell Anemia in Children,0.0,0.0,0
+XMXHEBAFVSFQEX,bipolar I disorder,0.0,0.0,0
+PIWKPBJCKXDKJR,sedation,0.0,0.0,0
+YQEZLKZALYSWHR,Major Depression,0.0,0.0,0
+YQEZLKZALYSWHR,Sore Throat,0.0,0.0,0
+WMDSZGFJQKSLLH,atrial fibrillation,0.0,0.0,0
+MJIHNNLFOKEZEW,Breast Cancer,0.014031931373713868,0.020778221853816697,1
+MJIHNNLFOKEZEW,Reflux Esophagitis,0.0,0.006746290480102829,1
+NNJVILVZKWQKPM,total hip arthroplasty,0.0,0.0,0
+NNJVILVZKWQKPM,juvenile idiopathic arthritis,0.0,0.0,0
+HOIIHACBCFLJET,Major Depressive Disorder,0.0,0.0,0
+UJVDJAPJQWZRFR,isolated growth hormone deficiency type IA,0.0,0.0,0
+XZWYZXLIPXDOLR,SARS-CoV-2 Infection,0.0,0.0,0
+XZWYZXLIPXDOLR,Frailty; Sarcopenic Obesity; Aging,0.0,0.0,0
+RFKMCNOHBTXSMU,Acute Pain; Ambulances,0.0,0.0,0
+VHRSUDSXCMQTMA,Covid19; Viral Pneumonia Human Coronavirus; Severe Acute Respiratory Syndrome,0.0,0.0,0
+VHRSUDSXCMQTMA,Covid19,0.0,0.0,0
+TTWJBBZEZQICBI,"Bariatric Surgery Candidate; Perioperative Complication; Nausea; Vomiting, Postoperative; Drug Effect",0.0,0.0,0
+VAOCPAMSLUNLGC,Complicated Intra-abdominal Infection,0.0,0.0,0
+VLPIATFUUWWMKC,myotonic dystrophy type 1,0.0,0.0,0
+PQLXHQMOHUQAKB,mania,0.0,0.0,0
+XZXHXSATPCNXJR,"Lung Diseases, Interstitial",-0.20409800966071415,-0.006671490629303445,1
+SFLSHLFXELFNJZ,hypotension,0.0,0.0,0
+PHVGLTMQBUFIQQ,Parkinson's Disease,0.0,0.0,0
+JEECQCWWSTZDCK,Community-acquired Pneumonia; Bacterial Pneumonia,0.0,0.0,0
+FELGMEQIXOGIFQ,"Bariatric Surgery Candidate; Perioperative Complication; Nausea; Vomiting, Postoperative; Drug Effect",0.0,0.0,0
+OIGNJSKKLXVSLS,Coronavirus Infection,0.0,0.0,0
+XOFYZVNMUHMLCC,Prostate Cancer,-0.14926338368421263,-0.14175816206605954,1
+INDBQLZJXZLFIT,malaria,0.0,0.0,0
+OLBCVFGFOZPWHH,Gynecological Outpatient Surgery,0.0,0.0,0
+ZTVQQQVZCWLTDF,Anesthesia,0.0,0.0,0
+MNDBXUUTURYVHR,obesity,0.0,0.0,0
+HMABYWSNWIZPAG,Metastatic Castration-Resistant Prostate Cancer; Ovarian Cancer; Epithelial Ovarian Cancer; Fallopian Tube Cancer; Peritoneal Cancer; Other Solid Tumor,-0.2448589443743246,-0.03557390545444197,1
+HFNKQEVNSGCOJV,Atopic Dermatitis,0.0,0.0,0
+QXWZQTURMXZVHJ,"Hypertension, Pulmonary",0.0,0.0,0
+MFFMDFFZMYYVKS,"Diabetes Mellitus, Type 2; Cognitive Functions Confusion",0.0,0.0,0
+LXMSZDCAJNLERA,Hypertension,0.0,0.0,0
+LBHLFPGPEGDCJG,malaria,0.0,0.0,0
+UTNUDOFZCWSZMS,Multiple Sclerosis,0.0,0.0,0
+NGBFQHCMQULJNZ,heart failure,0.0,0.0,0
+GYDJEQRTZSCIOI,"Cesarean Section Complications; Blood Loss, Surgical; Misoprostol; Tranexamic Acid",0.0,0.0,0
+PDGKHKMBHVFCMG,Metastatic Triple-Negative Breast Cancer,-1.1502225213990958,-0.4191460666509885,1
+JGRXMPYUTJLTKT,anemia of chronic kidney disease,-0.18699734320626482,0.03708384103951545,1
+GEJDGVNQKABXKG,Schizophrenia,0.0,0.0,0
+QZFHIXARHDBPBY,heart failure with reduced ejection fraction,0.0,0.0,0
+WOSKHXYHFSIKNG,Metastatic Colorectal Cancer,-0.11040726101690315,0.0738313199491043,1
+RCINICONZNJXQF,Anal Carcinoma,0.0,0.0,0
+RZVAJINKPMORJF,"Pain, Postoperative",0.0,0.0,0
+IMOZEMNVLZVGJZ,COVID-19,0.0,0.0,0
+XUZMWHLSFXCVMG,COVID-19,0.0,0.0,0
+VHYCDWMUTMEGQY,COPD,0.0,0.0,0
+VHYCDWMUTMEGQY,Cardiomyopathies; Chemotherapy Effect; Diastolic Dysfunction; Systolic Dysfunction,0.0,0.0,0
+ZKIAIYBUSXZPLP,autism spectrum disorder,0.0,0.0,0
+SNPPWIUOZRMYNY,HIV; Smoking Cessation,0.0,0.0,0
+SNPPWIUOZRMYNY,Smoking Cessation,0.0,0.0,0
+ONIQOQHATWINJY,Cell Carcinoma,0.0,0.0,0
+ONIQOQHATWINJY,Lung Cancer,-0.15186856486431696,-0.0372659652303477,1
+RZEKVGVHFLEQIL,"Pain, Postoperative",0.0,0.0,0
+ZKLPARSLTMPFCP,Breast Cancer; Lung Cancer; Ovarian Cancer; Oesophageal Cancer; Head Cancer Neck; Cervical Cancer; Endometrial Cancer,0.07045822989002141,-0.012447572151105424,1
+WHTVZRBIWZFKQO,COVID; COVID-19; SARS-CoV 2; Coronavirus; Corona Virus Infection,0.0,0.0,0
+QYSXJUFSXHHAJI,COVID-19,0.0,0.0,0
+LUKZNWIVRBCLON,COVID-19,0.0,0.0,0
+MYSWGUAQZAJSOK,"Plague, Bubonic; Plague, Pneumonic",0.0,0.0,0
+IAKHMKGGTNLKSZ,Coronavirus; Severe Acute Respiratory Syndrome,0.0,0.0,0
+IAKHMKGGTNLKSZ,COVID-19,0.0,0.0,0
+PIBARDGJJAGJAJ,Paroxysmal Nocturnal Hemoglobinuria,0.0,0.0,0
+JVHXJTBJCFBINQ,Polycystic Ovary Syndrome,0.0,0.0,0
+JVHXJTBJCFBINQ,Acute Myocardial Infarction; Heart Failure,0.0,0.0,0
+UREBDLICKHMUKA,"Analgesia; Surgery; Cancer of Head and Neck; Oropharyngeal Cancer; Carcinoma of Unknown Primary; Pain, Postoperative; Postoperative Pain",0.00038967795507907323,0.007894899573232158,1
+UREBDLICKHMUKA,Covid19; Hypoxia,0.0,0.0,0
+UREBDLICKHMUKA,COVID-19,0.0,0.0,0
+UREBDLICKHMUKA,SARS-CoV-2 Infection,0.0,0.0,0
+UREBDLICKHMUKA,COVID-19; Thrombosis Embolism; Bleeding,0.0,0.0,0
+JRWZLRBJNMZMFE,Sepsis,0.0,0.0,0
+ZIAOVIPSKUPPQW,HIV-1 infection,0.0,0.0,0
+OBWASQILIWPZMG,Heart Failure,0.0,0.0,0
+OBWASQILIWPZMG,Type 2 Diabetes,0.0,0.0,0
+OBWASQILIWPZMG,Myocardial Infarction,0.0,0.0,0
+UCTWMZQNUQWSLP,Gastric Neoplasm; Early Gastric Cancer,0.0,0.07273109934423248,1
+MCIACXAZCBVDEE,valvular heart disease,0.0,0.0,0
+YQEZLKZALYSWHR,Esketamine Treatment in Participants With Treatment Resistant Depression,0.0,0.0,0
+SUBDBMMJDZJVOS,Sepsis; Septic Shock,0.0,0.0,0
+VOXZDWNPVJITMN,PTSD,0.0,0.0,0
+MVGWUTBTXDYMND,Ulcerative Colitis,0.0,0.0,0
+ZCGNOVWYSGBHAU,Infectious Disease; SARS-CoV Infection; Covid19,0.0,0.0,0
+PJMPHNIQZUBGLI,Aortic Coarctation; Erector Spinae Plane Block; Paediatric,0.0,0.0,0
+UGJMXCAKCUNAIE,Post-Operative Pain,0.0,0.0,0
+UGJMXCAKCUNAIE,"Pain, Postoperative",0.0,0.0,0
+PGTVWKLGGCQMBR,status epilepticus,0.0,0.0,0
+HLWURFKMDLAKOD,chronic cough,0.0,0.0,0
+SDUQYLNIPVEERB,Cell Lymphoma,-3.143186432660445,0.042625130447488946,1
+SDUQYLNIPVEERB,Tract Carcinoma,0.0,0.0,0
+INJOMKTZOLKMBF,delirium,0.0,0.0,0
+JYGXADMDTFJGBT,Covid-19; Hypoxia,0.0,0.0,0
+XXSMGPRMXLTPCZ,"Pneumonia, Pneumocystis; Coronavirus; COVID-19",0.0,0.0,0
+XXSMGPRMXLTPCZ,Corona Virus Infection; Acute Respiratory Distress Syndrome; SARS-CoV Infection; Coronavirus; Coronavirus Infections,0.0,0.0,0
+XXSMGPRMXLTPCZ,Severe COVID-19 Pulmonary Infection,0.0,0.0,0
+XXSMGPRMXLTPCZ,Corona Virus Infection,0.0,0.0,0
+XXSMGPRMXLTPCZ,COVID-19; Severe Acute Respiratory Syndrome,0.0,0.0,0
+XXSMGPRMXLTPCZ,"Coronavirus Infections; Pneumonia, Viral",0.0,0.0,0
+XXSMGPRMXLTPCZ,COVID-19; Corona Virus Infection; ARDS; Acute Respiratory Distress Syndrome,0.0,0.0,0
+XXSMGPRMXLTPCZ,Coronavirus; Acute Respiratory Infection; SARS-CoV Infection,0.0,0.0,0
+XXSMGPRMXLTPCZ,Coronavirus Infection,0.0,0.0,0
+XXSMGPRMXLTPCZ,COVID 19,0.0,0.0,0
+XXSMGPRMXLTPCZ,Pregnancy Related; COVID; Covid-19,0.0,0.0,0
+XXSMGPRMXLTPCZ,SARS-CoV-2,0.0,0.0,0
+XXSMGPRMXLTPCZ,COVID; COVID-19; SARS-CoV 2; Coronavirus; Corona Virus Infection,0.0,0.0,0
+XXSMGPRMXLTPCZ,Covid19,0.0,0.0,0
+KTUFNOKKBVMGRW,COVID-19,0.0,0.0,0
+PIWKPBJCKXDKJR,Anesthesia,0.0,0.0,0
+PIWKPBJCKXDKJR,valvular heart disease,0.0,0.0,0
+YWXYYJSYQOXTPL,pain,0.0,0.0,0
+YQEZLKZALYSWHR,Postoperative Pain,0.0,0.0,0
+OZWKMVRBQXNZKK,"Pain, Postoperative",0.0,0.0,0
+VPPJLAIAVCUEMN,epilepsy,0.0,0.0,0
+MUGXRYIUWFITCP,insomnia,0.0,0.0,0
+WOSKHXYHFSIKNG,Cell Carcinoma,0.0,0.0,0
+WOSKHXYHFSIKNG,Advanced Melanoma,-0.08732192565199877,0.09691665531400868,1
+HPJKCIUCZWXJDR,PCOS (Polycystic Ovary Syndrome) of Bilateral Ovaries,0.0,0.013001309523652024,1
+NNJVILVZKWQKPM,Pain,0.0,0.0,0
+HOIIHACBCFLJET,Depression,0.0,0.0,0
+STPKWKPURVSAJF,progressive familial intrahepatic cholestasis,0.0,0.0,0
+DMJNNHOOLUXYBV,Bacteremia,0.0,0.0,0
+XZWYZXLIPXDOLR,Aging; Insulin Sensitivity; Chronic Disease; Mitochondria; Insulin Resistance,0.0,0.0,0
+XZWYZXLIPXDOLR,Colon Cancer,-0.06269833859701078,0.00024726865444524293,1
+RFKMCNOHBTXSMU,pain,0.0,0.0,0
+VHRSUDSXCMQTMA,Covid-19 Pneumonia,0.0,0.0,0
+DYKFCLLONBREIL,Treatment Resistant Depression,0.0,0.0,0
+ZVHNDZWQTBEVRY,Primary Myelofibrosis; Post-polycythemia Vera Myelofibrosis; Post-essential Thrombocythemia Myelofibrosis,0.0,0.0,0
+XNKCCCKFOQNXKV,constipation,0.0,0.0,0
+ZBBHBTPTTSWHBA,vasospastic angina,0.0,0.0,0
+RJMUSRYZPJIFPJ,Diabetic Nephropathies,0.0,0.0,0
+UIAGMCDKSXEBJQ,organophosphate poisoning,0.0,0.0,0
+YQNQNVDNTFHQSW,COVID-19; Viral Respiratory Illnesses,0.0,0.0,0
+SFLSHLFXELFNJZ,Intraoperative hypotension,0.0,0.0,0
+FDLYAMZZIXQODN,Metastatic Colorectal Cancer,-0.15671460028881495,0.05257043863106767,1
+VSZGPKBBMSAYNT,COVID 19,0.0,0.0,0
+RCINICONZNJXQF,Metastatic Esophageal Carcinoma,0.0,1.9553952535603567,1
+RCINICONZNJXQF,Lung Cancer,-1.7482893083390767,0.20710594522128,1
+RKEWSXXUOLRFBX,schizophrenia,0.0,0.0,0
+GBLBJPZSROAGMF,First-Line Treatment of Advanced Non-Small Cell Lung Cancer,-0.2767814696632821,-0.04436203691464749,1
+RJKFOVLPORLFTN,IVF; GnRH Antagonist; PPOS,0.0,0.0,0
+OLBCVFGFOZPWHH,sedation,0.0,0.0,0
+OLBCVFGFOZPWHH,Induction and Maintenance of General Anesthesia,0.0,0.0,0
+OLBCVFGFOZPWHH,Sedation in Intensive Care,0.0,0.0,0
+OLBCVFGFOZPWHH,valvular heart disease,0.0,0.0,0
+RWWYLEGWBNMMLJ,COVID-19,0.0,0.0,0
+RWWYLEGWBNMMLJ,Corona Virus Infection,0.0,0.0,0
+RWWYLEGWBNMMLJ,COVID-19 Pneumonia,0.0,0.0,0
+RWWYLEGWBNMMLJ,COVID; COVID-19; SARS-CoV-2; SARS (Severe Acute Respiratory Syndrome),0.0,0.0,0
+RWWYLEGWBNMMLJ,Covid19,0.0,0.0,0
+RWWYLEGWBNMMLJ,Covid19; Covid-19 ARDS,0.0,0.0,0
+KGFYHTZWPPHNLQ,Coronavirus; Severe Acute Respiratory Syndrome,0.0,0.0,0
+ZKMNUMMKYBVTFN,Breast Cancer,0.022247722026043887,-0.008892608779842395,1
+ZKMNUMMKYBVTFN,Pain,0.0,0.0,0
+HMABYWSNWIZPAG,Ovarian Cancer,0.0,0.20928503891988262,1
+HFNKQEVNSGCOJV,Cytokine Storm (Covid-19); cytokine release syndrome,0.0,0.0,0
+HFNKQEVNSGCOJV,Myelofibrosis (MF),0.0,0.0,0
+DEVSOMFAQLZNKR,in Cancer,0.0,0.0,0
+DFEYYRMXOJXZRJ,Anesthesia,0.0,0.0,0
+DFEYYRMXOJXZRJ,pain,0.0,0.0,0
+DFEYYRMXOJXZRJ,COVID-19; ards,0.0,0.0,0
+DFEYYRMXOJXZRJ,valvular heart disease,0.0,0.0,0
+JYTNQNCOQXFQPK,Delirium,0.0,0.0,0
+RMMXLENWKUUMAY,Hypercholesterolemia; Hypertension,0.0,0.0,0
+GYDJEQRTZSCIOI,Postpartum Hemorrhage; Tranexamic Acid,0.0,0.0,0
+JGRXMPYUTJLTKT,anemia,0.0,0.0,0
+MYPYJXKWCTUITO,Clostridium Difficile Infection,0.0,0.0,0
+JQSHBVHOMNKWFT,smoking cessation,0.0,0.0,0
+JQSHBVHOMNKWFT,tobacco use disorder,0.0,0.0,0
+LQBVNQSMGBZMKD,Chronic Lymphocytic Leukemia,-0.2610540909570298,-0.22487235594580582,1
+LQBVNQSMGBZMKD,Acute Myeloid Leukemia,-0.2610540909570298,-0.22487235594580582,1
+PJVWKTKQMONHTI,Left Ventricular Thrombus; ST Segment Elevation Myocardial Infarction,0.0,0.0,0
+UBQNRHZMVUUOMG,Smoking Cessation,0.0,0.0,0
+PWKSKIMOESPYIA,rhinosinusitis,0.0,0.0,0
+QHMBSVQNZZTUGM,Pain,0.0,0.0,0
+ZZVUWRFHKOJYTH,Multiple Sclerosis; Infusion Reaction,0.0,0.0,0
+XXSMGPRMXLTPCZ,SARS-CoV-2 Infection,0.0,0.0,0
+VHOGYURTWQBHIL,COVID-19,0.0,0.0,0
+SFLSHLFXELFNJZ,congenital heart disease,0.0,0.0,0
+XOFYZVNMUHMLCC,Pemphigus Vulgaris; Pemphigus Foliaceus,0.0,0.0,0
+RJKFOVLPORLFTN,"Infertility, Female",0.0,0.0,0
+HFNKQEVNSGCOJV,Vitiligo,0.0,0.0,0
+WINHZLLDWRZWRT,Cell Cancer,0.0,0.0,0
+WDENQIQQYWYTPO,Chronic Lymphocytic Leukemia,0.023341767398744644,0.034035268096031045,1
+ZSBOMTDTBDDKMP,Type 2 Diabetes,0.0,0.0,0
+LSQZJLSUYDQPKJ,Tuberculosis; Respiratory Tract Infections; Pneumonia,0.0,0.0,0
+IMOZEMNVLZVGJZ,psoriasis,0.0,0.0,0
+KXNPVXPOPUZYGB,ischemic stroke,0.0,0.0,0
+QIVUCLWGARAQIO,episodic migraine,0.0,0.0,0
+XUKUURHRXDUEBC,Hypercholesterolemia,0.0,0.0,0
+NMUSYJAQQFHJEW,MDS,0.0,0.0,0
+XUZMWHLSFXCVMG,Alopecia Areata,0.0,0.0,0
+ZKIAIYBUSXZPLP,schizophrenia,0.0,0.0,0
+ZKIAIYBUSXZPLP,Post Traumatic Stress Disorder,0.0,0.0,0
+ZKIAIYBUSXZPLP,Depression,0.0,0.0,0
+MSYKRHVOOPPJKU,epilepsy,0.0,0.0,0
+RMRJXGBAOAMLHD,Opioid Use Disorder,0.0,0.0,0
+GAGWJHPBXLXJQN,Gastric Adenocarcinoma; Gastroesophageal Junction Adenocarcinoma,0.0,0.7925352193995119,1
+GAGWJHPBXLXJQN,Metastatic Gastric Cancer,0.0,0.7925352193995119,1
+YKPUWZUDDOIDPM,breast cancer,-0.06109849546997907,0.03467444369904178,1
+VAAUVRVFOQPIGI,pneumonia,0.0,0.0,0
+QYSXJUFSXHHAJI,vitamin D deficiency,0.0,0.0,0
+PTOAARAWEBMLNO,Multiple Sclerosis,0.0,0.0,0
+GJSURZIOUXUGAL,Child Preschool,0.0,0.0,0
+USZAGAREISWJDP,atopic dermatitis,0.0,0.0,0
+JVHXJTBJCFBINQ,Nonalcoholic Steatohepatitis,0.0,0.0,0
+JVHXJTBJCFBINQ,Heart Failure With Preserved Ejection Fraction (HFpEF),0.0,0.0,0
+JVHXJTBJCFBINQ,Heart Failure With Reduced Ejection Fraction (HFrEF),0.0,0.0,0
+SIFNOOUKXBRGGB,Advanced Breast Cancer,-0.33033499306052333,-0.2774030028172715,1
+XDXWLKQMMKQXPV,immune thrombocytopenia,0.0,0.0,0
+OBWASQILIWPZMG,Chronic Kidney Disease,-0.06212915646936647,0.004845939418117798,1
+GBXSMTUPTTWBMN,"Heart Failure; Heart Failure, Systolic; Erectile Dysfunction",0.0,0.0,0
+JUZNIMUFDBIJCM,complicated urinary tract infection,0.0,0.0,0
+MCIACXAZCBVDEE,Diabetes,0.0,0.0,0
+WSEQXVZVJXJVFP,Depression,0.0,0.0,0
+JOOXLOJCABQBSG,myelofibrosis,0.0,0.0,0
+GKDRMWXFWHEQQT,anemia,0.0,0.0,0
+UGJMXCAKCUNAIE,End Stage Renal Disease; Restless Legs Syndrome,-0.5267741611032696,-0.029478838699870058,1
+IRSCQMHQWWYFCW,Transplantation Infection; Cytomegalovirus Infections,0.0,0.0,0
+SDUQYLNIPVEERB,Gallbladder Carcinoma,0.0,3.185811563107934,1
+SDUQYLNIPVEERB,Metastatic Nasopharyngeal Cancer,0.0,0.0,0
+GUTXTARXLVFHDK,Schizophrenia; Medication Nonadherence; Schizo Affective Disorder,0.0,0.0,0
+JYGXADMDTFJGBT,Sepsis; Septic Shock,0.0,0.0,0
+VSNHCAURESNICA,Sickle Cell Disease; Sickle Cell Anemia,0.0,0.0,0
+HIFJCPQKFCZDDL,septic shock,0.0,0.0,0
+HIFJCPQKFCZDDL,acute respiratory distress syndrome,0.0,0.0,0
+YQEZLKZALYSWHR,Reducing Psychological Side Effects of Ketamine,0.0,0.0,0
+YQEZLKZALYSWHR,Critical Illness; Sedation; Mechanical Ventilation,0.0,0.0,0
+YQEZLKZALYSWHR,Lung Diseases; Diagnosis; Anesthesia,-0.14504271246232664,-0.03746460928672997,1
+OZWKMVRBQXNZKK,Post-cesarean pain,0.0,0.0,0
+OZWKMVRBQXNZKK,rotator cuff tear,0.0,0.0,0
+OZWKMVRBQXNZKK,Acute Pain Due to Trauma,0.0,0.0,0
+OZWKMVRBQXNZKK,Postoperative Pain,0.0,0.0,0
+MJIHNNLFOKEZEW,Erosive Esophagitis,0.0,0.006746290480102829,1
+XEDHVZKDSYZQBF,migraine,0.0,0.0,0
+WOSKHXYHFSIKNG,Advance Melanoma,-0.08732192565199877,0.09691665531400868,1
+WOSKHXYHFSIKNG,Lung Cancer,-0.15186856486431696,0.03237001610169049,1
+WOSKHXYHFSIKNG,Endometrial Carcinoma,-0.11207425684992964,0.07216432411607782,1
+WOSKHXYHFSIKNG,Urothelial Carcinoma,0.0,0.0,0
+FWYSMLBETOMXAG,cytomegalovirus infection,0.0,0.0,0
+XMAYWYJOQHXEEK,Cushing syndrome,0.0,0.0,0
+NNJVILVZKWQKPM,Improved Postoperative Pain,0.0,0.0,0
+NNJVILVZKWQKPM,septic shock,0.0,0.0,0
+NNJVILVZKWQKPM,Scoliosis; Adolescence; Anesthesia Recovery Period,0.0,0.0,0
+PSGAAPLEWMOORI,endometrial hyperplasia,0.0019205742360772224,-0.014815980696632956,1
+DMJNNHOOLUXYBV,Urinary Tract Infections; Acute Pyelonephritis,0.0,0.0,0
+PMRYVIKBURPHAH,Graves disease,0.0,0.0,0
+OJLOPKGSLYJEMD,uterine fibroids,0.0,0.0,0
+XAYGBKHKBBXDAK,pyruvate kinase deficiency,0.0,0.0,0
+RTGDFNSFWBGLEC,Steroid-Dependent Nephrotic Syndrome,0.0,0.0,0
+SNICXCGAKADSCV,cannabis use disorder,0.0,0.0,0
+XZXHXSATPCNXJR,Lung-transplant Recipients,-0.20409800966071415,-0.006671490629303445,1
+SFLSHLFXELFNJZ,Spinal anesthesia-induced hypotension,0.0,0.0,0
+FDLYAMZZIXQODN,Prostate Cancer,-0.2448589443743246,-0.03557390545444197,1
+XRVDGNKRPOAQTN,ulcerative colitis,0.0,0.0,0
+RCINICONZNJXQF,Metastatic Breast Cancer,-2.2446930475135694,-0.28929779395321265,1
+RCINICONZNJXQF,Breast Cancer,-2.2446930475135694,-0.28929779395321265,1
+RCINICONZNJXQF,Ovarian Cancer,0.0,1.9553952535603567,1
+RCINICONZNJXQF,Metastatic Pancreatic Adenocarcinoma,-1.733920274771001,0.22147497878935574,1
+RCINICONZNJXQF,Cell Carcinoma,0.0,0.0,0
+RCINICONZNJXQF,Participants With Locally Advanced or Metastatic Triple-Negative Breast Cancer,-2.2446930475135694,-0.28929779395321265,1
+WBXPDJSOTKVWSJ,Pleural Mesothelioma Malignant Advanced,0.0,0.0,0
+WBXPDJSOTKVWSJ,NSCLC,0.0,0.0,0
+SONNWYBIRXJNDC,Spinal anesthesia-induced hypotension,0.0,0.0,0
+RKEWSXXUOLRFBX,Major Depressive Disorder,0.0,0.0,0
+FSVJFNAIGNNGKK,schistosomiasis,0.0,0.0,0
+RJKFOVLPORLFTN,Vasomotor Symptoms; Menopausal Symptoms,0.0,0.0,0
+OLBCVFGFOZPWHH,Induction of Anesthesia,0.0,0.0,0
+OLBCVFGFOZPWHH,Anesthesia for Elective Surgery Patients,0.0,0.0,0
+OLBCVFGFOZPWHH,Sedation or Anesthesia,0.0,0.0,0
+KNAHARQHSZJURB,Graves disease,0.0,0.0,0
+IWUCXVSUMQZMFG,Cirrhosis,0.0,0.0,0
+KGFYHTZWPPHNLQ,Atrial Fibrillation; Stroke; Bleeding,0.0,0.0,0
+KGFYHTZWPPHNLQ,Atrial Fibrillation; Intracerebral Hemorrhage,0.0,0.0,0
+UHSKFQJFRQCDBE,End Stage Renal Disease; Restless Legs Syndrome,0.0008643367830828379,0.007693311667551047,1
+ZKMNUMMKYBVTFN,Post-Sternotomy Pain,0.0,0.0,0
+HFNKQEVNSGCOJV,Steroid Refractory GVHD,0.0,0.0,0
+NEMGRZFTLSKBAP,Parkinson's Disease,0.0,0.0,0
+STECJAGHUSJQJN,motion sickness,0.0,0.0,0
+KPQZUUQMTUIKBP,trichomoniasis,0.0,0.0,0
+KIHYPELVXPAIDH,multiple sclerosis,0.0,0.0,0
+MFFMDFFZMYYVKS,Type 2 Diabetes,0.0,0.0,0
+TTZHDVOVKQGIBA,hepatitis C virus infection,0.0,0.0,0
+FKENQMMABCRJMK,bacterial pneumonia,0.0,0.0,0
+ZISJNXNHJRQYJO,plaque psoriasis,0.0,0.0,0
+QCGUSIANLFXSGE,skin and soft tissue bacterial infection,0.0,0.0,0
+MUMGGOZAMZWBJJ,hip fracture,0.0,0.0,0
+GYDJEQRTZSCIOI,Intrapartum - Moderate and Severe Anaemia,0.0,0.0,0
+MFBCDACCJCDGBA,acne vulgaris,0.0,0.0,0
+WYQFJHHDOKWSHR,giant cell arteritis,0.0,0.0,0
+WYQFJHHDOKWSHR,spondyloarthritis,0.0,0.0,0
+GEJDGVNQKABXKG,"Chorea, Huntington",0.0,0.0,0
+WPVFJKSGQUFQAP,Transplantation Infection; Cytomegalovirus Infections,0.0,0.0,0
+DJXRIQMCROIRCZ,overactive bladder,0.0,-0.03205803588418919,1
+OBWASQILIWPZMG,Type1 Diabetes Mellitus,0.0,0.0,0
+XUFXOAAUWZOOIT,"Diabetes Mellitus, Type 2",0.0,0.0,0
+RZVAJINKPMORJF,Low Back Pain,0.0,0.0,0
+RZVAJINKPMORJF,Nephrolithiasis,0.0,0.0,0
+OIRDTQYFTABQOQ,supraventricular tachycardia,0.0,0.0,0
+HXHWSAZORRCQMX,acute malnutrition,0.0,0.0,0
+STUWGJZDJHPWGZ,Breast Cancer,-0.7229730765846267,-0.21786464877969103,1
+OUJTZYPIHDYQMC,pulmonary arterial hypertension,0.0,0.0,0
+XSDQTOBWRPYKKA,essential hypertension,0.0,0.0,0
+QNZCBYKSOIHPEH,"Intracranial Hemorrhages; Intracranial Hemorrhage, Hypertensive; Subarachnoid Hemorrhage; Subdural Hematoma; Intraventricular Hemorrhage; Atrial Fibrillation; Atrial Flutter; Small Vessel Cerebrovascular Disease; Microhaemorrhage",0.0,0.0,0
+QNZCBYKSOIHPEH,Left Ventricular Thrombus,0.0,0.0,0
+SGEIEGAXKLMUIZ,amyotrophic lateral sclerosis,0.0,0.0,0
+XUKUURHRXDUEBC,Hypercholesterolaemia,0.0,0.0,0
+LMEKQMALGUDUQG,Eosinophilic Granulomatosis With Polyangiitis,0.0,0.0,0
+XUZMWHLSFXCVMG,Atopic Dermatitis,0.0,0.0,0
+XUZMWHLSFXCVMG,Systemic Lupus Erythematosus,0.0,0.0,0
+XUZMWHLSFXCVMG,Juvenile Idiopathic Arthritis,0.0,0.0,0
+VHYCDWMUTMEGQY,Cardiovascular Diseases,0.0,0.0,0
+ZKIAIYBUSXZPLP,Major Depressive Disorder,0.0,0.0,0
+ZKIAIYBUSXZPLP,Alzheimer disease,0.0,0.0,0
+ZKIAIYBUSXZPLP,Alzheimer's disease biomarker measurement,0.0,0.0,0
+GAGWJHPBXLXJQN,Gastric Neoplasms; Gastroesophageal Junction Adenocarcinoma,0.0,0.7925352193995119,1
+GAGWJHPBXLXJQN,Gastric Cancer,0.0,0.7925352193995119,1
+GAGWJHPBXLXJQN,Junction Carcinoma,0.0,0.0,0
+KPWSJANDNDDRMB,bipolar I disorder,0.0,0.0,0
+KPWSJANDNDDRMB,Major Depressive Disorder,0.0,0.0,0
+GFHAXPJGXSQLPT,combined generalized and focal epilepsy,0.0,0.0,0
+QYSXJUFSXHHAJI,drug-resistant epilepsy,0.0,0.0,0
+VDHAWDNDOKGFTD,Secondary Hyperparathyroidism; Chronic Kidney Disease,-0.00998730478180725,-0.004694737539529072,1
+MYSWGUAQZAJSOK,Uncomplicated Urinary Tract Infection,0.0,0.0,0
+GJSURZIOUXUGAL,critical illness,0.0,0.0,0
+GKTWGGQPFAXNFI,Acute Coronary Syndrome,0.0,0.0,0
+IAKHMKGGTNLKSZ,ST Elevation Myocardial Infarction,0.0,0.0,0
+JURKNVYFZMSNLP,Musculoskeletal Pain,0.0,0.0,0
+JVHXJTBJCFBINQ,Heart Failure With Preserved Ejection Fraction,0.0,0.0,0
+DOAKLVKFURWEDJ,Staphylococcus Aureus Bacteremia,0.0,0.0,0
+UREBDLICKHMUKA,Tuberculosis; Tuberculous Meningitis; Drug-Induced Liver Injury,-0.02731799561039134,-0.019812773992238256,1
+UREBDLICKHMUKA,Cesarean Section Complications,0.0,0.0,0
+UREBDLICKHMUKA,Hand Wound; Wrist Wound; Forearm Wound; Hand Fracture; Wrist Fracture; Forearm Fracture,0.0,0.0,0
+UREBDLICKHMUKA,Hypersensitivity Reactions,0.0,0.0,0
+LTMHDMANZUZIPE,Atrial Fibrillation; Heart Diseases,0.0,0.0,0
+XEYBRNLFEZDVAW,uterine fibroids,0.0,0.0,0
+RHWKPHLQXYSBKR,HIV infection,0.0,0.0,0
+RHWKPHLQXYSBKR,HIV-1 infection,0.0,0.0,0
+HGVDHZBSSITLCT,"Intracranial Hemorrhages; Intracranial Hemorrhage, Hypertensive; Subarachnoid Hemorrhage; Subdural Hematoma; Intraventricular Hemorrhage; Atrial Fibrillation; Atrial Flutter; Small Vessel Cerebrovascular Disease; Microhaemorrhage",0.0,0.0,0
+HGVDHZBSSITLCT,Cardiac Disease,0.0,0.0,0
+XDXWLKQMMKQXPV,Thrombocytopenia,0.0,0.0,0
+OBWASQILIWPZMG,Diabetes,0.0,0.0,0
+SYTBZMRGLBWNTM,Osteoarthritis,0.0,0.0,0
+RTHCYVBBDHJXIQ,Major Depressive Disorder,0.0,0.0,0
+WMWTYOKRWGGJOA,nasal polyps,0.0,0.0,0
+VWUXBMIQPBEWFH,Breast Cancer,-0.33033499306052333,-0.2774030028172715,1
+SDUQYLNIPVEERB,Metastatic Pancreas Cancer; Locally Advanced Pancreatic Cancer; Pancreatic Adenocarcinoma,-3.285229495153491,-0.09941793204555704,1
+SDUQYLNIPVEERB,Pancreas Adenocarcinoma,-3.285229495153491,-0.09941793204555704,1
+SDUQYLNIPVEERB,NSCLC,0.0,0.0,0
+MFWNKCLOYSRHCJ,"Vomiting, Postoperative; Postoperative Complications; Hypotension",0.0,0.0,0
+JYGXADMDTFJGBT,Sepsis,0.0,0.0,0
+WVLOADHCBXTIJK,Severe Cancer,0.0,0.0,0
+XYFPWWZEPKGCCK,Graft vs Host Disease,0.0,0.0,0
+HEFNNWSXXWATRW,"Outpatient Surgery; Pain, Postoperative",0.0,0.0,0
+HEFNNWSXXWATRW,Acute Musculoskeletal Disease; Sprains; Sprains and Strains; Injuries; Emergencies; Trauma; Acute Pain,0.0,0.0,0
+DKYWVDODHFEZIM,Acute Traumatic Pain,0.0,0.0,0
+OZWKMVRBQXNZKK,pain,0.0,0.0,0
+JTEGQNOMFQHVDC,HIV-1 infection,0.0,0.0,0
+WOSKHXYHFSIKNG,Advanced Endometrial Cancer,-0.11207425684992964,0.07216432411607782,1
+FWYSMLBETOMXAG,CMV Disease,0.0,0.0,0
+HPJKCIUCZWXJDR,Subfertility,0.0,0.0,0
+HPJKCIUCZWXJDR,Breast Cancer,-0.0492118307572316,-0.03621052123357958,1
+VVIAGPKUTFNRDU,Advanced Colorectal Cancer,0.0,0.0,0
+XUIIKFGFIJCVMT,TSH Control in Patients With Chronic Kidney Disease,-0.07471639571631505,0.009778280393958325,1
+NNJVILVZKWQKPM,Sore Throat,0.0,0.0,0
+LTXREWYXXSTFRX,Diabetes,0.0,0.0,0
+TYZROVQLWOKYKF,bacterial pneumonia,0.0,0.0,0
+DHMTURDWPRKSOA,Hepatitis Delta Virus,0.0,0.0,0
+FBPFZTCFMRRESA,"Kidney Transplantation, Mannitol",0.0,0.0,0
+FBPFZTCFMRRESA,asthma,0.0,0.0,0
+XZWYZXLIPXDOLR,Diabetes Mellitus,0.0,0.0,0
+NZWOPGCLSHLLPA,asthma,0.0,0.0,0
+PLBHSZGDDKCEHR,Shoulder Arthritis,0.0,0.0,0
+UQRORFVVSGFNRO,late-onset Pompe disease,0.0,0.0,0
+PQLXHQMOHUQAKB,visceral Leishmaniasis,0.0,0.0,0
+NETZHAKZCGBWSS,Mucositis Pain,0.0,0.0,0
+HYIMSNHJOBLJNT,Placenta previa,0.0,0.0,0
+YQNQNVDNTFHQSW,Influenza,0.0,0.0,0
+YQNQNVDNTFHQSW,Enterovirus; Rhinovirus,0.0,0.0,0
+KVWDHTXUZHCGIO,Breast Cancer,-0.0013717999640899463,0.005609402074062887,1
+KVWDHTXUZHCGIO,in Cancer,0.0,0.0,0
+FDLYAMZZIXQODN,Metastatic Breast Cancer,-0.23302431386492528,-0.02373927494504266,1
+FDLYAMZZIXQODN,Ovarian Cancer,0.0,0.20928503891988262,1
+FELGMEQIXOGIFQ,IBS - Irritable Bowel Syndrome,0.0,0.0,0
+XRVDGNKRPOAQTN,Crohn disease,0.0,0.0,0
+RCINICONZNJXQF,Advanced Lung Cancer,-1.7482893083390767,0.20710594522128,1
+RCINICONZNJXQF,Endometrial Cancer,-1.7999085372905892,0.1554867162697675,1
+RCINICONZNJXQF,Primary Peritoneal Cancer,0.0,0.0,0
+RCINICONZNJXQF,Metastatic Cervical Cancer,-1.2569153023756894,0.6984799511846673,1
+IQPSEEYGBUAQFF,"Gastrointestinal Hemorrhage (Clinically Important, Upper)",0.0,0.0,0
+UOZODPSAJZTQNH,visceral Leishmaniasis,0.0,0.0,0
+DREIJXJRTLTGJC,Rheumatoid Arthritis,0.0,0.0,0
+WBXPDJSOTKVWSJ,Lung Cancer,-0.9446053657300832,-0.1251255823195463,1
+NFBAXHOPROOJAW,"Intracranial Hemorrhages; Intracranial Hemorrhage, Hypertensive; Subarachnoid Hemorrhage; Subdural Hematoma; Intraventricular Hemorrhage; Atrial Fibrillation; Atrial Flutter; Small Vessel Cerebrovascular Disease; Microhaemorrhage",0.0,0.0,0
+RKEWSXXUOLRFBX,neuropsychiatric symptoms of neurodegenerative disease,0.0,0.0,0
+WIKYUJGCLQQFNW,Breast Cancer,0.04118304694917298,0.013408628479926982,1
+OLBCVFGFOZPWHH,traumatic brain injury,0.0,0.0,0
+CZFFBEXEKNGXKS,HIV-1 infection,0.0,0.0,0
+CYHWMBVXXDIZNZ,"Anesthesia, Intravenous",0.0,0.0,0
+RHXHGRAEPCAFML,Breast Cancer,-1.1502225213990958,-0.4191460666509885,1
+FTALBRSUTCGOEG,spinocerebellar ataxia type 2,0.0,0.0,0
+KGFYHTZWPPHNLQ,"Intracranial Hemorrhages; Intracranial Hemorrhage, Hypertensive; Subarachnoid Hemorrhage; Subdural Hematoma; Intraventricular Hemorrhage; Atrial Fibrillation; Atrial Flutter; Small Vessel Cerebrovascular Disease; Microhaemorrhage",0.0,0.0,0
+RYMZZMVNJRMUDD,Multiple Sclerosis,0.0,0.0,0
+LXMSZDCAJNLERA,ST Elevation Myocardial Infarction,0.0,0.0,0
+GGCSSNBKKAUURC,Gastrointestinal Surgery,0.0,0.0,0
+NKANXQFJJICGDU,Duchenne Muscular Dystrophy,0.0,0.0,0
+DNHPDWGIXIMXSA,hyperphosphatemia,0.0,0.0,0
+OEKWJQXRCDYSHL,Acute Ischaemic Stroke; Transient Ischaemic Attack,0.0,0.0,0
+OEKWJQXRCDYSHL,Acute Coronary Syndrome,0.0,0.0,0
+UJLAWZDWDVHWOW,Psoriatic Arthritis,0.0,0.0,0
+UJLAWZDWDVHWOW,Ankylosing Spondylitis,0.0,0.0,0
+GYHCTFXIZSNGJT,Pediatric Congestive Heart Failure (CHF) Patients With Volume Overload,0.0,0.0,0
+UCFGDBYHRUNTLO,Lung Cancer,-0.8556120351816895,0.005404419908965896,1
+LIRYPHYGHXZJBZ,Malignant Melanoma,-0.37413855712681304,-0.18696712701656443,1
+GYDJEQRTZSCIOI,Post Partum Haemorrhage,0.0,0.0,0
+GYDJEQRTZSCIOI,Obstetrical Complications; Hemorrhage; Labor and Delivery,-0.20968537138619575,-0.0018638332960173587,1
+GYDJEQRTZSCIOI,Post Partum Hemorrhage,0.0,0.0,0
+GYDJEQRTZSCIOI,Perioperative Bleeding; Venous Thrombosis; Arterial Thrombosis,0.0,0.0,0
+GYDJEQRTZSCIOI,Tranexamic Acid,0.0,0.0,0
+PHLBKPHSAVXXEF,Insomnia; End Stage Renal Disease,-0.03558166487031122,-0.010101839320401117,1
+WYQFJHHDOKWSHR,Rheumatoid Arthritis,0.0,0.0,0
+WYQFJHHDOKWSHR,ulcerative colitis,0.0,0.0,0
+PJVWKTKQMONHTI,"Intracranial Hemorrhages; Intracranial Hemorrhage, Hypertensive; Subarachnoid Hemorrhage; Subdural Hematoma; Intraventricular Hemorrhage; Atrial Fibrillation; Atrial Flutter; Small Vessel Cerebrovascular Disease; Microhaemorrhage",0.0,0.0,0
+PJVWKTKQMONHTI,Acute Myocardial Infarction; Left Ventricular Thrombosis; Anticoagulants and Bleeding Disorders,0.0,0.0,0
+RNOAOAWBMHREKO,Chronic Lymphocytic Leukemia,0.023341767398744644,0.034035268096031045,1
+DWYRIWUZIJHQKQ,GIST,0.0,0.0,0
+GAGWJHPBXLXJQN,Stomach Neoplasms,0.0,0.0,0
+UREBDLICKHMUKA,Breast Cancer,-0.011130118065106501,-0.003624896446953416,1
+PGTVWKLGGCQMBR,CDKL5 deficiency disorder,0.0,0.0,0
+SFNSLLSYNZWZQG,Acute Myeloid Leukemia,-0.07602796360576294,0.00931316586422655,1
+WVLOADHCBXTIJK,pain,0.0,0.0,0
+YWXYYJSYQOXTPL,Induction of Labor Affected Fetus / Newborn; Rupture of Membranes Prior to Onset of Labor,0.0,0.0,0
+WOSKHXYHFSIKNG,Advanced Hepatocellular Carcinoma,-0.49660508448663165,-0.31236650352062423,1
+JGCMEBMXRHSZKX,Pulmonary Arterial Hypertension; Chronic Thromboembolic Pulmonary Hypertension,0.0,0.0,0
+FBOZXECLQNJBKD,Psoriasis,0.0,0.0,0
+FELGMEQIXOGIFQ,"Vomiting, Postoperative; Postoperative Complications; Hypotension",0.0,0.0,0
+RCINICONZNJXQF,Advanced Esophageal Cancer,0.0,1.9553952535603567,1
+FBOUYBDGKBSUES,Urinary Symptoms in Parkinson Disease,0.0,0.0,0
+LXMSZDCAJNLERA,acne vulgaris,0.0,0.0,0
+UVIQSJCZCSLXRZ,Relapsed Prostate Cancer,-0.03489303634110484,-0.005808700194614314,1
+HXHWSAZORRCQMX,filariasis,0.0,0.0,0
+NDAUXUAQIAJITI,COPD,0.0,0.0,0
+DKNWSYNQZKUICI,Multiple Sclerosis,0.0,0.0,0
+IYIKLHRQXLHMJQ,Therapy of Premature Ventricular Contractions in Patients With Structural Heart Disease,0.0,0.0,0
+HJBWBFZLDZWPHF,Relapsed Prostate Cancer,-0.2645388102368098,-0.35993598887995626,1
+QNZCBYKSOIHPEH,Atrial Fibrillation; End-stage Kidney Disease,0.10172439942454509,-0.016299766091499426,1
+QNZCBYKSOIHPEH,With Cancer,0.0,0.0,0
+QNZCBYKSOIHPEH,Secondary Cancer,0.0,0.0,0
+VOVZXURTCKPRDQ,Chronic Myelogenous Leukemia,-0.3566439019627227,-0.32906294472569303,1
+OOUGLTULBSNHNF,"Muscular Dystrophy, Duchenne; Muscular Dystrophies; Muscular Disorders, Atrophic; Muscular Diseases; Musculoskeletal Disease; Neuromuscular Diseases; Nervous System Diseases; Genetic Diseases, X-Linked; Genetic Diseases, Inborn",0.0,0.0,0
+XUKUURHRXDUEBC,Carotid Artery Stenosis; Strokes,0.0,0.0,0
+NMUSYJAQQFHJEW,Participants With Higher-Risk Myelodysplastic Syndrome,0.0,0.0,0
+HYHMLYSLQUKXKP,Hyperlipidemias,0.0,0.0,0
+WHQCHUCQKNIQEC,hyperuricemia,0.0,0.0,0
+ZKIAIYBUSXZPLP,bipolar I disorder,0.0,0.0,0
+LEBVLXFERQHONN,Chronic Peripheral Post-traumatic Neuropathic Pain,0.0,0.0,0
+RMRJXGBAOAMLHD,opioid use disorder,0.0,0.0,0
+GAGWJHPBXLXJQN,Metastatic Breast Cancer,-1.1965408302856364,-0.4040056108861245,1
+DBPPRLRVDVJOCL,Healthcare-associated Pneumonia (HCAP); Hospital Acquired Pneumonia (HAP); Ventilator Associated Pneumonia (VAP),0.0,0.0,0
+WZOZEZRFJCJXNZ,pancreatic cancer,0.0,0.0,0
+VAAUVRVFOQPIGI,gonorrhea,0.0,0.0,0
+GJSURZIOUXUGAL,neonatal abstinence syndrome,0.0,0.0,0
+KGPGQDLTDHGEGT,Methicillin-Resistant Staphylococcus Aureus; Bacterial Infections; Staphylococcal Skin Infections,0.0,0.0,0
+JVHXJTBJCFBINQ,Type II; Diabetes,0.0,0.0,0
+JVHXJTBJCFBINQ,Chronic Heart Failure With Reduced Ejection Fraction (HFrEF),0.0,0.0,0
+JVHXJTBJCFBINQ,Chronic Kidney Disease,-0.06212915646936647,0.004845939418117798,1
+JVHXJTBJCFBINQ,Type 2 Diabetes Mellitus,0.0,0.0,0
+UREBDLICKHMUKA,"Brachial Plexus Block; Pain, Postoperative",0.0,0.0,0
+UREBDLICKHMUKA,Multiple Myeloma,0.0,0.007505221618153085,1
+UREBDLICKHMUKA,Tuberculosis; Tuberculous Meningitis; Drug-Induced Liver Injury; HIV; IRIS,-0.02731799561039134,-0.019812773992238256,1
+UREBDLICKHMUKA,Major Non-cardiac Surgery,0.0,0.0,0
+XEYBRNLFEZDVAW,Induction of Labor Affected Fetus / Newborn,0.0,0.0,0
+XEYBRNLFEZDVAW,cervical ripening,-0.16817153052173023,0.009000666173384825,1
+RUZYUOTYCVRMRZ,pheochromocytoma and paraganglioma,-0.014938330317606647,-0.022830215273089455,1
+HGVDHZBSSITLCT,Venous Thromboembolism (VTE); Pulmonary Embolism; Deep Vein Thrombosis (DVT),0.0,0.0,0
+HGVDHZBSSITLCT,Atrial Fibrillation,0.0,0.0,0
+HGVDHZBSSITLCT,MV(Mitral Valve) Repair,0.0,0.0,0
+OBWASQILIWPZMG,Type2 Diabetes Mellitus,0.0,0.0,0
+GBXSMTUPTTWBMN,Heart Failure With Preserved Ejection Fraction,0.0,0.0,0
+GBXSMTUPTTWBMN,Breast Cancer,-0.0880848673579915,0.01553276419047446,1
+WXCXUHSOUPDCQV,Prostrate Cancer,0.0,0.0,0
+HLFSMUUOKPBTSM,complicated urinary tract infection,0.0,0.0,0
+UFNVPOGXISZXJD,Breast Cancer,-2.2446930475135694,-0.28929779395321265,1
+YQEZLKZALYSWHR,Major Depressive Disorder,0.0,0.0,0
+VJJPUSNTGOMMGY,Participants With Extensive Stage Small Cell Lung Cancer,-2.6820224501729757,-0.14603313907467985,1
+OLNTVTPDXPETLC,Hyperlipidemias,0.0,0.0,0
+PJMPHNIQZUBGLI,"Multiple Trauma; Pain, Acute",0.0,0.0,0
+RIJLVEAXPNLDTC,Rheumatoid Arthritis,0.0,0.0,0
+GHASVSINZRGABV,Esophageal Cancer,0.0,0.7925352193995119,1
+ZZUFCTLCJUWOSV,congestive heart failure,0.0,0.0,0
+UGJMXCAKCUNAIE,Oropharyngeal Cancer,0.0,0.0,0
+VSNHCAURESNICA,Sickle Cell Anemia; Sickle Cell Disease; Malaria,0.0,0.0,0
+XYFPWWZEPKGCCK,Waldenström's Macroglobulinemia,0.0,0.0,0
+XYFPWWZEPKGCCK,Cell Lymphoma,-0.12782927447705325,-0.11713577377976685,1
+HEFNNWSXXWATRW,Pain,0.0,0.0,0
+HEFNNWSXXWATRW,Patent Ductus Arteriosus After Premature Birth,0.0,0.0,0
+PURKAOJPTOLRMP,cystic fibrosis,0.0,0.0,0
+YQEZLKZALYSWHR,Post Operative Cognitive Dysfunction,0.0,0.0,0
+YQEZLKZALYSWHR,Treatment of Acute Pain,0.0,0.0,0
+YQEZLKZALYSWHR,Septic Shock,0.0,0.0,0
+YQEZLKZALYSWHR,"Multiple Trauma; Pain, Acute",0.0,0.0,0
+XMAYWYJOQHXEEK,tinea pedis,0.0,0.0,0
+MJIHNNLFOKEZEW,Gastric Ulcer,0.0,0.006746290480102829,1
+MJIHNNLFOKEZEW,Duodenal Ulcer,0.0,0.0,0
+HLFSDGLLUJUHTE,Maintaining Remission After the First Flare of Steroid Sensitive Nephrotic Syndrome,0.0,0.0,0
+HPHUVLMMVZITSG,Partial Seizures,0.0,0.0,0
+GJJFMKBJSRMPLA,Major Depressive Disorder,0.0,0.0,0
+NNJVILVZKWQKPM,Chronic Peripheral Post-traumatic Neuropathic Pain,0.0,0.0,0
+TYZROVQLWOKYKF,tuberculosis,0.0,0.0,0
+WGFOBBZOWHGYQH,chronic idiopathic constipation,0.0,0.0,0
+KJFBVJALEQWJBS,Cytomegalovirus (CMV),0.0,0.0,0
+XZWYZXLIPXDOLR,diabetes,0.0,0.0,0
+XZWYZXLIPXDOLR,Reduction of Gestational Diabetes,0.0,0.0,0
+RFKMCNOHBTXSMU,Pain,0.0,0.0,0
+RFKMCNOHBTXSMU,Trauma Pain,0.0,0.0,0
+DUGOZIWVEXMGBE,attention deficit hyperactivity disorder,0.0,0.0,0
+DUGOZIWVEXMGBE,Multiple Sclerosis,0.0,0.0,0
+VHRSUDSXCMQTMA,Congenital Heart Disease in Children; Inflammatory Response,0.0,0.0,0
+TTWJBBZEZQICBI,Post-Traumatic Headache,0.0,0.0,0
+DDLIGBOFAVUZHB,Anxiety,0.0,0.0,0
+RONZAEMNMFQXRA,Dementia,0.0,0.0,0
+OJLOPKGSLYJEMD,postpartum hemorrhage,0.0,0.0,0
+YFGHCGITMMYXAQ,Multiple Sclerosis,0.0,0.0,0
+WOFMFGQZHJDGCX,chronic rhinosinusitis with nasal polyps,0.0,0.0,0
+RTGDFNSFWBGLEC,"Lung Disease, Interstitial",-0.6682605978346716,-0.11505464173459379,1
+RTGDFNSFWBGLEC,Immune Thrombocytopenia,0.0,0.0,0
+OURRXQUGYQRVML,Fuchs' endothelial dystrophy,0.0,0.0,0
+SNICXCGAKADSCV,smoking cessation,0.0,0.0,0
+KVWDHTXUZHCGIO,Schizophrenia; Schizophreniform Disorders; Bipolar I Disorder,0.0,0.0,0
+KVWDHTXUZHCGIO,Chemotherapy-induced Nausea and Vomiting,0.0,0.0,0
+SUBDBMMJDZJVOS,Globus,0.0,0.0,0
+WYWIFABBXFUGLM,rosacea,0.0,0.0,0
+RCINICONZNJXQF,Gastroesophageal Cancer,0.0,1.9553952535603567,1
+RCINICONZNJXQF,"Peripheral Artery Disease; Atherosclerosis; Artery Diseases, Peripheral; Plaque, Atherosclerotic; Occlusive Arterial Disease",0.0,0.0,0
+RCINICONZNJXQF,Cervical Carcinoma,-1.2569153023756894,0.6984799511846673,1
+IQPSEEYGBUAQFF,Gastrointestinal Hemorrhage,0.0,0.0,0
+QPFYXYFORQJZEC,urinary retention,0.0,0.0,0
+DHHVAGZRUROJKS,Obesity,0.0,0.0,0
+ISWRGOKTTBVCFA,Idiopathic Pulmonary Fibrosis,0.0,0.0,0
+LPAUOXUZGSBGDU,Multiple Sclerosis,0.0,0.0,0
+XOFYZVNMUHMLCC,Prostate Cancer Metastatic,-0.14926338368421263,-0.14175816206605954,1
+XOFYZVNMUHMLCC,Cystic Fibrosis Pulmonary Exacerbation,0.0,0.0,0
+ZLHZLMOSPGACSZ,tuberculosis,0.0,0.0,0
+OLBCVFGFOZPWHH,Cognitive Change; Behavior,0.0,0.0,0
+ZPMNHBXQOOVQJL,postoperative ileus,0.0,0.0,0
+URKOMYMAXPYINW,Major Depressive Disorder,0.0,0.0,0
+CZFFBEXEKNGXKS,HIV infection,0.0,0.0,0
+ZTVQQQVZCWLTDF,hypotension,0.0,0.0,0
+CYHWMBVXXDIZNZ,General Anaesthesia,0.0,0.0,0
+KGFYHTZWPPHNLQ,Extended Antithrombotic Prophylaxis After Laparoscopic Surgery for Colorectal Cancer,0.11955365775482005,0.0015294922387755344,1
+KGFYHTZWPPHNLQ,Atrial Fibrillation; Periodontal Disease; Hemorrhage,0.0,0.0,0
+KGFYHTZWPPHNLQ,Cerebral Vein Thrombosis,0.0,0.0,0
+HMABYWSNWIZPAG,Primary Peritoneal Cancer,0.0,0.0,0
+HMABYWSNWIZPAG,Prostate Cancer,-0.2448589443743246,-0.03557390545444197,1
+HFNKQEVNSGCOJV,Graft-versus-host Disease (GVHD),0.0,0.0,0
+DEVSOMFAQLZNKR,Multiple Myeloma,0.0,2.142243750608558,1
+DFEYYRMXOJXZRJ,Cognitive Change; Behavior,0.0,0.0,0
+RYMZZMVNJRMUDD,Noonan Syndrome,0.0,0.0,0
+QKDRXGFQVGOQKS,Type 2 Diabetes,0.0,0.0,0
+QKDRXGFQVGOQKS,Type 2 Diabetes Mellitus,0.0,0.0,0
+WINHZLLDWRZWRT,Renal Cell Carcinoma (RCC),-0.19830595276128432,-0.0008794337298736188,1
+PTOIAAWZLUQTIO,insomnia,0.0,0.0,0
+LDEKQSIMHVQZJK,HIV-1 infection,0.0,0.0,0
+OEKWJQXRCDYSHL,Coronary Artery Disease; Myocardial Ischemia; Myocardial Infarction; Stent Thrombosis; Cardiovascular Diseases,0.0,0.0,0
+PKVRCIRHQMSYJX,leiomyosarcoma,0.0,0.0,0
+TVYLLZQTGLZFBW,Pain Management,0.0,0.0,0
+TZIZWYVVGLXXFV,Osteoarthritis,0.0,0.0,0
+OOLLAFOLCSJHRE,contraception,0.0,0.0,0
+WYQFJHHDOKWSHR,Psoriatic Arthritis,0.0,0.0,0
+WYQFJHHDOKWSHR,Crohn's disease,0.0,0.0,0
+GPXBXXGIAQBQNI,Advanced Melanoma,-0.9786453917170147,-0.7990131642230416,1
+LQBVNQSMGBZMKD,Cell Lymphoma,-0.2746379983983508,-0.2384562633871268,1
+YQNWZWMKLDQSAC,Major Depressive Disorder,0.0,0.0,0
+UBQNRHZMVUUOMG,alcohol dependence,0.0,0.0,0
+HYHMLYSLQUKXKP,Hypercholesterolemia,0.0,0.0,0
+GYQYAJJFPNQOOW,Acute Myeloid Leukemia,-0.23605492129382444,-0.08943803226591834,1
+YALNUENQHAQXEA,Duchenne muscular dystrophy,0.0,0.0,0
+XYFPWWZEPKGCCK,Follicular Lymphoma,-0.12782927447705325,-0.11713577377976685,1
+XYFPWWZEPKGCCK,Chronic Graft Versus Host Disease,0.0,0.0,0
+USSIQXCVUWKGNF,Medication-assisted Treatment of Opioid Use Disorder,0.0,0.0,0
+OIGNJSKKLXVSLS,Pulpitis,0.0,0.0,0
+YXRDKMPIGHSVRX,Muscle Relaxation,0.0,0.0,0
+YOZBGTLTNGAVFU,chronic kidney disease,-0.18699734320626482,0.03708384103951545,1
+RZVAJINKPMORJF,Non-melanoma Skin Cancer,-0.14620538675415312,-0.0047478408665916905,1
+NDAUXUAQIAJITI,Congestive heart failure,0.0,0.0,0
+QNZCBYKSOIHPEH,Symptomatic Aortic Stenosis; Eligible for Transcatheter Aortic Valve Replacement,0.0,0.0,0
+KXNPVXPOPUZYGB,venous thromboembolism,0.0,0.0,0
+XUKUURHRXDUEBC,Diabetes,0.0,0.0,0
+XUKUURHRXDUEBC,Bicuspid Aortic Valve,0.0,0.0,0
+XUKUURHRXDUEBC,Hypercholesterolemia in Coronaory Heart Disease,0.0,0.0,0
+KPYSYYIEGFHWSV,alcohol use disorder,0.0,0.0,0
+HYHMLYSLQUKXKP,Hypercholesterolemia; Atherosclerosis; Statin Adverse Reaction,0.0,0.0,0
+VOVIALXJUBGFJZ,Acute Mountain Sickness,0.0,0.0,0
+RMRJXGBAOAMLHD,Pain,0.0,0.0,0
+SNPPWIUOZRMYNY,Major Depressive Disorder,0.0,0.0,0
+QWCRAEMEVRGPNT,Parkinson' Disease,0.0,0.0,0
+HVFLCNVBZFFHBT,Septic Shock,0.0,0.0,0
+GAGWJHPBXLXJQN,Organ Preservation in Rectal Cancer,0.0,0.0,0
+GAGWJHPBXLXJQN,Advanced Rectal Carcinoma,0.0,0.0,0
+YKPUWZUDDOIDPM,Acute Pain,0.0,0.0,0
+KPWSJANDNDDRMB,Treatment of the Depressive Episode in Participants With Bipolar I Disorder,0.0,0.0,0
+KPWSJANDNDDRMB,Depression,0.0,0.0,0
+DBPPRLRVDVJOCL,Sepsis,0.0,0.0,0
+GPRBEKHLDVQUJE,bacterial infection,0.0,0.0,0
+RZEKVGVHFLEQIL,Osteoarthritis,0.0,0.0,0
+RZEKVGVHFLEQIL,Depression,0.0,0.0,0
+RZEKVGVHFLEQIL,Low Back Pain,0.0,0.0,0
+WDQPAMHFFCXSNU,"Tuberculosis, Multidrug-Resistant; Infection, Bacterial; Pulmonary Tuberculoses",0.0,0.0,0
+GJSURZIOUXUGAL,Locoregional Analgesia in Breast Surgery,-0.10365606818431705,-0.03092496884008457,1
+IAKHMKGGTNLKSZ,stroke,0.0,0.0,0
+KTEIFNKAUNYNJU,Anaplastic Lymphoma,-1.1900407018910366,-0.2691277097670698,1
+KSGXQBZTULBEEQ,Thromboembolism,0.0,0.0,0
+RUEYEZADQJCKGV,aspergillosis,0.0,0.0,0
+NBRBXGKOEOGLOI,hepatitis C virus infection,0.0,0.0,0
+DYDCPNMLZGFQTM,Community Acquired Bacterial Pneumonia,0.0,0.0,0
+XDAOLTSRNUSPPH,"Tuberculosis, Multidrug-Resistant; Infection, Bacterial; Pulmonary Tuberculoses",0.0,0.0,0
+DPYMFVXJLLWWEU,"Anesthesia, General",0.0,0.0,0
+DPYMFVXJLLWWEU,Anesthesia,0.0,0.0,0
+UREBDLICKHMUKA,Glaucoma,0.0,0.0,0
+UREBDLICKHMUKA,Migraine,0.0,0.0,0
+UREBDLICKHMUKA,Pain Management After Surgery,0.0,0.0,0
+MJIHNNLFOKEZEW,Heartburn; Gastroesophageal Reflux Disease,0.0,0.006746290480102829,1
+DCOPUUMXTXDBNB,Acute Pain,0.0,0.0,0
+JGMOKGBVKVMRFX,threatened miscarriage,0.0,0.0,0
+GBXSMTUPTTWBMN,Chronic Heart Failure With Reduced Ejection Fraction,0.0,0.0,0
+JUKPWJGBANNWMW,Essential Hypertension,0.0,0.0,0
+HLFSMUUOKPBTSM,Complicated Intra-abdominal Infections; Complicated Appendicitis,0.0,0.0,0
+VOXZDWNPVJITMN,Atrophic Vaginitis,0.0,0.0,0
+NPUKDXXFDDZOKR,stroke,0.0,0.0,0
+OLNTVTPDXPETLC,Hypercholesterolemia; Familial Hypercholesterolemia,0.0,0.0,0
+YMTINGFKWWXKFG,primary biliary cirrhosis,0.0,0.0,0
+YMTINGFKWWXKFG,severe hypertriglyceridemia,0.0,0.0,0
+PJMPHNIQZUBGLI,Obesity,0.0,0.0,0
+MIWWSGDADVMLTG,"Trypanosomiasis, African; Sleeping Sickness; Trypanosomiasis; Gambian",0.0,0.0,0
+RIJLVEAXPNLDTC,ulcerative colitis,0.0,0.0,0
+RIJLVEAXPNLDTC,Crohn's disease,0.0,0.0,0
+DBEPLOCGEIEOCV,androgenetic alopecia,0.0,0.0,0
+RTHCYVBBDHJXIQ,Psychotic Disorders; Personality Disorders; Clinical High Risk,0.0,0.0,0
+WMWTYOKRWGGJOA,asthma,0.0,0.0,0
+SDUQYLNIPVEERB,Urinary Bladder Neoplasms,0.0,3.185811563107934,1
+SDUQYLNIPVEERB,Metastatic Urothelial Carcinoma,0.0,0.0,0
+SDUQYLNIPVEERB,Urothelial Carcinoma,0.0,0.0,0
+SDUQYLNIPVEERB,"Carcinoma, Pancreatic Ductal",-3.285229495153491,-0.09941793204555704,1
+WIGIZIANZCJQQY,Type 2 Diabetes,0.0,0.0,0
+JYGXADMDTFJGBT,Congenital Adrenal Hyperplasia,0.04176713245830078,0.04927235407645386,1
+XYFPWWZEPKGCCK,Previously Untreated Chronic Lymphocytic Leukemia,0.023341767398744644,0.034035268096031045,1
+HEFNNWSXXWATRW,Patent Ductus Arteriosus,0.0,0.0,0
+YOSHYTLCDANDAN,"Ehlers-Danlos Syndrome, Vascular Type",0.0,0.0,0
+QRXWMOHMRWLFEY,Tuberculosis; HIV,0.0,0.0,0
+YQEZLKZALYSWHR,Pain; Traumatic Limb Injury,0.0,0.0,0
+YQEZLKZALYSWHR,Abdominal Cancer,0.0,0.0,0
+YQEZLKZALYSWHR,Headache; Intranasal Ketamine,0.0,0.0,0
+DKYWVDODHFEZIM,Pain Relief,0.0,0.0,0
+GGXICVAJURFBLW,open-angle glaucoma,0.0,0.0,0
+VRTWBAAJJOHBQU,Cirrhosis,0.0,0.0,0
+HPJKCIUCZWXJDR,Advanced Breast Cancer,-0.0492118307572316,-0.03621052123357958,1
+HPJKCIUCZWXJDR,Infertility,0.0,0.0,0
+VVIAGPKUTFNRDU,gastric cancer,0.0,0.0,0
+NNJVILVZKWQKPM,stroke,0.0,0.0,0
+TYZROVQLWOKYKF,"Tuberculosis, Multidrug-Resistant; Infection, Bacterial; Pulmonary Tuberculoses",0.0,0.0,0
+KJHKTHWMRKYKJE,HIV infection,0.0,0.0,0
+WGFOBBZOWHGYQH,constipation,0.0,0.0,0
+WGFOBBZOWHGYQH,functional constipation,0.0,0.0,0
+DMJNNHOOLUXYBV,Septic Shock,0.0,0.0,0
+OCJYIGYOJCODJL,Vertigo,0.0,0.0,0
+DRLFMBDRBRZALE,Anxiety,0.0,0.0,0
+DRLFMBDRBRZALE,Delirium,0.0,0.0,0
+KBOPZPXVLCULAV,ulcerative colitis,0.0,0.0,0
+XZWYZXLIPXDOLR,Migraine,0.0,0.0,0
+XZWYZXLIPXDOLR,Management of Gestational Diabetes,0.0,0.0,0
+XZWYZXLIPXDOLR,Polycystic Ovary Syndrome; Vitamin D Deficiency/Insufficiency,0.0,0.0,0
+USSIQXCVUWKGNF,Pain,0.0,0.0,0
+GNXFOGHNGIVQEH,Pain,0.0,0.0,0
+FBOZXECLQNJBKD,Plaque Psoriasis,0.0,0.0,0
+FBOZXECLQNJBKD,Pediatric Crohn's Disease,0.0,0.0,0
+FBOZXECLQNJBKD,Psoriatic Arthritis,0.0,0.0,0
+FBOZXECLQNJBKD,Rheumatoid Arthritis,0.0,0.0,0
+DUGOZIWVEXMGBE,Apathy,0.0,0.0,0
+VHRSUDSXCMQTMA,Chronic Subdural Hematomas,0.0,0.0,0
+VHRSUDSXCMQTMA,Cardiopulmonary Bypass,0.0,0.0,0
+VHRSUDSXCMQTMA,Prostate Cancer,-0.14926338368421263,-0.14175816206605954,1
+VKHAHZOOUSRJNA,medical abortion,0.0,0.0,0
+DYKFCLLONBREIL,Depression,0.0,0.0,0
+PBAPPPCECJKMCM,Neurogenic Detrusor Overactivity,0.0,0.0,0
+OJLOPKGSLYJEMD,anemia,0.0,0.0,0
+OJLOPKGSLYJEMD,Labor pain,0.0,0.0,0
+OJLOPKGSLYJEMD,medical abortion,0.0,0.0,0
+FABPRXSRWADJSP,Tuberculosis,0.0,0.0,0
+FABPRXSRWADJSP,"Tuberculosis, Multidrug-Resistant; Infection, Bacterial; Pulmonary Tuberculoses",0.0,0.0,0
+RTGDFNSFWBGLEC,Systemic Sclerosis; Scleroderma; Interstitial Lung Disease,-0.6682605978346716,-0.11505464173459379,1
+DQCKKXVULJGBQN,Alcoholism,0.0,0.0,0
+DQCKKXVULJGBQN,Use in Conjunction With Buprenorphine in Adults With Opioid Use Disorder,0.0,0.0,0
+XZXHXSATPCNXJR,Idiopathic Pulmonary Fibrosis,0.0,0.0,0
+KVWDHTXUZHCGIO,Schizophrenia,0.0,0.0,0
+DMNOVGJWPASQDL,pain,0.0,0.0,0
+JEECQCWWSTZDCK,skin and soft tissue Staphylococcus aureus infection,0.0,0.0,0
+FELGMEQIXOGIFQ,Hypotension; Nausea; Vomiting,0.0,0.0,0
+LUMKNAVTFCDUIE,vaginal dryness,0.0,0.0,0
+IQPSEEYGBUAQFF,Esophageal Disease,0.0,0.006746290480102829,1
+WBXPDJSOTKVWSJ,Mesothelioma,0.0,0.0,0
+PRMWGUBFXWROHD,epilepsy,0.0,0.0,0
+RLLPVAHGXHCWKJ,scabies,0.0,0.0,0
+QPFYXYFORQJZEC,dysuria,0.0,0.0,0
+QPFYXYFORQJZEC,pain,0.0,0.0,0
+ISWRGOKTTBVCFA,diabetic nephropathy,0.0,0.0,0
+RJKFOVLPORLFTN,Preterm Birth; Twin Dichorionic Diamniotic Placenta,0.0,0.0,0
+OLBCVFGFOZPWHH,stroke,0.0,0.0,0
+IPEHBUMCGVEMRF,"Tuberculosis, Multidrug-Resistant; Infection, Bacterial; Pulmonary Tuberculoses",0.0,0.0,0
+GZUITABIAKMVPG,schizophrenia,0.0,0.0,0
+HDACQVRGBOVJII,Acute Myocardial Infarction,0.0,0.0,0
+ZTVQQQVZCWLTDF,stroke,0.0,0.0,0
+IWUCXVSUMQZMFG,hepatitis C virus infection,0.0,0.0,0
+WDZCUPBHRAEYDL,Tuberculosis,0.0,0.0,0
+NCDNCNXCDXHOMX,Chronic Hepatitis C,0.0,0.0,0
+KGFYHTZWPPHNLQ,Aortic Valve Stenosis; Cardiovascular Diseases; Heart Valve Diseases; Ventricular Outflow Obstruction; Thrombosis,0.0,0.0,0
+KGFYHTZWPPHNLQ,Thrombosis,0.0,0.0,0
+XSVMFMHYUFZWBK,Classical progressive supranuclear palsy,0.0,0.0,0
+ZKMNUMMKYBVTFN,Locoregional Analgesia in Breast Surgery,0.022247722026043887,-0.008892608779842395,1
+ZKMNUMMKYBVTFN,Anesthesia; Functional; Anesthesia,0.0,0.0,0
+QXWZQTURMXZVHJ,Pulmonary Arterial Hypertension,0.0,0.0,0
+DFEYYRMXOJXZRJ,"Anesthesia, General",0.0,0.0,0
+MFFMDFFZMYYVKS,Type 2 Diabetes Mellitus,0.0,0.0,0
+TTZHDVOVKQGIBA,Cirrhosis,0.0,0.0,0
+JYTNQNCOQXFQPK,Alzheimer's Disease,0.0,0.0,0
+TXEIIPDJKFWEEC,transthyretin amyloid cardiomyopathy,0.0,0.0,0
+DNHPDWGIXIMXSA,irritable bowel syndrome,0.0,0.0,0
+GYHCTFXIZSNGJT,Autosomal Dominant Polycystic Kidney Disease (ADPKD),0.06321202945029462,0.00762785317742877,1
+KJADKKWYZYXHBB,Obese Children and Adolescents,0.0,0.0,0
+PKVRCIRHQMSYJX,Tube Cancer,0.0,0.0,0
+TVYLLZQTGLZFBW,Acute Pain,0.0,0.0,0
+GYDJEQRTZSCIOI,Thrombocytopenia,0.0,0.0,0
+GYDJEQRTZSCIOI,Hematologic Neoplasms,0.0,0.0,0
+GYDJEQRTZSCIOI,Peri-operative Hemorrhage or Hematoma; Surgery; Retrognathism,0.0,0.0,0
+GYDJEQRTZSCIOI,Hip Fracture; Anemia,0.0,0.0,0
+GYDJEQRTZSCIOI,Placenta Previa,0.0,0.0,0
+MKPLKVHSHYCHOC,open-angle glaucoma,0.0,0.0,0
+GFNANZIMVAIWHM,Inflammatory Macular Edema,0.0,0.0,0
+YNDXUCZADRHECN,pemphigus vulgaris,0.0,0.0,0
+DDOOFTLHJSMHLN,migraine,0.0,0.0,0
+GEJDGVNQKABXKG,Tardive Dyskinesia,0.0,0.0,0
+JQSHBVHOMNKWFT,HIV infection,0.0,0.0,0
+LQBVNQSMGBZMKD,Multiple Myeloma,0.0,0.03618173501122399,1
+LQBVNQSMGBZMKD,Previously Untreated Chronic Lymphocytic Leukemia,-0.2610540909570298,-0.22487235594580582,1
+LQBVNQSMGBZMKD,Your Cancer,0.0,0.0,0
+QZFHIXARHDBPBY,heart failure,0.0,0.0,0
+ZAFYATHCZYHLPB,Sleep Disorder,0.0,0.0,0
+UBQNRHZMVUUOMG,alcohol use disorder measurement,0.0,0.0,0
+GBBSUAFBMRNDJC,sleep disorder,0.0,0.0,0
+XRWSZZJLZRKHHD,hepatitis C virus infection,0.0,0.0,0
+NMUSYJAQQFHJEW,Acute Myeloid Leukemia,-0.5878162354736143,0.007886673931410626,1
+RMRJXGBAOAMLHD,Chronic pain,0.0,0.0,0
+RYYVLZVUVIJVGH,Back Pain; Neck Pain,0.0,0.0,0
+VAAUVRVFOQPIGI,bacterial infection,0.0,0.0,0
+FKRSSPOQAMALKA,hepatitis C virus infection,0.0,0.0,0
+OBWASQILIWPZMG,Type 2 Diabetes Mellitus,0.0,0.0,0
+LTXREWYXXSTFRX,"Diabetes Mellitus, Type 2",0.0,0.0,0
+USUZGMWDZDXMDG,pituitary-dependent Cushing's disease,0.0,0.0,0
+TZRHLKRLEZJVIJ,liver cancer,0.09077169793926056,0.010230190229790409,1
+SONNWYBIRXJNDC,hypotension,0.0,0.0,0
+NNACHAUCXXVJSP,narcolepsy without cataplexy,0.0,0.0,0
+IYDYFVUFSPQPPV,Complicated Urinary Tract Infection; Acute Pyelonephritis,0.0,0.0,0
+OLBCVFGFOZPWHH,Open Heart Surgery,0.0,0.0,0
+RHXHGRAEPCAFML,Women and Men With Hormone-receptor Positive Locally Advanced or Metastatic Breast Cancer,-1.1502225213990958,-0.4191460666509885,1
+KGFYHTZWPPHNLQ,Neoplasm; Venous Thromboembolism,0.0,0.0,0
+YOZBGTLTNGAVFU,anemia of chronic kidney disease,-0.18699734320626482,0.03708384103951545,1
+LERNTVKEWCAPOY,COPD,0.0,0.0,0
+FWCVZAQENIZVMY,sickle cell disease,0.0,0.0,0
+WEAJZXNPAWBCOA,erectile dysfunction,0.0,0.0,0
+XUFXOAAUWZOOIT,Type 2 Diabetes,0.0,0.0,0
+KDGFLJKFZUIJMX,Anaplastic Lymphoma,-0.03754881075879144,0.05027188570820492,1
+STUWGJZDJHPWGZ,Advanced Breast Cancer,-0.7229730765846267,-0.21786464877969103,1
+KRMDCWKBEZIMAB,Prevention of Pain,0.0,0.0,0
+LSQZJLSUYDQPKJ,Alcoholic Hepatitis; Alcoholic Liver Disease,0.0,0.0,0
+QNZCBYKSOIHPEH,Transient Ischemic Attack; Stroke; Atrial Fibrillation,0.0,0.0,0
+QNZCBYKSOIHPEH,With Leukemia,0.13640852846192222,0.01838436294587771,1
+QNZCBYKSOIHPEH,Embolic Stroke of Undetermined Source,0.0,0.0,0
+XUKUURHRXDUEBC,Renal Insufficiency,-0.9622610005017037,-0.14348691517832612,1
+XUKUURHRXDUEBC,"Diabetes Mellitus, Type 2; Coronary Artery Disease",0.0,0.0,0
+QJFSABGVXDWMIW,essential hypertension,0.0,0.0,0
+KHOITXIGCFIULA,inflammatory bowel disease,0.0,0.0,0
+LEBVLXFERQHONN,migraine,0.0,0.0,0
+LEBVLXFERQHONN,Postoperative Pain,0.0,0.0,0
+RMRJXGBAOAMLHD,opioid dependence,0.0,0.0,0
+KORNTPPJEAJQIU,non-functioning pituitary adenoma,0.0,0.0,0
+GAGWJHPBXLXJQN,Advanced Gastric Cancer,0.0,0.7925352193995119,1
+GAGWJHPBXLXJQN,Gastric Adenocarcinoma,0.0,0.7925352193995119,1
+LCQLHJZYVOQKHU,methylmalonic acidemia or propionic acidemia,0.0,0.0,0
+VAAUVRVFOQPIGI,urinary tract infection,0.0,0.0,0
+VDHAWDNDOKGFTD,"Secondary Hyperparathyroidism, Chronic Kidney Disease",-0.00998730478180725,-0.004694737539529072,1
+YXSLJKQTIDHPOT,fasciculation,0.0,0.0,0
+GJSURZIOUXUGAL,fecal incontinence,0.0,0.0,0
+GKTWGGQPFAXNFI,Peripheral Arterial Disease,0.0,0.0,0
+GKTWGGQPFAXNFI,Acute ST Segment Elevation Myocardial Infarction; Thrombolysis in Myocardial Infarction Flow,0.0,0.0,0
+GKTWGGQPFAXNFI,Myocardial Infarction; ST Segment Elevation Myocardial Infarction (STEMI),0.0,0.0,0
+FDKXTQMXEQVLRF,IV Melanoma,0.0,0.0,0
+FKRSSPOQAMALKA,Cirrhosis,0.0,0.0,0
+POZRVZJJTULAOH,Unexplained Infertility,0.0,0.0,0
+JVHXJTBJCFBINQ,Type 1 Diabetes,0.0,0.0,0
+JVHXJTBJCFBINQ,Type II Diabetes Mellitus,0.0,0.0,0
+XAUDJQYHKZQPEU,Thrombocytopenia; Hematologic Diseases,0.0,0.0,0
+DPYMFVXJLLWWEU,Anesthesia With Use of LMA (Laryngeal Mask Airway),0.0,0.0,0
+DPYMFVXJLLWWEU,Orthopedic Disorders,0.0,0.0,0
+UREBDLICKHMUKA,Chronic Allergic Conjunctivitis,0.0,0.0,0
+UREBDLICKHMUKA,Chemotherapy-Induced Nausea and Vomiting,0.0,0.0,0
+UREBDLICKHMUKA,Cataract,0.0,0.0,0
+UREBDLICKHMUKA,Cardiac Surgery; Congenital Heart Defects; Cardiopulmonary Bypass,0.0,0.0,0
+UREBDLICKHMUKA,Postoperative Pain,0.0,0.0,0
+UREBDLICKHMUKA,Pediatric Asthma,0.0,0.0,0
+UREBDLICKHMUKA,Post-Surgical Ocular Pain; Post-Surgical Ocular Inflammation,0.0,0.0,0
+UREBDLICKHMUKA,Gastrointestinal Neoplasms; Chemotherapy-induced Nausea and Vomiting,0.0,0.0,0
+DCOPUUMXTXDBNB,Post Operative Dental Pain,0.0,0.0,0
+ZEUITGRIYCTCEM,Osteoarthritis,0.0,0.0,0
+HGVDHZBSSITLCT,Venous Thromboembolism (VTE); Deep Vein Thrombosis (DVT); Pulmonary Embolism (PE); Cancer,0.0,0.0,0
+XDXWLKQMMKQXPV,severe aplastic anemia,0.0,0.0,0
+OBWASQILIWPZMG,Type 1 Diabetes Mellitus,0.0,0.0,0
+OBWASQILIWPZMG,"Diabetes Mellitus, Type 1",0.0,0.0,0
+GBXSMTUPTTWBMN,Heart Failure With Reduced Ejection Fraction (HF-rEF),0.0,0.0,0
+UCTWMZQNUQWSLP,Acute Upper Gastrointestinal Bleeding,0.0,0.0,0
+JUKPWJGBANNWMW,Duchenne Muscular Dystrophy,0.0,0.0,0
+YQEZLKZALYSWHR,Depression,0.0,0.0,0
+YQEZLKZALYSWHR,Relapse Prevention in Adult Participants With Treatment-resistant Depression,0.0,0.0,0
+VOXZDWNPVJITMN,Schizophrenia; Schizoaffective Disorder; Schizophreniform Disorders,0.0,0.0,0
+DCCSDBARQIPTGU,Overactive Bladder Syndrome,0.0,-0.05928207614205062,1
+XTULMSXFIHGYFS,Asthma,0.0,0.0,0
+XTULMSXFIHGYFS,asthma,0.0,0.0,0
+XWLUWCNOOVRFPX,Benzodiazepine Refractory Status Epilepticus,0.0,0.0,0
+GKDRMWXFWHEQQT,immune thrombocytopenia,0.0,0.0,0
+ZZUFCTLCJUWOSV,fluid overload,0.0,0.0,0
+UGJMXCAKCUNAIE,Neck Cancer,0.0,0.0,0
+UGJMXCAKCUNAIE,Chronic Pain,0.0,0.0,0
+SDUQYLNIPVEERB,Metastatic Pancreatic Cancer,-3.285229495153491,-0.09941793204555704,1
+JYGXADMDTFJGBT,Community Acquired Pneumonia,0.0,0.0,0
+XYFPWWZEPKGCCK,Chronic Lymphocytic Leukemia,0.023341767398744644,0.034035268096031045,1
+XYFPWWZEPKGCCK,Metastatic Pancreatic Adenocarcinoma,-0.013254513003196867,-0.0025610123059104685,1
+HEFNNWSXXWATRW,Acute Kidney Injury; Exercise-associated Hyponatremia; Perceived Exertion,0.07913718057998444,-0.00048098194671271355,1
+HEFNNWSXXWATRW,Cachexia in Advanced Cancer,0.0,0.0,0
+HEFNNWSXXWATRW,Pain; Long-bone Fractures,0.0,0.0,0
+DOUYETYNHWVLEO,extramammary Paget disease,0.0,0.0,0
+DOUYETYNHWVLEO,lentigo maligna melanoma,0.04113069750260269,-0.02033474496690224,1
+QZZUEBNBZAPZLX,heart failure,0.0,0.0,0
+VDJHFHXMUKFKET,actinic keratosis,0.0,0.0,0
+MOYKHGMNXAOIAT,diabetic foot ulcer,0.0,0.0,0
+YQEZLKZALYSWHR,Treatment Resistant Late-Life Depression,0.0,0.0,0
+OZWKMVRBQXNZKK,Acute Abdominal Pain,0.0,0.0,0
+VPPJLAIAVCUEMN,focal epilepsy,0.0,0.0,0
+GOTYRUGSSMKFNF,Multiple Myeloma,0.0,2.1009838257575977,1
+HPJKCIUCZWXJDR,Polycystic Ovary Syndrome,0.0,0.0,0
+HPJKCIUCZWXJDR,"Azoospermia, Nonobstructive; Oligozoospermia",0.0,0.0,0
+VVIAGPKUTFNRDU,gastric adenocarcinoma,0.0,0.0,0
+HPHUVLMMVZITSG,Benzodiazepine Refractory Status Epilepticus,0.0,0.0,0
+NNJVILVZKWQKPM,obesity,0.0,0.0,0
+NNJVILVZKWQKPM,pain,0.0,0.0,0
+LTXREWYXXSTFRX,Type 2 Diabetes Mellitus,0.0,0.0,0
+LTXREWYXXSTFRX,Type 2 DiAbetes Mellitus,0.0,0.0,0
+TYZROVQLWOKYKF,pulmonary tuberculosis,0.0,0.0,0
+KSMAGQUYOIHWFS,opioid withdrawal,0.0,0.0,0
+PSIFNNKUMBGKDQ,Hypertension,0.0,0.0,0
+UFSKUSARDNFIRC,cystic fibrosis,0.0,0.0,0
+NOZIJMHMKORZBA,Thrombocytopenia in Patients With Chronic Liver Disease,-0.06894568913350589,0.0024776501422446445,1
+UJVDJAPJQWZRFR,growth hormone deficiency,0.0,0.0,0
+SGDBTWWWUNNDEQ,Multiple Myeloma,0.0,0.0,0
+XZWYZXLIPXDOLR,Bipolar Disorder,0.0,0.0,0
+FBOZXECLQNJBKD,Prevention of Graft-versus-Host Disease,0.0,0.0,0
+RFKMCNOHBTXSMU,cancer,0.0,0.0,0
+VHRSUDSXCMQTMA,Osteoarthrosis,0.0,0.0,0
+VHRSUDSXCMQTMA,Dysphasia,0.0,0.0,0
+VAOCPAMSLUNLGC,Vaginal Infection,0.0,0.0,0
+OJLOPKGSLYJEMD,contraception,0.0,0.0,0
+WOFMFGQZHJDGCX,perennial allergic rhinitis,0.0,0.0,0
+WOFMFGQZHJDGCX,asthma,0.0,0.0,0
+FABPRXSRWADJSP,"Tuberculosis, Pulmonary, Drug Sensitive; Tuberculosis, Pulmonary, Multi Drug-resistant",0.0,0.0,0
+RTGDFNSFWBGLEC,Pemphigus Vulgaris,0.0,0.0,0
+RTGDFNSFWBGLEC,Lupus Nephritis,0.0,0.0,0
+VWPOSFSPZNDTMJ,capillary infantile hemangioma,0.0,0.0,0
+XZXHXSATPCNXJR,Patients With Scleroderma Related Lung Fibrosis,-0.20409800966071415,-0.006671490629303445,1
+FDLYAMZZIXQODN,Breast Cancer,-0.23302431386492528,-0.02373927494504266,1
+KVWDHTXUZHCGIO,Complications of Bone Marrow Transplant; Hematologic Neoplasms,0.0,0.0,0
+JEECQCWWSTZDCK,Bacterial Pneumonia; Community-Acquired Infections,0.0,0.0,0
+VSZGPKBBMSAYNT,Influenza,0.0,0.0,0
+RCINICONZNJXQF,NSCLC,0.0,0.0,0
+RCINICONZNJXQF,Endometrial Clear Cell Adenocarcinoma; Endometrial Serous Adenocarcinoma; Stage IIIA Uterine Corpus Cancer; Stage IIIB Uterine Corpus Cancer; Stage IIIC Uterine Corpus Cancer; Stage IVA Uterine Corpus Cancer,-1.7999085372905892,0.1554867162697675,1
+IQPSEEYGBUAQFF,Stress Ulcer Prophylaxis,0.0,0.0,0
+JGWRKYUXBBNENE,tenosynovial giant cell tumor,0.0,0.0,0
+DDBREPKUVSBGFI,status epilepticus,0.0,0.0,0
+OIGNJSKKLXVSLS,Nephrotic Syndrome,0.0,0.0,0
+OIGNJSKKLXVSLS,Churg-Strauss Syndrome; Eosinophilic Granulomatosis With Polyangiitis,0.0,0.0,0
+XOFYZVNMUHMLCC,Lupus Nephritis,0.0,0.0,0
+IPEHBUMCGVEMRF,"Tuberculosis, Pulmonary, Drug Sensitive; Tuberculosis, Pulmonary, Multi Drug-resistant",0.0,0.0,0
+CYHWMBVXXDIZNZ,Colonoscopy,0.11059463237833596,0.021306171130481028,1
+CYHWMBVXXDIZNZ,Bronchoscopy,0.0,0.0,0
+RHXHGRAEPCAFML,Advanced Breast Cancer,-1.1502225213990958,-0.4191460666509885,1
+RAPZEAPATHNIPO,Schizophrenia,0.0,0.0,0
+KGFYHTZWPPHNLQ,Type 2 Diabetic Patients,0.0,0.0,0
+KGFYHTZWPPHNLQ,Deep Venous Thrombosis,0.0,0.0,0
+KGFYHTZWPPHNLQ,Ambulatory Cancer,0.0,0.0,0
+MNDBXUUTURYVHR,bronchiectasis,0.0,0.0,0
+ZKMNUMMKYBVTFN,pain,0.0,0.0,0
+PQJQFLNBMSCUSH,acne vulgaris,0.0,0.0,0
+VGKDLMBJGBXTGI,Cryptococcal Meningitis; Fungal Meningitis,0.0,0.0,0
+DFEYYRMXOJXZRJ,Orthopedic Disorders,0.0,0.0,0
+QKDRXGFQVGOQKS,Type 1 Diabetes Mellitus,0.0,0.0,0
+QKDRXGFQVGOQKS,Type 1 Diabetes,0.0,0.0,0
+LXMSZDCAJNLERA,Duchenne Muscular Dystrophy,0.0,0.0,0
+WINHZLLDWRZWRT,Cell Carcinoma,0.0,0.0,0
+LBHLFPGPEGDCJG,"Malaria, Vivax",0.0,0.0,0
+DRHKJLXJIQTDTD,Urinary Retention; Urinary Tract Infections,0.0,0.0,0
+KWTWDQCKEHXFFR,Pre- and Postoperative Pain,0.0,0.0,0
+RMMXLENWKUUMAY,Hypertension With Hyperlipidemia,0.0,0.0,0
+WGRQANOPCQRCME,Type 2 Diabetes,0.0,0.0,0
+WGRQANOPCQRCME,type 2 diabetes mellitus,0.0,0.0,0
+MUMGGOZAMZWBJJ,male hypogonadism,0.0,0.0,0
+OEKWJQXRCDYSHL,Type 2 Diabetes,0.0,0.0,0
+OEKWJQXRCDYSHL,Myocardial Infarction; ST Segment Elevation Myocardial Infarction (STEMI),0.0,0.0,0
+OEKWJQXRCDYSHL,Cerebral Aneurysm,0.0,0.0,0
+LERNTVKEWCAPOY,Chronic Obstructive Pulmonary Disease,0.0,0.0,0
+GYHCTFXIZSNGJT,"Polycystic Kidney, Autosomal Dominant",0.06321202945029462,0.00762785317742877,1
+UCFGDBYHRUNTLO,Ovarian Cancer,0.0,0.8610164550906554,1
+PKVRCIRHQMSYJX,With Sarcoma,0.0,0.0,0
+GYDJEQRTZSCIOI,Traumatic Hemorrhage,0.0,0.0,0
+GYDJEQRTZSCIOI,Immediate Postpartum Hemorrhage,0.0,0.0,0
+GYDJEQRTZSCIOI,Atherosclerotic Disease; Perioperative Bleeding,0.0,0.0,0
+GYDJEQRTZSCIOI,Hemorrhagic Shock; Trauma Injury,0.0,0.0,0
+NIJJYAXOARWZEE,Benzodiazepine Refractory Status Epilepticus,0.0,0.0,0
+MYPYJXKWCTUITO,Skin Structures and Soft Tissue Infections,0.0,0.0,0
+DAFYYTQWSAWIGS,Asthma,0.0,0.0,0
+SGEGOXDYSFKCPT,Major Depressive Disorder,0.0,0.0,0
+YXSLJKQTIDHPOT,postoperative pain,0.0,0.0,0
+VOVIALXJUBGFJZ,Chronic Rhinosinusitis With Polyposis,0.0,0.0,0
+GAGWJHPBXLXJQN,Metastatic Nasopharyngeal Carcinoma,0.0,0.0,0
+IAKHMKGGTNLKSZ,coronary artery disease,0.0,0.0,0
+JGMOKGBVKVMRFX,preterm labor and delivery,-0.02228032303772795,-0.039016877970438124,1
+PJMPHNIQZUBGLI,Acute Post-op Pain,0.0,0.0,0
+GHASVSINZRGABV,Anal Intraepithelial Neoplasia; High-grade Squamous Intraepithelial Lesion; HIV Infection,0.0,0.0,0
+WMWTYOKRWGGJOA,stridor,0.0,0.0,0
+DOUYETYNHWVLEO,Anal Intraepithelial Neoplasia; High-grade Squamous Intraepithelial Lesion; HIV Infection,0.0,0.0,0
+GOTYRUGSSMKFNF,cell Lymphoma,-2.0049650840751414,0.09601874168245628,1
+TYZROVQLWOKYKF,skin and soft tissue bacterial infection,0.0,0.0,0
+XZWYZXLIPXDOLR,Polycystic Ovary Syndrome; Insulin Resistance,0.0,0.0,0
+FJLBFSROUSIWMA,Cushing syndrome,0.0,0.0,0
+UZHSEJADLWPNLE,epilepsy,0.0,0.0,0
+RCINICONZNJXQF,Gastric Adenocarcinoma; Gastroesophageal Junction Adenocarcinoma,0.0,1.9553952535603567,1
+LPAUOXUZGSBGDU,MUltiple Sclerosis,0.0,0.0,0
+OGSBUKJUDHAQEA,unspecified peripheral T-cell lymphoma,-1.2728518936900195,-0.45337211027948254,1
+OLBCVFGFOZPWHH,"Anesthesia, General; Anesthesia, Intravenous",0.0,0.0,0
+UJLAWZDWDVHWOW,Rheumatoid Arthritis,0.0,0.0,0
+UVIQSJCZCSLXRZ,Prostate Cancer,-0.03489303634110484,-0.005808700194614314,1
+ULXXDDBFHOBEHA,Lung Cancer,-0.32521217790037726,0.02966470124243381,1
+OFCNXPDARWKPPY,Type 1 Diabetes,0.0,0.0,0
+IYIKLHRQXLHMJQ,atrial fibrillation,0.0,0.0,0
+HTIQEAQVCYTUBX,Hypertension; Sleep Apnea,0.0,0.0,0
+QNZCBYKSOIHPEH,Myeloma; Venous Thromboembolism,0.0,-0.11802416551604451,1
+IMOZEMNVLZVGJZ,Behcet syndrome,0.0,0.0,0
+XUKUURHRXDUEBC,Hyperlipidemia,0.0,0.0,0
+XUKUURHRXDUEBC,Primary Hyperlipidemia and Mixed Dyslipidemia,0.0,0.0,0
+XUZMWHLSFXCVMG,Rheumatoid Arthritis,0.0,0.0,0
+UBPYILGKFZZVDX,Chronic Myelogenous Leukemia,-0.3566439019627227,-0.24430998672654664,1
+XYLJNLCSTIOKRM,rosacea,0.0,0.0,0
+WXJFKKQWPMNTIM,adenovirus infection,0.0,0.0,0
+RYYVLZVUVIJVGH,Parkinson's Disease,0.0,0.0,0
+RZEKVGVHFLEQIL,"Influenza, Human",0.0,0.0,0
+WHTVZRBIWZFKQO,Uncomplicated Knowlesi Malaria,0.0,0.0,0
+LUKZNWIVRBCLON,seasonal allergic rhinitis,0.0,0.0,0
+MYSWGUAQZAJSOK,HIV; Salivary Gland Disease; Benign Lymphoepithelial Lesion,0.0,0.0,0
+MYSWGUAQZAJSOK,COPD,0.0,0.0,0
+OROGSEYTTFOCAN,PRK Post-operative Pain,0.0,0.0,0
+FDKXTQMXEQVLRF,Metastatic Uveal Melanoma,0.0,0.0,0
+KGPGQDLTDHGEGT,Cellulitis,0.0,0.0,0
+JVHXJTBJCFBINQ,Diabetes,0.0,0.0,0
+JVHXJTBJCFBINQ,Diabetes Mellitus,0.0,0.0,0
+JVHXJTBJCFBINQ,Diabetes Mellitus Type 2,0.0,0.0,0
+DOAKLVKFURWEDJ,Renal Failure; Critical Care; Gram Positive Bacteria,0.0,0.0,0
+HXGBXQDTNZMWGS,overactive bladder,0.0,-0.05928207614205062,1
+XAUDJQYHKZQPEU,MDS,0.0,0.0,0
+TZXKOCQBRNJULO,microcytic anemia with liver iron overload,0.0,0.0,0
+KXGVEGMKQFWNSR,submental fat,0.0,0.0,0
+UREBDLICKHMUKA,Knee Injury,0.0,0.0,0
+UREBDLICKHMUKA,Treatment of Ocular Inflammation and Pain,0.0,0.0,0
+UREBDLICKHMUKA,MULTIPLE MYELOMA,0.0,0.007505221618153085,1
+JRWZLRBJNMZMFE,cardiorenal syndrome,0.11321277790768171,0.010268711464841415,1
+ZIAOVIPSKUPPQW,HIV-1,0.0,0.0,0
+JWJOTENAMICLJG,alopecia,0.0,0.0,0
+OBWASQILIWPZMG,Diabetes Mellitus Type 2,0.0,0.0,0
+WXCXUHSOUPDCQV,Metastatic Prostate Cancer,-0.2645388102368098,-0.35993598887995626,1
+UCTWMZQNUQWSLP,Irreversible Pulpitis,0.0,0.0,0
+MCIACXAZCBVDEE,Type 2 Diabetes Mellitus,0.0,0.0,0
+SUBDBMMJDZJVOS,Stress Ulcer Prophylaxis,0.0,0.0,0
+VOXZDWNPVJITMN,Vulvovaginal Atrophy; Menopause; Dyspareunia; Painful Intercourse,0.0,0.0,0
+MNJVRJDLRVPLFE,pain,0.0,0.0,0
+YMTINGFKWWXKFG,mixed dyslipidemia,0.0,0.0,0
+PJMPHNIQZUBGLI,Postoperative Pain,0.0,0.0,0
+RTHCYVBBDHJXIQ,Stroke,0.0,0.0,0
+WMWTYOKRWGGJOA,perennial allergic rhinitis,0.0,0.0,0
+SDUQYLNIPVEERB,Patients With Resected Pancreatic Cancer,-3.285229495153491,-0.09941793204555704,1
+SDUQYLNIPVEERB,Pancreatic Cancer,-3.285229495153491,-0.09941793204555704,1
+JYGXADMDTFJGBT,"Infant, Newborn, Diseases; Cardiovascular Insufficiency",0.0,0.0,0
+QIGBRXMKCJKVMJ,melasma,0.0,0.0,0
+XYFPWWZEPKGCCK,Risk of Disease,0.0,0.0,0
+HMJIYCCIJYRONP,Parkinson Disease,0.0,0.0,0
+YQEZLKZALYSWHR,Post-operative Pain,0.0,0.0,0
+VPPJLAIAVCUEMN,sodium channelopathy-related small fiber neuropathy,0.0,0.0,0
+JTEGQNOMFQHVDC,chronic hepatitis B virus infection,0.0,0.0,0
+GOTYRUGSSMKFNF,Cell Lymphoma,-2.0049650840751414,0.09601874168245628,1
+GOTYRUGSSMKFNF,Diffuse Large B Cell Lymphoma,-2.0049650840751414,0.09601874168245628,1
+GOTYRUGSSMKFNF,MULTIPLE MYELOMA,0.0,2.1009838257575977,1
+HPJKCIUCZWXJDR,Unexplained Infertility,0.0,0.0,0
+WTDRDQBEARUVNC,Ischaemic Stroke,0.0,0.0,0
+NNJVILVZKWQKPM,peripheral neuropathy,0.0,0.0,0
+NNJVILVZKWQKPM,Local Anesthesia,0.0,0.0,0
+JFOZKMSJYSPYLN,dry eye syndrome,0.0,0.0,0
+TYZROVQLWOKYKF,gram-positive bacterial infections,0.0,0.0,0
+RDOIQAHITMMDAJ,fecal incontinence,0.0,0.0,0
+DIWRORZWFLOCLC,Status Epilepticus,0.0,0.0,0
+PSIFNNKUMBGKDQ,Proteinuria,0.0,0.0,0
+PSIFNNKUMBGKDQ,"Glomerulonephritis, IGA",0.0,0.0,0
+PSIFNNKUMBGKDQ,Arterial Hypertension,0.0,0.0,0
+VHRSUDSXCMQTMA,MEMBRANOUS NEPHROPATHY,0.0,0.0,0
+OPXLLQIJSORQAM,helminth infection,0.0,0.0,0
+DMJNNHOOLUXYBV,Healthcare-Associated Pneumonia; Ventilator-Associated Pneumonia; Lung Diseases,0.0,0.0,0
+DMJNNHOOLUXYBV,Urinary Tract Infection Complicated; Acute Pyelonephritis,0.0,0.0,0
+XZWYZXLIPXDOLR,Brain Tumor Treated With Cranial or Cranial-Spinal Radiation,0.0,0.0,0
+XZWYZXLIPXDOLR,Type 1 Diabetes,0.0,0.0,0
+FBOZXECLQNJBKD,ALOPECIA AREATA,0.0,0.0,0
+FBOZXECLQNJBKD,Neck Carcinoma,0.0,0.0,0
+FBOZXECLQNJBKD,Persistent Pregnancy of Unknown Location; Ectopic Pregnancy,0.0,0.0,0
+FBOZXECLQNJBKD,Recurrent or Metastatic Head and Neck Cancer,-0.7129762697403945,0.10650351367014244,1
+FBOZXECLQNJBKD,"Arthritis, Juvenile",0.0,0.0,0
+VHRSUDSXCMQTMA,Dysphagia,0.0,0.0,0
+DDLIGBOFAVUZHB,Parental/Caregiver Anxiety; Child's Anxiety,0.0,0.0,0
+DDLIGBOFAVUZHB,Preoperative Sedation,0.0,0.0,0
+DDLIGBOFAVUZHB,epilepsy,0.0,0.0,0
+PTKSEFOSCHHMPD,spinal cord injury,0.0,0.0,0
+VKHAHZOOUSRJNA,spontaneous abortion,0.0,0.0,0
+PQLXHQMOHUQAKB,post-kala-azar dermal leishmaniasis,0.0,0.0,0
+PBAPPPCECJKMCM,Urinary Bladder Overactive; Overactive Bladder; Urgency Incontinence; Urinary Bladder Diseases\Urologic Diseases,0.0,-0.03205803588418919,1
+RONZAEMNMFQXRA,Breast Cancer,-0.10365606818431705,-0.03092496884008457,1
+ZVHNDZWQTBEVRY,primary myelofibrosis,0.0,0.0,0
+RTGDFNSFWBGLEC,Chronic Myelogenous Leukemia; Acute Lymphoblastic Leukemia; Acute Myeloid Leukemia; Acute Biphenotypic Leukemia; Myelodysplastic Syndrome; Myeloproliferative Neoplasm; Non-Hodgkin Lymphoma; Hodgkins Disease; Chronic Lymphocytic Leukemia; Multiple Myeloma,-0.7692077937132598,-0.21600183761318192,1
+HPNSFSBZBAHARI,Chronic Kidney Disease,-0.5517340392691602,0.00147191683091763,1
+HRRBJVNMSRJFHQ,ureteral stent-related symptoms,0.0,0.0,0
+HYIMSNHJOBLJNT,preterm labor and delivery,-0.0853917328537341,-0.048158034390662796,1
+HHZIURLSWUIHRB,Chronic Myelogenous Leukemia,-0.3566439019627227,-0.32906294472569303,1
+OUBCNLGXQFSTLU,tyrosinemia type I,0.0,0.0,0
+SFLSHLFXELFNJZ,Vasoplegic syndrome,0.0,0.0,0
+VIKNJXKGJWUCNN,contraception,0.0,0.0,0
+KVWDHTXUZHCGIO,With Cancer,0.0,0.0,0
+FDLYAMZZIXQODN,Pancreatic Cancer,-0.19713586966028573,0.012149169259596887,1
+JBIMVDZLSHOPLA,allergic conjunctivitis,0.0,0.0,0
+SUBDBMMJDZJVOS,Peptic Ulcer Hemorrhage,0.0,0.0,0
+XRVDGNKRPOAQTN,Multiple Sclerosis,0.0,0.0,0
+XPIJWUTXQAGSLK,impetigo,0.0,0.0,0
+RCINICONZNJXQF,Primary Breast Cancer,-2.2446930475135694,-0.28929779395321265,1
+RCINICONZNJXQF,Neoadjuvant Treatment of Patients With High-risk Early Breast Cancer,-2.2446930475135694,-0.28929779395321265,1
+RCINICONZNJXQF,Junction Cancer,0.0,0.0,0
+RCINICONZNJXQF,Early Primary Breast Cancer,-2.2446930475135694,-0.28929779395321265,1
+QYSPLQLAKJAUJT,Renal Colic,0.07913718057998444,-0.00048098194671271355,1
+DTGLZDAWLRGWQN,Acute Coronary Syndrome; Unstable Angina,0.0,0.0,0
+OIGNJSKKLXVSLS,Rheumatoid Arthritis,0.0,0.0,0
+ZTVQQQVZCWLTDF,Breast Diseases,0.07161080688014365,0.003412179015045952,1
+IWUCXVSUMQZMFG,HIV infection,0.0,0.0,0
+KGFYHTZWPPHNLQ,Symptomatic Superficial Vein Thrombosis,0.0,0.0,0
+MNDBXUUTURYVHR,COPD,0.0,0.0,0
+ZKMNUMMKYBVTFN,Bariatric Surgery Candidate,0.0,0.0,0
+HFNKQEVNSGCOJV,Polycythemia Vera,0.0,0.0,0
+HFNKQEVNSGCOJV,Primary Myelofibrosis (MF),0.0,0.0,0
+RYMZZMVNJRMUDD,Critical Illness,0.0,0.0,0
+WOXKDUGGOYFFRN,"Hypertension, Pulmonary",0.0,0.0,0
+QCGUSIANLFXSGE,pneumonia,0.0,0.0,0
+UEJJHQNACJXSKW,Neoplasms,0.0,0.0,0
+OEKWJQXRCDYSHL,Acute Myocardial Infarction,0.0,0.0,0
+KJADKKWYZYXHBB,Epilepsy,0.0,0.0,0
+GYDJEQRTZSCIOI,Cancer; Tumour; Surgery,0.0,0.0,0
+GYDJEQRTZSCIOI,Abdominal Aortic Aneurysms,0.0,0.0,0
+GYDJEQRTZSCIOI,Wounds and Injuries; Acute Coagulopathy,0.0,0.0,0
+GYDJEQRTZSCIOI,Total Blood Loss,0.0,0.0,0
+YNDXUCZADRHECN,Osteoarthritis,0.0,0.0,0
+YNDXUCZADRHECN,ocular trauma,0.0,0.0,0
+FVTWTVQXNAJTQP,Chronic Obstructive Pulmonary Disease,0.0,0.0,0
+MYPYJXKWCTUITO,Infection; Surgery; Nervous System Diseases,0.0,0.0,0
+DAFYYTQWSAWIGS,Chronic Obstructive Pulmonary Disease,0.0,0.0,0
+XRWSZZJLZRKHHD,chronic hepatitis C virus infection,0.0,0.0,0
+RZEKVGVHFLEQIL,Knee Osteoarthritis,0.0,0.0,0
+KSGXQBZTULBEEQ,Venous Thromboembolism; Secondary Prevention,0.0,0.0,0
+KSGXQBZTULBEEQ,Stroke; Secondary Prevention,0.0,0.0,0
+DYDCPNMLZGFQTM,Skin and Subcutaneous Tissue Bacterial Infections; Skin Structures and Soft Tissue Infections,0.0,0.0,0
+ZCGNOVWYSGBHAU,influenza,0.0,0.0,0
+GHASVSINZRGABV,Anal Cancer,0.0,0.0,0
+JZUFKLXOESDKRF,heart failure,0.0,0.0,0
+DOUYETYNHWVLEO,Anal Cancer,0.0,0.0,0
+JTEGQNOMFQHVDC,HIV infection,0.0,0.0,0
+USUZGMWDZDXMDG,Cushing syndrome,0.0,0.0,0
+IYDYFVUFSPQPPV,Bloodstream Infections (BSI) Due to CRE; Hospital-Acquired Bacterial Pneumonia (HABP) Due to CRE; Ventilator-Associated Bacterial Pneumonia (VABP) Due to CRE; Complicated Urinary Tract Infection (cUTI) Due to CRE; Acute Pyelonephritis (AP) Due to CRE,0.0,0.0,0
+NTHPAPBPFQJABD,Postoperative Nausea and Vomiting,0.0,0.0,0
+LERNTVKEWCAPOY,chronic obstructive pulmonary disease,0.0,0.0,0
+GYDJEQRTZSCIOI,Blood Loss,0.0,0.0,0
+MYPYJXKWCTUITO,Clostridium Difficile,0.0,0.0,0
+ZAFYATHCZYHLPB,Parental/Caregiver Anxiety; Child's Anxiety,0.0,0.0,0
+RZVAJINKPMORJF,Asthma; Wheezing,0.0,0.0,0
+LZCDAPDGXCYOEH,photoaging,0.0,0.0,0
+OIRDTQYFTABQOQ,coronary artery disease,0.0,0.0,0
+ULXXDDBFHOBEHA,Cell Cancer,0.0,0.0,0
+HXHWSAZORRCQMX,Human Immunodeficiency Virus,0.0,0.0,0
+IDBPHNDTYPBSNI,Bronchoscopy; Conscious Sedation,0.0,0.0,0
+LSQZJLSUYDQPKJ,Healthy,0.0,0.0,0
+LSQZJLSUYDQPKJ,Drug Resistant Malaria Due to Plasmodium Falciparum,0.0,0.0,0
+QNZCBYKSOIHPEH,Deep Vein Thrombosis; Pulmonary Embolism,0.0,0.0,0
+FIHJKUPKCHIPAT,malaria,0.0,0.0,0
+OOUGLTULBSNHNF,"Muscular Dystrophy, Duchenne; Muscular Dystrophies; Muscular Disorders, Atrophic; Muscular Diseases; Musculoskeletal Diseases; Neuromuscular Diseases; Nervous System Diseases; Genetic Diseases, X-Linked; Genetic Diseases, Inborn",0.0,0.0,0
+METKIMKYRPQLGS,hemangioma,0.0,0.0,0
+XUKUURHRXDUEBC,Coronary Artery Disease,0.0,0.0,0
+XUKUURHRXDUEBC,Hyperlipidemia or Mixed Dyslipidemia at High Risk for Cardiovascular Events,0.0,0.0,0
+XUKUURHRXDUEBC,Heart Valve Diseases,0.0,0.0,0
+LMEKQMALGUDUQG,Vasculitis,0.0,0.0,0
+LMEKQMALGUDUQG,Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis; Microscopic Polyangiitis; Wegener Granulomatosis,0.0,0.0,0
+YBHILYKTIRIUTE,mixed dyslipidemia,0.0,0.0,0
+KWIUHFFTVRNATP,peroxisome biogenesis disorder,0.0,0.0,0
+LKJPYSCBVHEWIU,Metastatic Prostate Cancer,-0.2645388102368098,-0.35993598887995626,1
+LKJPYSCBVHEWIU,Prostate Cancer,-0.2645388102368098,-0.35993598887995626,1
+KHOITXIGCFIULA,chronic idiopathic constipation,0.0,0.0,0
+LHHCSNFAOIFYRV,hepatitis C virus infection,0.0,0.0,0
+WXJFKKQWPMNTIM,cytomegalovirus infection,0.0,0.0,0
+LEBVLXFERQHONN,Chronic pain,0.0,0.0,0
+LEBVLXFERQHONN,Functional Endoscopic Sinus Surgery (FESS),0.0,0.0,0
+GMRQFYUYWCNGIN,facial angiofibroma,0.0,0.0,0
+GAGWJHPBXLXJQN,Colorectal Cancer; Metastases,-0.7327040841249612,0.05983113527455064,1
+GAGWJHPBXLXJQN,Colorectal Neoplasms; Neoplasm Metastasis; Intestinal Neoplasms; Gastrointestinal Neoplasms; Digestive System Neoplasms,-0.7327040841249612,0.05983113527455064,1
+OGHNVEJMJSYVRP,Breast Cancer; Heart Failure; Cardiotoxicity,0.005792948594348945,0.009092532953357676,1
+VERWOWGGCGHDQE,Lung Cancer,-0.7763151208422485,0.1445978712817183,1
+VERWOWGGCGHDQE,Non-Small Cell Lung Cancer,-0.7763151208422485,0.1445978712817183,1
+JIVPVXMEBJLZRO,Hypertension; Kidney Transplantation,-0.06759075111079936,0.01015025932212818,1
+RRGUKTPIGVIEKM,vasospastic angina,0.0,0.0,0
+DGBIGWXXNGSACT,Status Epilepticus; Epilepsy,0.0,0.0,0
+GJSURZIOUXUGAL,Is an Only Child,0.0,0.0,0
+GJSURZIOUXUGAL,Negative Behaviour Change,0.0,0.0,0
+GKTWGGQPFAXNFI,Carotid Artery Occlusion; Middle Cerebral Artery Occlusion; Stroke,0.0,0.0,0
+VNFPBHJOKIVQEB,otomycosis,0.0,0.0,0
+ITRJWOMZKQRYTA,ACE inhibitor-induced angioedema,0.0,0.0,0
+UHDGCWIWMRVCDJ,"Leukemia, Myeloid, Acute",-3.207428950424149,-0.04445061762487468,1
+FDKXTQMXEQVLRF,Metastatic Melanoma,0.0,0.0,0
+FDKXTQMXEQVLRF,positive Melanoma,0.0,0.0,0
+DOAKLVKFURWEDJ,Acute Hematogenous Osteomyelitis,0.0,0.0,0
+FBHSPRKOSMHSIF,Duchenne Muscular Dystrophy,0.0,0.0,0
+DYDCPNMLZGFQTM,Skin and Subcutaneous Tissue Bacterial Infections,0.0,0.0,0
+JAUOIFJMECXRGI,urticaria,0.0,0.0,0
+UREBDLICKHMUKA,Pelvic Organ Prolapse; PONV,0.0,0.0,0
+ZZVUWRFHKOJYTH,Acute Urticaria,0.0,0.0,0
+ZEUITGRIYCTCEM,Back Pain Lower Back Chronic,0.0,0.0,0
+SJVQHLPISAIATJ,Chronic Lymphocytic Leukemia; Small Lymphocytic Lymphoma,-0.30676416979093446,-0.10660273206553991,1
+VLCYCQAOQCDTCN,Familial adenomatous polyposis,0.0,0.0,0
+UCTWMZQNUQWSLP,Uterine Myomas,0.0,0.0,0
+JUKPWJGBANNWMW,Phospholamban R14del Mutation-related Cardiomyopathy,0.0,0.0,0
+HLFSMUUOKPBTSM,complicated intra-abdominal infection,0.0,0.0,0
+WSEQXVZVJXJVFP,Dyspepsia; Anxiety; Depression,0.0,0.0,0
+SUBDBMMJDZJVOS,Bleeding; ERCP,0.0,0.0,0
+VOXZDWNPVJITMN,Menopause,0.0,0.0,0
+OLNTVTPDXPETLC,Hyperlipidemia,0.0,0.0,0
+OLNTVTPDXPETLC,Metabolic Syndrome X,0.0,0.0,0
+PJMPHNIQZUBGLI,"Anesthetic, Sedative or Analgesic Complications in Labor or Delivery",0.036282375007319165,-0.031916252857778535,1
+RFHAOTPXVQNOHP,Fungal Infection; Hematopoietic and Lymphoid Cell Neoplasm,0.0,0.0,0
+RFHAOTPXVQNOHP,Vulvovaginal Candidiasis,0.0,0.0,0
+RFHAOTPXVQNOHP,Human Immunodeficiency Virus,0.0,0.0,0
+WMWTYOKRWGGJOA,chronic rhinosinusitis with nasal polyps,0.0,0.0,0
+OVBPIULPVIDEAO,contraception,0.0,0.0,0
+XWLUWCNOOVRFPX,Status Epilepticus; Epilepsy,0.0,0.0,0
+VWUXBMIQPBEWFH,Metastatic Breast Cancer,-0.33033499306052333,-0.2774030028172715,1
+UGJMXCAKCUNAIE,Healthy,0.0,0.0,0
+XGALLCVXEZPNRQ,NSCLC,0.0,0.0,0
+SDUQYLNIPVEERB,Lung Cancer,-3.2498589886500917,-0.06404742554215792,1
+QWEWGXUTRTXFRF,"Diabetes Mellitus, Type 2",0.0,0.0,0
+LNEPOXFFQSENCJ,Delirium,0.0,0.0,0
+LNEPOXFFQSENCJ,Postoperative Confusion,0.0,0.0,0
+JYGXADMDTFJGBT,Oral SubMucous Fibrosis,0.0,0.0,0
+VSNHCAURESNICA,Polycythemia Vera,0.0,0.0,0
+XYFPWWZEPKGCCK,Chronic Lymphocytic Leukemia; Small Lymphocytic Lymphoma,0.023341767398744644,0.034035268096031045,1
+XYFPWWZEPKGCCK,Refractory Chronic Leukemia,0.023341767398744644,0.034035268096031045,1
+HEFNNWSXXWATRW,Asthma; Wheezing,0.0,0.0,0
+HEFNNWSXXWATRW,PDA,0.0,0.0,0
+DOUYETYNHWVLEO,cervical intraepithelial neoplasia,0.09788441285625141,0.03641897038674648,1
+DOUYETYNHWVLEO,actinic keratosis,0.0,0.0,0
+QZZUEBNBZAPZLX,COPD,0.0,0.0,0
+PIWKPBJCKXDKJR,Renal Function After Partial Nephrectomy,-0.11327621661144634,-0.015517531159567624,1
+QRXWMOHMRWLFEY,Human Immunodeficiency Virus,0.0,0.0,0
+YQEZLKZALYSWHR,Epidural Catheterization; Thoracic; Procedural Pain,0.0,0.0,0
+PYZRQGJRPPTADH,Dystrophia Myotonica Type 1; Myotonia Congenita; Paramyotonia Congenita; Hyperkalemic Periodic Paralysis; Potassium-Aggravated Myotonia,0.0,0.0,0
+GOTYRUGSSMKFNF,Mantle Cell Lymphoma,-2.0049650840751414,0.09601874168245628,1
+GOTYRUGSSMKFNF,Follicular Lymphoma,-2.0049650840751414,0.09601874168245628,1
+WOSKHXYHFSIKNG,Hepatocellular Carcinoma,-0.49660508448663165,-0.31236650352062423,1
+FGQFOYHRJSUHMR,gout,0.0,0.0,0
+HPHUVLMMVZITSG,Epilepsy; Partial Seizures,0.0,0.0,0
+NNJVILVZKWQKPM,Postoperative Pain,0.0,0.0,0
+LTXREWYXXSTFRX,Type 2 Diabetes,0.0,0.0,0
+LTXREWYXXSTFRX,Arterial Hypertension; Albuminuria,0.0,0.0,0
+TYZROVQLWOKYKF,skin infection,0.0,0.0,0
+DIWRORZWFLOCLC,Peripheral Vertigo.,0.0,0.0,0
+PSIFNNKUMBGKDQ,Newly-diagnosed Glioblastoma,-0.04121207880535056,0.02552048748956931,1
+DMKSVUSAATWOCU,cataract,0.0,0.0,0
+YMBXTVYHTMGZDW,Fever,0.0,0.0,0
+INWLQCZOYSRPNW,Insertion of Intrauterine Contraception,0.0,0.0,0
+XZWYZXLIPXDOLR,Obesity,0.0,0.0,0
+XZWYZXLIPXDOLR,Endometrial Cancer,0.00041165407864935543,0.06335726133010539,1
+XZWYZXLIPXDOLR,Prediabetes; Type 2 Diabetes,0.0,0.0,0
+XZWYZXLIPXDOLR,Overweight; Autism Spectrum Disorder,0.0,0.0,0
+XZWYZXLIPXDOLR,Hypogonadism; Obesity,0.0,0.0,0
+XZWYZXLIPXDOLR,Metabolic Syndrome,0.0,0.0,0
+USSIQXCVUWKGNF,neonatal abstinence syndrome,0.0,0.0,0
+FBOZXECLQNJBKD,Cardiovascular Disease,0.0,0.0,0
+FBOZXECLQNJBKD,Uveitis,0.0,0.0,0
+FBOZXECLQNJBKD,Neck Cancer,0.0,0.0,0
+FBOZXECLQNJBKD,Psoriasis Vulgaris,0.0,0.0,0
+VHRSUDSXCMQTMA,Thyroid-associated Ophthalmopathy; Dry Eye Syndrome,-0.007149731544286608,0.00035549007386647714,1
+VAOCPAMSLUNLGC,Complicated Urinary Tract Infection; Complicated Intra-abdominal Infection,0.0,0.0,0
+VAOCPAMSLUNLGC,Hemorrhoids,0.0,0.0,0
+PBAPPPCECJKMCM,Urinary Bladder Overactive; Urinary Bladder Diseases\Urologic Diseases; Overactive Bladder; Urgency Incontinence,0.0,-0.03205803588418919,1
+PBAPPPCECJKMCM,Overactive Bladder; Urinary Incontinence,0.0,-0.03205803588418919,1
+OJLOPKGSLYJEMD,Pre-eclampsia; Fetus or Newborn; Effects of Induction of Labor,0.0,0.0,0
+ZVHNDZWQTBEVRY,Primary Myelofibrosis; Post-Polycythemia Vera Myelofibrosis; Post-Essential Thrombocythemia Myelofibrosis,0.0,0.0,0
+FABPRXSRWADJSP,Community-acquired Bacterial Pneumonia,0.0,0.0,0
+RTGDFNSFWBGLEC,Chronic Inflammatory Demyelinating Polyradiculopathy,0.0,0.0,0
+RTGDFNSFWBGLEC,Uveitis,0.0,0.0,0
+DQCKKXVULJGBQN,Alcohol Dependence,0.0,0.0,0
+KOHIRBRYDXPAMZ,Hypertension,0.0,0.0,0
+HHZIURLSWUIHRB,Philadelphia Chromosome Positive (PH+) Chronic Myelogenous Leukemia in Chronic Phase (CML-CP),-0.3566439019627227,-0.32906294472569303,1
+FDLYAMZZIXQODN,Advanced Gastric Cancer,0.0,0.20928503891988262,1
+MKMPWKUAHLTIBJ,Type 2 Diabetes Mellitus,0.0,0.0,0
+SUBDBMMJDZJVOS,Myocardial Injury After Noncardiac Surgery (MINS),0.0,0.0,0
+XIQVNETUBQGFHX,hyperhidrosis,0.0,0.0,0
+XIQVNETUBQGFHX,nocturnal enuresis,0.0,0.0,0
+RCINICONZNJXQF,Gastric Cancer,0.0,1.9553952535603567,1
+RCINICONZNJXQF,Critical Ischemia,0.0,0.0,0
+IQPSEEYGBUAQFF,Prevention & Control,0.0,0.0,0
+UOZODPSAJZTQNH,cutaneous Leishmaniasis,0.0,0.0,0
+ISWRGOKTTBVCFA,diabetic foot ulcer,0.0,0.0,0
+NNACHAUCXXVJSP,narcolepsy,0.0,0.0,0
+YIQPUIGJQJDJOS,Non-Hodgkin's Lymphoma,0.035053929523333846,-0.004875084735219179,1
+UVSMNLNDYGZFPF,Multiple Myeloma,0.0,2.1009838257575977,1
+DTGLZDAWLRGWQN,Coronary Artery Bypass,0.0,0.0,0
+DTGLZDAWLRGWQN,Acute Coronary Syndromes,0.0,0.0,0
+LRJOMUJRLNCICJ,Non-Proliferative Diabetic Retinopathy; Cataract,0.0,0.0,0
+XOFYZVNMUHMLCC,Duchenne Muscular Dystrophy,0.0,0.0,0
+XOFYZVNMUHMLCC,Immune Reconstitution Inflammatory Syndrome; HIV; Tuberculosis,0.0,0.0,0
+RJKFOVLPORLFTN,Menopause,0.0,0.0,0
+PWWVAXIEGOYWEE,Peripheral Vertigo.,0.0,0.0,0
+OLBCVFGFOZPWHH,delirium,0.0,0.0,0
+OLBCVFGFOZPWHH,General Anesthesia; Elective Surgery,0.0,0.0,0
+ZPMNHBXQOOVQJL,Bowel Cleansing; Colon Capsule Completion Times,0.10875330930128613,0.010346057004592846,1
+URKOMYMAXPYINW,Delirium,0.0,0.0,0
+LOUPRKONTZGTKE,malaria,0.0,0.0,0
+LOUPRKONTZGTKE,Drug Resistant Malaria Due to Plasmodium Falciparum,0.0,0.0,0
+YREYEVIYCVEVJK,PPI Resistant Gastroesophageal Reflux Disease,0.0,0.006746290480102829,1
+CZFFBEXEKNGXKS,Human Immunodeficiency Virus,0.0,0.0,0
+XKLMZUWKNUAPSZ,"Diabetes, Type I; Diabetes, Type II; Angina; Coronary Artery Disease",0.0,0.0,0
+IWUCXVSUMQZMFG,Treatment of Chronic Hepatitis C Infection,0.0,0.0,0
+YIBOMRUWOWDFLG,HIV-1 infection,0.0,0.0,0
+NCDNCNXCDXHOMX,"Infection, Human Immunodeficiency Virus; HIV Infections",0.0,0.0,0
+KGFYHTZWPPHNLQ,Venous Thromboembolism,0.0,0.0,0
+KGFYHTZWPPHNLQ,Heart Failure; Coronary Artery Disease,0.0,0.0,0
+KGFYHTZWPPHNLQ,Patients With Antiphospholipid Syndrome,0.0,0.0,0
+MNDBXUUTURYVHR,Chronic Obstructive Pulmonary Disease,0.0,0.0,0
+ZKMNUMMKYBVTFN,Functional Endoscopic Sinus Surgery (FESS),0.0,0.0,0
+RYMZZMVNJRMUDD,Schizophrenia; Schizoaffective Disorder; Schizophreniform Disorder; Psychosis NOS,0.0,0.0,0
+RYMZZMVNJRMUDD,Dyslipidemias,0.0,0.0,0
+MFFMDFFZMYYVKS,Type 2 DIAbetes,0.0,0.0,0
+LXMSZDCAJNLERA,end-stage kidney disease,0.04370768329594571,0.0012938164046210482,1
+LXMSZDCAJNLERA,autosomal dominant polycystic kidney disease,0.04370768329594571,0.0012938164046210482,1
+RMMXLENWKUUMAY,Hyperlipidemia; Hypertension,0.0,0.0,0
+MUMGGOZAMZWBJJ,infertility,0.0,0.0,0
+OEKWJQXRCDYSHL,Coronary Artery Disease; Endothelial Function,0.0,0.0,0
+OEKWJQXRCDYSHL,Coronary Artery Disease (CAD),0.0,0.0,0
+OEKWJQXRCDYSHL,Platelet Reactivity,0.0,0.0,0
+OEKWJQXRCDYSHL,Chronic Kidney Disease,-0.055965483733788964,0.018834700386379598,1
+TVYLLZQTGLZFBW,Indwelling Urinary Catheter; Male Patients; General Anesthesia,0.0,0.0,0
+LIRYPHYGHXZJBZ,positive Melanoma,-0.37413855712681304,-0.18696712701656443,1
+GYDJEQRTZSCIOI,Gastrointestinal Bleeding,0.0,0.0,0
+GYDJEQRTZSCIOI,Hip Fracture; Blood Loss,0.0,0.0,0
+SHGAZHPCJJPHSC,photoaging,0.0,0.0,0
+SHGAZHPCJJPHSC,acne,0.0,0.0,0
+YNDXUCZADRHECN,oral lichen planus,0.0,0.0,0
+WPVFJKSGQUFQAP,Congenital Cytomegalovirus Infection; Sensorineural Hearing Loss,0.0,0.0,0
+JQSHBVHOMNKWFT,Smoking Among Cancer,0.0,0.0,0
+GPXBXXGIAQBQNI,Metastatic Melanoma,-0.9786453917170147,-0.7990131642230416,1
+SGEGOXDYSFKCPT,generalized anxiety disorder,0.0,0.0,0
+SYOKIDBDQMKNDQ,Type 2 Diabetes Mellitus (T2DM),0.0,0.0,0
+WAEXFXRVDQXREF,Acute Myeloid Leukemia,-1.4231809007573857,-0.20015318367151758,1
+HTIQEAQVCYTUBX,Hypertension,0.0,0.0,0
+RYYVLZVUVIJVGH,"Pain, Postoperative; Tooth Diseases",0.0,0.0,0
+GKTWGGQPFAXNFI,Coronary Artery Disease; Endothelial Function,0.0,0.0,0
+KSGXQBZTULBEEQ,Venous Thromboembolism,0.0,0.0,0
+LCDDAGSJHKEABN,Diabetes,0.0,0.0,0
+SYTBZMRGLBWNTM,acute pharyngitis,0.0,0.0,0
+PGTVWKLGGCQMBR,drug-resistant focal epilepsy,0.0,0.0,0
+JZUFKLXOESDKRF,Hypertension,0.0,0.0,0
+HEFNNWSXXWATRW,"Pain, Postoperative; Tooth Diseases",0.0,0.0,0
+RDOIQAHITMMDAJ,"Carcinoma, Non-Small-Cell Lung",0.050057515517939806,-0.018141112347157894,1
+DIWRORZWFLOCLC,Healthy Volunteers,0.0,0.0,0
+DRLFMBDRBRZALE,Cancer Malignancies,0.0,0.0,0
+VHRSUDSXCMQTMA,Dexamethasone-induced Hiccup in Chemotherapy,0.0,0.0,0
+TTWJBBZEZQICBI,solid tumor,0.0,0.0,0
+OJLOPKGSLYJEMD,Pre-eclampsia,0.0,0.0,0
+JWNPDZNEKVCWMY,Metastatic Breast Cancer,-0.6700322375180416,-0.31515535837523057,1
+DTGLZDAWLRGWQN,Diabetes Mellitus,0.0,0.0,0
+KGFYHTZWPPHNLQ,Atrial Fibrillation,0.0,0.0,0
+FBOUYBDGKBSUES,overactive bladder,0.0,-0.05928207614205062,1
+HWGQMRYQVZSGDQ,Metastatic Breast Cancer,-0.23302431386492528,-0.02373927494504266,1
+MUMGGOZAMZWBJJ,breast cancer,0.08266392990380525,-0.01273324873934123,1
+OEKWJQXRCDYSHL,Diabetes Mellitus,0.0,0.0,0
+GPXBXXGIAQBQNI,Mutant Melanoma,-0.9786453917170147,-0.7990131642230416,1
+MCGSCOLBFJQGHM,HIV-1 infection,0.0,0.0,0
+UVIQSJCZCSLXRZ,Metastatic Castration-resistant Prostate Cancer; Metastatic Breast Cancer,-0.021415331796136656,0.007669004350353871,1
+UAHFGYDRQSXQEB,erythropoietic protoporphyria,0.0,0.0,0
+YJYPHIXNFHFHND,Major Depression,0.0,0.0,0
+HXHWSAZORRCQMX,onchocerciasis,0.0,0.0,0
+OFCNXPDARWKPPY,Tumor Lysis Syndrome,0.0,0.0,0
+OFCNXPDARWKPPY,ankle sprain,0.0,0.0,0
+ZSBOMTDTBDDKMP,Diabetes Mellitus,0.0,0.0,0
+HTIQEAQVCYTUBX,Thalassemia; Iron Overload,0.0,0.0,0
+HTIQEAQVCYTUBX,Essential Hypertension,0.0,0.0,0
+VSWBSWWIRNCQIJ,bipolar disorder,0.0,0.0,0
+VSWBSWWIRNCQIJ,Schizophrenia,0.0,0.0,0
+OOUGLTULBSNHNF,Duchenne Muscular Dystrophy; Becker Muscular Dystrophy; Dystrophinopathy,0.0,0.0,0
+XUKUURHRXDUEBC,Myocardial Infarction; Peripheral Vascular Disease; Aortic Aneurism,0.0,0.0,0
+XUKUURHRXDUEBC,Chronic Kidney Disease,-0.9622610005017037,-0.14348691517832612,1
+LMEKQMALGUDUQG,Myasthenia Gravis,0.0,0.0,0
+KPYSYYIEGFHWSV,alcohol dependence,0.0,0.0,0
+YTKUWDBFDASYHO,Cell Lymphoma,0.0,0.0,0
+XHOLNRLADUSQLD,venous thromboembolism,0.0,0.0,0
+KHOITXIGCFIULA,Quality of Bowel Preparation for the Colon Capsule; Colon Capsule Completion Rates; Colon Capsule Polyp Detection,0.0,0.0,0
+XVGOZDAJGBALKS,Schizophrenia,0.0,0.0,0
+LEBVLXFERQHONN,Headache,0.0,0.0,0
+RMRJXGBAOAMLHD,Low back pain,0.0,0.0,0
+KORNTPPJEAJQIU,Prevention of Ovarian Hyperstimulation Syndrome,0.0,-0.027774418469245995,1
+GAGWJHPBXLXJQN,Metastatic Colorectal Cancer,-0.7327040841249612,0.05983113527455064,1
+GAGWJHPBXLXJQN,Advanced Rectal Cancer,0.0,0.0,0
+ZCCUWMICIWSJIX,Complicated Skin and Soft Tissue Infection,0.0,0.0,0
+RZEKVGVHFLEQIL,Other Acute Postoperative Pain,0.0,0.0,0
+WHTVZRBIWZFKQO,Malaria,0.0,0.0,0
+WHTVZRBIWZFKQO,Vivax Malaria,0.0,0.0,0
+GJSURZIOUXUGAL,hyperemesis gravidarum,0.0,0.0,0
+GKTWGGQPFAXNFI,Coronary Artery Disease,0.0,0.0,0
+GKTWGGQPFAXNFI,Acute Ischemic Stroke,0.0,0.0,0
+IAKHMKGGTNLKSZ,arrhythmia,0.0,0.0,0
+KTEIFNKAUNYNJU,Lung Cancer,-0.7763151208422485,0.1445978712817183,1
+HCYAFALTSJYZDH,gastroesophageal reflux disease,0.0,0.05244810692193499,1
+UREBDLICKHMUKA,Purpura; Idiopathic Thrombocytopenic Purpura,0.0,0.0,0
+UREBDLICKHMUKA,Immune Thrombocytopenia,0.0,0.0,0
+DCOPUUMXTXDBNB,Osteoarthritis,0.0,0.0,0
+GZSOSUNBTXMUFQ,chronic venous disease,0.0,0.0,0
+RHWKPHLQXYSBKR,infection,0.0,0.0,0
+ZEUITGRIYCTCEM,Fibromyalgia,0.0,0.0,0
+XPOQHMRABVBWPR,HIV infection,0.0,0.0,0
+QFNHIDANIVGXPE,irritable bowel syndrome,0.0,0.0,0
+JUKPWJGBANNWMW,Type 2 Diabetes,0.0,0.0,0
+OROAFUQRIXKEMV,Essential Hypertension,0.0,0.0,0
+GGXKWVWZWMLJEH,genital herpes,0.0,0.0,0
+GGXKWVWZWMLJEH,Herpes Zoster,0.0,0.0,0
+KKGQTZUTZRNORY,Multiple Sclerosis,0.0,0.0,0
+KKGQTZUTZRNORY,chronic inflammatory demyelinating polyradiculoneuropathy,0.0,0.0,0
+XTULMSXFIHGYFS,chronic obstructive pulmonary disease,0.0,0.0,0
+XTULMSXFIHGYFS,rhinitis,0.0,0.0,0
+XTULMSXFIHGYFS,perennial allergic rhinitis,0.0,0.0,0
+WMWTYOKRWGGJOA,allergic rhinitis,0.0,0.0,0
+KANJSNBRCNMZMV,venous thromboembolism,0.0,0.0,0
+XGALLCVXEZPNRQ,Non-Small Cell Lung Cancer,-0.22656977302642697,0.010757319451468988,1
+SDUQYLNIPVEERB,Pancreatic Adenocarcinoma (Ductal Adenocarcinoma),-3.285229495153491,-0.09941793204555704,1
+SDUQYLNIPVEERB,Maintenance Therapies in Advanced Non Small Cell Lung Cancer,-3.2498589886500917,-0.06404742554215792,1
+SDUQYLNIPVEERB,Metastatic or Locally Advanced Unresectable Pancreatic Adenocarcinoma,-3.285229495153491,-0.09941793204555704,1
+WIGIZIANZCJQQY,Diabetic Patients,0.0,0.0,0
+WIGIZIANZCJQQY,Type 2 Diabetes Mellitus,0.0,0.0,0
+ZNNLBTZKUZBEKO,Diabetes,0.0,0.0,0
+MFWNKCLOYSRHCJ,Vaginal Cancer,0.0,0.0,0
+LNEPOXFFQSENCJ,Psychomotor Agitation,0.0,0.0,0
+RPTUSVTUFVMDQK,preeclampsia,0.0,0.0,0
+HEFNNWSXXWATRW,Forearm Fracture,0.0,0.0,0
+HEFNNWSXXWATRW,Primary Dysmenorrhoea,0.0,0.0,0
+IFSDAJWBUCMOAH,Previously Treated Chronic Lymphocytic Leukemia,-0.30676416979093446,-0.10660273206553991,1
+ZCVMWBYGMWKGHF,fibromyalgia,0.0,0.0,0
+PYZRQGJRPPTADH,Bipolar Disorder,0.0,0.0,0
+MJIHNNLFOKEZEW,Gastric Ulcers; Duodenal Ulcers,0.0,0.006746290480102829,1
+VHOGYURTWQBHIL,Myasthenia Gravis,0.0,0.0,0
+ZKLPARSLTMPFCP,rhinitis,0.0,0.0,0
+ZKLPARSLTMPFCP,perennial allergic rhinitis,0.0,0.0,0
+NNJVILVZKWQKPM,cardiac arrest,0.0,0.0,0
+NNJVILVZKWQKPM,Low back pain,0.0,0.0,0
+NNJVILVZKWQKPM,Nonviable pregnancy,0.0,0.0,0
+DIWRORZWFLOCLC,Perioperative Anxiety,0.0,0.0,0
+DRLFMBDRBRZALE,Barrett's Esophagus,0.0,0.002079925390991422,1
+DRLFMBDRBRZALE,Diabetes; Glucose Tolerance,0.0,0.0,0
+ZRVUJXDFFKFLMG,Low Back Pain,0.0,0.0,0
+DMJNNHOOLUXYBV,Ventilator-associated Bacterial Pneumonia,0.0,0.0,0
+DMJNNHOOLUXYBV,Sepsis,0.0,0.0,0
+XZWYZXLIPXDOLR,Poor Glycemic Control,0.0,0.0,0
+USSIQXCVUWKGNF,of Cancer,0.0,0.0,0
+VHRSUDSXCMQTMA,Community Acquired Respiratory Disease Syndrome,0.0,0.0,0
+TTWJBBZEZQICBI,sialorrhea,0.0,0.0,0
+DDLIGBOFAVUZHB,hip fracture,0.0,0.0,0
+DDLIGBOFAVUZHB,Hypertension,0.0,0.0,0
+PTKSEFOSCHHMPD,hypotension,0.0,0.0,0
+PTKSEFOSCHHMPD,orthostatic hypotension,0.0,0.0,0
+PBAPPPCECJKMCM,"Urologic Diseases; Urinary Bladder, Overactive; Urinary Bladder Diseases",0.0,-0.03205803588418919,1
+OJLOPKGSLYJEMD,Failed labor induction,0.0,0.0,0
+OJLOPKGSLYJEMD,infertility,0.0,0.0,0
+WOFMFGQZHJDGCX,allergic rhinitis,0.0,0.0,0
+WOFMFGQZHJDGCX,seasonal allergic rhinitis,0.0,0.0,0
+FABPRXSRWADJSP,Chronic Obstructive Pulmonary Disease,0.0,0.0,0
+DQCKKXVULJGBQN,HIV Infection,0.0,0.0,0
+KOHIRBRYDXPAMZ,cardiomyopathy,0.0,0.0,0
+HHZIURLSWUIHRB,Chronic Myeloid Leukemia,-0.3566439019627227,-0.32906294472569303,1
+FELGMEQIXOGIFQ,Vaginal Cancer,0.0,0.0,0
+XIQVNETUBQGFHX,neurogenic bladder,0.0,-0.05928207614205062,1
+RCINICONZNJXQF,Advanced Cervical Cancer,-1.2569153023756894,0.6984799511846673,1
+RCINICONZNJXQF,Advanced Breast Cancer,-2.2446930475135694,-0.28929779395321265,1
+RCINICONZNJXQF,Early Breast Cancer,-2.2446930475135694,-0.28929779395321265,1
+IQPSEEYGBUAQFF,Peptic Ulcer,0.0,0.0,0
+PRMWGUBFXWROHD,focal epilepsy,0.0,0.0,0
+DTGLZDAWLRGWQN,Coronary Artery Disease,0.0,0.0,0
+DTGLZDAWLRGWQN,Acute Coronary Syndrome,0.0,0.0,0
+OIGNJSKKLXVSLS,Infantile Spasms,0.0,0.0,0
+ZPMNHBXQOOVQJL,Quality of Bowel Preparation for the Colon Capsule; Colon Capsule Completion Rates; Colon Capsule Polyp Detection,0.10875330930128613,0.010346057004592846,1
+HDACQVRGBOVJII,"Renal Insufficiency, Chronic",-0.10494865420293464,-0.0013310226544686887,1
+XKLMZUWKNUAPSZ,Type 2 Diabetes Mellitus,0.0,0.0,0
+XKLMZUWKNUAPSZ,Type 2 Diabetes,0.0,0.0,0
+ZTVQQQVZCWLTDF,Non-cephalic Presentation; Inhalation of Nitrous Oxide; Pregnancy Complications; Complications; Cesarean Section; Fetus or Neonate Affected by External Version Before Labor,0.0,0.0,0
+RAPZEAPATHNIPO,Autistic Disorder in Children and Adolescents,0.0,0.0,0
+NCDNCNXCDXHOMX,Human Immunodeficiency Virus (HIV) Infections; Acquired Immunodeficiency Syndrome (AIDS) Virus,0.0,0.0,0
+KGFYHTZWPPHNLQ,Superficial Vein Thrombosis,0.0,0.0,0
+FIVSJYGQAIEMOC,Chemotherapy-induced Nausea and Vomiting,0.0,0.0,0
+KFQYTPMOWPVWEJ,restless legs syndrome,0.0,0.0,0
+KFQYTPMOWPVWEJ,Parkinson's Disease,0.0,0.0,0
+MEZLKOACVSPNER,Borderline personality disorder,0.0,0.0,0
+MFFMDFFZMYYVKS,Treatment of Type 2 Diabetes,0.0,0.0,0
+MFFMDFFZMYYVKS,Inflammation; Macrophage Infiltration; Cardiovascular Disease,0.0,0.0,0
+XNKLLVCARDGLGL,HIV infection,0.0,0.0,0
+WINHZLLDWRZWRT,Gastrointestinal Stromal Tumors,0.0,0.0,0
+WOXKDUGGOYFFRN,"Lung Diseases, Interstitial",0.053892081826480975,0.01216500816678514,1
+NKANXQFJJICGDU,Breast Cancer,-0.33033499306052333,-0.2774030028172715,1
+IQFYYKKMVGJFEH,Chronic Viral Hepatitis B Without Delta-agent,0.0,0.0,0
+MUMGGOZAMZWBJJ,osteoarthritis,0.0,0.0,0
+MKJIEFSOBYUXJB,tardive dyskinesia,0.0,0.0,0
+OEKWJQXRCDYSHL,Coronary Artery Disease,0.0,0.0,0
+OEKWJQXRCDYSHL,Peripheral Artery Disease,0.0,0.0,0
+GYHCTFXIZSNGJT,Cardiac-induced Edema,0.0,0.0,0
+GYHCTFXIZSNGJT,Heart Failure; Dyspnea,0.0,0.0,0
+GYHCTFXIZSNGJT,Cardiac Edema,0.0,0.0,0
+PKVRCIRHQMSYJX,liposarcoma or leiomyosarcoma,0.0,0.0,0
+TVYLLZQTGLZFBW,Fibromyalgia,0.0,0.0,0
+TVYLLZQTGLZFBW,Pain During Labour,0.0,0.0,0
+LIRYPHYGHXZJBZ,mutant Melanoma,-0.37413855712681304,-0.18696712701656443,1
+LIRYPHYGHXZJBZ,Cutaneous Melanoma,-0.37413855712681304,-0.18696712701656443,1
+GYDJEQRTZSCIOI,Traumatic Brain Injury,0.0,0.0,0
+GYDJEQRTZSCIOI,Acetabular Fractures,0.0,0.0,0
+PHLBKPHSAVXXEF,Major Depression,0.0,0.0,0
+JQSHBVHOMNKWFT,nicotine dependence,0.0,0.0,0
+JQSHBVHOMNKWFT,Chronic Obstructive Pulmonary Disease,0.0,0.0,0
+PNVNVHUZROJLTJ,Major Depressive Disorder,0.0,0.0,0
+DAFYYTQWSAWIGS,chronic obstructive pulmonary disease,0.0,0.0,0
+SGEGOXDYSFKCPT,major depressive disorder,0.0,0.0,0
+SYOKIDBDQMKNDQ,Type 2 Diabetes Mellitus,0.0,0.0,0
+WAEXFXRVDQXREF,Cutaneous T-Cell Lymphoma,-1.3167188063375805,-0.09369108925171243,1
+PJVWKTKQMONHTI,Pulmonary Embolism,0.0,0.0,0
+PJVWKTKQMONHTI,Deep Vein Thrombosis,0.0,0.0,0
+HBOMLICNUCNMMY,HIV-1 infection,0.0,0.0,0
+OUJTZYPIHDYQMC,vascular disease,0.0,0.0,0
+IYIKLHRQXLHMJQ,cardiac arrest,0.0,0.0,0
+VSWBSWWIRNCQIJ,bipolar I disorder,0.0,0.0,0
+KPYSYYIEGFHWSV,gastroesophageal reflux disease,0.0,0.0317596403918147,1
+KPYSYYIEGFHWSV,Multiple Sclerosis,0.0,0.0,0
+ONIQOQHATWINJY,Prostate Cancer,-0.1756315459424002,-0.06102894630843095,1
+WSEQXVZVJXJVFP,Bone Mineral Density Quantitative Trait Locus 7,0.0,0.0,0
+GOTYRUGSSMKFNF,Chronic Lymphocytic Leukemia,-2.135370211337415,-0.034386385579817436,1
+FBPFZTCFMRRESA,renal cell carcinoma,0.0,0.0,0
+DUGOZIWVEXMGBE,mania,0.0,0.0,0
+XOFYZVNMUHMLCC,Heart Failure,0.0,0.0,0
+RUOKEQAAGRXIBM,Parkinson's Disease,0.0,0.0,0
+FTALBRSUTCGOEG,cervical spondylotic myelopathy,-0.12344926978970443,0.006616156955916649,1
+VGKDLMBJGBXTGI,Bone Mineral Density Quantitative Trait Locus 7,0.0,0.0,0
+UJLAWZDWDVHWOW,Ulcerative Colitis,0.0,0.0,0
+PNVNVHUZROJLTJ,Bone Mineral Density Quantitative Trait Locus 7,0.0,0.0,0
+ULXXDDBFHOBEHA,Cell Carcinoma,0.0,0.0,0
+OFCNXPDARWKPPY,hypertension,0.0,0.0,0
+LSQZJLSUYDQPKJ,Pneumonia,0.0,0.0,0
+LDXYBEHACFJIEL,Type 2 Diabetes Mellitus,0.0,0.0,0
+YFGHCGITMMYXAQ,Major Depression,0.0,0.0,0
+VSWBSWWIRNCQIJ,schizophrenia,0.0,0.0,0
+VSWBSWWIRNCQIJ,Pediatric Bipolar Disorder,0.0,0.0,0
+XUKUURHRXDUEBC,Pre-Eclampsia,0.0,0.0,0
+YSXKPIUOCJLQIE,cocaine dependence,0.0,0.0,0
+GJPICJJJRGTNOD,pulmonary arterial hypertension,0.0,0.0,0
+VOVIALXJUBGFJZ,Asthma,0.0,0.0,0
+RMRJXGBAOAMLHD,Treatment Resistant Depression,0.0,0.0,0
+SNPPWIUOZRMYNY,Nicotine Dependence,0.0,0.0,0
+GMRQFYUYWCNGIN,chronic kidney disease,-0.05232930601272791,0.005950368568489975,1
+GHOSNRCGJFBJIB,Hypertension,0.0,0.0,0
+GAGWJHPBXLXJQN,Breast Cancer,-1.1965408302856364,-0.4040056108861245,1
+KPWSJANDNDDRMB,schizophrenia,0.0,0.0,0
+MLYYVTUWGNIJIB,Preterm premature rupture of membranes,0.0,0.0,0
+VAAUVRVFOQPIGI,bacterial pneumonia,0.0,0.0,0
+ZKLPARSLTMPFCP,seasonal allergic rhinitis,0.0,0.0,0
+QYSXJUFSXHHAJI,heart failure,0.0,0.0,0
+QYSXJUFSXHHAJI,chronic kidney disease,-0.05232930601272791,0.005950368568489975,1
+LUKZNWIVRBCLON,asthma,0.0,0.0,0
+RRGUKTPIGVIEKM,coronary artery disease,0.0,0.0,0
+WDDPHFBMKLOVOX,Acute Myeloid Leukemia,-3.207428950424149,-0.021617387316215098,1
+GDLIGKIOYRNHDA,premature ejaculation,0.0,0.0,0
+GKTWGGQPFAXNFI,Acute Coronary Syndromes,0.0,0.0,0
+GKTWGGQPFAXNFI,Platelet Inhibition; Coronary Stent Implantation,0.0,0.0,0
+JVHXJTBJCFBINQ,diabetes Mellitus,0.0,0.0,0
+JAUOIFJMECXRGI,seasonal allergic rhinitis,0.0,0.0,0
+UREBDLICKHMUKA,PCOS,0.0,0.0,0
+UREBDLICKHMUKA,Thyroidectomy; Thyroid Diseases,-0.007149731544286608,0.00035549007386647714,1
+UREBDLICKHMUKA,Bone Metastases,0.0,0.0,0
+UREBDLICKHMUKA,Vomiting Postoperative,0.0,0.0,0
+UREBDLICKHMUKA,Children With Febrile Urinary Tract Infection,0.0,0.0,0
+UREBDLICKHMUKA,Blepharitis,0.0,0.0,0
+DCOPUUMXTXDBNB,Osteo Arthritis of the Knee,0.0,0.0,0
+ZZVUWRFHKOJYTH,Chronic Idiopathic Urticaria,0.0,0.0,0
+ZEUITGRIYCTCEM,"Diabetic Neuropathy, Painful",0.0,0.0,0
+ZEUITGRIYCTCEM,"Anxiety Neuroses; Anxiety States, Neurotic; Neuroses, Anxiety",0.0,0.0,0
+KAQKFAOMNZTLHT,pulmonary arterial hypertension,0.0,0.0,0
+UFNVPOGXISZXJD,Lung Cancer,-1.7482893083390767,0.20710594522128,1
+JUZNIMUFDBIJCM,diabetic foot infection,0.0,0.0,0
+SUBDBMMJDZJVOS,Heartburn,0.0,0.0,0
+GBBSUAFBMRNDJC,insomnia,0.0,0.0,0
+MNJVRJDLRVPLFE,Coxarthrosis; Arthroplasties Hip Replacement; Perioperative Blood Loss,0.0,0.0,0
+MNJVRJDLRVPLFE,Dysmenorrhea,0.0,0.0,0
+XUFQPHANEAPEMJ,Upper Gastrointestinal Bleeding,0.0,0.0,0
+PJMPHNIQZUBGLI,Pain,0.0,0.0,0
+RFHAOTPXVQNOHP,Acute Myeloid Leukemia,0.0,0.0,0
+FEBLZLNTKCEFIT,diabetic macular edema,0.0,0.0,0
+OVBPIULPVIDEAO,male infertility,0.0,0.0,0
+VWUXBMIQPBEWFH,Advanced Breast Cancer,-0.33033499306052333,-0.2774030028172715,1
+UGJMXCAKCUNAIE,Intervertebral Disc Prolapse,0.0,0.0,0
+XGALLCVXEZPNRQ,Lung Cancer,-0.22656977302642697,0.010757319451468988,1
+LNEPOXFFQSENCJ,Delirium; Impaired Cognition; Long Term Psychologic Disorders,0.0,0.0,0
+JYGXADMDTFJGBT,"Infant, Newborn; Infant, Small for Gestational Age; Infant, Very Low Birth Weight; Infant, Premature; Bronchopulmonary Dysplasia",0.0,0.0,0
+JYGXADMDTFJGBT,Septic Shock; Sepsis,0.0,0.0,0
+XXSMGPRMXLTPCZ,Autoimmune Diseases; Sjogren's Syndrome; Dry Eye,0.0,0.0,0
+VSNHCAURESNICA,High Risk Polycythemia Vera; High Risk Essential Thrombocythemia,0.0,0.0,0
+HEFNNWSXXWATRW,Dysmenorrhea,0.0,0.0,0
+JGPMMRGNQUBGND,Friedreich ataxia,0.0,0.0,0
+XMXHEBAFVSFQEX,schizophrenia,0.0,0.0,0
+KTUFNOKKBVMGRW,Pulmonary Arterial Hypertension,0.0,0.0,0
+KTUFNOKKBVMGRW,Chronic Myeloid Leukemia,-0.3566439019627227,-0.15921738293131202,1
+QZZUEBNBZAPZLX,chronic obstructive pulmonary disease,0.0,0.0,0
+YOSHYTLCDANDAN,Hypertension; Hyperlipidemia,0.0,0.0,0
+QRXWMOHMRWLFEY,Latent Tuberculosis Infection,0.0,0.0,0
+SHGAZHPCJJPHSC,Acne,0.0,0.0,0
+YQEZLKZALYSWHR,Refractory Cancer,0.0,0.0,0
+YQEZLKZALYSWHR,Procedural Sedation and Analgesia,0.0,0.0,0
+GOTYRUGSSMKFNF,Untreated Patients With Follicular Lymphoma,-2.0049650840751414,0.09601874168245628,1
+VVIAGPKUTFNRDU,Metastatic Pancreatic Cancer,0.0,0.0,0
+HPHUVLMMVZITSG,Epilepsy; Generalized Tonic-clonic Seizures,0.0,0.0,0
+WTDRDQBEARUVNC,Parkinson's Disease,0.0,0.0,0
+NNJVILVZKWQKPM,Anesthesia,0.0,0.0,0
+PSIFNNKUMBGKDQ,Nonalcoholic Steatohepatitis,0.0,0.0,0
+WGFOBBZOWHGYQH,colorectal carcinoma,-0.042803133985163694,-0.018254837391097515,1
+ZRVUJXDFFKFLMG,Lumbar Sciatic Pain,0.0,0.0,0
+SGDBTWWWUNNDEQ,Sickle Cell Disease,0.0,0.0,0
+NOOLISFMXDJSKH,gastric cancer,0.0,0.08062294361681657,1
+DMJNNHOOLUXYBV,Complicated Intra-abdominal Infection,0.0,0.0,0
+XZWYZXLIPXDOLR,Obesity; Insulin Resistance,0.0,0.0,0
+XZWYZXLIPXDOLR,Polycystic Ovary Syndrome,0.0,0.0,0
+FBOZXECLQNJBKD,Hydatidiform Mole,0.0,0.0,0
+VAOCPAMSLUNLGC,Anal Incontinence,0.0,0.0,0
+VAOCPAMSLUNLGC,Intra-abdominal Infections,0.0,0.0,0
+FJLBFSROUSIWMA,Depression,0.0,0.0,0
+VLPIATFUUWWMKC,non-dystrophic myotonia,0.0,0.0,0
+VKHAHZOOUSRJNA,cervical ripening,-0.0264292847556327,-0.018924063137479616,1
+OJLOPKGSLYJEMD,Cesarean complications,0.0,0.0,0
+FABPRXSRWADJSP,"Atypical; Mycobacterium, Pulmonary, Tuberculous",0.0,0.0,0
+FELGMEQIXOGIFQ,Gastroenteritis; Vomiting; Acute Gastroenteritis,0.0,0.0,0
+FELGMEQIXOGIFQ,Chemotherapy Induced Nausea and Vomiting,0.0,0.0,0
+FELGMEQIXOGIFQ,Postoperative Nausea and Vomiting,0.0,0.0,0
+FELGMEQIXOGIFQ,Chemotherapy-Induced Nausea and Vomiting,0.0,0.0,0
+VSZGPKBBMSAYNT,"Influenza, Human",0.0,0.0,0
+RCINICONZNJXQF,Esophageal Cancer,0.0,1.9553952535603567,1
+RCINICONZNJXQF,Gastric Carcinoma,0.0,1.9553952535603567,1
+RCINICONZNJXQF,Triple Negative Breast Cancer,-2.2446930475135694,-0.28929779395321265,1
+PMXMIIMHBWHSKN,schizophrenia,0.0,0.0,0
+XDRYMKDFEDOLFX,HIV infection,0.0,0.0,0
+PRMWGUBFXWROHD,generalized tonic-clonic seizures,0.0,0.0,0
+SONNWYBIRXJNDC,seasonal allergic rhinitis,0.0,0.0,0
+YIQPUIGJQJDJOS,Multiple Myeloma,0.0,-0.039929014258553025,1
+DTGLZDAWLRGWQN,Coronary Artery Disease (CAD),0.0,0.0,0
+DTGLZDAWLRGWQN,Myocardial Infarction; STEMI,0.0,0.0,0
+DTGLZDAWLRGWQN,Myocardial Infarction,0.0,0.0,0
+OIGNJSKKLXVSLS,Asthma; Wheezing,0.0,0.0,0
+INDBQLZJXZLFIT,Plasmodium falciparum malaria,0.0,0.0,0
+DBABZHXKTCFAPX,obesity,0.0,0.0,0
+FYPMFJGVHOHGLL,hyperlipidemia,0.0,0.0,0
+YREYEVIYCVEVJK,Upper Gastrointestinal Bleeding,0.0,0.0,0
+XKLMZUWKNUAPSZ,Ischemic Cardiomyopathy; Nonischemic Cardiomyopathy; Heart Failure,0.0,0.0,0
+XKLMZUWKNUAPSZ,Coronary Artery Disease; Angina Pectoris,0.0,0.0,0
+JQXXHWHPUNPDRT,Latent Tuberculosis Infection,0.0,0.0,0
+NCDNCNXCDXHOMX,HIV-1 Infections,0.0,0.0,0
+NCDNCNXCDXHOMX,HIV,0.0,0.0,0
+POGQSBRIGCQNEG,Lennox-Gastaut syndrome,0.0,0.0,0
+DFEYYRMXOJXZRJ,coronary artery bypass,0.0,0.0,0
+RYMZZMVNJRMUDD,Intestinal Neoplasm; Perioperative Care,0.0,0.0,0
+RYMZZMVNJRMUDD,Asthma,0.0,0.0,0
+KQKPFRSPSRPDEB,migraine,0.0,0.0,0
+WOXKDUGGOYFFRN,Cardiovascular Disease; Insulin Resistance; Glucose Intolerance; Obesity,0.0,0.0,0
+WOXKDUGGOYFFRN,Benign Prostatic Hyperplasia,0.0,0.0,0
+DOMXUEMWDBAQBQ,tinea pedis,0.0,0.0,0
+GKCBAIGFKIBETG,cataract,0.0,0.0,0
+OEKWJQXRCDYSHL,Acute Coronary Syndrome; Percutaneous Coronary Intervention,0.0,0.0,0
+OEKWJQXRCDYSHL,Coronary Artery Disease; Acute Coronary Syndrome,0.0,0.0,0
+LERNTVKEWCAPOY,asthma,0.0,0.0,0
+ZAKOWWREFLAJOT,radiation-induced brachial plexopathy,0.0,0.0,0
+GYHCTFXIZSNGJT,Cirrhosis; Hepatic Encephalopathy; Hyponatremia,0.0,0.0,0
+PKVRCIRHQMSYJX,Ovarian Cancer,0.0,0.0,0
+GYDJEQRTZSCIOI,Coronary Artery Disease,0.0,0.0,0
+GYDJEQRTZSCIOI,Hemoptysis,0.0,0.0,0
+YNDXUCZADRHECN,gout,0.0,0.0,0
+UHTHHESEBZOYNR,Locally Advanced or Metastatic Medullary Thyroid Cancer; Medullary Thyroid Cancer,-0.26431767888590607,0.090559200256905,1
+JQSHBVHOMNKWFT,Nicotine Dependence,0.0,0.0,0
+DAFYYTQWSAWIGS,COPD,0.0,0.0,0
+SYOKIDBDQMKNDQ,Type 2 Diabetes,0.0,0.0,0
+OGWKCGZFUXNPDA,Non-Hodgkin's Lymphoma,-2.2647044345202,-0.30930918095984317,1
+YQNWZWMKLDQSAC,Treatment of Major Depressive Disorder,0.0,0.0,0
+MVWVFYHBGMAFLY,Delirium; Impaired Cognition; Long Term Psychologic Disorders,0.0,0.0,0
+GBBSUAFBMRNDJC,obstructive sleep apnea,0.0,0.0,0
+UREBDLICKHMUKA,Carpal Tunnel Syndrome,0.0,0.0,0
+LEBVLXFERQHONN,Laparoscopic Colecctomy,0.0,0.0,0
+QYSXJUFSXHHAJI,Diabetes,0.0,0.0,0
+LUKZNWIVRBCLON,perennial allergic rhinitis,0.0,0.0,0
+ZEUITGRIYCTCEM,Parkinson's Disease,0.0,0.0,0
+VJJPUSNTGOMMGY,HIV-1 Infection; Kaposi's Sarcoma,-2.5485055107321672,-0.012516199633871405,1
+XTULMSXFIHGYFS,Chronic Obstructive Pulmonary Disease,0.0,0.0,0
+SDUQYLNIPVEERB,Adenocarcinoma of the Pancreas; Advanced Solid Tumors; Cancer; Cancer of Pancreas; Cancer of the Pancreas; Metastases; Metastatic Cancer; Metastatic Pancreatic Cancer; Pancreas Cancer; Pancreatic Cancer; Bone Metastases; Endocrine Cancer; Oncology; Oncology Patients; Solid Tumors; Advanced Malignancy,-3.285229495153491,-0.09941793204555704,1
+VPPJLAIAVCUEMN,Epilepsy,0.0,0.0,0
+GQYIWUVLTXOXAJ,glioblastoma multiforme,0.0,0.0,0
+OELFLUMRDSZNSF,type 2 diabetes mellitus,0.0,0.0,0
+FMGSKLZLMKYGDP,Postmenopausal Cancer,0.0,0.0,0
+ZPMNHBXQOOVQJL,functional constipation,0.0,0.0,0
+KWGRBVOPPLSCSI,seasonal allergic rhinitis,0.0,0.0,0
+MFFMDFFZMYYVKS,"Diabetes Mellitus, Type 2",0.0,0.0,0
+NCEXYHBECQHGNR,With Cancer,0.0,0.0,0
+TXEIIPDJKFWEEC,transthyretin amyloid polyneuropathy,0.0,0.0,0
+PTOIAAWZLUQTIO,non-24-hour sleep-wake disorder,0.0,0.0,0
+UAHFGYDRQSXQEB,polymorphic light eruption,0.0,0.0,0
+IDBPHNDTYPBSNI,Child Comfort; Morphine; Intensive Care Units; Pediatric,0.0,0.0,0
+UXOWGYHJODZGMF,Hypertension,0.0,0.0,0
+UXOWGYHJODZGMF,pulmonary arterial hypertension,0.0,0.0,0
+UXOWGYHJODZGMF,Marfan syndrome,0.0,0.0,0
+OFCNXPDARWKPPY,mania,0.0,0.0,0
+OFCNXPDARWKPPY,cardiovascular disease,0.0,0.0,0
+OUJTZYPIHDYQMC,portopulmonary hypertension,0.0,0.0,0
+OOUGLTULBSNHNF,Cystic Fibrosis,0.0,0.0,0
+XUKUURHRXDUEBC,Type 1 Diabetes,0.0,0.0,0
+KUVIULQEHSCUHY,perennial allergic rhinitis,0.0,0.0,0
+YTKUWDBFDASYHO,Non-Hodgkin's Lymphoma,0.0,0.0,0
+UREBDLICKHMUKA,Pregnancy; Respiratory Distress Syndrome; Pregnancy Outcomes; Preterm Birth,0.0,0.0,0
+GJPICJJJRGTNOD,Mild Pulmonary Vascular Disease,0.0,0.0,0
+VOVIALXJUBGFJZ,Bronchopulmonary Dysplasia,0.0,0.0,0
+VOVIALXJUBGFJZ,"Colitis, Ulcerative",0.0,0.0,0
+VOVIALXJUBGFJZ,Lymphocytic Colitis,0.0,0.0,0
+GHOSNRCGJFBJIB,essential hypertension,0.0,0.0,0
+GAGWJHPBXLXJQN,Advanced Colorectal Cancer,-0.7327040841249612,0.05983113527455064,1
+YKPUWZUDDOIDPM,diabetic neuropathy,0.0,0.0,0
+KPWSJANDNDDRMB,bipolar disorder,0.0,0.0,0
+KPWSJANDNDDRMB,Bipolar I Disorder,0.0,0.0,0
+QYSXJUFSXHHAJI,Gastric Bypass; Parathyroid Hormone,0.0,0.05827967458121788,1
+VDHAWDNDOKGFTD,"Hyperparathyroidism, Primary; Hypercalcemia",-0.017412710582335848,-0.01212014334005767,1
+MYSWGUAQZAJSOK,Traveler's Diarrhea,0.0,0.0,0
+CXOXHMZGEKVPMT,Low back pain,0.0,0.0,0
+DOAKLVKFURWEDJ,Infections,0.0,0.0,0
+DPYMFVXJLLWWEU,Cystoscopes; Baxter Anaesthesia Brand of Desflurane; Sevoflurane,0.0,0.0,0
+KYYIDSXMWOZKMP,Depression,0.0,0.0,0
+UREBDLICKHMUKA,Development,0.0,0.0,0
+UREBDLICKHMUKA,Inguinal Hernia; Femoral Hernia,0.0,0.0,0
+QXWYKJLNLSIPIN,Parkinson's Disease,0.0,0.0,0
+ZEUITGRIYCTCEM,Major Depressive Disorder,0.0,0.0,0
+JUKPWJGBANNWMW,Heart Failure,0.0,0.0,0
+JUKPWJGBANNWMW,Metabolic Syndrome; Endothelial Dysfunction,0.0,0.0,0
+JUZNIMUFDBIJCM,intra-abdominal infection,0.0,0.0,0
+QIALRBLEEWJACW,epilepsy,0.0,0.0,0
+SUBDBMMJDZJVOS,Prevention,0.0,0.0,0
+NNYBQONXHNTVIJ,ankle sprain,0.0,0.0,0
+MNJVRJDLRVPLFE,ankylosing spondylitis,0.0,0.0,0
+SDUQYLNIPVEERB,Surgically Resected Pancreatic Cancer,-3.285229495153491,-0.09941793204555704,1
+ZDXPYRJPNDTMRX,colorectal cancer,0.0,0.0,0
+XXSMGPRMXLTPCZ,Osteoarthritis,0.0,0.0,0
+HEFNNWSXXWATRW,Altitude Sickness,0.0,0.0,0
+KTUFNOKKBVMGRW,Gastrointestinal Stromal Tumors,0.0,0.0,0
+QZZUEBNBZAPZLX,asthma,0.0,0.0,0
+QZZUEBNBZAPZLX,Chronic Obstructive Pulmonary Disease,0.0,0.0,0
+YQEZLKZALYSWHR,Pain; Hyperalgesia; Inflammatory Response,0.0,0.0,0
+ZCVMWBYGMWKGHF,allergic conjunctivitis,0.0,0.0,0
+MJIHNNLFOKEZEW,Erosive Esophagitis; GERD,0.0,0.006746290480102829,1
+GOTYRUGSSMKFNF,Anemia,0.0,0.0,0
+GOTYRUGSSMKFNF,Myelodysplastic Syndrome,0.0,0.0,0
+VVIAGPKUTFNRDU,Pancreatic Cancer,0.0,0.0,0
+HPHUVLMMVZITSG,Epilepsy; Generalized Tonic-Clonic Seizures,0.0,0.0,0
+NNJVILVZKWQKPM,ankle sprain,0.0,0.0,0
+LTXREWYXXSTFRX,diabetes Mellitus,0.0,0.0,0
+DMKSVUSAATWOCU,inflammation,0.0,0.0,0
+WGFOBBZOWHGYQH,opioid-induced constipation,0.0,0.0,0
+OPXLLQIJSORQAM,Healthy Volunteers,0.0,0.0,0
+DRLFMBDRBRZALE,Migraine,0.0,0.0,0
+KBOPZPXVLCULAV,Lymphocytic Colitis,0.0,0.0,0
+KBOPZPXVLCULAV,irritable bowel syndrome,0.0,0.0,0
+XZWYZXLIPXDOLR,"Diabetes Mellitus, Type 2",0.0,0.0,0
+FBOZXECLQNJBKD,Graft-versus-host Disease,0.0,0.0,0
+JVLBPIPGETUEET,constipation,0.0,0.0,0
+VKHAHZOOUSRJNA,pituitary-dependent Cushing's disease,0.0,0.0,0
+RONZAEMNMFQXRA,Autism Spectrum Disorders,0.0,0.0,0
+KKZJGLLVHKMTCM,Multiple Sclerosis,0.0,0.0,0
+YFGHCGITMMYXAQ,in Cancer,0.0,0.0,0
+RTGDFNSFWBGLEC,Graft-versus-Host Disease; Immune System Disorders,0.0,0.0,0
+RTGDFNSFWBGLEC,Idiopathic Nephrotic Syndrome,0.0,0.0,0
+IMONTRJLAWHYGT,Contraceptive Usage,0.0,0.0,0
+PHVGLTMQBUFIQQ,gastroesophageal reflux disease,0.0,0.05244810692193499,1
+SUBDBMMJDZJVOS,Gastric Ulcer,0.0,0.006746290480102829,1
+SUBDBMMJDZJVOS,Gastroesophageal Reflux Disease; Heartburn,0.0,0.006746290480102829,1
+FELGMEQIXOGIFQ,Schizoaffective and Schizophreniform Disorders; Schizophrenia,0.0,0.0,0
+RCINICONZNJXQF,Neck Cancer,0.0,0.0,0
+FPOHNWQLNRZRFC,Hodgkin lymphoma,-0.33682844211403556,-0.2045574504339936,1
+FPVKHBSQESCIEP,Graft-versus-host Disease,0.0,0.0,0
+DDBREPKUVSBGFI,epilepsy,0.0,0.0,0
+HYAFETHFCAUJAY,Type 2 Diabetes Mellitus,0.0,0.0,0
+UVSMNLNDYGZFPF,Primary Myelofibrosis; MPN-associated Myelofibrosis,0.0,0.0,0
+DTGLZDAWLRGWQN,Hemodialysis; Chronic Renal Failure,-0.055965483733788964,0.018834700386379598,1
+DTGLZDAWLRGWQN,ST Segment Elevation Myocardial Infarction,0.0,0.0,0
+OIGNJSKKLXVSLS,Chronic Obstructive Pulmonary Disease,0.0,0.0,0
+XOFYZVNMUHMLCC,Uveitis,0.0,0.0,0
+RJKFOVLPORLFTN,Brain Injuries,0.0,0.0,0
+ZPMNHBXQOOVQJL,constipation,0.0,0.0,0
+URKOMYMAXPYINW,Bipolar Disorder,0.0,0.0,0
+LOUPRKONTZGTKE,Plasmodium falciparum malaria,0.0,0.0,0
+CZFFBEXEKNGXKS,infection,0.0,0.0,0
+XKLMZUWKNUAPSZ,Angina; Pulmonary Arterial Hypertension,0.0,0.0,0
+NCDNCNXCDXHOMX,HIV; HIV Infections,0.0,0.0,0
+KGFYHTZWPPHNLQ,"Arthritis; Osteoarthritis, Knee; Osteoarthritis, Hip; Thromboembolism",0.0,0.0,0
+XSVMFMHYUFZWBK,Alzheimer's Disease,0.0,0.0,0
+VGKDLMBJGBXTGI,Chronic Kidney Disease; Depression,-0.03558166487031122,-0.010101839320401117,1
+VGKDLMBJGBXTGI,Roux en Y Gastric Bypass Surgery,0.0,0.0254798255499101,1
+DFEYYRMXOJXZRJ,coronary artery disease,0.0,0.0,0
+DFEYYRMXOJXZRJ,Cystoscopes; Baxter Anaesthesia Brand of Desflurane; Sevoflurane,0.0,0.0,0
+RYMZZMVNJRMUDD,"Cirrhosis; Hypertension, Portal; Bleeding Esophageal Varices; Portal Vein Thrombosis",0.0,0.8187740853233776,1
+RYMZZMVNJRMUDD,Portal Hypertension; Esophageal Varices; Liver Cirrhosis,-0.7643057975478545,0.05446828777552304,1
+SJZRECIVHVDYJC,fibromyalgia,0.0,0.0,0
+LXMSZDCAJNLERA,myocardial infarction,0.0,0.0,0
+GGCSSNBKKAUURC,Child Comfort; Morphine; Intensive Care Units; Pediatric,0.0,0.0,0
+WOXKDUGGOYFFRN,Benign Prostatic Hyperplasia; Enlarged Prostate,0.08590242756704189,0.04417535390734605,1
+RMMXLENWKUUMAY,Hypertension,0.0,0.0,0
+SPMVMDHWKHCIDT,Subjects Who Have Participated in a Study of Tivozanib Versus Sorafenib in Kidney Carcinoma,-0.10285293608105602,0.007449744989232204,1
+OOGJQPCLVADCPB,Low back pain,0.0,0.0,0
+GYHCTFXIZSNGJT,Ascites; Hepatic Cirrhosis,0.0,0.0,0
+XFCLJVABOIYOMF,Circulatory; Change,0.0,0.0,0
+GYDJEQRTZSCIOI,Knee Arthropathy,0.0,0.0,0
+PHLBKPHSAVXXEF,Sleep Disorder,0.0,0.0,0
+YNDXUCZADRHECN,diabetic macular edema,0.0,0.0,0
+HDOVUKNUBWVHOX,Human Immunodeficiency Virus; Herpes Simplex,0.0,0.0,0
+JQSHBVHOMNKWFT,Smoking Cessation,0.0,0.0,0
+DAFYYTQWSAWIGS,asthma,0.0,0.0,0
+SYOKIDBDQMKNDQ,Insulin Resistance; Microvascular Disease,0.0,0.0,0
+SYOKIDBDQMKNDQ,Type II Diabetes Mellitus,0.0,0.0,0
+YQNWZWMKLDQSAC,depressive disorder,0.0,0.0,0
+PJVWKTKQMONHTI,in Cancer,0.0,0.0,0
+PJVWKTKQMONHTI,Atrial Fibrillation; Stroke,0.0,0.0,0
+PJVWKTKQMONHTI,Anticoagulation in Pregnancy,0.0,0.0,0
+OUJTZYPIHDYQMC,"Hypertension, Pulmonary",0.0,0.0,0
+YFGHCGITMMYXAQ,Treat Cancer,0.0,0.0,0
+KUVIULQEHSCUHY,allergic rhinitis,0.0,0.0,0
+KHOITXIGCFIULA,Bowel Preparation,0.0,0.0,0
+MAEIEVLCKWDQJH,autism spectrum disorder,0.0,0.0,0
+JUZNIMUFDBIJCM,Infection; Surgical Site Infection,0.0,0.0,0
+NNYBQONXHNTVIJ,postoperative pain,0.0,0.0,0
+GKDRMWXFWHEQQT,Rheumatoid Arthritis,0.0,0.0,0
+HEFNNWSXXWATRW,Fever,0.0,0.0,0
+WWYNJERNGUHSAO,Healthy,0.0,0.0,0
+VOBHXZCDAVEXEY,binge eating disorder,0.0,0.0,0
+PSIFNNKUMBGKDQ,Hypertension; Cardiovascular Disease,0.0,0.0,0
+XZWYZXLIPXDOLR,Breast Cancer,-0.03979431929235086,0.023151287959105163,1
+USSIQXCVUWKGNF,HIV infection,0.0,0.0,0
+RTGDFNSFWBGLEC,Lung Transplantation,-0.6682605978346716,-0.11505464173459379,1
+IPVQLZZIHOAWMC,Diabetes; Microalbuminuria,0.0,0.0,0
+NFBAXHOPROOJAW,Anticoagulation in Pregnancy,0.0,0.0,0
+DTGLZDAWLRGWQN,Coronary Artery Disease (CAD); Acute Coronary Syndrome (ACS),0.0,0.0,0
+TUZYXOIXSAXUGO,Liver Cancer,-0.7643057975478545,0.05446828777552304,1
+IENZQIKPVFGBNW,post-traumatic stress disorder,0.0,0.0,0
+ZTVQQQVZCWLTDF,Labor pain,0.0,0.0,0
+YXRDKMPIGHSVRX,cardiac arrest,0.0,0.0,0
+LXMSZDCAJNLERA,diabetes mellitus,0.0,0.0,0
+WINHZLLDWRZWRT,Metastatic Kidney Cancer,-0.19830595276128432,-0.0008794337298736188,1
+WSNODXPBBALQOF,open-angle glaucoma,0.0,0.0,0
+GYHCTFXIZSNGJT,Autosomal Dominant Polycystic Kidney Disease （ADPKD),0.06321202945029462,0.00762785317742877,1
+HDOVUKNUBWVHOX,HIV Infection; Herpes Simplex Type II; HIV Infections,0.0,0.0,0
+JGCMEBMXRHSZKX,Congenital Heart Disease With Fontan Circulation,0.0,0.0,0
+LWGUASZLXHYWIV,Metastatic Colorectal Cancer,-1.9243715230890845,-0.03011543184487686,1
+DOMQFIFVDIAOOT,obesity,0.0,0.0,0
+NKGSHRLGUQURMS,Breast Cancer; Ovarian Cancer; Pancreas Cancer; Prostate Cancer; BRCA1 Mutation; BRCA-Mutated Ovarian Carcinoma; BRCA-Associated Breast Carcinoma; HRD Positive Advanced Ovarian Cancer,-0.24660287341558704,0.05562752600986817,1
+PHXJVRSECIGDHY,Acute Lymphoblastic Leukemia,-0.3566439019627227,-0.32906294472569303,1
+DWKNOLCXIFYNFV,Diabetic Retinopathy,0.0,0.0,0
+UBPYILGKFZZVDX,Chronic Leukemia,-0.3566439019627227,-0.24430998672654664,1
+QNZCBYKSOIHPEH,Aortic Valve Disease; Aortic Valve Stenosis; Aortic Valve Failure,0.0,0.0,0
+REQQVBGILUTQNN,Systemic Sclerosis,0.0,0.0,0
+CJCYTUJOSMYXLE,"Hepatitis B; HBV; Hepatitis B, Chronic",0.0,0.0,0
+RJKFOVLPORLFTN,"Pregnancy, Unwanted",0.0,0.0,0
+REQQVBGILUTQNN,Subjects With Idiopathic Pulmonary Fibrosis,0.0,0.0,0
+REQQVBGILUTQNN,Participants With Idiopathic Pulmonary Fibrosis,0.0,0.0,0
+WDOGQTQEKVLZIJ,Ovarian Cancer,0.0,1.9553952535603567,1
+JOGKUKXHTYWRGZ,Prostate Cancer,-1.3154051538559712,-0.05667233953043449,1
+XSMSNFMDVXXHGJ,Chronic Lymphocytic Leukemia; Mantle Cell Lymphoma; Diffuse Large B-cell Lymphoma; Indolent Non-Hodgkin's Lymphoma,0.007453723952129043,-0.004023529664245693,1
+IFSDAJWBUCMOAH,Chronic Lymphocytic Leukemia; Mantle Cell Lymphoma; Diffuse Large B-cell Lymphoma; Indolent Non-Hodgkin's Lymphoma,-0.30676416979093446,-0.10660273206553991,1
+WINHZLLDWRZWRT,Neurofibromatosis; NF1; Plexiform Neurofibromas,0.0,0.0,0
+JOGKUKXHTYWRGZ,Cell Carcinoma,0.0,0.0,0
+AAKJLRGGTJKAMG,Brain Cancer; Glioblastoma Multiforme,-0.010741061906993317,0.22658603057090265,1
+CMSMOCZEIVJLDB,Graft Versus Host Disease,0.0,0.0,0
+NMUSYJAQQFHJEW,Graft Versus Host Disease,0.0,0.0,0
+BPEGJWRSRHCHSN,Brain Cancer; Glioblastoma Multiforme,0.0,0.0,0
+WAEXFXRVDQXREF,Brain Cancer; Glioblastoma Multiforme,-1.3271453698324662,-0.10411765274659812,1
+AAKJLRGGTJKAMG,Hormone-Sensitive Metastatic Breast Cancer,-0.1663261725663501,0.07100091991154586,1
+PKCDDUHJAFVJJB,Hormone-Sensitive Metastatic Breast Cancer,-0.099278050672114,0.16236057161324496,1
+KXVKOYCGACSUPP,Seborrheic Dermatitis; Papulopustular Rosacea,0.0,0.0,0
+BNMFQWUHWYJTRI,COVID-19,0.0,0.0,0
+UAQOKKXVCNQHIP,Primary Mitochondrial Myopathy,0.0,0.0,0
+CSCLQCHKUAMZOY,Amyotrophic Lateral Sclerosis,0.0,0.0,0
+QBQMUMMSYHUDFM,Schizophrenia,0.0,0.0,0
+ROTWSDMXHVGAHZ,Chronic Kidney Disease,0.16486624611555412,0.028262657865299967,1
+OZWKMVRBQXNZKK,Patients Undergoing Surgery for Non-Small Cell Lung Cancer,0.0828773789364188,0.0032592164097216547,1
+JQLBBYLGWHUHRW,Duchenne Muscular Dystrophy,0.0,0.0,0
+AFLFKFHDSCQHOL,Non Alcoholic Steatohepatitis,0.0,0.0,0
+KTBSXLIQKWEBRB,Chronic Graft-Versus-Host Disease,0.0,0.0,0
+QXWZQTURMXZVHJ,Chronic Thromboembolic Pulmonary Hypertension,0.0,0.0,0
+HWGQMRYQVZSGDQ,Breast Cancer,-0.23302431386492528,-0.02373927494504266,1
+XYLJNLCSTIOKRM,Graft Versus Host Disease; Ocular Surface Disease; oGVHD; Ocular Graft vs Host Disease; Brimonidine Tartrate; Lubricant Eye Drops; Ophthalmic Solutions; Graft vs Host Disease,0.0,0.0,0
+OYFMQDVLFYKOPZ,Alopecia Areata,0.0,0.0,0
+YAYRGNWWLMLWJE,Breast Cancer,0.0,0.0,0
+CMSMOCZEIVJLDB,Colorectal Cancer,0.0,0.0,0
+MJHOMTRKVMKCNE,Cell Lymphoma,-0.2624224996403912,-0.11580561061248512,1
+JUPOTOIJLKDAPF,Advanced Solid Tumors,0.0,0.0,0
+KJNNWYBAOPXVJY,Alzheimer's Disease,0.0,0.0,0
+PZBCKZWLPGJMAO,"Lymphoma, Non-Hodgkin",-0.4517134866382085,0.05339494116672722,1
+SFVLTCAESLKEHH,primary mitochondrial disease,0.0,0.0,0
+AZEXWHKOMMASPA,huntington disease,0.0,0.0,0
+HYAFETHFCAUJAY,Alzheimer Disease,0.0,0.0,0
+DRHKJLXJIQTDTD,Postoperative Urinary Retention,0.0,0.0,0
+MYPYJXKWCTUITO,INFECTION,0.0,0.0,0
+HFNKQEVNSGCOJV,Pancreatic Cancer,-0.032007471125541476,0.03647104717813564,1
+AUUKUAHPMHVZJL,Cardiothoracic Surgery; Vascular Surgery,0.0,0.0,0
+UCTWMZQNUQWSLP,Traumatic Femur Fracture,0.0,0.0,0
+HYAFETHFCAUJAY,Alzheimer's Disease,0.0,0.0,0
+ZKMNUMMKYBVTFN,Traumatic Femur Fracture,0.0,0.0,0
+RAHBGWKEPAQNFF,Advanced Non-Squamous Non-Small Cell Lung Cancer,-0.20409800966071415,-0.006671490629303445,1
+MAYQIFVKVAUMPD,Alzheimer's Disease,0.0,0.0,0
+UXIPFQUBOVWAQW,Internal Hemorrhoids,0.0,0.0,0
+ZBBHBTPTTSWHBA,intracerebral hemorrhage,0.0,0.0,0
+MPVGZUGXCQEXTM,Refractory Colorectal Cancer,-0.16186566818299883,0.035560850848411873,1
+OOUGLTULBSNHNF,Duchenne Muscular Dystrophy; Becker Muscular Dystrophy,0.0,0.0,0
+VOXZDWNPVJITMN,Triple Negative Breast Cancer,-0.33033499306052333,-0.2774030028172715,1
+ULXXDDBFHOBEHA,Squamous Cell Carcinoma of the Head and Neck,-0.7179594786177754,-0.36308259947496435,1
+MVGWUTBTXDYMND,"Atopic Dermatitis; Atopic Dermatitis, Unspecified; Eczema; Eczema, Atopic",0.0,0.0,0
+YAYRGNWWLMLWJE,Triple-Negative Breast Neoplasms; Breast Neoplasm; Breast Cancer; Triple-Negative Breast Cancer,0.0,0.0,0
+HWGQMRYQVZSGDQ,Breast Neoplasms; BRCA 1 Gene Mutation; BRCA 2 Gene Mutation,-0.23302431386492528,-0.02373927494504266,1
+DKNWSYNQZKUICI,Patients With Moderate or Severe COVID-19,0.0,0.0,0
+ZPMNHBXQOOVQJL,Constipation,0.0,0.0,0
+MLDQJTXFUGDVEO,Radiotherapy; Toripalimab; Sorafenib; Advanced Hepatocellular Carcinoma,-0.20131720392283284,-0.021684976428859748,1
+YQNWZWMKLDQSAC,Depression,0.0,0.0,0
+UREBDLICKHMUKA,"Coronavirus Infection; Pneumonia, Viral; Acute Respiratory Distress Syndrome",0.0,0.0,0
+XXSMGPRMXLTPCZ,COVID-19; SARS-CoV 2,0.0,0.0,0
+FWCVZAQENIZVMY,Sickle Cell Disease,0.0,0.0,0
+SGEIEGAXKLMUIZ,Amyotrophic Lateral Sclerosis,0.0,0.0,0
+SGEIEGAXKLMUIZ,Inclusion Body Myositis,0.0,0.0,0
+PHVGLTMQBUFIQQ,Functional Dyspepsia,0.0,0.0,0
+YOZBGTLTNGAVFU,"Primary MDS (Very Low, Low or Intermediate IPSS-R With <5% Blasts); Anemia",0.0,0.0,0
+GMRQFYUYWCNGIN,Secondary Hyperparathyroidism-Chronic Kidney Disease,-0.05232930601272791,0.005950368568489975,1
+BSMCAPRUBJMWDF,Advanced BRAFV600 Wild-type Melanoma,-0.37413855712681304,-0.18696712701656443,1
+IAKHMKGGTNLKSZ,Atrial Fibrillation; Cardiac Surgery; Colchicine Adverse Reaction,0.0,0.0,0
+AFLFKFHDSCQHOL,Nonalcoholic Steatohepatitis (NASH) With Fibrosis,0.0,0.0,0
+WIKYUJGCLQQFNW,Headache,0.0,0.0,0
+MLDQJTXFUGDVEO,Hepatocellular Carcinoma; Recurrence,-0.20131720392283284,-0.021684976428859748,1
+YQNWZWMKLDQSAC,"Depressive Disorder, Major",0.0,0.0,0
+WXJFKKQWPMNTIM,Cytomegalovirus Disease; Kidney Transplant Infection,0.0,0.0,0
+WXJFKKQWPMNTIM,Cytomegalovirus Disease,0.0,0.0,0
+RHWKPHLQXYSBKR,HIV,0.0,0.0,0
+PGTVWKLGGCQMBR,Drug Resistant Partial Onset Seizure,0.0,0.0,0
+RFHAOTPXVQNOHP,Cutaneous Leishmaniasis,0.0,0.0,0
+GXALXAKNHIROPE,Familial Chylomicronemia Syndrome (FCS) (HLP Type I),0.0,0.0,0
+CWHUFRVAEUJCEF,Metastatic Breast Cancer,-0.7229730765846267,-0.21786464877969103,1
+AYXYPKUFHZROOJ,Spinal Fusion,0.0,0.0,0
+ONIQOQHATWINJY,Prostate Cancer; Castration Resistant Prostate Cancer; Pain; Prostatic Neoplasms,-0.1756315459424002,-0.06102894630843095,1
+CMSMOCZEIVJLDB,Diffuse Large B-Cell Lymphoma,0.0,0.0,0
+VSNHCAURESNICA,Sickle Cell Anemia,0.0,0.0,0
+YFGHCGITMMYXAQ,Depression,0.0,0.0,0
+GOTYRUGSSMKFNF,Mantle Cell Lymphoma; Non-Hodgkin's Lymphoma,-2.0049650840751414,0.09601874168245628,1
+BSMCAPRUBJMWDF,Melanoma; Metastatic Melanoma,-0.37413855712681304,-0.18696712701656443,1
+OOUGLTULBSNHNF,"Amino Acid Metabolism, Inborn Errors",0.0,0.0,0

@@ -1,0 +1,1478 @@
+disease,risk_tolerance,severity_basis,confidence
+1mg Vs 3 mg of Granisetron,10,dose comparison of antiemetic; supportive-care setting not a severe disease,med
+ACE inhibitor-induced angioedema,45,can cause life-threatening airway swelling but usually self-limited,med
+AL Amyloidosis,85,progressive multiorgan deposition with high mortality especially cardiac involvement,high
+ALOPECIA AREATA,10,benign non-life-threatening autoimmune hair loss,high
+AML; MDS; CMML,90,acute leukemia and high-risk myeloid neoplasms rapidly fatal untreated,high
+Abdominal Aortic Aneurysms,75,risk of fatal rupture,high
+Abdominal Cancer,85,active malignancy with high mortality,med
+Acetabular Fractures,25,serious orthopedic injury but not lethal,med
+Acetaminophen; Drug Overdose; Acetaminophen Overdose; Acetaminophen Poisoning; Drug-induced Liver Injury; Liver Failure; Liver Toxicity,90,acute liver failure can be rapidly fatal,high
+Acne,5,benign cosmetic skin condition,high
+Active Dermatomyositis,60,inflammatory myopathy with possible organ and respiratory involvement,med
+Acute Abdominal Pain,30,symptom that may signal serious surgical pathology,low
+Acute Coronary Syndrome,80,high acute cardiac mortality,high
+Acute Coronary Syndrome; Percutaneous Coronary Intervention,80,high acute cardiac mortality,high
+Acute Coronary Syndrome; Unstable Angina,80,high acute cardiac mortality,high
+Acute Coronary Syndromes,80,high acute cardiac mortality,high
+Acute Hematogenous Osteomyelitis,55,serious bone infection that can become systemic,med
+Acute Ischaemic Stroke; Transient Ischaemic Attack,80,acute stroke causes death and severe disability,high
+Acute Ischemic Stroke,80,acute stroke causes death and severe disability,high
+Acute Kidney Injury; Exercise-associated Hyponatremia; Perceived Exertion,70,AKI and severe hyponatremia can be life-threatening,med
+Acute Leukemia,90,rapidly fatal untreated,high
+Acute Lymphoblastic Leukemia,90,rapidly fatal untreated leukemia,high
+Acute Lymphoblastic Leukemia; Precursor B-Cell Lymphoblastic Leukemia; Precursor T-Cell Lymphoblastic Leukemia,90,rapidly fatal untreated leukemia,high
+Acute Mountain Sickness,25,usually self-limited but can progress to cerebral/pulmonary edema,med
+Acute Musculoskeletal Disease; Sprains; Sprains and Strains; Injuries; Emergencies; Trauma; Acute Pain,15,minor musculoskeletal injury and acute pain,med
+Acute Myelogenous Leukemia,90,rapidly fatal untreated leukemia,high
+Acute Myeloid Leukemia,90,rapidly fatal untreated leukemia,high
+Acute Myeloid Leukemia; Myelodysplastic Syndrome; Chronic Myelomonocytic Leukemia,90,acute leukemia rapidly fatal untreated,high
+Acute Myocardial Infarction,80,high acute cardiac mortality,high
+Acute Myocardial Infarction; Heart Failure,82,acute MI plus heart failure high mortality,high
+Acute Myocardial Infarction; Left Ventricular Thrombosis; Anticoagulants and Bleeding Disorders,80,acute MI with thrombotic complications high mortality,high
+Acute Pain,10,bothersome symptom not life-threatening,high
+Acute Pain Due to Trauma,15,acute pain from injury not lethal in itself,med
+Acute Pain; Ambulances,12,prehospital acute pain symptom,med
+Acute Pain; Post Operative Pain; Pain,8,post-operative and acute pain symptomatic,high
+Acute Post-op Pain,8,post-operative pain symptomatic and self-limited,high
+Acute Post-operative Pain; Chronic Post Operative Pain; Narcotic Use; Opioid Use; Opioid Addiction,30,opioid addiction carries overdose mortality risk,med
+Acute ST Segment Elevation Myocardial Infarction; Thrombolysis in Myocardial Infarction Flow,82,STEMI high acute cardiac mortality,high
+Acute Traumatic Pain,15,acute pain from trauma not lethal in itself,med
+Acute Upper Gastrointestinal Bleeding,75,acute hemorrhage can be rapidly fatal,high
+Acute Urticaria,10,usually self-limited allergic reaction,high
+Adenocarcinoma of the Pancreas; Advanced Solid Tumors; Cancer; Cancer of Pancreas; Cancer of the Pancreas; Metastases; Metastatic Cancer; Metastatic Pancreatic Cancer; Pancreas Cancer; Pancreatic Cancer; Bone Metastases; Endocrine Cancer; Oncology; Oncology Patients; Solid Tumors; Advanced Malignancy,95,metastatic pancreatic cancer rapidly fatal,high
+Adenocarcinoma of the Pancreas; Locally Advanced; Unresectable,93,unresectable pancreatic cancer very high mortality,high
+Adult T-Cell Leukemia,90,aggressive leukemia/lymphoma high mortality,high
+Adults and Children With Pulmonary Fibrosis,80,progressive fibrosis with respiratory failure and high mortality,high
+Advance Melanoma,90,advanced melanoma high mortality,high
+Advanced BRAFV600 Wild-type Melanoma,90,advanced melanoma high mortality,high
+Advanced Breast Cancer,85,advanced/metastatic breast cancer high mortality,high
+Advanced Cancer,90,advanced malignancy high mortality,high
+Advanced Cervical Cancer,85,advanced cervical cancer high mortality,high
+Advanced Colorectal Cancer,85,advanced colorectal cancer high mortality,high
+Advanced Endometrial Cancer,82,advanced endometrial cancer high mortality,high
+Advanced Esophageal Cancer,90,advanced esophageal cancer very poor prognosis,high
+Advanced Gastric Adenocarcinoma,88,advanced gastric cancer high mortality,high
+Advanced Gastric Cancer,88,advanced gastric cancer high mortality,high
+Advanced Hepatocellular Carcinoma,90,advanced liver cancer very poor prognosis,high
+Advanced Lung Cancer,90,advanced lung cancer high mortality,high
+Advanced Melanoma,90,advanced melanoma high mortality,high
+Advanced Non-Squamous Non-Small Cell Lung Cancer,90,advanced NSCLC high mortality,high
+Advanced Pancreatic Cancer,93,advanced pancreatic cancer rapidly fatal,high
+Advanced Rectal Cancer,85,advanced rectal cancer high mortality,high
+Advanced Rectal Carcinoma,85,advanced rectal cancer high mortality,high
+Advanced Solid Tumor; Non-Small Cell Lung Cancer; Colorectal Cancer,90,advanced solid tumors high mortality,high
+Advanced Solid Tumors,90,advanced solid tumors high mortality,high
+Aging; Insulin Sensitivity; Chronic Disease; Mitochondria; Insulin Resistance,20,metabolic/aging phenotype not acutely life-threatening,low
+Alcohol Dependence,40,chronic disorder with significant long-term morbidity and mortality,med
+Alcohol Use Disorder,40,chronic disorder with significant long-term morbidity and mortality,med
+Alcoholic Hepatitis,75,severe alcoholic hepatitis high short-term mortality,high
+Alcoholic Hepatitis; Alcoholic Liver Disease,75,severe alcoholic hepatitis high short-term mortality,high
+Alcoholism,40,chronic disorder with long-term morbidity and mortality,med
+Alopecia Areata,10,benign non-life-threatening hair loss,high
+Alopecia Areata; Alopecia Totalis; Alopecia Universalis,10,benign non-life-threatening hair loss,high
+Altitude Sickness,25,usually self-limited but can progress to edema,med
+Alzheimer Disease,60,progressive fatal neurodegeneration over years,high
+Alzheimer disease,60,progressive fatal neurodegeneration over years,high
+Alzheimer's Disease,60,progressive fatal neurodegeneration over years,high
+Alzheimer's disease biomarker measurement,55,biomarker study in fatal neurodegenerative disease,med
+Ambulatory Cancer,80,active cancer high mortality,med
+"Amino Acid Metabolism, Inborn Errors",70,inborn metabolic errors can cause severe disability and death,med
+Amyotrophic Lateral Sclerosis,95,relentlessly fatal motor neuron disease,high
+Anal Cancer,80,active malignancy high mortality,high
+Anal Carcinoma,80,active malignancy high mortality,high
+Anal Incontinence,15,disabling quality-of-life condition not life-threatening,med
+Anal Intraepithelial Neoplasia; High-grade Squamous Intraepithelial Lesion; HIV Infection,60,HIV infection serious chronic life-shortening,med
+"Analgesia; Surgery; Cancer of Head and Neck; Oropharyngeal Cancer; Carcinoma of Unknown Primary; Pain, Postoperative; Postoperative Pain",80,head and neck cancer high mortality (most severe component),high
+Anaplastic Lymphoma,85,aggressive lymphoma high mortality,high
+Anemia,30,variable severity usually manageable,med
+Anesthesia,15,procedural setting; risk tolerance from surgical context,med
+Anesthesia With Use of LMA (Laryngeal Mask Airway),15,procedural anesthesia setting,med
+Anesthesia for Elective Surgery Patients,12,elective surgery anesthesia low underlying severity,med
+"Anesthesia, General",15,procedural anesthesia setting,med
+"Anesthesia, General; Anesthesia, Intravenous",15,procedural anesthesia setting,med
+"Anesthesia, General; Neuromuscular Transmission Disorders",30,anesthesia with neuromuscular disorder added risk,low
+"Anesthesia, Intravenous",15,procedural anesthesia setting,med
+Anesthesia-induced hypotension,30,intraoperative hypotension can be dangerous but managed,med
+Anesthesia; Functional; Anesthesia,15,procedural anesthesia setting,med
+"Anesthetic, Sedative or Analgesic Complications in Labor or Delivery",35,obstetric anesthesia complications with maternal/fetal risk,med
+Angina,55,ischemic symptom signaling coronary disease,med
+Angina; Pulmonary Arterial Hypertension,80,pulmonary arterial hypertension high mortality,high
+"Angioedema, Hereditary, Types I and II",55,hereditary angioedema with risk of fatal airway attacks,high
+Ankylosing Spondylitis,40,chronic disabling inflammatory arthritis not directly lethal,high
+Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis; Microscopic Polyangiitis; Wegener Granulomatosis,80,systemic vasculitis with renal/pulmonary failure high mortality untreated,high
+Anticoagulation in Pregnancy,45,thromboembolic and bleeding risk in pregnancy,med
+Anxiety,20,common disorder rarely life-threatening,high
+"Anxiety Neuroses; Anxiety States, Neurotic; Neuroses, Anxiety",20,anxiety disorder rarely life-threatening,high
+Anxiety; Preoperative Anxiety,15,situational anxiety not life-threatening,high
+Aortic Coarctation; Erector Spinae Plane Block; Paediatric,55,congenital cardiac defect with serious consequences,med
+Aortic Valve Disease; Aortic Valve Stenosis; Aortic Valve Failure,70,severe aortic stenosis high mortality if untreated,high
+Aortic Valve Stenosis; Cardiovascular Diseases; Heart Valve Diseases; Ventricular Outflow Obstruction; Thrombosis,70,severe aortic stenosis high mortality if untreated,high
+Apathy,10,neuropsychiatric symptom not life-threatening,med
+Apnea of Prematurity,50,can cause life-threatening events in neonates,med
+Arterial Hypertension,40,chronic risk factor manageable,high
+Arterial Hypertension; Albuminuria,42,hypertension with renal involvement chronic morbidity,med
+"Arthritis, Juvenile",45,chronic disabling childhood arthritis,high
+"Arthritis; Osteoarthritis, Knee; Osteoarthritis, Hip; Thromboembolism",40,thromboembolism component carries mortality risk,med
+Ascites; Hepatic Cirrhosis,80,decompensated cirrhosis high mortality,high
+Asthma,40,chronic disease usually manageable but can be fatal,high
+Asthma; Wheezing,40,chronic airway disease usually manageable,high
+Atherosclerotic Disease; Perioperative Bleeding,55,vascular disease with bleeding/thrombotic risk,med
+Atopic Dermatitis,20,chronic skin disease bothersome not life-threatening,high
+"Atopic Dermatitis; Atopic Dermatitis, Unspecified; Eczema; Eczema, Atopic",20,chronic skin disease bothersome not life-threatening,high
+Atrial Fibrillation,45,arrhythmia with stroke risk manageable,high
+Atrial Fibrillation; Cardiac Surgery; Colchicine Adverse Reaction,50,AF in cardiac surgery setting,med
+Atrial Fibrillation; End-stage Kidney Disease,70,ESKD high mortality (most severe component),high
+Atrial Fibrillation; Heart Diseases,50,AF with structural heart disease,med
+Atrial Fibrillation; Intracerebral Hemorrhage,80,intracerebral hemorrhage high mortality,high
+Atrial Fibrillation; Periodontal Disease; Hemorrhage,45,AF with bleeding risk,med
+Atrial Fibrillation; Stroke,75,stroke high mortality and disability,high
+Atrial Fibrillation; Stroke; Bleeding,75,stroke high mortality and disability,high
+Atrial High Rate Episodes,40,subclinical arrhythmia with stroke risk,med
+Atrophic Vaginitis,8,benign quality-of-life condition,high
+Attention Deficit Hyperactivity Disorder (ADHD),20,chronic neurodevelopmental disorder not life-threatening,high
+"Atypical; Mycobacterium, Pulmonary, Tuberculous",65,pulmonary mycobacterial infection serious and progressive,med
+Autism Spectrum Disorder,20,neurodevelopmental disorder not life-threatening,high
+Autism Spectrum Disorders,20,neurodevelopmental disorder not life-threatening,high
+Autistic Disorder in Children and Adolescents,20,neurodevelopmental disorder not life-threatening,high
+Autoimmune Diseases; Sjogren's Syndrome; Dry Eye,35,Sjogren's chronic with possible systemic involvement,med
+Autosomal Dominant Polycystic Kidney Disease,55,progressive to end-stage renal failure,high
+Autosomal Dominant Polycystic Kidney Disease (ADPKD),55,progressive to end-stage renal failure,high
+Autosomal Dominant Polycystic Kidney Disease （ADPKD),55,progressive to end-stage renal failure,high
+"Azoospermia, Nonobstructive; Oligozoospermia",10,infertility condition not life-threatening,high
+BPH With Other Lower Urinary Tract Symptoms,15,benign prostatic symptoms quality-of-life,high
+Back Pain Lower Back Chronic,15,chronic pain disabling not life-threatening,high
+Back Pain; Neck Pain,15,chronic pain not life-threatening,high
+Bacteremia,75,bloodstream infection can progress to sepsis and death,high
+Bacterial Pneumonia; Community-Acquired Infections,65,pneumonia can be fatal especially in vulnerable patients,high
+Bariatric Surgery Candidate,30,severe obesity with comorbidity risk surgical setting,med
+"Bariatric Surgery Candidate; Perioperative Complication; Nausea; Vomiting, Postoperative; Drug Effect",25,perioperative supportive setting,med
+Barrett's Esophagus,30,premalignant condition with cancer risk,med
+Behcet syndrome,55,systemic vasculitis with possible organ-threatening involvement,med
+Benign Prostatic Hyperplasia,15,benign prostatic symptoms quality-of-life,high
+Benign Prostatic Hyperplasia; Enlarged Prostate,15,benign prostatic symptoms quality-of-life,high
+Benzodiazepine Refractory Status Epilepticus,90,refractory status epilepticus high mortality emergency,high
+Bicuspid Aortic Valve,50,congenital valve anomaly with progression risk,med
+Biochemical Relapse After Definitive Treatment for Prostate Cancer,55,rising PSA after prostate cancer treatment indolent course,med
+Bipolar Disorder,40,serious chronic psychiatric disorder with suicide risk,high
+Bipolar I Disorder,40,serious chronic psychiatric disorder with suicide risk,high
+Bladder Cancer,75,active malignancy high mortality if advanced,high
+Bleeding; ERCP,40,procedural bleeding risk,med
+Blepharitis,5,benign eyelid inflammation,high
+Blood Cancer,85,hematologic malignancy high mortality,med
+Blood Loss,40,acute blood loss severity depends on degree,low
+Bloodstream Infections (BSI) Due to CRE; Hospital-Acquired Bacterial Pneumonia (HABP) Due to CRE; Ventilator-Associated Bacterial Pneumonia (VABP) Due to CRE; Complicated Urinary Tract Infection (cUTI) Due to CRE; Acute Pyelonephritis (AP) Due to CRE,90,carbapenem-resistant infections very high mortality,high
+Bone Metastases,80,metastatic cancer high mortality,high
+Bone Mineral Density Quantitative Trait Locus 7,15,genetic trait related to bone density not acutely severe,low
+Borderline personality disorder,40,chronic psychiatric disorder with substantial suicide and self-harm mortality risk,high
+Bowel Cleansing; Colon Capsule Completion Times,5,procedural bowel preparation,high
+Bowel Preparation,5,procedural bowel preparation,high
+"Brachial Plexus Block; Pain, Postoperative",10,postoperative analgesia setting,high
+Brain Cancer; Glioblastoma Multiforme,95,glioblastoma rapidly fatal,high
+Brain Injuries,70,traumatic brain injury high mortality and disability,med
+Brain Tumor Treated With Cranial or Cranial-Spinal Radiation,80,brain tumor high mortality,med
+Breast Cancer,75,active malignancy with significant mortality,high
+Breast Cancer; Heart Failure; Cardiotoxicity,80,cancer plus heart failure high mortality,high
+Breast Cancer; Lung Cancer; Ovarian Cancer; Oesophageal Cancer; Head Cancer Neck; Cervical Cancer; Endometrial Cancer,88,multiple active malignancies; esophageal/lung high mortality,high
+Breast Cancer; Ovarian Cancer; Pancreas Cancer; Prostate Cancer; BRCA1 Mutation; BRCA-Mutated Ovarian Carcinoma; BRCA-Associated Breast Carcinoma; HRD Positive Advanced Ovarian Cancer,90,pancreatic and advanced ovarian cancer high mortality,high
+Breast Diseases,40,broad category variable severity,low
+Breast Neoplasms; BRCA 1 Gene Mutation; BRCA 2 Gene Mutation,75,breast cancer with hereditary risk significant mortality,high
+Bronchopulmonary Dysplasia,65,chronic neonatal lung disease with mortality risk,med
+Bronchoscopy,15,diagnostic procedure setting,high
+Bronchoscopy; Conscious Sedation,15,procedural sedation setting,high
+Bulimia Nervosa,35,eating disorder with metabolic and mortality risk,med
+Bullous Pemphigoid,45,autoimmune blistering disease with morbidity in elderly,med
+CDKL5 deficiency disorder,70,severe early-onset epileptic encephalopathy with disability,med
+CMV Disease,70,opportunistic infection serious in immunocompromised,med
+COPD,60,progressive respiratory failure and premature death,high
+COVID 19,75,acute respiratory failure with significant mortality in severe cases,high
+COVID-19,75,acute respiratory failure with significant mortality in severe cases,high
+COVID-19 Pneumonia,80,viral pneumonia with respiratory failure risk,high
+COVID-19; Corona Virus Infection; ARDS; Acute Respiratory Distress Syndrome,90,ARDS with high mortality respiratory failure,high
+COVID-19; SARS-CoV 2,75,acute viral respiratory illness with severe-case mortality,high
+COVID-19; Severe Acute Respiratory Syndrome,85,severe respiratory syndrome with high mortality,high
+COVID-19; Thrombosis Embolism; Bleeding,80,viral illness with thrombotic and hemorrhagic mortality,high
+COVID-19; Viral Respiratory Illnesses,70,viral respiratory illness with variable severity,med
+COVID-19; ards,90,ARDS with high mortality respiratory failure,high
+COVID-19; cytokine release syndrome,85,hyperinflammatory syndrome with high mortality,high
+COVID; COVID-19; SARS-CoV 2; Coronavirus; Corona Virus Infection,75,acute viral respiratory illness with severe-case mortality,high
+COVID; COVID-19; SARS-CoV-2; SARS (Severe Acute Respiratory Syndrome),85,severe respiratory syndrome with high mortality,high
+CTEPH,80,chronic thromboembolic pulmonary hypertension with progressive right heart failure,high
+Cachexia in Advanced Cancer,90,wasting in advanced terminal cancer,high
+Cancer,85,malignancy with high mortality if untreated,high
+Cancer Malignancies,85,malignancy with high mortality if untreated,high
+Cancer Patients With COVID-19 Infection,90,immunocompromised cancer patients with severe viral illness,high
+Cancer of Stomach,90,gastric cancer with high mortality,high
+Cancer; Cancer Metastatic; BRAF V600E; MEK1 Gene Mutation; MEK2 Gene Mutation; ERK Mutation; RAF1 Gene Mutation,95,metastatic cancer with rapid lethality,high
+Cancer; Tumour; Surgery,85,malignancy requiring surgical resection,high
+"Carcinoma, Non-Small-Cell Lung",90,lung cancer with high mortality,high
+"Carcinoma, Pancreatic Ductal",95,pancreatic cancer rapidly fatal,high
+Cardiac Arrest,95,sudden death without immediate intervention,high
+Cardiac Disease,75,heart disease with mortality risk,med
+Cardiac Edema,55,fluid overload reflecting underlying cardiac dysfunction,med
+Cardiac Surgery; Congenital Heart Defects; Cardiopulmonary Bypass,80,major cardiac surgery for structural heart disease,high
+Cardiac-induced Edema,55,fluid overload reflecting underlying cardiac dysfunction,med
+Cardiomyopathies; Chemotherapy Effect; Diastolic Dysfunction; Systolic Dysfunction,75,cardiomyopathy with heart failure progression,high
+"Cardiomyopathy, Hypertrophic; Cardiomyopathy, Hypertrophic, Familial",70,hypertrophic cardiomyopathy with sudden death risk,high
+Cardiopulmonary Bypass,60,procedural setting for cardiac surgery,med
+Cardiothoracic Surgery; Vascular Surgery,65,major surgery for serious cardiovascular disease,med
+Cardiovascular Disease,70,cardiovascular disease with mortality risk,high
+Cardiovascular Disease; Insulin Resistance; Glucose Intolerance; Obesity,65,cardiovascular disease with metabolic comorbidity,med
+Cardiovascular Diseases,70,cardiovascular disease with mortality risk,high
+Carotid Artery Occlusion; Middle Cerebral Artery Occlusion; Stroke,85,acute stroke with high disability and mortality,high
+Carotid Artery Stenosis; Strokes,80,stroke risk with disability and mortality,high
+Carpal Tunnel Syndrome,15,nerve compression non-life-threatening,high
+Cataract,10,reversible visual impairment not life-threatening,high
+Cell Cancer,85,malignancy with high mortality,med
+Cell Carcinoma,85,carcinoma with high mortality,med
+Cell Lymphoma,85,lymphoma with significant mortality,med
+Cellulitis,35,bacterial skin infection treatable but can progress,med
+Cerebral Aneurysm,85,rupture risk with high mortality,high
+Cerebral Vein Thrombosis,80,venous thrombosis with stroke and mortality risk,high
+Cervical Carcinoma,85,cervical cancer with high mortality,high
+Cesarean Section Complications,45,obstetric surgical complications with hemorrhage risk,med
+"Cesarean Section Complications; Blood Loss, Surgical; Misoprostol; Tranexamic Acid",55,surgical hemorrhage with mortality risk,med
+Cesarean complications,45,obstetric surgical complications with hemorrhage risk,med
+Chemoradiotherapy in Cervical Cancer,85,cervical cancer with high mortality,high
+Chemotherapy Induced Nausea and Vomiting,20,supportive-care symptom not life-threatening,high
+Chemotherapy-Induced Nausea and Vomiting,20,supportive-care symptom not life-threatening,high
+Chemotherapy-induced Nausea and Vomiting,20,supportive-care symptom not life-threatening,high
+Child Comfort; Morphine; Intensive Care Units; Pediatric,60,critically ill pediatric ICU setting,med
+Child Preschool,10,developmental setting not a severe disease,low
+Children With Febrile Urinary Tract Infection,45,pediatric infection with sepsis potential,med
+"Chorea, Huntington",85,fatal neurodegenerative disease,high
+Chronic Allergic Conjunctivitis,8,benign chronic eye irritation,high
+Chronic Graft Versus Host Disease,75,serious post-transplant complication with mortality,high
+Chronic Graft-Versus-Host Disease,75,serious post-transplant complication with mortality,high
+Chronic Heart Failure With Reduced Ejection Fraction,80,heart failure with high mortality,high
+Chronic Heart Failure With Reduced Ejection Fraction (HFrEF),80,heart failure with high mortality,high
+Chronic Heart Failure; Acute Heart Failure; Diabetes Mellitus,80,heart failure with high mortality,high
+Chronic Hepatitis B,55,chronic liver disease with cirrhosis and cancer risk,high
+Chronic Hepatitis C,55,chronic liver disease with cirrhosis and cancer risk,high
+Chronic Idiopathic Urticaria,15,chronic hives non-life-threatening,high
+Chronic Inflammatory Demyelinating Polyradiculopathy,55,progressive disabling neuropathy,high
+Chronic Kidney Disease,60,progressive renal failure life-shortening,high
+Chronic Kidney Disease; Depression,60,progressive renal failure life-shortening,high
+"Chronic Kidney Disease; Hyperparathyroidism; Hyperparathyroidism, Secondary; Kidney Disease; Secondary Hyperparathyroidism",60,progressive renal failure life-shortening,high
+Chronic Kidney Diseases,60,progressive renal failure life-shortening,high
+Chronic Leukemia,75,chronic leukemia life-shortening malignancy,high
+Chronic Lymphocytic Leukaemia,70,indolent leukemia life-shortening,high
+Chronic Lymphocytic Leukemia,70,indolent leukemia life-shortening,high
+Chronic Lymphocytic Leukemia; Mantle Cell Lymphoma; Diffuse Large B-cell Lymphoma; Indolent Non-Hodgkin's Lymphoma,85,aggressive lymphoma with high mortality,high
+Chronic Lymphocytic Leukemia; Small Lymphocytic Lymphoma,70,indolent leukemia life-shortening,high
+Chronic Myelogenous Leukemia,70,leukemia life-shortening if untreated,high
+Chronic Myelogenous Leukemia; Acute Lymphoblastic Leukemia; Acute Myeloid Leukemia; Acute Biphenotypic Leukemia; Myelodysplastic Syndrome; Myeloproliferative Neoplasm; Non-Hodgkin Lymphoma; Hodgkins Disease; Chronic Lymphocytic Leukemia; Multiple Myeloma,95,acute leukemia rapidly fatal if untreated,high
+Chronic Myeloid Leukemia,70,leukemia life-shortening if untreated,high
+Chronic Obstructive Pulmonary Disease,60,progressive respiratory failure and premature death,high
+Chronic Pain,20,disabling but not life-threatening,high
+Chronic Peripheral Post-traumatic Neuropathic Pain,20,disabling chronic pain not life-threatening,high
+Chronic Rhinosinusitis With Nasal Polyps,15,chronic sinus disease non-life-threatening,high
+Chronic Rhinosinusitis With Polyposis,15,chronic sinus disease non-life-threatening,high
+Chronic Subdural Hematomas,65,intracranial bleed with neurological deterioration,high
+Chronic Thromboembolic Pulmonary Hypertension,80,progressive right heart failure high mortality,high
+Chronic Viral Hepatitis B Without Delta-agent,55,chronic liver disease with cirrhosis risk,high
+Chronic pain,20,disabling but not life-threatening,high
+Churg-Strauss Syndrome; Eosinophilic Granulomatosis With Polyangiitis,70,systemic vasculitis with organ-threatening complications,high
+Circulatory; Change,30,nonspecific circulatory condition,low
+Cirrhosis,80,end-stage liver disease with high mortality,high
+Cirrhosis; Hepatic Encephalopathy; Hyponatremia,85,decompensated cirrhosis with high mortality,high
+"Cirrhosis; Hypertension, Portal; Bleeding Esophageal Varices; Portal Vein Thrombosis",85,variceal bleeding in cirrhosis high mortality,high
+Classical progressive supranuclear palsy,80,fatal neurodegenerative disease,high
+Clostridium Difficile,55,severe colitis with mortality risk,high
+Clostridium Difficile Infection,55,severe colitis with mortality risk,high
+Cognitive Change; Behavior,30,nonspecific cognitive symptoms,low
+"Colitis, Ulcerative",55,chronic inflammatory bowel disease with complications,high
+Colon Cancer,85,colorectal cancer with high mortality,high
+Colon Cancer; Inflammatory Bowel Diseases; Gastrointestinal Bleed; Colon Polyp,85,colorectal cancer with high mortality,high
+Colonoscopy,8,diagnostic procedure low risk setting,high
+Colorectal Cancer,85,colorectal cancer with high mortality,high
+Colorectal Cancer; Metastases,95,metastatic colorectal cancer rapidly fatal,high
+Colorectal Neoplasms; Neoplasm Metastasis; Intestinal Neoplasms; Gastrointestinal Neoplasms; Digestive System Neoplasms,95,metastatic gastrointestinal cancer high mortality,high
+Colorectal and Pancreas Cancer,95,pancreatic cancer rapidly fatal,high
+Community Acquired Bacterial Pneumonia,60,pneumonia with mortality risk in severe cases,high
+Community Acquired Pneumonia,60,pneumonia with mortality risk in severe cases,high
+Community Acquired Respiratory Disease Syndrome,60,respiratory infection with mortality risk,med
+Community-acquired Bacterial Pneumonia,60,pneumonia with mortality risk in severe cases,high
+Community-acquired Pneumonia; Bacterial Pneumonia,60,pneumonia with mortality risk in severe cases,high
+Complicated Intra-abdominal Infection,65,abdominal infection with sepsis risk,high
+Complicated Intra-abdominal Infections; Complicated Appendicitis,65,abdominal infection with sepsis risk,high
+Complicated Skin and Soft Tissue Infection,50,deep soft tissue infection with sepsis potential,med
+Complicated Urinary Tract Infection; Acute Pyelonephritis,55,kidney infection with sepsis risk,high
+Complicated Urinary Tract Infection; Complicated Intra-abdominal Infection,65,abdominal infection with sepsis risk,high
+Complications of Bone Marrow Transplant; Hematologic Neoplasms,90,hematologic malignancy with transplant complications,high
+Congenital Adrenal Hyperplasia,50,endocrine disorder with adrenal crisis risk,med
+Congenital Cystic Kidney Disease,60,progressive renal failure,med
+Congenital Cytomegalovirus Infection,55,congenital infection with neurodevelopmental harm,med
+Congenital Cytomegalovirus Infection; Sensorineural Hearing Loss,55,congenital infection with permanent disability,med
+Congenital Heart Disease With Fontan Circulation,75,complex congenital heart disease life-shortening,high
+Congenital Heart Disease in Children; Inflammatory Response,70,congenital heart disease serious in children,med
+Congestive heart failure,80,heart failure with high mortality,high
+Constipation,5,benign self-limited symptom,high
+Contraceptive Usage,5,healthy contraception setting not a disease,high
+Corona Virus Infection,70,viral respiratory infection with severe-case risk,high
+Corona Virus Infection; Acute Respiratory Distress Syndrome; SARS-CoV Infection; Coronavirus; Coronavirus Infections,90,ARDS with high mortality respiratory failure,high
+Coronary Artery Bypass,70,surgical setting for serious coronary disease,high
+Coronary Artery Disease,65,ischemic heart disease with MI and death risk,high
+Coronary Artery Disease (CAD),65,ischemic heart disease with MI and death risk,high
+Coronary Artery Disease (CAD); Acute Coronary Syndrome (ACS),80,acute coronary syndrome with high mortality,high
+Coronary Artery Disease; Acute Coronary Syndrome,80,acute coronary syndrome with high mortality,high
+Coronary Artery Disease; Angina Pectoris,60,ischemic heart disease with cardiac event risk,high
+Coronary Artery Disease; Chronic Kidney Disease; Hypovitaminosis D; Secondary Hyperparathyroidism,65,coronary disease with renal comorbidity,med
+Coronary Artery Disease; Endothelial Function,60,ischemic heart disease with cardiac event risk,med
+Coronary Artery Disease; Myocardial Ischemia; Myocardial Infarction; Stent Thrombosis; Cardiovascular Diseases,80,myocardial infarction with high mortality,high
+Coronavirus Infection,70,viral respiratory infection with severe-case risk,high
+"Coronavirus Infection; Pneumonia, Viral; Acute Respiratory Distress Syndrome",90,ARDS with high mortality respiratory failure,high
+"Coronavirus Infections; Pneumonia, Viral",75,viral pneumonia with respiratory failure risk,high
+Coronavirus; Acute Respiratory Infection; SARS-CoV Infection,75,severe respiratory infection with mortality risk,high
+Coronavirus; Severe Acute Respiratory Syndrome,85,severe respiratory syndrome with high mortality,high
+Cough,5,benign self-limited symptom,high
+Covid-19 Pneumonia,80,viral pneumonia with respiratory failure risk,high
+Covid-19; Hypoxia,80,viral illness with hypoxic respiratory failure,high
+Covid19,75,acute viral respiratory illness with severe-case mortality,high
+Covid19; Covid-19 ARDS,90,ARDS with high mortality respiratory failure,high
+Covid19; Hypoxia,80,viral illness with hypoxic respiratory failure,high
+Covid19; SARS-CoV Infection,75,acute viral respiratory illness with severe-case mortality,high
+Covid19; SARS-CoV Infection; ards; acute kidney injury,90,ARDS with multiorgan failure high mortality,high
+Covid19; Viral Pneumonia Human Coronavirus; Severe Acute Respiratory Syndrome,85,severe respiratory syndrome with high mortality,high
+Coxarthrosis; Arthroplasties Hip Replacement; Perioperative Blood Loss,30,degenerative joint disease with surgical blood loss,med
+Critical Illness,85,critically ill with high mortality,high
+Critical Illness; Sedation; Mechanical Ventilation,85,critically ill ventilated patients high mortality,high
+Critical Ischemia,80,critical limb ischemia with amputation and mortality risk,high
+Crohn disease,55,chronic inflammatory bowel disease with complications,high
+Crohn's Disease,55,chronic inflammatory bowel disease with complications,high
+Crohn's disease,55,chronic inflammatory bowel disease with complications,high
+Cryptococcal Meningitis; Fungal Meningitis,90,fungal meningitis with high mortality,high
+Cushing syndrome,55,endocrine disorder with serious metabolic complications,med
+Cutaneous Leishmaniasis,30,parasitic skin infection rarely fatal,med
+Cutaneous Melanoma,80,melanoma with metastatic and mortality risk,high
+Cutaneous T-Cell Lymphoma,70,lymphoma life-shortening malignancy,high
+Cutaneous T-Cell Lymphoma/Mycosis Fungoides,70,lymphoma life-shortening malignancy,high
+Cystic Fibrosis,70,progressive life-shortening multisystem disease,high
+Cystic Fibrosis Pulmonary Exacerbation,70,respiratory exacerbation in life-shortening disease,high
+Cystoscopes; Baxter Anaesthesia Brand of Desflurane; Sevoflurane,10,anesthesia for minor procedure low-risk setting,med
+Cytokine Storm (Covid-19); cytokine release syndrome,85,hyperinflammatory syndrome with high mortality,high
+Cytomegalovirus (CMV),50,viral infection serious in immunocompromised,med
+Cytomegalovirus Disease,55,viral disease serious in immunocompromised,med
+Cytomegalovirus Disease; Kidney Transplant Infection,65,viral infection in transplant patients,high
+Deep Vein Thrombosis,55,thrombosis with embolism risk,high
+Deep Vein Thrombosis; Pulmonary Embolism,75,pulmonary embolism with mortality risk,high
+Deep Venous Thrombosis,55,thrombosis with embolism risk,high
+Delirium,45,acute confusion associated with serious illness,med
+Delirium; Critical Illness; Intensive Care Psychosis; Cognitive Impairment; Cognitive Decline,85,critical illness with high mortality,high
+Delirium; Impaired Cognition; Long Term Psychologic Disorders,45,acute confusion with cognitive impairment,med
+Dementia,55,progressive neurodegenerative life-shortening disease,high
+Dengue Hemorrhagic Fever,80,hemorrhagic fever with shock and mortality risk,high
+Depression,40,chronic mood disorder with suicide risk,high
+"Depressive Disorder, Major",45,major depression with suicide risk,high
+"Dermatitis, Atopic",20,chronic skin inflammation not life-threatening,high
+Dermatomyositis; Polymyositis,60,systemic inflammatory myopathy with organ involvement,high
+Development,10,developmental setting not a disease,low
+Dexamethasone-induced Hiccup in Chemotherapy,8,benign treatment side-effect symptom,high
+Diabetes,40,chronic metabolic disease with long-term complications,high
+Diabetes Mellitus,42,chronic metabolic disease with vascular/renal complications,high
+Diabetes Mellitus Type 2,40,chronic manageable metabolic disease,high
+"Diabetes Mellitus, Type 1",48,lifelong insulin dependence with ketoacidosis/vascular risk,high
+"Diabetes Mellitus, Type 2",40,chronic manageable metabolic disease,high
+"Diabetes Mellitus, Type 2; Cognitive Functions Confusion",42,chronic metabolic disease with cognitive morbidity,med
+"Diabetes Mellitus, Type 2; Coronary Artery Disease",62,coronary artery disease adds ischemic mortality risk,high
+"Diabetes, Type I; Diabetes, Type II; Angina; Coronary Artery Disease",62,coronary artery disease with ischemic mortality risk,high
+Diabetes; Glucose Tolerance,38,chronic metabolic dysregulation,med
+Diabetes; Microalbuminuria,45,diabetes with early renal damage,med
+Diabetic Nephropathies,58,progressive kidney damage toward renal failure,high
+"Diabetic Neuropathy, Painful",35,chronic painful disabling complication not lethal,high
+Diabetic Patients,40,chronic manageable metabolic disease,med
+Diabetic Retinopathy,40,progressive vision loss not lethal,high
+Diffuse Large B Cell Lymphoma,85,aggressive lymphoma fatal if untreated,high
+Diffuse Large B-Cell Lymphoma,85,aggressive lymphoma fatal if untreated,high
+Disease Progression in Chronic Obstructive Pulmonary Disease,60,progressive life-shortening respiratory failure,high
+Diverticulitis,45,can cause perforation sepsis but often self-limited,med
+Drug Resistant Malaria Due to Plasmodium Falciparum,85,severe malaria high mortality if untreated,high
+Drug Resistant Partial Onset Seizure,58,refractory seizures disabling with SUDEP risk,high
+Duchenne Muscular Dystrophy,80,progressive fatal muscle-wasting disease,high
+Duchenne Muscular Dystrophy (DMD),80,progressive fatal muscle-wasting disease,high
+Duchenne Muscular Dystrophy; Becker Muscular Dystrophy,80,progressive fatal muscle-wasting disease,high
+Duchenne Muscular Dystrophy; Becker Muscular Dystrophy; Dystrophinopathy,80,progressive fatal muscle-wasting disease,high
+Duchenne muscular dystrophy,80,progressive fatal muscle-wasting disease,high
+Duodenal Ulcer,30,treatable can bleed/perforate rarely fatal,high
+Dyslipidemias,38,chronic cardiovascular risk factor,high
+Dysmenorrhea,15,painful but benign self-limited,high
+Dyspareunia,12,painful condition not life-threatening,high
+Dyspepsia; Anxiety; Depression,30,depression carries suicide risk otherwise benign,med
+Dysphagia,30,swallowing difficulty with aspiration risk,med
+Dysphasia,28,language impairment disabling not lethal,med
+Dystrophia Myotonica Type 1; Myotonia Congenita; Paramyotonia Congenita; Hyperkalemic Periodic Paralysis; Potassium-Aggravated Myotonia,62,myotonic dystrophy progressive with cardiac/respiratory mortality,high
+Early Breast Cancer,70,curable-stage cancer but lethal if untreated,high
+Early Primary Breast Cancer,70,curable-stage cancer but lethal if untreated,high
+Early Recovery in Elderly Patients; Cognitive Function,10,postoperative recovery setting low intrinsic severity,med
+"Ehlers-Danlos Syndrome, Vascular Type",78,vascular type risks fatal arterial/organ rupture,high
+Embolic Stroke of Undetermined Source,72,stroke high mortality and disability,high
+End Stage Renal Disease; Restless Legs Syndrome,78,end-stage renal failure fatal without dialysis,high
+Endometrial Cancer,72,gynecologic cancer lethal if untreated,high
+Endometrial Carcinoma,72,gynecologic cancer lethal if untreated,high
+Endometrial Clear Cell Adenocarcinoma; Endometrial Serous Adenocarcinoma; Stage IIIA Uterine Corpus Cancer; Stage IIIB Uterine Corpus Cancer; Stage IIIC Uterine Corpus Cancer; Stage IVA Uterine Corpus Cancer,88,advanced-stage uterine cancer high mortality,high
+Endometriosis,20,chronic painful benign condition,high
+Enterovirus; Rhinovirus,12,usually self-limited viral infections,med
+Eosinophilic Granulomatosis With Polyangiitis,70,systemic vasculitis with organ-threatening mortality,high
+Epidural Catheterization; Thoracic; Procedural Pain,10,procedural pain setting low intrinsic severity,med
+Epilepsy,58,seizure disorder with SUDEP and injury risk,high
+Epilepsy; Generalized Tonic-Clonic Seizures,60,generalized seizures with SUDEP risk,high
+Epilepsy; Generalized Tonic-clonic Seizures,60,generalized seizures with SUDEP risk,high
+Epilepsy; Partial Seizures,56,partial seizures disabling with SUDEP risk,high
+Erosive Esophagitis,25,treatable mucosal disease rarely fatal,high
+Erosive Esophagitis; GERD,25,treatable mucosal reflux disease,high
+Esketamine Treatment in Participants With Treatment Resistant Depression,55,treatment-resistant depression high suicide risk,high
+Esophageal Cancer,88,aggressive cancer poor prognosis,high
+Esophageal Disease,35,nonspecific esophageal disease variable severity,low
+Essential Hypertension,40,chronic cardiovascular risk factor,high
+Extended Antithrombotic Prophylaxis After Laparoscopic Surgery for Colorectal Cancer,65,colorectal cancer surgical setting with thrombosis risk,med
+Failed labor induction,30,obstetric complication with maternal-fetal risk,med
+Familial Chylomicronemia Syndrome (FCS) (HLP Type I),60,severe hypertriglyceridemia with pancreatitis risk,high
+Familial adenomatous polyposis,68,near-certain progression to colorectal cancer,high
+Febrile Neutropenia,80,life-threatening infection risk in neutropenic host,high
+Fever,12,common symptom usually self-limited,high
+Fibromyalgia,18,chronic pain syndrome not life-threatening,high
+First-Line Treatment of Advanced Non-Small Cell Lung Cancer,92,advanced lung cancer rapidly fatal,high
+Follicular Lymphoma,68,indolent lymphoma life-shortening but slow,high
+Forearm Fracture,12,traumatic injury heals not life-threatening,high
+Fragile X Syndrome,30,inherited neurodevelopmental disability not lethal,high
+Frailty; Sarcopenic Obesity; Aging,30,frailty increases morbidity/mortality variably,med
+Friedreich ataxia,70,progressive neurodegeneration with cardiac mortality,high
+Fuchs' endothelial dystrophy,20,corneal disease causing vision loss not lethal,high
+Functional Dyspepsia,15,benign functional GI disorder,high
+Functional Endoscopic Sinus Surgery (FESS),12,elective surgical setting low intrinsic severity,med
+Fungal Infection; Hematopoietic and Lymphoid Cell Neoplasm,85,hematologic malignancy with invasive fungal infection lethal,high
+GIST,72,gastrointestinal stromal tumor malignant,high
+"GVHD,Acute",80,acute graft-versus-host disease high mortality,high
+Gallbladder Carcinoma,90,aggressive cancer poor prognosis,high
+Gastric Adenocarcinoma,85,aggressive gastric cancer poor prognosis,high
+Gastric Adenocarcinoma; Gastroesophageal Junction Adenocarcinoma,85,aggressive cancer poor prognosis,high
+Gastric Bypass; Parathyroid Hormone,25,bariatric surgical/metabolic setting,low
+Gastric Cancer,85,aggressive gastric cancer poor prognosis,high
+Gastric Carcinoma,85,aggressive gastric cancer poor prognosis,high
+Gastric Neoplasm; Early Gastric Cancer,72,early gastric cancer curable but lethal untreated,high
+Gastric Neoplasms; Gastroesophageal Junction Adenocarcinoma,85,aggressive cancer poor prognosis,high
+Gastric Residual Volume,8,procedural/monitoring measure not a disease,med
+Gastric Ulcer,30,treatable can bleed/perforate,high
+Gastric Ulcers; Duodenal Ulcers,30,treatable can bleed/perforate,high
+Gastro Oesophageal Reflux Disease,20,benign chronic reflux disorder,high
+Gastroenteritis,20,usually self-limited can dehydrate,high
+Gastroenteritis; Vomiting; Acute Gastroenteritis,20,usually self-limited can dehydrate,high
+Gastroesophageal Cancer,85,aggressive cancer poor prognosis,high
+Gastroesophageal Reflux Disease; Heartburn,20,benign chronic reflux disorder,high
+Gastrointestinal Bleeding,68,can cause hemorrhagic shock and death,high
+Gastrointestinal Cancer,82,active GI malignancy lethal if untreated,high
+Gastrointestinal Hemorrhage,68,can cause hemorrhagic shock and death,high
+"Gastrointestinal Hemorrhage (Clinically Important, Upper)",72,significant upper GI bleed high mortality risk,high
+Gastrointestinal Neoplasms; Chemotherapy-induced Nausea and Vomiting,82,GI malignancy lethal if untreated,high
+Gastrointestinal Stromal Tumor (GIST),72,gastrointestinal stromal tumor malignant,high
+Gastrointestinal Stromal Tumors,72,gastrointestinal stromal tumor malignant,high
+Gastrointestinal Surgery,25,surgical setting variable intrinsic severity,low
+General Anaesthesia,10,anesthesia procedural setting low intrinsic severity,high
+General Anesthesia,10,anesthesia procedural setting low intrinsic severity,high
+General Anesthesia; Elective Surgery,10,elective surgical/anesthesia setting,high
+Geographic Atrophy,30,advanced macular degeneration causing blindness not lethal,high
+Gland Cancer,75,glandular malignancy lethal if untreated,med
+Glaucoma,28,progressive blindness not life-threatening,high
+Glioblastoma,95,rapidly fatal brain tumor no cure,high
+Glioblastoma; Adult-type Diffuse Gliomas,95,rapidly fatal brain tumor no cure,high
+Globus,8,benign sensation not life-threatening,high
+"Glomerulonephritis, IGA",55,progressive kidney disease toward renal failure,high
+Glucose Transporter Type 1 Deficiency Syndrome,55,inherited neurometabolic disorder with seizures/disability,med
+Glucose Transporter Type 1 Deficiency Syndrome (Glut1 DS),55,inherited neurometabolic disorder with seizures/disability,med
+Graft Versus Host Disease,78,immune complication with significant mortality,high
+Graft Versus Host Disease; Ocular Surface Disease; oGVHD; Ocular Graft vs Host Disease; Brimonidine Tartrate; Lubricant Eye Drops; Ophthalmic Solutions; Graft vs Host Disease,78,graft-versus-host disease with significant mortality,high
+Graft vs Host Disease,78,immune complication with significant mortality,high
+Graft-versus-Host Disease; Immune System Disorders,78,immune complication with significant mortality,high
+Graft-versus-host Disease,78,immune complication with significant mortality,high
+Graft-versus-host Disease (GVHD),78,immune complication with significant mortality,high
+Granulomatous Colitis; Crohn's Disease; Crohn's Enteritis; Granulomatous Enteritis,50,chronic inflammatory bowel disease disabling,high
+Graves disease,40,treatable autoimmune thyroid disease with cardiac risk,high
+Gynecological Outpatient Surgery,12,minor surgical setting low intrinsic severity,high
+HIV,62,chronic life-shortening infection fatal untreated,high
+HIV Infection,62,chronic life-shortening infection fatal untreated,high
+HIV Infection; Herpes Simplex Type II; HIV Infections,62,chronic life-shortening infection fatal untreated,high
+HIV Infections; Cytomegalovirus; CMV,68,HIV with CMV opportunistic infection,high
+HIV infection,62,chronic life-shortening infection fatal untreated,high
+HIV-1,62,chronic life-shortening infection fatal untreated,high
+HIV-1 Infection; Kaposi's Sarcoma,75,HIV with Kaposi sarcoma malignancy,high
+HIV-1 Infections,62,chronic life-shortening infection fatal untreated,high
+HIV-1 infection,62,chronic life-shortening infection fatal untreated,high
+HIV; HIV Infections,62,chronic life-shortening infection fatal untreated,high
+HIV; Salivary Gland Disease; Benign Lymphoepithelial Lesion,62,HIV chronic life-shortening infection,high
+HIV; Smoking Cessation,62,HIV chronic life-shortening infection,high
+HIV; Tuberculosis,78,HIV with tuberculosis coinfection high mortality,high
+Hand Wound; Wrist Wound; Forearm Wound; Hand Fracture; Wrist Fracture; Forearm Fracture,12,traumatic injuries heal not life-threatening,high
+Headache,12,common symptom usually benign,high
+Headache; Intranasal Ketamine,12,headache symptom usually benign,med
+Healthcare-Associated Pneumonia; Ventilator-Associated Pneumonia; Lung Diseases,80,nosocomial pneumonia high mortality,high
+Healthcare-associated Pneumonia (HCAP); Hospital Acquired Pneumonia (HAP); Ventilator Associated Pneumonia (VAP),80,nosocomial pneumonia high mortality,high
+Healthy,5,healthy subjects no disease,high
+Healthy Volunteers,5,healthy volunteers no disease,high
+Heart Failure,80,high-mortality cardiac disease,high
+Heart Failure With Preserved Ejection Fraction,75,heart failure significant mortality,high
+Heart Failure With Preserved Ejection Fraction (HFpEF),75,heart failure significant mortality,high
+Heart Failure With Reduced Ejection Fraction (HF-rEF),80,reduced-EF heart failure high mortality,high
+Heart Failure With Reduced Ejection Fraction (HFrEF),80,reduced-EF heart failure high mortality,high
+Heart Failure; Coronary Artery Disease,80,heart failure with ischemic disease high mortality,high
+Heart Failure; Dyspnea,80,high-mortality cardiac disease,high
+"Heart Failure; Heart Failure, Systolic; Erectile Dysfunction",80,systolic heart failure high mortality,high
+Heart Valve Diseases,65,valvular disease progressing to heart failure/death,high
+HeartPhone Cancer,75,cancer ambiguous label scored as malignancy,low
+Heartburn,12,benign symptom not life-threatening,high
+Heartburn; Gastroesophageal Reflux Disease,18,benign chronic reflux disorder,high
+Helicobacter Pylori Infection; Gastritis; Vonoprazan; Adolescents,28,treatable infection/gastritis with ulcer/cancer risk,high
+Hematologic Neoplasms,85,blood cancers lethal if untreated,high
+Hemodialysis; Chronic Renal Failure,78,end-stage renal failure fatal without dialysis,high
+Hemoptysis,55,coughing blood may signal serious pathology,med
+"Hemorrhage, Postpartum; Placenta Previa",80,postpartum hemorrhage leading maternal death cause,high
+Hemorrhagic Shock; Trauma Injury,90,hemorrhagic shock rapidly fatal,high
+Hemorrhoids,8,benign anal condition,high
+"Hepatitis B; HBV; Hepatitis B, Chronic",58,chronic hepatitis risks cirrhosis and liver cancer,high
+Hepatitis C,58,chronic hepatitis risks cirrhosis and liver cancer,high
+Hepatitis Delta Virus,68,most severe viral hepatitis rapid cirrhosis,high
+Hepatocellular Carcinoma,88,aggressive liver cancer poor prognosis,high
+Hepatocellular Carcinoma; Recurrence,88,aggressive liver cancer poor prognosis,high
+Herpes Zoster,22,painful self-limited viral reactivation,high
+High Risk Polycythemia Vera; High Risk Essential Thrombocythemia,62,myeloproliferative neoplasm with thrombosis/leukemia risk,high
+Hip Fracture; Anemia,55,hip fracture high morbidity/mortality in elderly,high
+Hip Fracture; Blood Loss,55,hip fracture high morbidity/mortality in elderly,high
+Hodgkin Lymphoma,75,lymphoma fatal if untreated but curable,high
+Hodgkin lymphoma,75,lymphoma fatal if untreated but curable,high
+Hormone-Sensitive Metastatic Breast Cancer,88,metastatic breast cancer incurable life-limiting,high
+Human Immunodeficiency Virus,62,chronic life-shortening infection fatal untreated,high
+Human Immunodeficiency Virus (HIV) Infections; Acquired Immunodeficiency Syndrome (AIDS) Virus,72,AIDS-stage HIV high mortality,high
+Human Immunodeficiency Virus; Herpes Simplex,62,chronic life-shortening infection fatal untreated,high
+Huntington Disease,82,progressive fatal neurodegenerative disease,high
+Hydatidiform Mole,55,gestational trophoblastic disease with malignant potential,med
+Hyperactive Delirium,40,acute confusional state marker of serious illness,med
+Hypercholesterolaemia,38,chronic cardiovascular risk factor,high
+Hypercholesterolemia,38,chronic cardiovascular risk factor,high
+Hypercholesterolemia in Coronaory Heart Disease,58,hypercholesterolemia with coronary disease ischemic risk,high
+Hypercholesterolemia; Atherosclerosis; Statin Adverse Reaction,45,atherosclerotic cardiovascular risk,high
+Hypercholesterolemia; Familial Hypercholesterolemia,48,familial form high premature cardiovascular risk,high
+Hypercholesterolemia; Hypertension,42,combined cardiovascular risk factors,high
+Hyperlipidemia,38,chronic cardiovascular risk factor,high
+Hyperlipidemia or Mixed Dyslipidemia at High Risk for Cardiovascular Events,48,high cardiovascular event risk,high
+Hyperlipidemia; Hypertension,42,combined cardiovascular risk factors,high
+Hyperlipidemias,38,chronic CV risk factor manageable,high
+"Hyperparathyroidism, Primary; Hypercalcemia",45,severe hypercalcemia can be life-threatening,med
+Hypersensitivity Reactions,40,ranges mild to anaphylaxis potentially fatal,low
+Hypertension,40,chronic CV risk factor manageable,high
+Hypertension With Hyperlipidemia,40,combined chronic CV risk factors,high
+"Hypertension, Pulmonary",80,progressive right heart failure high mortality,high
+Hypertension; Cardiovascular Disease,55,established CV disease elevated mortality,med
+Hypertension; Hyperlipidemia,40,combined chronic CV risk factors,high
+Hypertension; Kidney Transplantation,62,transplant immunosuppression life-shortening,med
+Hypertension; Sleep Apnea,40,chronic manageable CV/respiratory morbidity,med
+Hypogonadism; Obesity,30,chronic metabolic morbidity,med
+Hyponatremia,50,severe acute hyponatremia can cause seizures/death,med
+Hyponatremia; Dilutional Hyponatremia; Inappropriate ADH Syndrome,50,severe hyponatremia risk of cerebral edema,med
+Hypotension; Nausea; Vomiting,25,procedural symptomatic morbidity,low
+IBS - Irritable Bowel Syndrome,20,bothersome non-life-threatening GI,high
+INFECTION,55,unspecified infection variable potentially severe,low
+IV Melanoma,90,advanced/metastatic melanoma high mortality,high
+IVF; GnRH Antagonist; PPOS,10,assisted reproduction elective procedure,med
+Ibrutinib-Resistant Chronic Lymphocytic Leukemia,82,refractory leukemia life-shortening,high
+Idiopathic Nephrotic Syndrome,55,serious chronic renal disease,med
+Idiopathic Pulmonary Fibrosis,88,progressive fatal fibrosis median survival 3-5y,high
+Immediate Postpartum Hemorrhage,85,acute hemorrhage major maternal mortality,high
+Immune Reconstitution Inflammatory Syndrome; HIV; Tuberculosis,80,HIV/TB high mortality serious,high
+Immune Thrombocytopenia,50,bleeding risk variable rarely fatal,med
+Immune Thrombocytopenic Purpura,50,bleeding risk variable rarely fatal,med
+Improved Postoperative Pain,8,post-op pain self-limited,high
+Improving Outcomes in People With Knee Osteoarthritis Pain,20,chronic non-lethal joint pain,high
+Inclusion Body Myositis,55,progressive disabling myopathy,med
+Induction and Maintenance of General Anesthesia,25,anesthesia setting procedural risk,med
+Induction of Anesthesia,25,anesthesia setting procedural risk,med
+Induction of Labor Affected Fetus / Newborn,45,obstetric setting fetal/maternal risk,med
+Induction of Labor Affected Fetus / Newborn; Rupture of Membranes Prior to Onset of Labor,50,obstetric with ROM infection/fetal risk,med
+Indwelling Urinary Catheter; Male Patients; General Anesthesia,25,procedural anesthesia setting,low
+"Infant, Newborn, Diseases; Cardiovascular Insufficiency",80,neonatal cardiovascular insufficiency high mortality,med
+"Infant, Newborn; Infant, Small for Gestational Age; Infant, Very Low Birth Weight; Infant, Premature; Bronchopulmonary Dysplasia",80,extreme prematurity high neonatal mortality,high
+Infantile Spasms,70,severe infantile epilepsy developmental devastation,high
+"Infection, Human Immunodeficiency Virus; HIV Infections",62,HIV serious life-shortening chronic,high
+Infection; Surgery; Nervous System Diseases,60,surgical CNS infection serious,low
+Infection; Surgical Site Infection,40,surgical site infection manageable,med
+Infections,55,unspecified infection variable severity,low
+Infectious Disease; SARS-CoV Infection; Covid19,75,COVID-19 potentially severe/fatal,high
+Infectious Pneumonia; Severe COVID-19,82,severe COVID/pneumonia high mortality,high
+Infertility,8,non-life-threatening reproductive,high
+"Infertility, Female",8,non-life-threatening reproductive,high
+Infertility; Poor Ovarian Response,8,non-life-threatening reproductive,high
+Inflammation; Macrophage Infiltration; Cardiovascular Disease,55,established CV disease elevated mortality,med
+Inflammatory Macular Edema,25,vision-threatening not life-threatening,med
+Influenza,40,usually self-limited can be severe in vulnerable,high
+"Influenza, Human",40,usually self-limited can be severe in vulnerable,high
+Inguinal Hernia; Femoral Hernia,25,surgical condition risk if strangulated,med
+Insertion of Intrauterine Contraception,5,elective contraceptive procedure,high
+Insomnia; End Stage Renal Disease,75,ESRD high mortality dominates,high
+Insulin Resistance; Microvascular Disease,40,chronic metabolic/vascular morbidity,med
+Internal Hemorrhoids,8,benign symptomatic condition,high
+Intervertebral Disc Prolapse,20,painful disabling rarely lethal,high
+Intestinal Neoplasm; Perioperative Care,75,intestinal neoplasm serious cancer,med
+Intra-abdominal Infections,72,serious infection sepsis risk,high
+"Intracranial Hemorrhages; Intracranial Hemorrhage, Hypertensive; Subarachnoid Hemorrhage; Subdural Hematoma; Intraventricular Hemorrhage; Atrial Fibrillation; Atrial Flutter; Small Vessel Cerebrovascular Disease; Microhaemorrhage",88,intracranial hemorrhage high acute mortality,high
+Intraoperative hypotension,25,procedural transient risk,med
+Intrapartum - Moderate and Severe Anaemia,55,peripartum anemia maternal risk,med
+Invasive Candidiases,82,invasive fungal infection high mortality,high
+Irreversible Pulpitis,8,dental pain self-limited with treatment,high
+Is an Only Child,5,not a disease,low
+Ischaemic Stroke,82,acute stroke high mortality/disability,high
+Ischemic Cardiomyopathy; Nonischemic Cardiomyopathy; Heart Failure,80,heart failure high mortality,high
+Ischemic Stroke,82,acute stroke high mortality/disability,high
+Ischemic stroke,82,acute stroke high mortality/disability,high
+Junction Cancer,82,gastroesophageal junction cancer high mortality,med
+Junction Carcinoma,82,gastroesophageal junction carcinoma high mortality,med
+Juvenile Idiopathic Arthritis,50,chronic disabling pediatric arthritis,high
+Kidney Transplantation (Status Post),62,transplant immunosuppression life-shortening,high
+"Kidney Transplantation, Mannitol",62,transplant setting serious,med
+Knee Arthropathy,20,chronic non-lethal joint disease,high
+Knee Injury,15,musculoskeletal injury non-lethal,high
+Knee Osteoarthritis,20,chronic non-lethal joint pain,high
+Labor induction,40,obstetric setting maternal/fetal risk,med
+Labor pain,15,acute self-limited obstetric pain,high
+Laparoscopic Cholecystectomy; Postoperative Nausea and Vomiting,15,post-op symptomatic care,high
+Laparoscopic Colecctomy,25,surgical procedure setting,med
+Latent Tuberculosis Infection,35,latent asymptomatic risk of reactivation,high
+Left Ventricular Thrombus,70,thrombus embolic/stroke risk,med
+Left Ventricular Thrombus; ST Segment Elevation Myocardial Infarction,82,acute MI with thrombus high mortality,high
+Lennox-Gastaut syndrome,68,severe refractory pediatric epilepsy,high
+"Leukemia, Myeloid, Acute",90,acute leukemia rapidly fatal untreated,high
+Leukemia; Acute Myeloid Leukemia (AML); Myelodysplastic Syndromes (MDS),90,acute leukemia rapidly fatal untreated,high
+Liver Cancer,90,hepatocellular carcinoma high mortality,high
+Local Anesthesia,8,procedural setting minimal underlying severity,high
+Locally Advanced or Metastatic Medullary Thyroid Cancer; Medullary Thyroid Cancer,82,metastatic thyroid cancer high mortality,high
+Locoregional Analgesia in Breast Surgery,12,surgical analgesia setting,high
+Loiasis,35,parasitic infection rarely fatal,med
+Low Back Pain,18,common non-lethal pain,high
+Low back pain,18,common non-lethal pain,high
+Lower Ureteric Stones,20,painful non-lethal urologic,high
+Lumbar Sciatic Pain,18,disabling non-lethal pain,high
+Lung Cancer,90,lung cancer high mortality,high
+Lung Cancer; Head and Neck Cancer,88,advanced cancers high mortality,high
+"Lung Disease, Interstitial",75,progressive ILD often life-shortening,high
+"Lung Diseases, Interstitial",75,progressive ILD often life-shortening,high
+Lung Diseases; Diagnosis; Anesthesia,40,diagnostic/anesthesia setting variable,low
+Lung Transplantation,80,end-stage lung disease transplant high mortality,high
+Lung-transplant Recipients,75,transplant immunosuppression life-shortening,high
+Lupus Nephritis,68,serious autoimmune renal disease,high
+Lymphocytic Colitis,18,benign chronic GI condition,high
+"Lymphoma, Non-Hodgkin",78,lymphoma serious potentially fatal,high
+"MAC Lung Disease; Treatment Refractory MAC Lung Disease; Mycobacterium Infections, Nontuberculous",65,chronic refractory mycobacterial lung disease,high
+MDS,75,myelodysplastic syndrome leukemia risk,high
+MEMBRANOUS NEPHROPATHY,55,serious chronic renal disease,high
+MULTIPLE MYELOMA,82,incurable hematologic malignancy,high
+MUltiple Sclerosis,60,chronic disabling neurologic,high
+MV(Mitral Valve) Repair,60,cardiac surgical condition serious,med
+Macular Edema,25,vision-threatening not life-threatening,high
+Maintaining Remission After the First Flare of Steroid Sensitive Nephrotic Syndrome,45,chronic relapsing renal disease,med
+Maintenance Therapies in Advanced Non Small Cell Lung Cancer,90,advanced NSCLC high mortality,high
+Major Depression,42,serious with suicide risk manageable,high
+Major Depressive Disorder,42,serious with suicide risk manageable,high
+Major Non-cardiac Surgery,40,perioperative setting variable risk,med
+Malaria,65,potentially fatal especially severe malaria,high
+"Malaria, Vivax",50,vivax less lethal than falciparum,high
+Malignant Melanoma,80,malignant melanoma high mortality,high
+Malignant Pleural Mesothelioma,92,mesothelioma rapidly fatal,high
+Mammaplasty,5,cosmetic/elective surgery,high
+Management of Gestational Diabetes,40,pregnancy metabolic manageable risk,med
+Mantle Cell Lymphoma,80,aggressive lymphoma poor prognosis,high
+Mantle Cell Lymphoma; Non-Hodgkin's Lymphoma,80,aggressive lymphoma poor prognosis,high
+Marfan syndrome,60,aortic dissection risk life-shortening,high
+Medication-assisted Treatment of Opioid Use Disorder,55,opioid use disorder overdose mortality,high
+Melanoma; Metastatic Melanoma,90,metastatic melanoma high mortality,high
+Menopause,12,physiologic non-lethal,high
+Mesothelioma,92,mesothelioma rapidly fatal,high
+Metabolic Syndrome,35,chronic CV/metabolic risk factor,high
+Metabolic Syndrome X,35,chronic CV/metabolic risk factor,high
+Metabolic Syndrome; Endothelial Dysfunction,38,chronic metabolic/vascular morbidity,med
+Metastatic Breast Cancer,88,metastatic breast cancer high mortality,high
+Metastatic Cancer,92,metastatic solid tumor high mortality,high
+Metastatic Castration-Resistant Prostate Cancer; Ovarian Cancer; Epithelial Ovarian Cancer; Fallopian Tube Cancer; Peritoneal Cancer; Other Solid Tumor,92,metastatic solid tumors high mortality,high
+Metastatic Castration-resistant Prostate Cancer; Metastatic Breast Cancer,90,metastatic cancers high mortality,high
+Metastatic Cervical Cancer,90,metastatic cervical cancer high mortality,high
+Metastatic Colorectal Cancer,90,metastatic colorectal cancer high mortality,high
+Metastatic Esophageal Carcinoma,92,metastatic esophageal cancer rapidly fatal,high
+Metastatic Gastric Cancer,92,metastatic gastric cancer rapidly fatal,high
+Metastatic Kidney Cancer,88,metastatic renal cancer high mortality,high
+Metastatic Melanoma,90,metastatic melanoma high mortality,high
+Metastatic Nasopharyngeal Cancer,88,metastatic nasopharyngeal cancer high mortality,high
+Metastatic Nasopharyngeal Carcinoma,88,metastatic nasopharyngeal cancer high mortality,high
+Metastatic Pancreas Cancer; Locally Advanced Pancreatic Cancer; Pancreatic Adenocarcinoma,95,metastatic pancreatic cancer rapidly fatal,high
+Metastatic Pancreatic Adenocarcinoma,95,metastatic pancreatic cancer rapidly fatal,high
+Metastatic Pancreatic Cancer,95,metastatic pancreatic cancer rapidly fatal,high
+Metastatic Pancreatic Ductal Adenocarcinoma,95,metastatic pancreatic cancer rapidly fatal,high
+Metastatic Prostate Cancer,82,metastatic prostate cancer life-shortening,high
+Metastatic Triple-Negative Breast Cancer,92,metastatic TNBC aggressive high mortality,high
+Metastatic Urothelial Carcinoma,90,metastatic urothelial cancer high mortality,high
+Metastatic Uveal Melanoma,92,metastatic uveal melanoma rapidly fatal,high
+Metastatic or Locally Advanced Unresectable Pancreatic Adenocarcinoma,95,metastatic pancreatic cancer rapidly fatal,high
+Methicillin-Resistant Staphylococcus Aureus; Bacterial Infections; Staphylococcal Skin Infections,65,MRSA invasive infection potentially fatal,high
+Migraine,20,bothersome non-life-threatening,high
+Mild Pulmonary Vascular Disease,45,mild vascular disease moderate risk,med
+Moderate and Severe COPD,60,COPD progressive life-shortening,high
+Mucositis Pain,15,treatment-related self-limited pain,high
+Multiple Myeloma,82,incurable hematologic malignancy,high
+Multiple Sclerosis,60,chronic disabling neurologic,high
+Multiple Sclerosis; Infusion Reaction,60,chronic disabling neurologic,high
+Multiple System Atrophy,85,progressive fatal neurodegeneration,high
+"Multiple Trauma; Pain, Acute",70,multiple trauma high acute mortality,high
+Muscle Relaxation,15,procedural/anesthesia adjunct,med
+"Muscular Dystrophy, Duchenne",80,progressive fatal muscular dystrophy,high
+"Muscular Dystrophy, Duchenne; Muscular Dystrophies; Muscular Disorders, Atrophic; Muscular Diseases; Musculoskeletal Disease; Neuromuscular Diseases; Nervous System Diseases; Genetic Diseases, X-Linked; Genetic Diseases, Inborn",80,progressive fatal muscular dystrophy,high
+"Muscular Dystrophy, Duchenne; Muscular Dystrophies; Muscular Disorders, Atrophic; Muscular Diseases; Musculoskeletal Diseases; Neuromuscular Diseases; Nervous System Diseases; Genetic Diseases, X-Linked; Genetic Diseases, Inborn",80,progressive fatal muscular dystrophy,high
+Musculoskeletal Pain,15,common non-lethal pain,high
+Mutant Melanoma,82,melanoma high mortality,high
+Myasthenia Gravis,58,can cause respiratory crisis serious,high
+Myelodysplastic Syndrome,75,myelodysplastic syndrome leukemia risk,high
+Myelodysplastic Syndrome (MDS); Chronic Myelomonocytic Leukemia (CMML),78,MDS/CMML progression to leukemia,high
+Myelodysplastic Syndromes,75,myelodysplastic syndrome leukemia risk,high
+Myelofibrosis (MF),78,myelofibrosis life-shortening hematologic,high
+Myelofibrosis; Primary Myelofibrosis; Post Essential Thrombocythemia Myelofibrosis; Post Polycythemia Vera Myelofibrosis,78,myelofibrosis life-shortening hematologic,high
+Myeloid Malignancy; Bone Marrow Failure Syndrome; Transfusion-dependent Red Blood Cell (RBC) Defect; Congenital Immunodeficiency; Metabolic Disease; Severe Immune Dysregulation,85,myeloid malignancy/marrow failure high mortality,high
+Myeloma; Venous Thromboembolism,82,myeloma incurable malignancy,high
+Myocardial Infarction,82,acute MI high mortality,high
+Myocardial Infarction; Peripheral Vascular Disease; Aortic Aneurism,82,acute MI/aortic aneurysm high mortality,high
+Myocardial Infarction; ST Segment Elevation Myocardial Infarction (STEMI),85,STEMI acute high mortality,high
+Myocardial Infarction; STEMI,85,STEMI acute high mortality,high
+Myocardial Injury After Noncardiac Surgery (MINS),65,perioperative myocardial injury elevated mortality,med
+Myopia,8,refractive non-lethal,high
+NAFLD - Nonalcoholic Fatty Liver Disease,40,chronic liver disease progressive risk,high
+NSCLC,88,non-small cell lung cancer high mortality,high
+Narcolepsy Type 1 (NT 1),35,chronic disabling sleep disorder not life-threatening,high
+Narcolepsy Type 1 (NT1); Narcolepsy Type 2 (NT2),35,chronic disabling sleep disorder not life-threatening,high
+Nasopharyngeal Carcinoma,85,invasive carcinoma high mortality if untreated,high
+Neck Cancer,85,invasive head/neck cancer high mortality untreated,high
+Neck Carcinoma,85,invasive carcinoma high mortality untreated,high
+Negative Behaviour Change,10,behavioral issue not life-threatening,low
+Neoadjuvant Treatment of Patients With High-risk Early Breast Cancer,80,high-risk invasive breast cancer significant mortality,high
+"Neonatal Diseases and Abnormalities; Neonatal Mortality; Pulmonary Arterial Hypertension, Children",90,neonatal mortality and PAH rapidly lethal untreated,high
+Neoplasm; Venous Thromboembolism,82,active cancer with VTE high mortality,high
+Neoplasms,82,malignancy high mortality untreated,high
+Nephrolithiasis,20,painful but rarely fatal kidney stones,high
+Nephrotic Syndrome,55,serious renal disease with complications,med
+Neurofibromatosis; NF1; Plexiform Neurofibromas,60,progressive tumor disorder with morbidity and malignant risk,med
+Neurogenic Detrusor Overactivity,30,bladder dysfunction with renal-risk complications,med
+Neuropathic Pain,30,chronic disabling pain not life-threatening,high
+Newly-diagnosed Glioblastoma,95,rapidly fatal brain tumor death in months,high
+Nicotine Addiction,25,addiction with long-term but not acute mortality,med
+Nicotine Dependence,25,addiction with long-term but not acute mortality,med
+Non Alcoholic Steatohepatitis,55,progressive liver disease can advance to cirrhosis,high
+Non-Alcoholic Fatty Liver Disease,40,chronic liver disease usually slowly progressive,high
+Non-CNS Germ Cell Tumors (Seminomas and Nonseminomas),80,malignant germ cell tumor lethal if untreated,high
+Non-Hodgkin's Lymphoma,82,malignant lymphoma high mortality untreated,high
+Non-Proliferative Diabetic Retinopathy; Cataract,25,vision-threatening but not life-threatening,high
+Non-Small Cell Lung Cancer,88,lung cancer high mortality untreated,high
+Non-cephalic Presentation; Inhalation of Nitrous Oxide; Pregnancy Complications; Cesarean Section,45,obstetric/delivery setting with maternal-fetal risk,med
+Non-melanoma Skin Cancer,40,malignant but rarely metastatic or fatal,high
+Non-small-cell Lung Cancer With Somatic EGFR Mutations,88,lung cancer high mortality untreated,high
+Nonalcoholic Steatohepatitis,55,progressive liver disease can advance to cirrhosis,high
+Nonalcoholic Steatohepatitis (NASH) With Fibrosis,60,advancing fibrotic liver disease toward cirrhosis,high
+Nonalcoholic Steatohepatitis; Liver Cirrhosis; Non-alcoholic Fatty Liver Disease,80,cirrhosis high mortality untreated,high
+Nonviable pregnancy,40,obstetric condition with maternal hemorrhage/sepsis risk,med
+Noonan Syndrome,55,genetic disorder with cardiac and developmental morbidity,med
+Obese Children and Adolescents,30,chronic metabolic morbidity not acutely lethal,high
+Obesity,35,chronic metabolic morbidity not acutely lethal,high
+Obesity; Insulin Resistance,35,chronic metabolic morbidity not acutely lethal,high
+Obsessive-compulsive Disorder,35,disabling psychiatric disorder not directly lethal,high
+Obstetrical Complications; Hemorrhage; Labor and Delivery,75,obstetric hemorrhage acutely life-threatening,high
+Open Heart Surgery,70,cardiac surgical setting high procedural mortality,med
+Operable HER2 Positive Breast Cancer,80,invasive breast cancer significant mortality untreated,high
+Opioid Use Disorder,60,addiction with high overdose mortality risk,high
+Oral SubMucous Fibrosis,40,premalignant fibrotic oral condition,med
+Organ Preservation in Rectal Cancer,80,rectal cancer high mortality untreated,high
+Oropharyngeal Cancer,85,head/neck cancer high mortality untreated,high
+Orthopedic Disorders,25,musculoskeletal morbidity not life-threatening,low
+Osteo Arthritis of the Knee,25,chronic joint pain and disability not lethal,high
+Osteoarthritis,25,chronic joint pain and disability not lethal,high
+Osteoarthrosis,25,chronic joint pain and disability not lethal,high
+Other Acute Postoperative Pain,8,acute self-limited postoperative pain,high
+"Outpatient Surgery; Pain, Postoperative",8,minor surgical postoperative pain,high
+Ovarian Cancer,88,ovarian cancer high mortality untreated,high
+Overactive Bladder (OAB); Pharmacokinetics of Mirabegron,18,bothersome bladder symptoms not life-threatening,high
+Overactive Bladder Syndrome,18,bothersome bladder symptoms not life-threatening,high
+Overactive Bladder; Urinary Incontinence,18,bothersome bladder symptoms not life-threatening,high
+Overweight; Autism Spectrum Disorder,25,metabolic and developmental morbidity not lethal,med
+PCOS,25,endocrine disorder with metabolic morbidity not lethal,high
+PCOS (Polycystic Ovary Syndrome) of Bilateral Ovaries,25,endocrine disorder with metabolic morbidity not lethal,high
+PDA,55,patent ductus arteriosus serious in neonates,med
+PPI Resistant Gastroesophageal Reflux Disease,18,chronic reflux symptoms not life-threatening,high
+PRK Post-operative Pain,8,self-limited postoperative ocular pain,high
+PTSD,40,disabling psychiatric disorder with suicide risk,high
+Pain,15,nonspecific pain not life-threatening,med
+Pain During Labour,15,acute labor pain not life-threatening,high
+Pain Management,15,nonspecific pain management not life-threatening,med
+Pain Management After Surgery,8,acute postoperative pain self-limited,high
+Pain Relief,15,nonspecific pain relief not life-threatening,med
+"Pain, Postoperative",8,acute postoperative pain self-limited,high
+"Pain, Postoperative; Tooth Diseases",8,postoperative dental pain self-limited,high
+Pain; Breast Cancer; Lung Cancer,88,underlying lung cancer high mortality untreated,high
+Pain; Hyperalgesia; Inflammatory Response,15,pain and inflammation not life-threatening,med
+Pain; Long-bone Fractures,20,fracture pain with injury morbidity not lethal,med
+Pain; Traumatic Limb Injury,25,traumatic injury with morbidity not typically lethal,med
+Painful Diabetic Neuropathy,30,chronic disabling neuropathic pain not lethal,high
+Painful Diabetic Peripheral Neuropathy (PDPN),30,chronic disabling neuropathic pain not lethal,high
+Pancreas Adenocarcinoma,95,rapidly fatal pancreatic cancer death in months,high
+Pancreatic Adenocarcinoma (Ductal Adenocarcinoma),95,rapidly fatal pancreatic cancer death in months,high
+Pancreatic Cancer,95,rapidly fatal pancreatic cancer death in months,high
+Parental/Caregiver Anxiety; Child's Anxiety,10,anxiety not life-threatening,med
+Parkinson Disease,55,progressive neurodegenerative disabling disease,high
+Parkinson' Disease,55,progressive neurodegenerative disabling disease,high
+Parkinson's Disease,55,progressive neurodegenerative disabling disease,high
+Paroxysmal Nocturnal Hemoglobinuria,80,life-threatening hemolysis and thrombosis untreated,high
+Partial Seizures,55,epilepsy with risk of status and SUDEP,high
+Participants With Diabetic Neuropathic Pain,30,chronic disabling neuropathic pain not lethal,high
+Participants With Extensive Stage Small Cell Lung Cancer,92,aggressive lung cancer rapidly fatal untreated,high
+Participants With Higher-Risk Myelodysplastic Syndrome,85,high-risk MDS progresses to AML high mortality,high
+Participants With Idiopathic Pulmonary Fibrosis,85,progressive fatal fibrotic lung disease,high
+Participants With Locally Advanced or Metastatic Triple-Negative Breast Cancer,90,metastatic aggressive breast cancer high mortality,high
+Patent Ductus Arteriosus,55,patent ductus arteriosus serious in neonates,med
+Patent Ductus Arteriosus After Premature Birth,60,PDA in preterm neonate serious with complications,med
+Patients Undergoing Surgery for Non-Small Cell Lung Cancer,88,lung cancer high mortality untreated,high
+Patients With Antiphospholipid Syndrome,70,thrombotic disorder with life-threatening events,high
+Patients With Moderate or Severe COVID-19,80,severe COVID-19 high mortality,high
+Patients With Resected Pancreatic Cancer,90,pancreatic cancer high mortality even after resection,high
+Patients With Rheumatoid Arthritis,55,chronic disabling systemic autoimmune disease,high
+Patients With Scleroderma Related Lung Fibrosis,82,progressive lung fibrosis high mortality,high
+Pediatric Asthma,40,chronic respiratory disease with acute fatal exacerbation risk,high
+Pediatric Bipolar Disorder,50,serious psychiatric disorder with suicide risk,med
+Pediatric Congestive Heart Failure (CHF) Patients With Volume Overload,80,heart failure high mortality untreated,high
+Pediatric Crohn's Disease,55,chronic disabling inflammatory bowel disease,high
+Pelvic Organ Prolapse; PONV,20,prolapse and nausea not life-threatening,med
+Pemphigus,65,serious autoimmune blistering disease potentially fatal untreated,high
+Pemphigus Vulgaris,70,potentially fatal autoimmune blistering disease untreated,high
+Pemphigus Vulgaris; Pemphigus Foliaceus,70,potentially fatal autoimmune blistering disease untreated,high
+Peptic Ulcer,35,ulcer disease with bleeding/perforation risk,high
+Peptic Ulcer Hemorrhage,70,acute GI hemorrhage life-threatening,high
+Peri-operative Hemorrhage or Hematoma; Surgery; Retrognathism,40,perioperative bleeding risk in surgical setting,med
+Perioperative Anxiety,8,procedural anxiety not life-threatening,high
+Perioperative Bleeding; Venous Thrombosis; Arterial Thrombosis,70,thrombosis and bleeding acutely life-threatening,high
+Peripheral Arterial Disease,55,vascular disease with limb-loss and cardiovascular mortality,high
+Peripheral Artery Disease,55,vascular disease with limb-loss and cardiovascular mortality,high
+Peripheral Artery Disease; Atherosclerosis; Occlusive Arterial Disease,55,vascular disease with limb-loss and cardiovascular mortality,high
+Peripheral Vertigo.,15,vertigo distressing but not life-threatening,high
+Peritoneal Cancer,88,peritoneal malignancy high mortality untreated,high
+Persistent Pregnancy of Unknown Location; Ectopic Pregnancy,80,ectopic pregnancy life-threatening rupture/hemorrhage,high
+Philadelphia Chromosome Positive (PH+) Chronic Myelogenous Leukemia in Chronic Phase (CML-CP),75,leukemia fatal untreated though chronic-phase indolent,high
+Phospholamban R14del Mutation-related Cardiomyopathy,80,inherited cardiomyopathy with arrhythmia and sudden death,high
+Placenta Previa,70,obstetric condition with life-threatening hemorrhage,high
+Placenta previa,70,obstetric condition with life-threatening hemorrhage,high
+"Plague, Bubonic; Plague, Pneumonic",95,plague rapidly fatal untreated especially pneumonic,high
+Plaque Psoriasis,35,chronic disabling skin disease with comorbidities,high
+Plasmodium Falciparum Infection,85,falciparum malaria rapidly fatal untreated,high
+Plasmodium falciparum malaria,85,falciparum malaria rapidly fatal untreated,high
+Platelet Inhibition; Coronary Stent Implantation,70,post-stent thrombosis risk life-threatening,high
+Platelet Reactivity,55,marker linked to thrombotic cardiovascular events,med
+Pleural Mesothelioma Malignant Advanced,92,advanced mesothelioma rapidly fatal untreated,high
+Pmm2-CDG; Phosphomannomutase 2 Deficiency; Congenital Disorder of Glycosylation,80,severe multisystem congenital disorder high mortality,med
+Pneumonia,65,infection potentially fatal especially severe cases,high
+"Pneumonia, Pneumocystis; Coronavirus; COVID-19",82,PCP and severe COVID-19 high mortality untreated,high
+"Polycystic Kidney, Autosomal Dominant",55,progressive renal disease leading to kidney failure,high
+Polycystic Ovary Syndrome,25,endocrine disorder with metabolic morbidity not lethal,high
+Polycystic Ovary Syndrome; Insulin Resistance,25,endocrine disorder with metabolic morbidity not lethal,high
+Polycystic Ovary Syndrome; Vitamin D Deficiency/Insufficiency,25,endocrine disorder with metabolic morbidity not lethal,high
+Polycythemia Vera,65,myeloproliferative disorder with thrombotic and leukemic risk,high
+Poor Glycemic Control,40,uncontrolled diabetes with long-term complications,high
+Portal Hypertension; Esophageal Varices; Liver Cirrhosis,82,cirrhosis with variceal hemorrhage high mortality,high
+Post Operative Cognitive Dysfunction,20,postoperative cognitive issue not life-threatening,med
+Post Operative Dental Pain,8,self-limited postoperative dental pain,high
+Post Operative Nausea and Vomiting; Sleeve Gastrectomy; Morbid Obesity,30,morbid obesity chronic morbidity with PONV symptoms,med
+Post Partum Haemorrhage,80,postpartum hemorrhage acutely life-threatening,high
+Post Partum Hemorrhage,80,postpartum hemorrhage acutely life-threatening,high
+Post Traumatic Stress Disorder,40,disabling psychiatric disorder with suicide risk,high
+Post Traumatic Stress Disorder; Alcohol Abuse,45,psychiatric disorder with substance abuse and suicide risk,high
+Post Uterine Artery Embolization Pain,10,self-limited procedural pain,high
+Post-ERCP Acute Pancreatitis,60,acute pancreatitis can be severe and life-threatening,high
+Post-Operative Pain,8,acute postoperative pain self-limited,high
+Post-Sternotomy Pain,12,postoperative cardiac surgery pain self-limited,high
+Post-Surgical Ocular Pain; Post-Surgical Ocular Inflammation,10,self-limited postoperative ocular pain and inflammation,high
+Post-Traumatic Headache,15,headache distressing but not life-threatening,high
+Post-cesarean pain,8,acute postoperative pain self-limited,high
+Post-herpetic Neuralgia,25,chronic neuropathic pain not life-threatening,high
+Post-operative Pain,8,acute postoperative pain self-limited,high
+Post-surgical Pain,8,acute postoperative pain self-limited,high
+Postmenopausal Cancer,82,active malignancy high mortality untreated,med
+Postoperative Confusion,20,postoperative delirium usually transient,med
+Postoperative Depression,30,depression with suicide risk not acutely lethal,med
+Postoperative Nausea and Vomiting,10,distressing but not life-threatening,high
+Postoperative Nausea and Vomiting; Vomiting,10,distressing but not life-threatening,high
+Postoperative Pain,8,acute postoperative pain self-limited,high
+Postoperative Retention of Urine,15,transient urinary retention not life-threatening,high
+Postoperative Urinary Retention,15,transient urinary retention not life-threatening,high
+Postpartum Hemorrhage; Tranexamic Acid,80,postpartum hemorrhage acutely life-threatening,high
+Postprandial Hypoglycemia,30,hypoglycemia can be dangerous but usually manageable,med
+Pre- and Postoperative Pain,8,acute perioperative pain self-limited,high
+Pre-Eclampsia,80,pregnancy disorder with maternal-fetal mortality risk,high
+Pre-eclampsia,80,pregnancy disorder with maternal-fetal mortality risk,high
+Pre-eclampsia; Fetus or Newborn; Effects of Induction of Labor,80,pre-eclampsia with maternal-fetal mortality risk,high
+Pre-frail Elderly,25,frailty with increased morbidity not acutely lethal,med
+Prediabetes; Type 2 Diabetes,40,chronic metabolic disease with long-term complications,high
+Pregnancy Related; COVID; Covid-19,75,COVID-19 in pregnancy elevated maternal-fetal risk,high
+"Pregnancy, Unwanted",20,reproductive setting not a severe disease,med
+Pregnancy; Respiratory Distress Syndrome; Pregnancy Outcomes; Preterm Birth,80,neonatal RDS and preterm birth high mortality risk,high
+Preoperative Sedation,8,procedural sedation setting not severe disease,high
+Preterm Birth; Twin Dichorionic Diamniotic Placenta,75,preterm birth with neonatal mortality risk,high
+Preterm premature rupture of membranes,70,PPROM with preterm birth and infection mortality risk,high
+Prevention,15,nonspecific prevention setting not severe disease,low
+Prevention & Control,15,nonspecific prevention setting not severe disease,low
+Prevention of Cytomegalovirus Infection,65,CMV infection serious in immunocompromised,high
+Prevention of Graft-versus-Host Disease,80,GVHD high mortality in transplant patients,high
+Prevention of Ovarian Hyperstimulation Syndrome,50,OHSS can be severe and life-threatening,med
+Prevention of Pain,12,pain prevention setting not severe disease,med
+Previously Treated Chronic Lymphocytic Leukemia,72,leukemia fatal untreated though often indolent,high
+Previously Untreated Chronic Lymphocytic Leukemia,70,leukemia fatal untreated though often indolent,high
+Primary Biliary Cholangitis,65,progressive cholestatic liver disease toward cirrhosis,high
+Primary Breast Cancer,80,invasive breast cancer significant mortality untreated,high
+Primary Dysmenorrhoea,12,painful menstruation not life-threatening,high
+Primary Hyperlipidemia and Mixed Dyslipidemia,38,chronic CV risk factor not acutely lethal,high
+"Primary MDS (Very Low, Low or Intermediate IPSS-R With <5% Blasts); Anemia",62,low-risk myelodysplasia with cytopenias progression risk,high
+Primary Mitochondrial Myopathy,60,progressive disabling multisystem disease,med
+Primary Myelofibrosis (MF),78,clonal marrow failure shortened survival,high
+Primary Myelofibrosis; MPN-associated Myelofibrosis,78,clonal marrow failure shortened survival,high
+Primary Myelofibrosis; Post-Polycythemia Vera Myelofibrosis; Post-Essential Thrombocythemia Myelofibrosis,78,clonal marrow failure shortened survival,high
+Primary Myelofibrosis; Post-polycythemia Vera Myelofibrosis; Post-essential Thrombocythemia Myelofibrosis,78,clonal marrow failure shortened survival,high
+Primary Peritoneal Cancer,90,aggressive advanced abdominal malignancy,high
+Primary Sclerosing Cholangitis,72,progressive cholestatic liver disease to cirrhosis,high
+Procedural Pain,8,transient procedural discomfort not life-threatening,high
+Procedural Sedation and Analgesia,12,procedural setting moderate monitored risk,med
+Prostate Cancer,72,malignancy variable lethality,high
+Prostate Cancer Metastatic,88,metastatic incurable malignancy,high
+Prostate Cancer; Castration Resistant Prostate Cancer; Pain; Prostatic Neoplasms,88,castration-resistant metastatic malignancy,high
+Prostrate Cancer,72,malignancy variable lethality,high
+Proteinuria,40,marker of progressive renal damage,med
+Psoriasis,45,chronic disabling inflammatory skin disease,high
+Psoriasis Vulgaris,45,chronic disabling inflammatory skin disease,high
+Psoriatic Arthritis,55,progressive erosive inflammatory arthritis,high
+Psychomotor Agitation,35,acute distressing state variable cause,med
+Psychotic Disorders; Personality Disorders; Clinical High Risk,58,serious psychiatric morbidity and suicide risk,med
+Pulmonary Arterial Hypertension,80,progressive fatal right heart failure,high
+Pulmonary Arterial Hypertension; Chronic Thromboembolic Pulmonary Hypertension,80,progressive fatal pulmonary vascular disease,high
+Pulmonary Arterial Hypertension; Pulmonary Hypertension,80,progressive fatal right heart failure,high
+Pulmonary Embolism,78,acute potentially fatal vascular occlusion,high
+Pulpitis,8,painful dental inflammation not life-threatening,high
+Purpura; Idiopathic Thrombocytopenic Purpura,50,bleeding risk from low platelets,med
+Quality of Bowel Preparation for the Colon Capsule; Colon Capsule Completion Rates; Colon Capsule Polyp Detection,6,procedural screening preparation benign setting,high
+Radiotherapy; Toripalimab; Sorafenib; Advanced Hepatocellular Carcinoma,90,advanced liver malignancy poor survival,high
+Rapid Atrial Fibrillation; Heart Rate Control,55,arrhythmia with hemodynamic and stroke risk,med
+Recurrent Waldenstrom Macroglobulinemia; Refractory Waldenstrom Macroglobulinemia; Waldenstrom Macroglobulinemia,80,relapsed refractory indolent lymphoma,high
+Recurrent or Metastatic Head and Neck Cancer,90,metastatic incurable malignancy,high
+Recurrent urinary tract infections,25,recurrent infection rarely life-threatening,high
+Reducing Psychological Side Effects of Ketamine,10,managing drug side effects benign setting,med
+Reduction of Gestational Diabetes,40,pregnancy metabolic condition manageable,med
+Reflux Esophagitis,22,bothersome chronic mucosal injury,high
+Refractory Cancer,92,treatment-refractory advanced malignancy,high
+Refractory Chronic Leukemia,85,refractory hematologic malignancy,high
+Refractory Colorectal Cancer,90,refractory metastatic malignancy,high
+Relapse Prevention in Adult Participants With Treatment-resistant Depression,55,severe refractory depression suicide risk,med
+Relapsed Prostate Cancer,85,relapsed advanced malignancy,high
+Renal Cell Carcinoma (RCC),80,malignancy potentially metastatic,high
+Renal Colic,18,acute severe pain self-limited,high
+Renal Failure; Critical Care; Gram Positive Bacteria,82,critical illness with organ failure and sepsis,high
+Renal Function After Partial Nephrectomy,30,post-surgical renal preservation context,med
+Renal Insufficiency,55,progressive organ dysfunction,med
+"Renal Insufficiency, Chronic",58,progressive chronic kidney disease,high
+Respiratory Infection,40,infection variable severity,med
+Rheumatoid Arthritis,58,progressive disabling systemic autoimmune disease,high
+Rhinosinusitis,18,common mostly self-limited inflammation,high
+Richter's Transformation,92,aggressive transformed lymphoma poor prognosis,high
+Risk of Disease,30,nonspecific risk state,low
+Roux en Y Gastric Bypass Surgery,35,bariatric surgery for severe obesity,med
+SARS-CoV-2,55,viral infection variable severity,med
+SARS-CoV-2 Infection,55,viral infection variable severity,med
+SCLC,90,aggressive small cell lung cancer poor survival,high
+ST Elevation Myocardial Infarction,82,acute life-threatening myocardial necrosis,high
+ST Segment Elevation Myocardial Infarction,82,acute life-threatening myocardial necrosis,high
+Schizoaffective and Schizophreniform Disorders; Schizophrenia,62,chronic severe psychosis with suicide and mortality risk,high
+Schizophrenia,62,chronic severe psychosis with suicide and mortality risk,high
+Schizophrenia; Medication Nonadherence; Schizo Affective Disorder,62,chronic severe psychosis with mortality risk,high
+Schizophrenia; Schizoaffective Disorder,62,chronic severe psychosis with mortality risk,high
+Schizophrenia; Schizoaffective Disorder; Schizophreniform Disorder; Psychosis NOS,62,chronic severe psychosis with mortality risk,high
+Schizophrenia; Schizoaffective Disorder; Schizophreniform Disorders,62,chronic severe psychosis with mortality risk,high
+Schizophrenia; Schizophreniform Disorders; Bipolar I Disorder,62,chronic severe psychiatric illness suicide risk,high
+Scoliosis; Adolescence; Anesthesia Recovery Period,25,corrective surgery context moderate risk,med
+Seborrheic Dermatitis; Papulopustular Rosacea,8,benign chronic skin conditions,high
+Secondary Cancer,82,malignancy variable lethality,med
+"Secondary Hyperparathyroidism, Chronic Kidney Disease",55,CKD complication progressive morbidity,high
+Secondary Hyperparathyroidism-Chronic Kidney Disease,55,CKD complication progressive morbidity,high
+Secondary Hyperparathyroidism; Chronic Kidney Disease,55,CKD complication progressive morbidity,high
+Sedation in Intensive Care,40,critical care setting moderate-high acuity,med
+Sedation or Anesthesia,15,procedural setting monitored risk,med
+Sepsis,82,life-threatening organ dysfunction from infection,high
+Sepsis; Septic Shock,85,life-threatening shock high mortality,high
+Septic Shock,85,life-threatening shock high mortality,high
+Septic Shock; Sepsis,85,life-threatening shock high mortality,high
+Septic Shock; Vasopressor Resistance,88,refractory shock very high mortality,high
+Severe COVID-19 Pulmonary Infection,82,severe respiratory failure high mortality,high
+Severe Cancer,90,advanced severe malignancy,med
+Shivering,6,transient benign symptom,high
+Shoulder Arthritis,15,chronic joint pain not life-threatening,high
+Sickle Cell Anemia,65,chronic disease with crises and organ damage shortened survival,high
+Sickle Cell Anemia in Children,65,chronic disease with crises and organ damage,high
+Sickle Cell Anemia; Sickle Cell Disease; Malaria,68,sickle disease plus potentially fatal malaria,high
+Sickle Cell Disease,65,chronic disease with crises and organ damage shortened survival,high
+Sickle Cell Disease; Sickle Cell Anemia,65,chronic disease with crises and organ damage,high
+Skin Structures and Soft Tissue Infections,42,infection variable severity can be serious,med
+Skin and Subcutaneous Tissue Bacterial Infections,42,infection variable severity can be serious,med
+Skin and Subcutaneous Tissue Bacterial Infections; Skin Structures and Soft Tissue Infections,42,infection variable severity can be serious,med
+Sleep Disorder,15,bothersome not life-threatening,high
+Smoking Among Cancer,30,behavioral risk factor in cancer context,low
+Smoking Cessation,25,behavioral risk reduction not acute,high
+Solid Tumors,85,advanced solid malignancies,high
+Sore Throat,5,benign self-limited symptom,high
+Spinal Fusion,28,major surgery for spinal pathology,med
+Spinal anesthesia-induced hypotension,20,procedural hemodynamic effect manageable,med
+"Spondylitis, Ankylosing",52,progressive disabling inflammatory spondyloarthritis,high
+Squamous Cell Carcinoma of the Head and Neck,85,locally aggressive malignancy,high
+Squamous Cell Lung and Head and Neck Cancer,88,aggressive malignancies poor survival,high
+Staphylococcus Aureus Bacteremia,82,bloodstream infection high mortality,high
+Status Epilepticus,82,acute prolonged seizures life-threatening,high
+Status Epilepticus; Epilepsy,82,acute prolonged seizures life-threatening,high
+"Stent Thrombosis; Myocardial Infarction, Acute",82,acute life-threatening coronary event,high
+Steroid Refractory GVHD,85,refractory graft-versus-host disease high mortality,high
+Steroid-Dependent Nephrotic Syndrome,50,chronic renal disease with relapses,med
+Stomach Neoplasms,85,gastric malignancy poor prognosis,high
+Stress Ulcer Prophylaxis,40,prophylaxis in critically ill setting,med
+Stroke,80,acute potentially fatal disabling event,high
+Stroke; Secondary Prevention,60,prevention after disabling vascular event,high
+Subfertility,8,reproductive condition not life-threatening,high
+Subjects Who Have Participated in a Study of Tivozanib Versus Sorafenib in Kidney Carcinoma,80,renal cell carcinoma malignancy context,med
+Subjects With Idiopathic Pulmonary Fibrosis,82,progressive fatal fibrotic lung disease,high
+Subjects With Platinum Resistant Ovarian Cancer,90,platinum-resistant advanced malignancy poor survival,high
+Superficial Vein Thrombosis,25,usually benign self-limited thrombosis,high
+Surgically Resected Pancreatic Cancer,85,resected aggressive malignancy high recurrence,high
+Symptomatic Aortic Stenosis; Eligible for Transcatheter Aortic Valve Replacement,80,symptomatic valve disease high untreated mortality,high
+Symptomatic Superficial Vein Thrombosis,25,usually benign self-limited thrombosis,high
+Systemic Lupus Erythematosus,65,multisystem autoimmune disease organ-threatening,high
+Systemic Sclerosis,70,multisystem fibrotic disease organ failure,high
+Systemic Sclerosis; Scleroderma; Interstitial Lung Disease,75,fibrotic disease with fatal lung involvement,high
+T2DM; Type 2 Diabetes Mellitus,40,chronic manageable metabolic disease,high
+TSH Control in Patients With Chronic Kidney Disease,45,thyroid management in CKD context,med
+Tardive Dyskinesia,30,chronic disabling movement disorder,high
+Thalassemia; Iron Overload,60,transfusion-dependent anemia with organ iron damage,high
+Therapy of Premature Ventricular Contractions in Patients With Structural Heart Disease,60,arrhythmia in structural heart disease arrhythmic risk,med
+Thrombocytopenia,45,low platelets bleeding risk variable cause,med
+Thrombocytopenia in Patients With Chronic Liver Disease,55,bleeding risk in cirrhosis context,high
+Thrombocytopenia; Hematologic Diseases,50,bleeding risk variable hematologic cause,med
+Thromboembolism,72,potentially fatal vascular occlusion,high
+Thrombosis,68,potentially fatal vascular occlusion,high
+Thyroid Cancer,60,malignancy often indolent good prognosis,high
+Thyroid-associated Ophthalmopathy; Dry Eye Syndrome,30,disfiguring vision-threatening orbital disease,med
+Thyroidectomy; Thyroid Diseases,35,surgical thyroid disease context,med
+Total Blood Loss,40,perioperative bleeding management,med
+Total Knee Arthoplasty,18,elective joint surgery for arthritis,high
+Tourette Syndrome,25,chronic neuropsychiatric disorder not lethal,high
+Tract Cancer,82,malignancy variable lethality,low
+Tract Carcinoma,82,malignancy variable lethality,low
+Tranexamic Acid,30,non-disease drug-name string bleeding context,low
+Transfusion-dependent Beta-Thalassemia,62,transfusion-dependent anemia with iron overload,high
+Transient Ischemic Attack; Stroke; Atrial Fibrillation,80,stroke risk acute disabling vascular event,high
+Transplantation Infection; Cytomegalovirus Infections,68,opportunistic infection in immunocompromised host,high
+Trauma Pain,18,acute pain from injury self-limited,med
+Traumatic Brain Injury,82,acute potentially fatal disabling injury,high
+Traumatic Femur Fracture,40,major fracture with bleeding and complication risk,med
+Traumatic Hemorrhage,85,acute life-threatening blood loss,high
+Traveler's Diarrhea,12,self-limited gastrointestinal infection,high
+Treat Cancer,85,malignancy variable lethality,low
+Treatment Resistant Depression,55,severe refractory depression suicide risk,high
+Treatment Resistant Late-Life Depression,55,severe refractory depression suicide risk,high
+Treatment of Acute Pain,12,acute pain self-limited,high
+Treatment of Chronic Hepatitis C Infection,58,chronic infection progressing to cirrhosis,high
+Treatment of Graft-Versus-Host Disease,82,serious post-transplant complication high mortality,high
+Treatment of Major Depressive Disorder,45,depression with suicide risk variable severity,high
+Treatment of Ocular Inflammation and Pain,18,ocular inflammation manageable not lethal,med
+Treatment of Patients With Recurrent or Metastatic Squamous Cell Carcinoma,90,metastatic incurable malignancy,high
+Treatment of Type 2 Diabetes,40,chronic manageable metabolic disease,high
+Treatment of the Depressive Episode in Participants With Bipolar I Disorder,55,bipolar depression with high suicide risk,high
+Treatment-resistant Depression,55,severe refractory depression suicide risk,high
+Tricuspid Regurgitation; Right Ventricular Dilatation,62,progressive valve disease right heart failure,med
+Triple Negative Breast Cancer,85,aggressive malignancy poor prognosis,high
+Triple-Negative Breast Neoplasms; Breast Neoplasm; Breast Cancer; Triple-Negative Breast Cancer,85,aggressive malignancy poor prognosis,high
+"Trypanosomiasis, African; Sleeping Sickness; Trypanosomiasis; Gambian",92,untreated almost uniformly fatal parasitic disease,high
+Tube Cancer,82,malignancy variable lethality,low
+Tuberculosis,68,serious infection fatal if untreated,high
+"Tuberculosis, Multidrug-Resistant; Infection, Bacterial; Pulmonary Tuberculoses",80,drug-resistant TB high mortality,high
+"Tuberculosis, Pulmonary, Drug Sensitive; Tuberculosis, Pulmonary, Multi Drug-resistant",80,drug-resistant TB high mortality,high
+Tuberculosis; HIV,78,TB-HIV coinfection high mortality,high
+Tuberculosis; Respiratory Tract Infections; Pneumonia,70,serious respiratory infections,high
+Tuberculosis; Tuberculous Meningitis; Drug-Induced Liver Injury,88,TB meningitis high mortality and disability,high
+Tuberculosis; Tuberculous Meningitis; Drug-Induced Liver Injury; HIV; IRIS,88,TB meningitis with HIV high mortality,high
+Tumor Lysis Syndrome,80,acute life-threatening metabolic emergency,high
+Type 1 Diabetes,55,chronic disease with acute and long-term lethal complications,high
+Type 1 Diabetes Mellitus,55,chronic disease with acute and long-term lethal complications,high
+Type 2 DIAbetes,40,chronic manageable metabolic disease,high
+Type 2 DiAbetes Mellitus,40,chronic manageable metabolic disease,high
+Type 2 Diabetes,40,chronic manageable metabolic disease,high
+Type 2 Diabetes Mellitus,40,chronic manageable metabolic disease,high
+Type 2 Diabetes Mellitus (T2DM),40,chronic manageable metabolic disease,high
+Type 2 Diabetic Patients,40,chronic manageable metabolic disease,high
+Type II Diabetes Mellitus,40,chronic manageable metabolic disease,high
+Type II; Diabetes,40,chronic manageable metabolic disease,high
+Type1 Diabetes Mellitus,55,chronic disease with acute and long-term lethal complications,high
+Type2 Diabetes Mellitus,40,chronic manageable metabolic disease,high
+Ulcerative Colitis,58,chronic relapsing inflammatory bowel disease with morbidity and cancer/colectomy risk,high
+Uncomplicated Knowlesi Malaria,62,malaria that can progress to severe disease and death if untreated,med
+Uncomplicated Urinary Tract Infection,22,common self-limited infection rarely fatal if uncomplicated,high
+Unexplained Infertility,12,non-life-threatening reproductive condition,high
+"Unspecified Adult Solid Tumor, Protocol Specific",88,active solid tumor malignancy with high mortality,med
+Untreated Patients With Follicular Lymphoma,72,indolent but incurable lymphoma that is ultimately life-shortening,high
+Upper Gastrointestinal Bleeding,80,acute hemorrhage with significant mortality risk,high
+Urinary Bladder Neoplasms,78,bladder cancer with substantial mortality if untreated,high
+Urinary Bladder Overactive; Overactive Bladder; Urgency Incontinence; Urinary Bladder Diseases\Urologic Diseases,18,bothersome non-life-threatening urinary symptoms,high
+Urinary Bladder Overactive; Urinary Bladder Diseases\Urologic Diseases; Overactive Bladder; Urgency Incontinence,18,bothersome non-life-threatening urinary symptoms,high
+Urinary Retention; Urinary Tract Infections,30,urinary obstruction and infection rarely fatal but can cause complications,med
+Urinary Symptoms in Parkinson Disease,40,disabling symptoms of a progressive neurodegenerative disease,med
+Urinary Tract Infection Complicated; Acute Pyelonephritis,55,kidney infection that can progress to sepsis if untreated,high
+Urinary Tract Infections,22,common self-limited infection rarely fatal,high
+Urinary Tract Infections; Acute Pyelonephritis,55,kidney infection with risk of progression to urosepsis,high
+Urologic Diseases; Hypospadias; Undescended Testes; Chordee; Hydrocele; Orchiectomy,15,congenital/structural urologic conditions not life-threatening,med
+"Urologic Diseases; Urinary Bladder, Overactive; Urinary Bladder Diseases",18,bothersome non-life-threatening urinary symptoms,high
+Urothelial Carcinoma,80,urinary tract cancer with high mortality if advanced,high
+Use in Conjunction With Buprenorphine in Adults With Opioid Use Disorder,55,opioid use disorder with substantial overdose mortality risk,med
+Uterine Myomas,20,benign uterine tumors causing morbidity but not fatal,high
+Uveitis,40,ocular inflammation threatening vision but not life,high
+Vaginal Cancer,82,gynecologic malignancy with high mortality if untreated,high
+Vaginal Infection,12,localized infection self-limited and non-fatal,high
+Vasculitis,68,systemic inflammatory disease with organ damage and mortality risk,med
+Vasomotor Symptoms; Menopausal Symptoms,12,bothersome non-life-threatening menopausal symptoms,high
+Vasoplegic syndrome,82,acute critical vasodilatory shock with high mortality,med
+Venous Thromboembolism,75,clotting disorder with risk of fatal pulmonary embolism,high
+Venous Thromboembolism (VTE); Deep Vein Thrombosis (DVT); Pulmonary Embolism (PE); Cancer,85,cancer-associated thrombosis with high mortality from both,high
+Venous Thromboembolism (VTE); Pulmonary Embolism; Deep Vein Thrombosis (DVT),76,thromboembolism with risk of fatal pulmonary embolism,high
+Venous Thromboembolism; Secondary Prevention,72,prevention of potentially fatal recurrent thromboembolism,high
+Ventilator-associated Bacterial Pneumonia,82,severe nosocomial pneumonia with high mortality in critically ill,high
+Ventricular Septal Defect; Atrioventricular Septal Defect; Primum Atrial Septal Defect,65,congenital cardiac defects with risk of heart failure and death,med
+Vertigo,15,bothersome symptom usually non-life-threatening,high
+Vertigo; Autonomic Dysfunction,30,vertigo with autonomic dysfunction causing morbidity,low
+"Very Low Risk, Low Risk, or Intermediate Risk MDS Per IPSS-R",70,myelodysplastic syndrome with risk of progression to leukemia and cytopenias,med
+Visceral Leishmaniasis,88,parasitic disease nearly always fatal if untreated,high
+Vitiligo,8,benign cosmetic pigmentation disorder,high
+Vivax Malaria,60,malaria with relapse and risk of severe disease,med
+Vomiting Postoperative,8,self-limited postoperative symptom,high
+"Vomiting, Postoperative; Postoperative Complications; Hypotension",35,postoperative complications including hypotension with some risk,med
+Von Hippel-Lindau Syndrome,72,hereditary tumor syndrome with multiple malignancies and mortality,med
+Vulvovaginal Atrophy; Menopause; Dyspareunia; Painful Intercourse,10,bothersome non-life-threatening menopausal symptoms,high
+Vulvovaginal Candidiasis,8,common self-limited fungal infection,high
+Waldenstrom's Macroglobulinemia,72,incurable lymphoplasmacytic lymphoma that is life-shortening,high
+Waldenström's Macroglobulinemia,72,incurable lymphoplasmacytic lymphoma that is life-shortening,high
+With Cancer,85,active malignancy with high mortality,low
+With Leukemia,90,acute leukemia rapidly fatal if untreated,med
+With Melanoma,82,melanoma with high mortality if advanced,med
+With Sarcoma,82,sarcoma malignancy with high mortality if untreated,med
+Withdrawal Syndrome,40,substance withdrawal that can be dangerous in severe cases,med
+Women and Men With Hormone-receptor Positive Locally Advanced or Metastatic Breast Cancer,88,metastatic breast cancer with high mortality,high
+Wounds and Injuries; Acute Coagulopathy,80,acute traumatic coagulopathy with high mortality risk,med
+Your Cancer,85,active malignancy with high mortality,low
+acne,8,benign self-limited skin condition,high
+acne vulgaris,8,benign self-limited skin condition,high
+actinic keratosis,18,premalignant skin lesion with low progression risk,high
+acute malnutrition,70,severe malnutrition with high mortality especially in children,med
+acute pharyngitis,10,common self-limited throat infection,high
+acute respiratory distress syndrome,95,life-threatening respiratory failure with very high mortality,high
+adenovirus infection,30,usually self-limited but can be severe in immunocompromised,med
+alcohol dependence,48,chronic addiction with substantial morbidity and mortality,med
+alcohol use disorder,48,chronic addiction with substantial morbidity and mortality,med
+alcohol use disorder measurement,48,chronic addiction with substantial morbidity and mortality,low
+allergic conjunctivitis,8,benign self-limited ocular allergy,high
+allergic rhinitis,8,bothersome non-life-threatening allergy,high
+alopecia,6,benign cosmetic hair loss,high
+amyotrophic lateral sclerosis,95,rapidly progressive fatal neurodegeneration,high
+androgenetic alopecia,6,benign cosmetic hair loss,high
+anemia,40,reduced oxygen-carrying capacity with morbidity varying by severity,med
+anemia of chronic kidney disease,48,anemia complicating progressive kidney disease,med
+ankle sprain,5,benign self-limited musculoskeletal injury,high
+ankylosing spondylitis,52,chronic disabling inflammatory spondyloarthritis,high
+arrhythmia,62,cardiac rhythm disorder with risk of sudden death,med
+aspergillosis,78,invasive fungal infection with high mortality in susceptible hosts,med
+asthma,42,chronic airway disease usually manageable but can be fatal,high
+atopic dermatitis,20,chronic itchy skin condition with morbidity not mortality,high
+atrial fibrillation,55,arrhythmia with stroke and heart failure risk,high
+attention deficit hyperactivity disorder,22,chronic neurodevelopmental disorder with functional impairment,high
+autism spectrum disorder,20,neurodevelopmental disorder with functional impairment,med
+autosomal dominant polycystic kidney disease,62,progressive kidney disease leading to renal failure,high
+bacterial infection,50,infection severity varies but can be life-threatening,med
+bacterial pneumonia,72,lung infection with significant mortality especially in vulnerable,high
+binge eating disorder,22,eating disorder with morbidity not typically fatal,med
+bipolar I disorder,52,severe mood disorder with suicide risk,high
+bipolar disorder,52,mood disorder with suicide risk,high
+blepharitis,6,benign eyelid inflammation,high
+breast cancer,80,common cancer with high mortality if untreated or advanced,high
+bronchiectasis,50,chronic lung disease with progressive morbidity,med
+cancer,85,malignancy with high mortality,med
+cannabis use disorder,25,substance use disorder with morbidity not typically fatal,med
+capillary infantile hemangioma,20,benign vascular tumor occasionally complicated,med
+cardiac arrest,95,immediately life-threatening cessation of circulation,high
+cardiomyopathy,75,heart muscle disease leading to heart failure and death,high
+cardiorenal syndrome,80,combined cardiac and renal failure with high mortality,med
+cardiovascular disease,68,leading cause of mortality varying by severity,med
+cataract,10,vision impairment correctable not life-threatening,high
+cell Lymphoma,80,lymphoid malignancy with high mortality if untreated,low
+cervical intraepithelial neoplasia,28,premalignant cervical lesion with progression risk,high
+cervical ripening,8,obstetric procedural setting not a severe disease,med
+cervical spondylotic myelopathy,48,progressive spinal cord compression with disability,med
+chronic cough,12,bothersome symptom usually non-life-threatening,high
+chronic hepatitis B virus infection,62,chronic infection with cirrhosis and liver cancer risk,high
+chronic hepatitis C virus infection,62,chronic infection with cirrhosis and liver cancer risk,high
+chronic idiopathic constipation,12,bothersome non-life-threatening GI condition,high
+chronic inflammatory demyelinating polyradiculoneuropathy,55,progressive disabling autoimmune neuropathy,med
+chronic kidney disease,62,progressive kidney disease leading to renal failure,high
+chronic migraine,22,disabling but non-life-threatening headache disorder,high
+chronic obstructive pulmonary disease,60,progressive life-shortening lung disease,high
+chronic rhinosinusitis with nasal polyps,18,chronic bothersome sinonasal disease not fatal,high
+chronic venous disease,18,chronic venous insufficiency with morbidity not mortality,high
+cocaine dependence,40,addiction with substantial morbidity and overdose risk,med
+colorectal cancer,82,common cancer with high mortality if untreated,high
+colorectal carcinoma,82,common cancer with high mortality if untreated,high
+combined generalized and focal epilepsy,60,seizure disorder with risk of injury and sudden death,high
+complicated intra-abdominal infection,75,serious infection with sepsis and mortality risk,high
+complicated urinary tract infection,52,UTI with complications and risk of urosepsis,high
+congenital heart disease,68,structural heart defects with mortality risk,med
+congestive heart failure,80,progressive cardiac failure with high mortality,high
+constipation,8,benign self-limited GI symptom,high
+contraception,5,preventive non-disease reproductive setting,high
+coronary artery bypass,72,surgical setting for serious coronary disease,med
+coronary artery disease,68,atherosclerotic disease with risk of MI and death,high
+critical illness,90,acutely life-threatening multi-organ illness,med
+cutaneous Leishmaniasis,30,parasitic skin disease usually non-fatal but disfiguring,med
+cystic fibrosis,68,progressive life-shortening genetic lung disease,high
+cytomegalovirus infection,55,can be severe and fatal in immunocompromised hosts,med
+delirium,45,acute confusional state associated with high mortality in ill patients,med
+depressive disorder,40,mood disorder with suicide risk,high
+diabeTes,42,chronic metabolic disease with manageable but serious complications,high
+diabetes,42,chronic metabolic disease with manageable but serious complications,high
+diabetes Mellitus,42,chronic metabolic disease with manageable but serious complications,high
+diabetes mellitus,42,chronic metabolic disease with manageable but serious complications,high
+diabetic foot infection,60,infection with risk of amputation and sepsis,med
+diabetic foot ulcer,50,chronic wound with risk of amputation and infection,med
+diabetic macular edema,30,vision-threatening complication not life-threatening,high
+diabetic nephropathy,58,progressive kidney damage leading to renal failure,high
+diabetic neuropathy,30,disabling nerve damage with morbidity not mortality,high
+drug-resistant epilepsy,65,refractory seizures with risk of injury and sudden death,high
+drug-resistant focal epilepsy,65,refractory seizures with risk of injury and sudden death,high
+dry eye syndrome,8,bothersome ocular surface condition not fatal,high
+dysuria,10,painful urination symptom usually non-fatal,high
+end-stage kidney disease,75,renal failure requiring dialysis with high mortality,high
+endometrial hyperplasia,25,premalignant endometrial condition with progression risk,med
+epidermolysis bullosa,62,severe blistering genetic disease with serious morbidity and mortality,med
+epilepsy,58,seizure disorder with risk of injury and sudden death,high
+episodic migraine,18,disabling but non-life-threatening headache,high
+erectile dysfunction,8,non-life-threatening quality-of-life condition,high
+erythropoietic protoporphyria,30,rare photosensitivity disorder with morbidity,med
+essential hypertension,42,chronic disease with serious cardiovascular complications,high
+excessive daytime sleepiness,18,symptom causing impairment not typically fatal,med
+extramammary Paget disease,45,rare cutaneous malignancy usually slow-growing,med
+facial angiofibroma,12,benign cutaneous tumors associated with TSC,med
+fasciculation,10,benign muscle twitching symptom,med
+fecal incontinence,15,distressing condition with morbidity not mortality,high
+fibrodysplasia ossificans progressiva,75,progressive disabling ossification with shortened lifespan,med
+fibromyalgia,15,chronic pain condition with morbidity not mortality,high
+filariasis,35,parasitic disease causing disability rarely directly fatal,med
+fluid overload,55,volume overload that can precipitate cardiac/respiratory failure,med
+focal epilepsy,58,seizure disorder with risk of injury and sudden death,high
+for Cancer,85,active malignancy with high mortality,low
+functional constipation,8,benign self-limited GI symptom,high
+gastric adenocarcinoma,85,stomach cancer with high mortality,high
+gastric cancer,85,stomach cancer with high mortality,high
+gastroesophageal reflux disease,15,common bothersome condition not typically fatal,high
+generalized anxiety disorder,18,chronic anxiety disorder with morbidity not mortality,high
+generalized tonic-clonic seizures,62,seizures with risk of injury and sudden death,high
+genital herpes,12,chronic recurrent viral infection not life-threatening,high
+giant cell arteritis,62,vasculitis with risk of blindness and stroke,high
+glioblastoma multiforme,95,rapidly fatal aggressive brain cancer,high
+gonorrhea,22,bacterial STI with complications if untreated,high
+gout,18,painful inflammatory arthritis with morbidity not mortality,high
+gram-positive bacterial infections,55,bacterial infections with variable severity,med
+growth hormone deficiency,25,endocrine deficiency with developmental/metabolic impact,med
+heart failure,80,progressive cardiac failure with high mortality,high
+heart failure with reduced ejection fraction,80,progressive cardiac failure with high mortality,high
+heart transplant rejection,88,life-threatening graft rejection with high mortality,high
+helminth infection,30,parasitic worm infection usually non-fatal but morbid,med
+hemangioma,15,benign vascular tumor usually non-threatening,med
+hemodynamic instability,80,acute circulatory compromise with high mortality risk,med
+hemophagocytic lymphohistiocytosis,90,hyperinflammatory syndrome rapidly fatal if untreated,high
+hepatic encephalopathy,75,neuropsychiatric complication of liver failure with high mortality,high
+hepatitis C virus infection,60,chronic infection with cirrhosis and liver cancer risk,high
+hip fracture,55,fracture with high mortality in elderly from complications,high
+hot flashes,8,bothersome menopausal symptom not life-threatening,high
+huntington disease,80,progressive fatal neurodegenerative disease,high
+hyperemesis gravidarum,35,severe pregnancy vomiting with dehydration/weight loss rarely fatal,med
+hyperhidrosis,8,benign excessive sweating not life-threatening,high
+hyperlipidemia,40,chronic cardiovascular risk factor,high
+hyperphosphatemia,45,chronic mineral disorder of renal failure raising mortality,med
+hypertension,40,chronic cardiovascular risk factor,high
+hypertrophic cardiomyopathy,70,risk of sudden cardiac death and heart failure,high
+hyperuricemia,25,gout/metabolic morbidity rarely fatal,high
+hypotension,40,low blood pressure can cause shock in acute settings,med
+idiopathic hypersomnia,15,chronic excessive sleepiness disabling not fatal,high
+immune thrombocytopenia,50,low platelets with bleeding/hemorrhage risk,high
+impetigo,8,superficial self-limited bacterial skin infection,high
+in Cancer,85,malignancy with high mortality,low
+infection,60,nonspecific infection ranging to life-threatening sepsis,low
+infertility,10,inability to conceive not life-threatening,high
+inflammation,30,nonspecific inflammatory process variable severity,low
+inflammatory bowel disease,55,chronic disabling bowel disease with complications,high
+influenza,45,acute respiratory infection can be fatal in vulnerable,high
+insomnia,15,sleep disturbance bothersome not life-threatening,high
+intra-abdominal infection,75,serious infection risking sepsis and death,high
+intracerebral hemorrhage,90,brain bleed with high acute mortality and disability,high
+intraoperative hypotension,45,acute perioperative low pressure risking organ injury,med
+irritable bowel syndrome,15,functional bowel disorder not life-threatening,high
+ischemic stroke,88,acute brain infarction high mortality and disability,high
+isolated growth hormone deficiency type IA,30,growth failure chronic non-fatal hormone deficiency,med
+juvenile idiopathic arthritis,50,chronic disabling childhood arthritis,high
+late-onset Pompe disease,70,progressive muscle/respiratory decline shortening life,high
+leiomyosarcoma,90,aggressive soft tissue malignancy high mortality,high
+lentigo maligna melanoma,70,early melanoma can progress to lethal disease,med
+limited cutaneous systemic sclerosis,55,chronic autoimmune fibrosis with organ involvement,med
+liposarcoma or leiomyosarcoma,90,aggressive soft tissue malignancy high mortality,high
+liver cancer,92,advanced hepatic malignancy rapidly fatal,high
+low back pain,12,common musculoskeletal pain not life-threatening,high
+major depressive disorder,45,disabling mood disorder with suicide risk,high
+malaria,75,parasitic infection can be rapidly fatal especially severe,high
+male hypogonadism,15,low testosterone chronic non-fatal,high
+male infertility,10,inability to father children not life-threatening,high
+mania,45,severe mood episode with safety and psychosocial risk,med
+medical abortion,15,elective procedure low underlying disease severity,med
+melasma,5,benign cosmetic hyperpigmentation,high
+metastatic colorectal cancer,93,widespread malignancy rapidly fatal,high
+methylmalonic acidemia or propionic acidemia,80,inborn metabolic disorder with metabolic crises and death,high
+microcytic anemia with liver iron overload,50,chronic anemia with iron-overload organ damage,med
+migraine,20,severe headache disorder disabling not fatal,high
+mixed dyslipidemia,40,chronic cardiovascular risk factor,high
+motion sickness,5,transient self-limited nausea,high
+multiple sclerosis,60,progressive neurologic disability life-shortening,high
+mutant Melanoma,90,advanced melanoma high mortality,high
+myelofibrosis,80,bone marrow failure malignancy with poor survival,high
+myocardial infarction,82,acute heart attack high mortality,high
+myotonic dystrophy type 1,65,progressive multisystem dystrophy life-shortening,high
+narcolepsy,18,chronic sleep disorder disabling not fatal,high
+narcolepsy without cataplexy,18,chronic sleep disorder disabling not fatal,high
+nasal polyps,10,benign sinonasal growths not life-threatening,high
+neonatal abstinence syndrome,40,neonatal withdrawal needing care rarely fatal,med
+neurogenic bladder,30,bladder dysfunction with infection/renal risk,med
+neuropathic pain,25,chronic disabling pain not life-threatening,high
+neuropsychiatric symptoms of neurodegenerative disease,55,behavioral symptoms in fatal progressive disease,med
+newborn respiratory distress syndrome,80,neonatal respiratory failure high mortality,high
+nicotine dependence,30,addiction driving long-term lethal disease,high
+nocturnal enuresis,8,childhood bedwetting benign,high
+non-24-hour sleep-wake disorder,15,circadian sleep disorder disabling not fatal,high
+non-dystrophic myotonia,30,muscle stiffness disorder non-progressive non-fatal,med
+non-functioning pituitary adenoma,40,benign tumor with mass-effect morbidity,med
+obesity,35,chronic metabolic disease raising mortality,high
+obstructive sleep apnea,40,chronic disorder with cardiovascular and mortality risk,high
+ocular trauma,40,acute eye injury risking vision loss,med
+of Cancer,85,malignancy with high mortality,low
+onchocerciasis,45,parasitic infection causing blindness rarely fatal,high
+open-angle glaucoma,30,chronic progressive vision loss not fatal,high
+opioid dependence,45,addiction with overdose and mortality risk,high
+opioid use disorder,45,addiction with overdose and mortality risk,high
+opioid withdrawal,30,distressing withdrawal rarely life-threatening,high
+opioid-induced constipation,12,bothersome treatment side effect,high
+oral lichen planus,15,chronic mucosal inflammation small malignancy risk,med
+oral submucous fibrosis,30,premalignant oral fibrosis with cancer risk,med
+organophosphate poisoning,88,acute poisoning rapidly fatal without treatment,high
+orthostatic hypotension,30,postural low pressure with fall/syncope risk,high
+osteoarthritis,20,degenerative joint disease disabling not fatal,high
+otomycosis,8,superficial fungal ear infection benign,high
+overactive bladder,15,bothersome urinary urgency not life-threatening,high
+pain,20,nonspecific pain variable not life-threatening,med
+palmoplantar pustulosis,15,chronic skin disorder disabling not fatal,high
+pancreatic cancer,95,rapidly fatal malignancy weeks-months survival,high
+pemphigus vulgaris,65,autoimmune blistering disease historically fatal,high
+perennial allergic rhinitis,8,chronic nasal allergy bothersome,high
+peripheral neuropathy,25,chronic nerve damage disabling not fatal,high
+peroxisome biogenesis disorder,80,severe inherited metabolic disease often fatal in childhood,high
+pheochromocytoma and paraganglioma,70,catecholamine tumor risking lethal crises,high
+photoaging,5,cosmetic skin aging,high
+pituitary-dependent Cushing's disease,60,hormonal disorder with serious morbidity and mortality,high
+plaque psoriasis,25,chronic skin disease disabling not fatal,high
+pneumonia,70,acute lung infection can be fatal,high
+polymorphic light eruption,5,benign photosensitive rash,high
+portopulmonary hypertension,82,pulmonary hypertension with liver disease high mortality,high
+positive Melanoma,90,advanced melanoma high mortality,low
+post-kala-azar dermal leishmaniasis,30,skin sequela of visceral leishmaniasis non-fatal,med
+post-traumatic stress disorder,40,disabling psychiatric disorder with suicide risk,high
+postoperative ileus,25,transient bowel dysfunction after surgery,high
+postoperative pain,8,acute self-limited surgical pain,high
+postoperative urinary retention,12,transient bladder dysfunction after surgery,high
+postpartum hemorrhage,85,acute obstetric bleeding high maternal mortality,high
+preeclampsia,75,pregnancy hypertensive disorder high maternal/fetal mortality,high
+premature ejaculation,5,benign sexual dysfunction,high
+presbyopia,5,age-related near vision loss benign,high
+preterm labor and delivery,65,risk of premature birth with neonatal mortality,high
+primary biliary cirrhosis,65,progressive cholestatic liver disease to cirrhosis,high
+primary mitochondrial disease,75,multisystem inherited disorder often fatal,high
+primary myelofibrosis,80,bone marrow failure malignancy poor survival,high
+progressive familial intrahepatic cholestasis,75,progressive liver disease to failure in childhood,high
+psoriasis,25,chronic skin disease disabling not fatal,high
+pulmonary arterial hypertension,82,progressive vascular disease high mortality,high
+pulmonary tuberculosis,72,chronic infection fatal if untreated,high
+purpura,40,bleeding/vascular disorder variable severity,low
+pyruvate kinase deficiency,55,chronic hemolytic anemia with complications,med
+radiation-induced brachial plexopathy,30,nerve injury causing disability not fatal,med
+refracTory pAncreaTic cancEr,95,refractory rapidly fatal malignancy,high
+renal cell carcinoma,85,kidney malignancy high mortality if advanced,high
+respiratory failure,90,acute inability to oxygenate high mortality,high
+restless legs syndrome,10,sleep-disrupting movement disorder benign,high
+retinopathy of prematurity,55,neonatal retinal disease risking blindness,med
+rheumatoid arthritis,55,chronic disabling autoimmune arthritis life-shortening,high
+rhinitis,8,nasal inflammation bothersome,high
+rhinosinusitis,12,sinus inflammation bothersome rarely serious,high
+rosacea,5,benign chronic facial skin condition,high
+rotator cuff tear,12,shoulder injury disabling not life-threatening,high
+scabies,8,parasitic skin infestation benign,high
+schistosomiasis,45,chronic parasitic infection with organ damage,high
+schizophrenia,55,chronic psychiatric disorder disabling with mortality risk,high
+seasonal allergic rhinitis,8,seasonal nasal allergy bothersome,high
+sedation,15,procedural setting low underlying severity,med
+septic shock,90,life-threatening circulatory failure from sepsis,high
+severe aplastic anemia,85,bone marrow failure high mortality untreated,high
+severe hypertriglyceridemia,50,marked lipid elevation risking pancreatitis,high
+sialorrhea,10,excessive salivation bothersome not fatal,high
+sickle cell disease,65,inherited disorder with crises and life-shortening,high
+skin and soft tissue Staphylococcus aureus infection,45,bacterial skin infection can progress to systemic,high
+skin and soft tissue bacterial infection,45,bacterial skin infection can progress to systemic,high
+skin infection,35,skin infection usually localized variable,med
+sleep apnea,40,chronic disorder with cardiovascular and mortality risk,high
+sleep disorder,15,nonspecific sleep disturbance bothersome,med
+smoking cessation,30,addiction driving long-term lethal disease,high
+sodium channelopathy-related small fiber neuropathy,25,chronic painful neuropathy disabling not fatal,med
+solid tumor,85,malignancy with high mortality,high
+spinal cord injury,70,acute injury with permanent disability and complications,high
+spinocerebellar ataxia type 2,60,progressive neurodegenerative ataxia life-shortening,high
+spondyloarthritis,40,chronic inflammatory arthritis disabling not fatal,high
+spontaneous abortion,25,pregnancy loss with bleeding risk,med
+status epilepticus,88,prolonged seizures high acute mortality,high
+stridor,40,airway obstruction sign can be life-threatening,med
+stroke,88,acute cerebrovascular event high mortality and disability,high
+submental fat,3,cosmetic concern,high
+supraventricular tachycardia,40,arrhythmia usually non-fatal occasionally serious,high
+tardive dyskinesia,20,movement disorder disabling not life-threatening,high
+tenosynovial giant cell tumor,35,locally aggressive benign tumor disabling not fatal,med
+threatened miscarriage,30,risk of pregnancy loss with bleeding,med
+tinea pedis,5,superficial fungal foot infection benign,high
+tobacco use disorder,30,addiction driving long-term lethal disease,high
+total hip arthroplasty,25,surgical procedure for disabling joint disease,med
+transthyretin amyloid cardiomyopathy,78,progressive amyloid heart disease high mortality,high
+transthyretin amyloid polyneuropathy,65,progressive amyloid neuropathy life-shortening,high
+traumatic brain injury,82,acute brain injury high mortality and disability,high
+trichomoniasis,10,sexually transmitted infection benign,high
+tuberculosis,72,chronic infection fatal if untreated,high
+tuberous sclerosis,55,genetic disorder with tumors seizures and organ involvement,high
+type 2 diabetes mellitus,40,chronic metabolic disease with vascular complications,high
+tyrosinemia type I,80,inherited metabolic disease fatal in childhood untreated,high
+ulcerative colitis,50,chronic bowel disease with complications,high
+unspecified peripheral T-cell lymphoma,90,aggressive lymphoma poor survival,high
+upper gastrointestinal bleeding,80,acute hemorrhage high mortality,high
+ureteral stent-related symptoms,8,procedural discomfort benign,high
+urinary retention,25,bladder dysfunction with complications variable,med
+urinary tract infection,30,common infection can progress to pyelonephritis/sepsis,high
+urticaria,10,hives bothersome rarely severe,high
+uterine fibroids,15,benign uterine tumors with morbidity not fatal,high
+vaginal dryness,5,benign genitourinary symptom,high
+valvular heart disease,65,structural heart disease progressing to failure,high
+vascular disease,55,broad vascular pathology variable cardiovascular mortality,med
+vasospastic angina,50,coronary spasm with risk of MI and arrhythmia,med
+venous thromboembolism,72,clots risking fatal pulmonary embolism,high
+visceral Leishmaniasis,85,parasitic infection fatal if untreated,high
+vitamin D deficiency,15,nutritional deficiency chronic non-fatal,high
+wet macular degeneration,30,progressive retinal disease causing blindness not fatal,high

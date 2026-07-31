@@ -1,0 +1,19 @@
+{
+  "git_sha": "0dc9d8ba86128ac09ea1170dc9c7ea652d3d71fe",
+  "data_path": "<repo>/data/sources/_exp_v8_clean_mort_labelfix.csv",
+  "data_sha256": "f2a8c46aa094a938f8e01e41635f345f13c9aa38a2b8229726eb44862132aeef",
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2024
+  ],
+  "pipeline": "retrain_calibrated.py v1",
+  "has_xgb": true,
+  "has_lgbm": true,
+  "inputs": [
+    "<repo>/data/sources/_exp_v8_clean_mort_labelfix.csv"
+  ],
+  "note": "retrain_calibrated.py --calibrate=isotonic"
+}

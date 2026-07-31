@@ -1,0 +1,43 @@
+{
+  "task": "HINT own-benchmark reproduction (foreclose the 'broken implementation' attack)",
+  "benchmark": "TOP (Trial Outcome Prediction) phase III, futianfan/clinical-trial-outcome-prediction",
+  "test_split": {
+    "n": 1146,
+    "positives": 859,
+    "base_rate": 0.75
+  },
+  "published_authors_shipped_predictions_roc_auc": 0.7209,
+  "our_pipeline_fresh_train": {
+    "epochs_5": {
+      "roc_auc_single": 0.7152,
+      "roc_auc_bootstrap": 0.7303,
+      "pr_auc": 0.8753
+    },
+    "epochs_10": {
+      "roc_auc_single": 0.7102,
+      "roc_auc_bootstrap": 0.7113,
+      "pr_auc": 0.8623
+    }
+  },
+  "authors_shipped_model_with_substitute_embeddings_roc_auc": 0.6783,
+  "embeddings": "dmis-lab/biobert-base-cased-v1.1 mean-pooled (768-d) substitute; authors' original biobert-embedding vectors not distributed (sentence2embedding.pkl ships as empty placeholder)",
+  "modality_coverage": {
+    "TOP_phaseIII": {
+      "smiles": 1.0,
+      "icd": 1.0,
+      "criteria": 1.0
+    },
+    "our_cohort_phase3": {
+      "smiles": 1.0,
+      "icd": 0.57,
+      "criteria": 1.0
+    }
+  },
+  "our_cohort_compound_holdout_roc_auc": 0.626,
+  "conclusion": "Our HINT pipeline reproduces the published TOP phase III ROC-AUC (0.715 single / 0.730 bootstrap at 5 epochs vs published 0.721); 10 epochs does not improve it (0.710/0.711) so 5 epochs is converged, not under-trained. The 0.626 on our cohort therefore reflects the stricter compound-holdout split and cohort differences (notably ICD coverage 57% vs 100%), not a broken or under-trained implementation. The embedding substitution costs ~0.04 only under train/test mismatch (authors' weights + our embeddings = 0.678); it is internally consistent when trained and tested on the same embeddings.",
+  "scripts": [
+    "scripts/benchmark/hint/embed_top_benchmark.py",
+    "scripts/benchmark/hint/repro_top_benchmark.py"
+  ],
+  "run_env": "local python3.12, torch 2.10 (CPU train, MPS embeddings), inside a fresh clone of futianfan/clinical-trial-outcome-prediction"
+}

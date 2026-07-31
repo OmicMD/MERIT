@@ -1,0 +1,2237 @@
+ik14,target_gene,action_type,mechanism_of_action
+SNICXCGAKADSCV,CHRNB2,AGONIST,Neuronal acetylcholine receptor; alpha4/beta2 agonist
+SNICXCGAKADSCV,CHRNA4,AGONIST,Neuronal acetylcholine receptor; alpha4/beta2 agonist
+CGIGDMFJXJATDK,PTGS2,INHIBITOR,Cyclooxygenase inhibitor
+CGIGDMFJXJATDK,PTGS1,INHIBITOR,Cyclooxygenase inhibitor
+MYSWGUAQZAJSOK,gyrB,INHIBITOR,Bacterial DNA gyrase inhibitor
+MYSWGUAQZAJSOK,gyrA,INHIBITOR,Bacterial DNA gyrase inhibitor
+MYSWGUAQZAJSOK,parC,INHIBITOR,Topoisomerase IV inhibitor
+MYSWGUAQZAJSOK,parE,INHIBITOR,Topoisomerase IV inhibitor
+MOYKHGMNXAOIAT,GUCY1B1,ACTIVATOR,Soluble guanylate cyclase activator
+MOYKHGMNXAOIAT,GUCY1B2,ACTIVATOR,Soluble guanylate cyclase activator
+MOYKHGMNXAOIAT,GUCY1A2,ACTIVATOR,Soluble guanylate cyclase activator
+MOYKHGMNXAOIAT,GUCY1A1,ACTIVATOR,Soluble guanylate cyclase activator
+LKJPYSCBVHEWIU,AR,ANTAGONIST,Androgen Receptor antagonist
+IEDVJHCEMCRBQM,folA,INHIBITOR,Bacterial dihydrofolate reductase inhibitor
+NCEXYHBECQHGNR,ALOX5,INHIBITOR,Arachidonate 5-lipoxygenase inhibitor
+NCEXYHBECQHGNR,PTGS2,INHIBITOR,Cyclooxygenase inhibitor
+NCEXYHBECQHGNR,PTGS1,INHIBITOR,Cyclooxygenase inhibitor
+METKIMKYRPQLGS,ADRB1,ANTAGONIST,Beta-1 adrenergic receptor antagonist
+JZUFKLXOESDKRF,SLC12A3,INHIBITOR,Thiazide-sensitive sodium-chloride cotransporter inhibitor
+ZZUFCTLCJUWOSV,SLC12A1,INHIBITOR,Sodium-(potassium)-chloride cotransporter 2 inhibitor
+SHGAZHPCJJPHSC,RARG,AGONIST,Retinoic acid receptor agonist
+SHGAZHPCJJPHSC,RARB,AGONIST,Retinoic acid receptor agonist
+SHGAZHPCJJPHSC,RARA,AGONIST,Retinoic acid receptor agonist
+DGBIGWXXNGSACT,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRB2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRG2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRB3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRA4,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRG3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRQ,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRA3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRP,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRD,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRG1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRB1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRE,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRA2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRA5,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DGBIGWXXNGSACT,GABRA6,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DRLFMBDRBRZALE,MTNR1A,AGONIST,Melatonin receptor agonist
+DRLFMBDRBRZALE,MTNR1B,AGONIST,Melatonin receptor agonist
+FELGMEQIXOGIFQ,HTR3A,ANTAGONIST,Serotonin 3a (5-HT3a) receptor antagonist
+LNEPOXFFQSENCJ,HTR2A,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+LNEPOXFFQSENCJ,DRD2,INVERSE AGONIST,D2-like dopamine receptor inverse agonist
+LNEPOXFFQSENCJ,DRD3,INVERSE AGONIST,D2-like dopamine receptor inverse agonist
+LNEPOXFFQSENCJ,DRD4,INVERSE AGONIST,D2-like dopamine receptor inverse agonist
+VSNHCAURESNICA,RRM1,INHIBITOR,Ribonucleoside-diphosphate reductase RR1 inhibitor
+VSNHCAURESNICA,RRM2B,INHIBITOR,Ribonucleoside-diphosphate reductase RR1 inhibitor
+VSNHCAURESNICA,RRM2,INHIBITOR,Ribonucleoside-diphosphate reductase RR1 inhibitor
+QRXWMOHMRWLFEY,inhA,INHIBITOR,Enoyl-[acyl-carrier-protein] reductase inhibitor
+UEJJHQNACJXSKW,CRBN,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+UEJJHQNACJXSKW,DDB1,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+UEJJHQNACJXSKW,CUL4A,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+UEJJHQNACJXSKW,RBX1,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+ZNNLBTZKUZBEKO,KCNJ11,BLOCKER,"Sulfonylurea receptor 1, Kir6.2 blocker"
+ZNNLBTZKUZBEKO,ABCC8,BLOCKER,"Sulfonylurea receptor 1, Kir6.2 blocker"
+OIRDTQYFTABQOQ,ADORA1,AGONIST,Adenosine receptor agonist
+OIRDTQYFTABQOQ,ADORA2B,AGONIST,Adenosine receptor agonist
+OIRDTQYFTABQOQ,ADORA3,AGONIST,Adenosine receptor agonist
+OIRDTQYFTABQOQ,ADORA2A,AGONIST,Adenosine receptor agonist
+MJIHNNLFOKEZEW,ATP4A,INHIBITOR,Potassium-transporting ATPase inhibitor
+MJIHNNLFOKEZEW,ATP4B,INHIBITOR,Potassium-transporting ATPase inhibitor
+MNJVRJDLRVPLFE,PTGS2,INHIBITOR,Cyclooxygenase-2 inhibitor
+NNJVILVZKWQKPM,SCN1A,BLOCKER,Sodium channel alpha subunit blocker
+NNJVILVZKWQKPM,SCN5A,BLOCKER,Sodium channel alpha subunit blocker
+NNJVILVZKWQKPM,SCN4A,BLOCKER,Sodium channel alpha subunit blocker
+NNJVILVZKWQKPM,SCN7A,BLOCKER,Sodium channel alpha subunit blocker
+NNJVILVZKWQKPM,SCN2A,BLOCKER,Sodium channel alpha subunit blocker
+NNJVILVZKWQKPM,SCN9A,BLOCKER,Sodium channel alpha subunit blocker
+NNJVILVZKWQKPM,SCN3A,BLOCKER,Sodium channel alpha subunit blocker
+NNJVILVZKWQKPM,SCN11A,BLOCKER,Sodium channel alpha subunit blocker
+NNJVILVZKWQKPM,SCN8A,BLOCKER,Sodium channel alpha subunit blocker
+NNJVILVZKWQKPM,SCN10A,BLOCKER,Sodium channel alpha subunit blocker
+GZUITABIAKMVPG,ESR1,MODULATOR,Estrogen receptor modulator
+HIFJCPQKFCZDDL,PTGIR,AGONIST,Prostanoid IP receptor agonist
+RAPZEAPATHNIPO,HTR2A,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+RAPZEAPATHNIPO,HTR2C,ANTAGONIST,Serotonin 2c (5-HT2c) receptor antagonist
+RAPZEAPATHNIPO,DRD2,ANTAGONIST,Dopamine D2 receptor antagonist
+RCINICONZNJXQF,TUBB4B,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBB1,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBA3C,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBA4A,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBB3,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBA1A,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBB4A,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBB8,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBB,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBA1B,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBA1C,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBA3E,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBB2A,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBB2B,INHIBITOR,Tubulin inhibitor
+RCINICONZNJXQF,TUBB6,INHIBITOR,Tubulin inhibitor
+GMVPRGQOIOIIMI,PTGER1,AGONIST,Prostanoid EP1 receptor agonist
+GMVPRGQOIOIIMI,PTGER2,AGONIST,Prostanoid EP2 receptor agonist
+YJYPHIXNFHFHND,MTNR1A,AGONIST,Melatonin receptor agonist
+YJYPHIXNFHFHND,MTNR1B,AGONIST,Melatonin receptor agonist
+YJYPHIXNFHFHND,HTR2C,ANTAGONIST,Serotonin 2c (5-HT2c) receptor antagonist
+WAEXFXRVDQXREF,HDAC1,INHIBITOR,Histone deacetylase 1 inhibitor
+WAEXFXRVDQXREF,HDAC3,INHIBITOR,Histone deacetylase 3 inhibitor
+WAEXFXRVDQXREF,HDAC6,INHIBITOR,Histone deacetylase 6 inhibitor
+WAEXFXRVDQXREF,HDAC2,INHIBITOR,Histone deacetylase 2 inhibitor
+HEFNNWSXXWATRW,PTGS2,INHIBITOR,Cyclooxygenase inhibitor
+HEFNNWSXXWATRW,PTGS1,INHIBITOR,Cyclooxygenase inhibitor
+OLBCVFGFOZPWHH,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRB2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRG2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRB3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRA4,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRG3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRQ,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRA3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRP,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRD,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRG1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRB1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRE,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRA2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRA5,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+OLBCVFGFOZPWHH,GABRA6,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+QYSPLQLAKJAUJT,PTGS2,INHIBITOR,Cyclooxygenase inhibitor
+QYSPLQLAKJAUJT,PTGS1,INHIBITOR,Cyclooxygenase inhibitor
+RJKFOVLPORLFTN,PGR,AGONIST,Progesterone receptor agonist
+WINHZLLDWRZWRT,CSF1R,INHIBITOR,Macrophage colony stimulating factor receptor inhibitor
+WINHZLLDWRZWRT,KDR,INHIBITOR,Vascular endothelial growth factor receptor 2 inhibitor
+WINHZLLDWRZWRT,KIT,INHIBITOR,Stem cell growth factor receptor inhibitor
+WINHZLLDWRZWRT,PDGFRB,INHIBITOR,Platelet-derived growth factor receptor beta inhibitor
+WINHZLLDWRZWRT,PDGFRA,INHIBITOR,Platelet-derived growth factor receptor alpha inhibitor
+WINHZLLDWRZWRT,FLT1,INHIBITOR,Vascular endothelial growth factor receptor 1 inhibitor
+WINHZLLDWRZWRT,FLT4,INHIBITOR,Vascular endothelial growth factor receptor 3 inhibitor
+WINHZLLDWRZWRT,FLT3,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+WINHZLLDWRZWRT,RET,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+VNFPBHJOKIVQEB,ERG11,INHIBITOR,Cytochrome P450 51 inhibitor
+RFHAOTPXVQNOHP,ERG11,INHIBITOR,Cytochrome P450 51 inhibitor
+XMXHEBAFVSFQEX,DRD2,ANTAGONIST,Dopamine D2 receptor antagonist
+XMXHEBAFVSFQEX,HTR2A,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+XEYBRNLFEZDVAW,PTGER1,AGONIST,Prostaglandin E2 receptor agonist
+XEYBRNLFEZDVAW,PTGER4,AGONIST,Prostaglandin E2 receptor agonist
+XEYBRNLFEZDVAW,PTGER2,AGONIST,Prostaglandin E2 receptor agonist
+XEYBRNLFEZDVAW,PTGER3,AGONIST,Prostaglandin E2 receptor agonist
+IAKHMKGGTNLKSZ,TUBB4B,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBB1,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBA3C,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBA4A,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBB3,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBA1A,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBB4A,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBB8,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBB,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBA1B,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBA1C,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBA3E,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBB2A,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBB2B,INHIBITOR,Tubulin inhibitor
+IAKHMKGGTNLKSZ,TUBB6,INHIBITOR,Tubulin inhibitor
+NIJJYAXOARWZEE,ALDH5A1,INHIBITOR,Succinate semialdehyde dehydrogenase inhibitor
+XUIIKFGFIJCVMT,THRA,AGONIST,Thyroid hormone receptor agonist
+XUIIKFGFIJCVMT,THRB,AGONIST,Thyroid hormone receptor agonist
+SYTBZMRGLBWNTM,PTGS2,INHIBITOR,Cyclooxygenase inhibitor
+SYTBZMRGLBWNTM,PTGS1,INHIBITOR,Cyclooxygenase inhibitor
+RZVAJINKPMORJF,PTGS2,INHIBITOR,Cyclooxygenase inhibitor
+RZVAJINKPMORJF,PTGS1,INHIBITOR,Cyclooxygenase inhibitor
+RZVAJINKPMORJF,FAAH,INHIBITOR,Anandamide amidohydrolase inhibitor
+RZVAJINKPMORJF,TRPV1,OPENER,Vanilloid receptor opener
+RYYVLZVUVIJVGH,ADORA1,ANTAGONIST,Adenosine receptor antagonist
+RYYVLZVUVIJVGH,ADORA2B,ANTAGONIST,Adenosine receptor antagonist
+RYYVLZVUVIJVGH,ADORA3,ANTAGONIST,Adenosine receptor antagonist
+RYYVLZVUVIJVGH,ADORA2A,ANTAGONIST,Adenosine receptor antagonist
+DKYWVDODHFEZIM,PTGS2,INHIBITOR,Cyclooxygenase inhibitor
+DKYWVDODHFEZIM,PTGS1,INHIBITOR,Cyclooxygenase inhibitor
+DIWRORZWFLOCLC,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRB2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRG2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRB3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRA4,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRG3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRQ,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRA3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRP,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRD,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRG1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRB1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRE,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRA2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRA5,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DIWRORZWFLOCLC,GABRA6,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+RZEKVGVHFLEQIL,PTGS2,INHIBITOR,Cyclooxygenase-2 inhibitor
+PJMPHNIQZUBGLI,OPRM1,AGONIST,Mu opioid receptor agonist
+YIQPUIGJQJDJOS,CXCR4,PARTIAL AGONIST,C-X-C chemokine receptor type 4 partial agonist
+ZRVUJXDFFKFLMG,PTGS2,INHIBITOR,Cyclooxygenase-2 inhibitor
+DQCKKXVULJGBQN,OPRK1,ANTAGONIST,Opioid receptors; mu/kappa/delta antagonist
+DQCKKXVULJGBQN,OPRD1,ANTAGONIST,Opioid receptors; mu/kappa/delta antagonist
+DQCKKXVULJGBQN,OPRM1,ANTAGONIST,Opioid receptors; mu/kappa/delta antagonist
+OJLOPKGSLYJEMD,PTGER3,AGONIST,Prostanoid EP3 receptor agonist
+UJVDJAPJQWZRFR,GHSR,AGONIST,Ghrelin receptor agonist
+FYPMFJGVHOHGLL,ABCA1,INHIBITOR,ATP-binding cassette sub-family A member 1 inhibitor
+YMBXTVYHTMGZDW,PTGS2,INHIBITOR,Cyclooxygenase inhibitor
+YMBXTVYHTMGZDW,PTGS1,INHIBITOR,Cyclooxygenase inhibitor
+PHWXUGHIIBDVKD,EDNRB,ANTAGONIST,"Endothelin receptor, ET-A/ET-B antagonist"
+PHWXUGHIIBDVKD,EDNRA,ANTAGONIST,"Endothelin receptor, ET-A/ET-B antagonist"
+IPEHBUMCGVEMRF,fas,INHIBITOR,Fatty acid synthase inhibitor
+IPEHBUMCGVEMRF,rplM,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsA,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsJ,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsK,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsL,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsM,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsN,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsZ,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsO,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsP,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsQ,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsR1,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsR2,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsS,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsB,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsT,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsC,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsD,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsE,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsF,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsG,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsH,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpsI,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplA,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplJ,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplK,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplN,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplO,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplP,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplQ,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplR,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplS,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplB,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplT,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplU,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplV,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplW,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplX,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplY,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpmA,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpmB1,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpmB2,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpmC,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplC,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpmD,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpmE,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpmF,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpmG1,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpmG2,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpmH,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpmI,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rpmJ,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplD,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplE,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplF,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplL,INHIBITOR,70S ribosome inhibitor
+IPEHBUMCGVEMRF,rplI,INHIBITOR,70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsB,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplD,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsA,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsJ,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsK,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsL,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsM,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsN,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsO,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsP,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsQ,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsR,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsS,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsT,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsU,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsC,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsD,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsE,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsF,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsG,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsH,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpsI,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplJ,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplK,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplM,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplN,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplO,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplP,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplQ,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplR,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplS,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplA,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplT,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplU,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplV,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplW,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplX,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplY,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpmA,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpmB,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpmC,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplB,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpmD,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,ykgM,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpmE,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpmF,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpmG,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpmH,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpmI,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,ykgO,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rpmJ,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplC,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplE,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplF,INHIBITOR,Bacterial 70S ribosome inhibitor
+TYZROVQLWOKYKF,rplL,INHIBITOR,Bacterial 70S ribosome inhibitor
+DMJNNHOOLUXYBV,dacB,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+DMJNNHOOLUXYBV,ftsI,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+DMJNNHOOLUXYBV,mrcA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+DMJNNHOOLUXYBV,mrcB,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+DMJNNHOOLUXYBV,dacA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+DMJNNHOOLUXYBV,mrdA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+DMJNNHOOLUXYBV,dacC,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+NNYBQONXHNTVIJ,PTGS2,INHIBITOR,Cyclooxygenase-2 inhibitor
+KQKPFRSPSRPDEB,HTR1B,AGONIST,Serotonin 1b (5-HT1b) receptor agonist
+KQKPFRSPSRPDEB,HTR1D,AGONIST,Serotonin 1d (5-HT1d) receptor agonist
+UREBDLICKHMUKA,NR3C1,AGONIST,Glucocorticoid receptor agonist
+XOFYZVNMUHMLCC,NR3C1,AGONIST,Glucocorticoid receptor agonist
+XSVMFMHYUFZWBK,BCHE,INHIBITOR,Cholinesterases; ACHE & BCHE inhibitor
+XSVMFMHYUFZWBK,ACHE,INHIBITOR,Cholinesterases; ACHE & BCHE inhibitor
+HBOMLICNUCNMMY,pol,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor
+OIGNJSKKLXVSLS,NR3C1,AGONIST,Glucocorticoid receptor agonist
+VHRSUDSXCMQTMA,NR3C1,AGONIST,Glucocorticoid receptor agonist
+GJSURZIOUXUGAL,ADRA2A,AGONIST,Adrenergic receptor alpha-2 agonist
+GJSURZIOUXUGAL,ADRA2C,AGONIST,Adrenergic receptor alpha-2 agonist
+GJSURZIOUXUGAL,ADRA2B,AGONIST,Adrenergic receptor alpha-2 agonist
+RONZAEMNMFQXRA,HTR2A,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+RONZAEMNMFQXRA,HTR2C,ANTAGONIST,Serotonin 2c (5-HT2c) receptor antagonist
+RONZAEMNMFQXRA,ADRA2A,ANTAGONIST,Adrenergic receptor alpha-2 antagonist
+RONZAEMNMFQXRA,ADRA2C,ANTAGONIST,Adrenergic receptor alpha-2 antagonist
+RONZAEMNMFQXRA,ADRA2B,ANTAGONIST,Adrenergic receptor alpha-2 antagonist
+DDLIGBOFAVUZHB,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRB2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRG2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRB3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRA4,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRG3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRQ,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRA3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRP,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRD,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRG1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRB1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRE,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRA2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRA5,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DDLIGBOFAVUZHB,GABRA6,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+VOXZDWNPVJITMN,ESR1,AGONIST,Estrogen receptor alpha agonist
+YMTINGFKWWXKFG,PPARA,AGONIST,Peroxisome proliferator-activated receptor alpha agonist
+UCTWMZQNUQWSLP,ADRA1A,AGONIST,Adrenergic receptor agonist
+UCTWMZQNUQWSLP,ADRA2A,AGONIST,Adrenergic receptor agonist
+UCTWMZQNUQWSLP,ADRB1,AGONIST,Adrenergic receptor agonist
+UCTWMZQNUQWSLP,ADRB2,AGONIST,Adrenergic receptor agonist
+UCTWMZQNUQWSLP,ADRA2C,AGONIST,Adrenergic receptor agonist
+UCTWMZQNUQWSLP,ADRA1D,AGONIST,Adrenergic receptor agonist
+UCTWMZQNUQWSLP,ADRA1B,AGONIST,Adrenergic receptor agonist
+UCTWMZQNUQWSLP,ADRA2B,AGONIST,Adrenergic receptor agonist
+UCTWMZQNUQWSLP,ADRB3,AGONIST,Adrenergic receptor agonist
+NPUKDXXFDDZOKR,GABRA1,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRB2,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRG2,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRB3,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRA4,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRG3,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRQ,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRA3,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRP,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRD,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRG1,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRB1,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRE,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRA2,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRA5,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+NPUKDXXFDDZOKR,GABRA6,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+DCOPUUMXTXDBNB,PTGS2,INHIBITOR,Cyclooxygenase inhibitor
+DCOPUUMXTXDBNB,PTGS1,INHIBITOR,Cyclooxygenase inhibitor
+GKCBAIGFKIBETG,SCN1A,BLOCKER,Sodium channel alpha subunit blocker
+GKCBAIGFKIBETG,SCN5A,BLOCKER,Sodium channel alpha subunit blocker
+GKCBAIGFKIBETG,SCN4A,BLOCKER,Sodium channel alpha subunit blocker
+GKCBAIGFKIBETG,SCN7A,BLOCKER,Sodium channel alpha subunit blocker
+GKCBAIGFKIBETG,SCN2A,BLOCKER,Sodium channel alpha subunit blocker
+GKCBAIGFKIBETG,SCN9A,BLOCKER,Sodium channel alpha subunit blocker
+GKCBAIGFKIBETG,SCN3A,BLOCKER,Sodium channel alpha subunit blocker
+GKCBAIGFKIBETG,SCN11A,BLOCKER,Sodium channel alpha subunit blocker
+GKCBAIGFKIBETG,SCN8A,BLOCKER,Sodium channel alpha subunit blocker
+GKCBAIGFKIBETG,SCN10A,BLOCKER,Sodium channel alpha subunit blocker
+KPYSYYIEGFHWSV,GABBR1,AGONIST,GABA-B receptor agonist
+KPYSYYIEGFHWSV,GABBR2,AGONIST,GABA-B receptor agonist
+KBOPZPXVLCULAV,ALOX5,INHIBITOR,Arachidonate 5-lipoxygenase inhibitor
+KBOPZPXVLCULAV,PPARG,AGONIST,Peroxisome proliferator-activated receptor gamma agonist
+KBOPZPXVLCULAV,PTGS2,INHIBITOR,Cyclooxygenase inhibitor
+KBOPZPXVLCULAV,PTGS1,INHIBITOR,Cyclooxygenase inhibitor
+SHGAZHPCJJPHSC,RXRB,AGONIST,Retinoid receptor agonist
+SHGAZHPCJJPHSC,RXRG,AGONIST,Retinoid receptor agonist
+SHGAZHPCJJPHSC,RXRA,AGONIST,Retinoid receptor agonist
+UHTHHESEBZOYNR,SRC,INHIBITOR,Tyrosine-protein kinase SRC inhibitor
+UHTHHESEBZOYNR,PTK6,INHIBITOR,Tyrosine-protein kinase BRK inhibitor
+UHTHHESEBZOYNR,TEK,INHIBITOR,Tyrosine-protein kinase TIE-2 inhibitor
+UHTHHESEBZOYNR,FLT1,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+UHTHHESEBZOYNR,FLT4,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+UHTHHESEBZOYNR,KDR,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+UHTHHESEBZOYNR,RET,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+UHTHHESEBZOYNR,EPHA2,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHB2,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHA5,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHA4,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHA8,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHA6,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHA7,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHB3,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHA3,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHB1,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHB4,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHA1,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHB6,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,EPHA10,INHIBITOR,Ephrin receptor inhibitor
+UHTHHESEBZOYNR,ERBB2,INHIBITOR,Epidermal growth factor receptor inhibitor
+UHTHHESEBZOYNR,EGFR,INHIBITOR,Epidermal growth factor receptor inhibitor
+UHTHHESEBZOYNR,ERBB4,INHIBITOR,Epidermal growth factor receptor inhibitor
+UHTHHESEBZOYNR,ERBB3,INHIBITOR,Epidermal growth factor receptor inhibitor
+DBEPLOCGEIEOCV,SRD5A2,INHIBITOR,Steroid 5-alpha-reductase 2 inhibitor
+NFBAXHOPROOJAW,VKORC1,INHIBITOR,Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor
+JTEGQNOMFQHVDC,pol,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor
+JTEGQNOMFQHVDC,P,INHIBITOR,DNA polymerase/reverse transcriptase inhibitor
+NDAUXUAQIAJITI,ADRB2,AGONIST,Beta-2 adrenergic receptor agonist
+KVWDHTXUZHCGIO,HTR2A,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+KVWDHTXUZHCGIO,HTR2C,ANTAGONIST,Serotonin 2c (5-HT2c) receptor antagonist
+KVWDHTXUZHCGIO,DRD2,ANTAGONIST,D2-like dopamine receptor antagonist
+KVWDHTXUZHCGIO,DRD3,ANTAGONIST,D2-like dopamine receptor antagonist
+KVWDHTXUZHCGIO,DRD4,ANTAGONIST,D2-like dopamine receptor antagonist
+PSGAAPLEWMOORI,PGR,AGONIST,Progesterone receptor agonist
+MINDHVHHQZYEEK,ileS,INHIBITOR,Isoleucyl-tRNA synthetase inhibitor
+OGHNVEJMJSYVRP,ADRB1,ANTAGONIST,Adrenergic receptor beta antagonist
+OGHNVEJMJSYVRP,ADRB2,ANTAGONIST,Adrenergic receptor beta antagonist
+OGHNVEJMJSYVRP,ADRB3,ANTAGONIST,Adrenergic receptor beta antagonist
+OGHNVEJMJSYVRP,ADRA1A,ANTAGONIST,Adrenergic receptor alpha-1 antagonist
+OGHNVEJMJSYVRP,ADRA1D,ANTAGONIST,Adrenergic receptor alpha-1 antagonist
+OGHNVEJMJSYVRP,ADRA1B,ANTAGONIST,Adrenergic receptor alpha-1 antagonist
+DSLPMJSGSBLWRE,STS,INHIBITOR,Steryl-sulfatase inhibitor
+WIKYUJGCLQQFNW,DRD2,ANTAGONIST,Dopamine D2 receptor antagonist
+KJHKTHWMRKYKJE,pol,INHIBITOR,Human immunodeficiency virus type 1 protease inhibitor
+SNIOPGDIGTZGOP,GUCY1B1,ACTIVATOR,Soluble guanylate cyclase activator
+SNIOPGDIGTZGOP,GUCY1B2,ACTIVATOR,Soluble guanylate cyclase activator
+SNIOPGDIGTZGOP,GUCY1A2,ACTIVATOR,Soluble guanylate cyclase activator
+SNIOPGDIGTZGOP,GUCY1A1,ACTIVATOR,Soluble guanylate cyclase activator
+PYZRQGJRPPTADH,SCN1A,BLOCKER,Sodium channel alpha subunit blocker
+PYZRQGJRPPTADH,SCN5A,BLOCKER,Sodium channel alpha subunit blocker
+PYZRQGJRPPTADH,SCN4A,BLOCKER,Sodium channel alpha subunit blocker
+PYZRQGJRPPTADH,SCN7A,BLOCKER,Sodium channel alpha subunit blocker
+PYZRQGJRPPTADH,SCN2A,BLOCKER,Sodium channel alpha subunit blocker
+PYZRQGJRPPTADH,SCN9A,BLOCKER,Sodium channel alpha subunit blocker
+PYZRQGJRPPTADH,SCN3A,BLOCKER,Sodium channel alpha subunit blocker
+PYZRQGJRPPTADH,SCN11A,BLOCKER,Sodium channel alpha subunit blocker
+PYZRQGJRPPTADH,SCN8A,BLOCKER,Sodium channel alpha subunit blocker
+PYZRQGJRPPTADH,SCN10A,BLOCKER,Sodium channel alpha subunit blocker
+FTALBRSUTCGOEG,SCN1A,BLOCKER,Sodium channel alpha subunit blocker
+FTALBRSUTCGOEG,SCN5A,BLOCKER,Sodium channel alpha subunit blocker
+FTALBRSUTCGOEG,SCN4A,BLOCKER,Sodium channel alpha subunit blocker
+FTALBRSUTCGOEG,SCN7A,BLOCKER,Sodium channel alpha subunit blocker
+FTALBRSUTCGOEG,SCN2A,BLOCKER,Sodium channel alpha subunit blocker
+FTALBRSUTCGOEG,SCN9A,BLOCKER,Sodium channel alpha subunit blocker
+FTALBRSUTCGOEG,SCN3A,BLOCKER,Sodium channel alpha subunit blocker
+FTALBRSUTCGOEG,SCN11A,BLOCKER,Sodium channel alpha subunit blocker
+FTALBRSUTCGOEG,SCN8A,BLOCKER,Sodium channel alpha subunit blocker
+FTALBRSUTCGOEG,SCN10A,BLOCKER,Sodium channel alpha subunit blocker
+UBQNRHZMVUUOMG,SCN1A,BLOCKER,Sodium channel alpha subunit blocker
+UBQNRHZMVUUOMG,SCN5A,BLOCKER,Sodium channel alpha subunit blocker
+UBQNRHZMVUUOMG,SCN4A,BLOCKER,Sodium channel alpha subunit blocker
+UBQNRHZMVUUOMG,SCN7A,BLOCKER,Sodium channel alpha subunit blocker
+UBQNRHZMVUUOMG,SCN2A,BLOCKER,Sodium channel alpha subunit blocker
+UBQNRHZMVUUOMG,SCN9A,BLOCKER,Sodium channel alpha subunit blocker
+UBQNRHZMVUUOMG,SCN3A,BLOCKER,Sodium channel alpha subunit blocker
+UBQNRHZMVUUOMG,SCN11A,BLOCKER,Sodium channel alpha subunit blocker
+UBQNRHZMVUUOMG,SCN8A,BLOCKER,Sodium channel alpha subunit blocker
+UBQNRHZMVUUOMG,SCN10A,BLOCKER,Sodium channel alpha subunit blocker
+DYDCUQKUCUHJBH,ddl,INHIBITOR,D-alanylalanine synthetase inhibitor
+DYDCUQKUCUHJBH,alr,INHIBITOR,Alanine racemase inhibitor
+WOXKDUGGOYFFRN,PDE5A,INHIBITOR,Phosphodiesterase 5A inhibitor
+OELFLUMRDSZNSF,KCNJ11,BLOCKER,"Sulfonylurea receptor 1, Kir6.2 blocker"
+OELFLUMRDSZNSF,ABCC8,BLOCKER,"Sulfonylurea receptor 1, Kir6.2 blocker"
+DUGOZIWVEXMGBE,SLC6A3,INHIBITOR,Dopamine transporter inhibitor
+DUGOZIWVEXMGBE,SLC6A2,INHIBITOR,Norepinephrine transporter inhibitor
+FBOZXECLQNJBKD,DHFR,INHIBITOR,Dihydrofolate reductase inhibitor
+RRGUKTPIGVIEKM,PDE3A,INHIBITOR,Phosphodiesterase 3A inhibitor
+GHBCIXGRCZIPNQ,AGTR2,ANTAGONIST,Angiotensin II type 2 (AT-2) receptor antagonist
+UHDGCWIWMRVCDJ,POLA1,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+UHDGCWIWMRVCDJ,POLD4,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+UHDGCWIWMRVCDJ,POLD3,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+UHDGCWIWMRVCDJ,POLD1,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+UHDGCWIWMRVCDJ,POLD2,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+UHDGCWIWMRVCDJ,POLE,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+UHDGCWIWMRVCDJ,POLA2,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+UHDGCWIWMRVCDJ,PRIM1,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+UHDGCWIWMRVCDJ,PRIM2,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+UHDGCWIWMRVCDJ,POLE2,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+UHDGCWIWMRVCDJ,POLE3,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+MFWNKCLOYSRHCJ,HTR3A,ANTAGONIST,Serotonin 3a (5-HT3a) receptor antagonist
+UAHFGYDRQSXQEB,MC1R,AGONIST,Melanocortin receptor 1 agonist
+PLHJCIYEEKOWNM,FNTA,INHIBITOR,Protein farnesyltransferase inhibitor
+PLHJCIYEEKOWNM,FNTB,INHIBITOR,Protein farnesyltransferase inhibitor
+XJGVXQDUIWGIRW,HTR2A,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+XJGVXQDUIWGIRW,HTR2C,ANTAGONIST,Serotonin 2c (5-HT2c) receptor antagonist
+XJGVXQDUIWGIRW,DRD2,ANTAGONIST,D2-like dopamine receptor antagonist
+XJGVXQDUIWGIRW,DRD3,ANTAGONIST,D2-like dopamine receptor antagonist
+XJGVXQDUIWGIRW,DRD4,ANTAGONIST,D2-like dopamine receptor antagonist
+UBPYILGKFZZVDX,ABL1,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+UBPYILGKFZZVDX,SRC,INHIBITOR,Tyrosine-protein kinase SRC inhibitor
+UBPYILGKFZZVDX,HCK,INHIBITOR,Tyrosine-protein kinase HCK inhibitor
+UBPYILGKFZZVDX,LYN,INHIBITOR,Tyrosine-protein kinase Lyn inhibitor
+UVSMNLNDYGZFPF,CRBN,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+UVSMNLNDYGZFPF,DDB1,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+UVSMNLNDYGZFPF,CUL4A,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+UVSMNLNDYGZFPF,RBX1,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+GMRQFYUYWCNGIN,VDR,AGONIST,Vitamin D receptor agonist
+GOTYRUGSSMKFNF,CRBN,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+GOTYRUGSSMKFNF,DDB1,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+GOTYRUGSSMKFNF,CUL4A,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+GOTYRUGSSMKFNF,RBX1,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+HPNSFSBZBAHARI,IMPDH1,INHIBITOR,Inosine-5'-monophosphate dehydrogenase (IMPDH) inhibitor
+HPNSFSBZBAHARI,IMPDH2,INHIBITOR,Inosine-5'-monophosphate dehydrogenase (IMPDH) inhibitor
+VJJPUSNTGOMMGY,TOP2A,INHIBITOR,DNA topoisomerase II inhibitor
+VJJPUSNTGOMMGY,TOP2B,INHIBITOR,DNA topoisomerase II inhibitor
+XMAYWYJOQHXEEK,CYP11B1,INHIBITOR,Cytochrome P450 11B1 inhibitor
+XMAYWYJOQHXEEK,CYP11B2,INHIBITOR,Cytochrome P450 11B2 inhibitor
+XMAYWYJOQHXEEK,CYP17A1,INHIBITOR,Cytochrome P450 17A1 inhibitor
+XMAYWYJOQHXEEK,CYP11A1,INHIBITOR,Cytochrome P450 11A1 inhibitor
+GYDJEQRTZSCIOI,PLG,INHIBITOR,Plasminogen inhibitor
+DBABZHXKTCFAPX,SLC22A6,INHIBITOR,Solute carrier family 22 member 6 inhibitor
+DBABZHXKTCFAPX,SLC22A8,INHIBITOR,Solute carrier family 22 member 8 inhibitor
+DBABZHXKTCFAPX,SLC22A11,INHIBITOR,Solute carrier family 22 member 11 inhibitor
+XUFQPHANEAPEMJ,HRH2,ANTAGONIST,Histamine H2 receptor antagonist
+DHMTURDWPRKSOA,FNTA,INHIBITOR,Protein farnesyltransferase inhibitor
+DHMTURDWPRKSOA,FNTB,INHIBITOR,Protein farnesyltransferase inhibitor
+FJLBFSROUSIWMA,CYP11B1,INHIBITOR,"Cytochrome P450 11B1, mitochondrial inhibitor"
+KGSXMPPBFPAXLY,AGTR1,ANTAGONIST,Type-1 angiotensin II receptor antagonist
+NCDNCNXCDXHOMX,pol,INHIBITOR,Human immunodeficiency virus type 1 protease inhibitor
+NCDNCNXCDXHOMX,CYP3A4,INHIBITOR,Cytochrome P450 3A inhibitor
+NCDNCNXCDXHOMX,CYP3A5,INHIBITOR,Cytochrome P450 3A inhibitor
+NCDNCNXCDXHOMX,CYP3A43,INHIBITOR,Cytochrome P450 3A inhibitor
+NCDNCNXCDXHOMX,CYP3A7,INHIBITOR,Cytochrome P450 3A inhibitor
+XGALLCVXEZPNRQ,EGFR,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+UGJMXCAKCUNAIE,CACNA1H,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA2D1,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA1C,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA2D3,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA1S,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA2D2,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA1D,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA1A,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA1B,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA1G,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA2D4,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA1I,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA1F,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNA1E,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNB4,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNB2,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNB1,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNB3,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNG7,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNG5,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNG2,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNG4,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNG8,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNG3,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNG6,MODULATOR,Voltage-gated calcium channel modulator
+UGJMXCAKCUNAIE,CACNG1,MODULATOR,Voltage-gated calcium channel modulator
+VPPJLAIAVCUEMN,SCN1A,BLOCKER,Sodium channel alpha subunit blocker
+VPPJLAIAVCUEMN,SCN5A,BLOCKER,Sodium channel alpha subunit blocker
+VPPJLAIAVCUEMN,SCN4A,BLOCKER,Sodium channel alpha subunit blocker
+VPPJLAIAVCUEMN,SCN7A,BLOCKER,Sodium channel alpha subunit blocker
+VPPJLAIAVCUEMN,SCN2A,BLOCKER,Sodium channel alpha subunit blocker
+VPPJLAIAVCUEMN,SCN9A,BLOCKER,Sodium channel alpha subunit blocker
+VPPJLAIAVCUEMN,SCN3A,BLOCKER,Sodium channel alpha subunit blocker
+VPPJLAIAVCUEMN,SCN11A,BLOCKER,Sodium channel alpha subunit blocker
+VPPJLAIAVCUEMN,SCN8A,BLOCKER,Sodium channel alpha subunit blocker
+VPPJLAIAVCUEMN,SCN10A,BLOCKER,Sodium channel alpha subunit blocker
+CHNUOJQWGUIOLD,AKR1B1,INHIBITOR,Aldose reductase inhibitor
+YKPUWZUDDOIDPM,TRPV1,OPENER,Vanilloid receptor opener
+GJPICJJJRGTNOD,EDNRB,ANTAGONIST,"Endothelin receptor, ET-A/ET-B antagonist"
+GJPICJJJRGTNOD,EDNRA,ANTAGONIST,"Endothelin receptor, ET-A/ET-B antagonist"
+VHOGYURTWQBHIL,DHODH,INHIBITOR,Dihydroorotate dehydrogenase inhibitor
+MEZLKOACVSPNER,MAOB,INHIBITOR,Monoamine oxidase B inhibitor
+UTNUDOFZCWSZMS,DHODH,INHIBITOR,Dihydroorotate dehydrogenase inhibitor
+FEBLZLNTKCEFIT,NR3C1,AGONIST,Glucocorticoid receptor agonist
+XNKLLVCARDGLGL,pol,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor
+CXOXHMZGEKVPMT,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRB2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRG2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRB3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRA4,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRG3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRQ,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRA3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRP,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRD,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRG1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRB1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRE,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRA2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRA5,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+CXOXHMZGEKVPMT,GABRA6,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+WTDRDQBEARUVNC,DRD3,AGONIST,Dopamine D3 receptor agonist
+GHOSNRCGJFBJIB,AGTR1,ANTAGONIST,Type-1 angiotensin II receptor antagonist
+HTQMVQVXFRQIKW,AGTR1,ANTAGONIST,Type-1 angiotensin II receptor antagonist
+RMMXLENWKUUMAY,AGTR1,ANTAGONIST,Type-1 angiotensin II receptor antagonist
+UQRORFVVSGFNRO,UGCG,INHIBITOR,Ceramide glucosyltransferase inhibitor
+QYSXJUFSXHHAJI,VDR,AGONIST,Vitamin D receptor agonist
+GGXICVAJURFBLW,PTGFR,AGONIST,Prostanoid FP receptor agonist
+JIVPVXMEBJLZRO,SLC12A3,INHIBITOR,Thiazide-sensitive sodium-chloride cotransporter inhibitor
+AYXYPKUFHZROOJ,CACNA1H,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA2D1,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA1C,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA2D3,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA1S,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA2D2,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA1D,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA1A,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA1B,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA1G,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA2D4,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA1I,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA1F,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNA1E,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNB4,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNB2,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNB1,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNB3,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNG7,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNG5,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNG2,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNG4,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNG8,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNG3,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNG6,MODULATOR,Voltage-gated calcium channel modulator
+AYXYPKUFHZROOJ,CACNG1,MODULATOR,Voltage-gated calcium channel modulator
+RYMZZMVNJRMUDD,HMGCR,INHIBITOR,HMG-CoA reductase inhibitor
+ACWBQPMHZXGDFX,AGTR1,ANTAGONIST,Type-1 angiotensin II receptor antagonist
+MAEIEVLCKWDQJH,SLC12A1,INHIBITOR,Sodium-(potassium)-chloride cotransporter 2 inhibitor
+QIALRBLEEWJACW,SCN1A,BLOCKER,Sodium channel alpha subunit blocker
+QIALRBLEEWJACW,SCN5A,BLOCKER,Sodium channel alpha subunit blocker
+QIALRBLEEWJACW,SCN4A,BLOCKER,Sodium channel alpha subunit blocker
+QIALRBLEEWJACW,SCN7A,BLOCKER,Sodium channel alpha subunit blocker
+QIALRBLEEWJACW,SCN2A,BLOCKER,Sodium channel alpha subunit blocker
+QIALRBLEEWJACW,SCN9A,BLOCKER,Sodium channel alpha subunit blocker
+QIALRBLEEWJACW,SCN3A,BLOCKER,Sodium channel alpha subunit blocker
+QIALRBLEEWJACW,SCN11A,BLOCKER,Sodium channel alpha subunit blocker
+QIALRBLEEWJACW,SCN8A,BLOCKER,Sodium channel alpha subunit blocker
+QIALRBLEEWJACW,SCN10A,BLOCKER,Sodium channel alpha subunit blocker
+LSQZJLSUYDQPKJ,dacB,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+LSQZJLSUYDQPKJ,ftsI,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+LSQZJLSUYDQPKJ,mrcA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+LSQZJLSUYDQPKJ,mrcB,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+LSQZJLSUYDQPKJ,dacA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+LSQZJLSUYDQPKJ,mrdA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+LSQZJLSUYDQPKJ,dacC,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+LEBVLXFERQHONN,SCN4A,BLOCKER,Sodium channel protein type IV alpha subunit blocker
+OUJTZYPIHDYQMC,EDNRB,ANTAGONIST,"Endothelin receptor, ET-A/ET-B antagonist"
+OUJTZYPIHDYQMC,EDNRA,ANTAGONIST,"Endothelin receptor, ET-A/ET-B antagonist"
+KWIUHFFTVRNATP,BHMT,SUBSTRATE,Betaine-homocysteine S-methyltransferase substrate
+KWIUHFFTVRNATP,BHMT2,SUBSTRATE,Betaine-homocysteine S-methyltransferase substrate
+KYYIDSXMWOZKMP,SLC6A4,INHIBITOR,Serotonin transporter inhibitor
+KYYIDSXMWOZKMP,SLC6A2,INHIBITOR,Norepinephrine transporter inhibitor
+OLNTVTPDXPETLC,NPC1L1,INHIBITOR,Niemann-Pick C1-like protein 1 inhibitor
+NGBFQHCMQULJNZ,SLC12A1,INHIBITOR,Sodium-(potassium)-chloride cotransporter 2 inhibitor
+LRJOMUJRLNCICJ,NR3C1,AGONIST,Glucocorticoid receptor agonist
+WOFMFGQZHJDGCX,NR3C1,AGONIST,Glucocorticoid receptor agonist
+VIKNJXKGJWUCNN,PGR,AGONIST,Progesterone receptor agonist
+KXNPVXPOPUZYGB,F2,INHIBITOR,Thrombin inhibitor
+HDACQVRGBOVJII,ACE,INHIBITOR,Angiotensin-converting enzyme inhibitor
+ZPMNHBXQOOVQJL,HTR4,AGONIST,Serotonin 4 (5-HT4) receptor agonist
+JAUOIFJMECXRGI,HRH1,ANTAGONIST,Histamine H1 receptor antagonist
+CZKPOZZJODAYPZ,ITGB3,INHIBITOR,Integrin alpha-IIb/beta-3 inhibitor
+CZKPOZZJODAYPZ,ITGA2B,INHIBITOR,Integrin alpha-IIb/beta-3 inhibitor
+MKJIEFSOBYUXJB,SLC18A2,INHIBITOR,Synaptic vesicular amine transporter inhibitor
+MVFGUOIZUNYYSO,SCN1A,BLOCKER,Sodium channel alpha subunit blocker
+MVFGUOIZUNYYSO,SCN5A,BLOCKER,Sodium channel alpha subunit blocker
+MVFGUOIZUNYYSO,SCN4A,BLOCKER,Sodium channel alpha subunit blocker
+MVFGUOIZUNYYSO,SCN7A,BLOCKER,Sodium channel alpha subunit blocker
+MVFGUOIZUNYYSO,SCN2A,BLOCKER,Sodium channel alpha subunit blocker
+MVFGUOIZUNYYSO,SCN9A,BLOCKER,Sodium channel alpha subunit blocker
+MVFGUOIZUNYYSO,SCN3A,BLOCKER,Sodium channel alpha subunit blocker
+MVFGUOIZUNYYSO,SCN11A,BLOCKER,Sodium channel alpha subunit blocker
+MVFGUOIZUNYYSO,SCN8A,BLOCKER,Sodium channel alpha subunit blocker
+MVFGUOIZUNYYSO,SCN10A,BLOCKER,Sodium channel alpha subunit blocker
+YRVIKLBSVVNSHF,CHRNB2,PARTIAL AGONIST,Nicotinic acetylcholine receptor alpha4/beta2/alpha5 partial agonist
+YRVIKLBSVVNSHF,CHRNA4,PARTIAL AGONIST,Nicotinic acetylcholine receptor alpha4/beta2/alpha5 partial agonist
+YRVIKLBSVVNSHF,CHRNA5,PARTIAL AGONIST,Nicotinic acetylcholine receptor alpha4/beta2/alpha5 partial agonist
+YRVIKLBSVVNSHF,CHRNA6,PARTIAL AGONIST,Neuronal acetylcholine receptor; alpha6/beta2 partial agonist
+GBBSUAFBMRNDJC,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; agonist GABA site positive allosteric modulator
+GBBSUAFBMRNDJC,GABRB2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; agonist GABA site positive allosteric modulator
+GBBSUAFBMRNDJC,GABRB3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; agonist GABA site positive allosteric modulator
+GBBSUAFBMRNDJC,GABRA4,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; agonist GABA site positive allosteric modulator
+GBBSUAFBMRNDJC,GABRA3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; agonist GABA site positive allosteric modulator
+GBBSUAFBMRNDJC,GABRB1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; agonist GABA site positive allosteric modulator
+GBBSUAFBMRNDJC,GABRA2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; agonist GABA site positive allosteric modulator
+GBBSUAFBMRNDJC,GABRA5,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; agonist GABA site positive allosteric modulator
+GBBSUAFBMRNDJC,GABRA6,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; agonist GABA site positive allosteric modulator
+GYHCTFXIZSNGJT,AVPR2,ANTAGONIST,Vasopressin V2 receptor antagonist
+XIQVNETUBQGFHX,CHRM3,ANTAGONIST,Muscarinic acetylcholine receptor M3 antagonist
+XIQVNETUBQGFHX,CHRM2,ANTAGONIST,Muscarinic acetylcholine receptor M2 antagonist
+SYOKIDBDQMKNDQ,DPP4,INHIBITOR,Dipeptidyl peptidase IV inhibitor
+HRRBJVNMSRJFHQ,ADRA1D,ANTAGONIST,Alpha-1d adrenergic receptor antagonist
+PIWKPBJCKXDKJR,GLRA1,POSITIVE MODULATOR,Glycine receptor (alpha-1/beta) positive modulator
+PIWKPBJCKXDKJR,GLRB,POSITIVE MODULATOR,Glycine receptor (alpha-1/beta) positive modulator
+PIWKPBJCKXDKJR,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRB2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRG2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRB3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRA4,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRG3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRQ,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRA3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRP,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRD,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRG1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRB1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRE,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRA2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRA5,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,GABRA6,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PIWKPBJCKXDKJR,KCNK10,OPENER,Potassium channel subfamily K member 10 opener
+PIWKPBJCKXDKJR,KCNK18,OPENER,Potassium channel subfamily K member 18 opener
+PIWKPBJCKXDKJR,KCNK3,OPENER,Potassium channel subfamily K member 3 opener
+PIWKPBJCKXDKJR,KCNK9,OPENER,Potassium channel subfamily K member 9 opener
+PIWKPBJCKXDKJR,KCNK2,OPENER,Potassium channel subfamily K member 2 opener
+LZCDAPDGXCYOEH,RARG,AGONIST,Retinoic acid receptor agonist
+LZCDAPDGXCYOEH,RARB,AGONIST,Retinoic acid receptor agonist
+LZCDAPDGXCYOEH,RARA,AGONIST,Retinoic acid receptor agonist
+DOUYETYNHWVLEO,TLR7,AGONIST,Toll-like receptor 7 agonist
+HPHUVLMMVZITSG,SV2A,MODULATOR,Synaptic vesicle glycoprotein 2A modulator
+HPHUVLMMVZITSG,CACNA1B,BLOCKER,Voltage-gated N-type calcium channel alpha-1B subunit blocker
+XMAYWYJOQHXEEK,ERG11,INHIBITOR,Cytochrome P450 51 inhibitor
+KFQYTPMOWPVWEJ,DRD2,AGONIST,D2-like dopamine receptor agonist
+KFQYTPMOWPVWEJ,DRD3,AGONIST,D2-like dopamine receptor agonist
+KFQYTPMOWPVWEJ,DRD4,AGONIST,D2-like dopamine receptor agonist
+RIKMMFOAQPJVMX,ADH1A,INHIBITOR,Alcohol dehydrogenase class I inhibitor
+RIKMMFOAQPJVMX,ADH1B,INHIBITOR,Alcohol dehydrogenase class I inhibitor
+RIKMMFOAQPJVMX,ADH1C,INHIBITOR,Alcohol dehydrogenase class I inhibitor
+YWXYYJSYQOXTPL,GUCY1B1,ACTIVATOR,Soluble guanylate cyclase activator
+YWXYYJSYQOXTPL,GUCY1B2,ACTIVATOR,Soluble guanylate cyclase activator
+YWXYYJSYQOXTPL,GUCY1A2,ACTIVATOR,Soluble guanylate cyclase activator
+YWXYYJSYQOXTPL,GUCY1A1,ACTIVATOR,Soluble guanylate cyclase activator
+OUBCNLGXQFSTLU,HPD,INHIBITOR,4-hydroxyphenylpyruvate dioxygenase inhibitor
+RFKMCNOHBTXSMU,GLRA1,AGONIST,Glycine receptor (alpha-1/beta) agonist
+RFKMCNOHBTXSMU,GLRB,AGONIST,Glycine receptor (alpha-1/beta) agonist
+RFKMCNOHBTXSMU,GABRA1,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRB2,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRG2,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRB3,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRA4,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRG3,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRQ,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRA3,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRP,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRD,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRG1,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRB1,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRE,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRA2,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRA5,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+RFKMCNOHBTXSMU,GABRA6,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+YIBOMRUWOWDFLG,pol,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor
+JWNPDZNEKVCWMY,EGFR,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+JWNPDZNEKVCWMY,ERBB2,INHIBITOR,Receptor protein-tyrosine kinase erbB-2 inhibitor
+JWNPDZNEKVCWMY,ERBB4,INHIBITOR,Receptor protein-tyrosine kinase erbB-4 inhibitor
+XVGOZDAJGBALKS,HTR2A,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+XVGOZDAJGBALKS,DRD2,ANTAGONIST,Dopamine D2 receptor antagonist
+XVGOZDAJGBALKS,DRD3,ANTAGONIST,Dopamine D3 receptor antagonist
+VWUXBMIQPBEWFH,ESR1,ANTAGONIST,Estrogen receptor alpha antagonist
+JUZNIMUFDBIJCM,dacB,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+JUZNIMUFDBIJCM,ftsI,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+JUZNIMUFDBIJCM,mrcA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+JUZNIMUFDBIJCM,mrcB,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+JUZNIMUFDBIJCM,dacA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+JUZNIMUFDBIJCM,mrdA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+JUZNIMUFDBIJCM,dacC,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+JUZNIMUFDBIJCM,pbpA,INHIBITOR,Cell shape peptidoglycan synthetase penicillin-binding protein 2 inhibitor
+VOVIALXJUBGFJZ,NR3C1,AGONIST,Glucocorticoid receptor agonist
+KQDRVXQXKZXMHP,CXCR1,MODULATOR,Interleukin-8 receptor A modulator
+KQDRVXQXKZXMHP,CXCR2,MODULATOR,Interleukin-8 receptor B modulator
+YFGHCGITMMYXAQ,SLC6A3,INHIBITOR,Dopamine transporter inhibitor
+SYTBZMRGLBWNTM,APH1A,MODULATOR,Gamma-secretase modulator
+SYTBZMRGLBWNTM,PSENEN,MODULATOR,Gamma-secretase modulator
+SYTBZMRGLBWNTM,APH1B,MODULATOR,Gamma-secretase modulator
+SYTBZMRGLBWNTM,PSEN1,MODULATOR,Gamma-secretase modulator
+SYTBZMRGLBWNTM,NCSTN,MODULATOR,Gamma-secretase modulator
+SYTBZMRGLBWNTM,PSEN2,MODULATOR,Gamma-secretase modulator
+QHMBSVQNZZTUGM,CNR1,NEGATIVE ALLOSTERIC MODULATOR,Cannabinoid CB1 receptor negative allosteric modulator
+AHJRHEGDXFFMBM,CCND1,INHIBITOR,CDK6/cyclin D1 inhibitor
+AHJRHEGDXFFMBM,CDK6,INHIBITOR,CDK6/cyclin D1 inhibitor
+AHJRHEGDXFFMBM,CDK4,INHIBITOR,Cyclin-dependent kinase 4/cyclin D1 inhibitor
+DDLPYOCJHQSVSZ,CXCR1,MODULATOR,Interleukin-8 receptor A modulator
+DDLPYOCJHQSVSZ,CXCR2,MODULATOR,Interleukin-8 receptor B modulator
+MNDBXUUTURYVHR,PDE4A,INHIBITOR,Phosphodiesterase 4 inhibitor
+MNDBXUUTURYVHR,PDE4D,INHIBITOR,Phosphodiesterase 4 inhibitor
+MNDBXUUTURYVHR,PDE4B,INHIBITOR,Phosphodiesterase 4 inhibitor
+MNDBXUUTURYVHR,PDE4C,INHIBITOR,Phosphodiesterase 4 inhibitor
+WWYNJERNGUHSAO,PGR,AGONIST,Progesterone receptor agonist
+LXMSZDCAJNLERA,NR3C2,ANTAGONIST,Mineralocorticoid receptor antagonist
+STPKWKPURVSAJF,SLC10A2,INHIBITOR,Ileal bile acid transporter inhibitor
+KGFYHTZWPPHNLQ,F10,INHIBITOR,Coagulation factor X inhibitor
+RAGOYPUPXAKGKH,ERG11,INHIBITOR,Cytochrome P450 51 inhibitor
+YBBLVLTVTVSKRW,CYP19A1,INHIBITOR,Cytochrome P450 19A1 inhibitor
+YQNQNVDNTFHQSW,PFOR,INHIBITOR,Pyruvate:ferredoxin oxidoreductase inhibitor
+BXNMTOQRYBFHNZ,TLR8,AGONIST,Toll-like receptor 8 agonist
+BXNMTOQRYBFHNZ,TLR7,AGONIST,Toll-like receptor 7 agonist
+WXJFKKQWPMNTIM,OPG071,INHIBITOR,DNA polymerase inhibitor
+XKLMZUWKNUAPSZ,SCN5A,BLOCKER,Sodium channel protein type V alpha subunit blocker
+XKLMZUWKNUAPSZ,SCN4A,BLOCKER,Sodium channel protein type IV alpha subunit blocker
+XIESSJVMWNJCGZ,ESR2,AGONIST,Estrogen receptor beta agonist
+LHHCSNFAOIFYRV,NS4A,INHIBITOR,"Hepatitis C virus serine protease, NS3/NS4A inhibitor"
+LHHCSNFAOIFYRV,NS3,INHIBITOR,"Hepatitis C virus serine protease, NS3/NS4A inhibitor"
+ZBNZXTGUTAYRHI,ABL1,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+ZBNZXTGUTAYRHI,PDGFRB,INHIBITOR,Platelet-derived growth factor receptor beta inhibitor
+ZBNZXTGUTAYRHI,KIT,INHIBITOR,Stem cell growth factor receptor inhibitor
+ZBNZXTGUTAYRHI,EPHA2,INHIBITOR,Ephrin type-A receptor 2 inhibitor
+ZBNZXTGUTAYRHI,FYN,INHIBITOR,SRC inhibitor
+ZBNZXTGUTAYRHI,SRC,INHIBITOR,SRC inhibitor
+ZBNZXTGUTAYRHI,LCK,INHIBITOR,SRC inhibitor
+ZBNZXTGUTAYRHI,YES1,INHIBITOR,SRC inhibitor
+ZBNZXTGUTAYRHI,BLK,INHIBITOR,SRC inhibitor
+ZBNZXTGUTAYRHI,HCK,INHIBITOR,SRC inhibitor
+ZBNZXTGUTAYRHI,LYN,INHIBITOR,SRC inhibitor
+ZBNZXTGUTAYRHI,FRK,INHIBITOR,SRC inhibitor
+ZBNZXTGUTAYRHI,FGR,INHIBITOR,SRC inhibitor
+ZBNZXTGUTAYRHI,SRMS,INHIBITOR,SRC inhibitor
+ZBNZXTGUTAYRHI,BCR,INHIBITOR,Bcr/Abl fusion protein inhibitor
+MUMGGOZAMZWBJJ,AR,AGONIST,Androgen Receptor agonist
+FGXWKSZFVQUSTL,DRD2,ANTAGONIST,Dopamine D2 receptor antagonist
+JQXXHWHPUNPDRT,rpoB,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+JQXXHWHPUNPDRT,rpoA,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+JQXXHWHPUNPDRT,rpoC,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+JQXXHWHPUNPDRT,rpoZ,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+UIAGMCDKSXEBJQ,NR3C2,ANTAGONIST,Mineralocorticoid receptor antagonist
+UIAGMCDKSXEBJQ,CACNA1C,BLOCKER,Voltage-gated L-type calcium channel blocker
+UIAGMCDKSXEBJQ,CACNA1S,BLOCKER,Voltage-gated L-type calcium channel blocker
+UIAGMCDKSXEBJQ,CACNA1D,BLOCKER,Voltage-gated L-type calcium channel blocker
+UIAGMCDKSXEBJQ,CACNA1F,BLOCKER,Voltage-gated L-type calcium channel blocker
+IQFYYKKMVGJFEH,P,INHIBITOR,DNA polymerase/reverse transcriptase inhibitor
+KJADKKWYZYXHBB,CA2,INHIBITOR,Carbonic anhydrase II inhibitor
+KJADKKWYZYXHBB,CA4,INHIBITOR,Carbonic anhydrase IV inhibitor
+KJADKKWYZYXHBB,GRIA4,ANTAGONIST,Glutamate receptor ionotropic AMPA antagonist
+KJADKKWYZYXHBB,GRIA3,ANTAGONIST,Glutamate receptor ionotropic AMPA antagonist
+KJADKKWYZYXHBB,GRIA2,ANTAGONIST,Glutamate receptor ionotropic AMPA antagonist
+KJADKKWYZYXHBB,GRIA1,ANTAGONIST,Glutamate receptor ionotropic AMPA antagonist
+KJADKKWYZYXHBB,GRIK1,ANTAGONIST,Glutamate receptor ionotropic kainate antagonist
+KJADKKWYZYXHBB,GRIK5,ANTAGONIST,Glutamate receptor ionotropic kainate antagonist
+KJADKKWYZYXHBB,GRIK4,ANTAGONIST,Glutamate receptor ionotropic kainate antagonist
+KJADKKWYZYXHBB,GRIK2,ANTAGONIST,Glutamate receptor ionotropic kainate antagonist
+KJADKKWYZYXHBB,GRIK3,ANTAGONIST,Glutamate receptor ionotropic kainate antagonist
+KJADKKWYZYXHBB,GABRA1,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRB2,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRG2,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRB3,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRA4,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRG3,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRQ,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRA3,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRP,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRD,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRG1,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRB1,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRE,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRA2,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRA5,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,GABRA6,POSITIVE MODULATOR,GABA-A receptor; anion channel positive modulator
+KJADKKWYZYXHBB,SCN1A,BLOCKER,Sodium channel alpha subunit blocker
+KJADKKWYZYXHBB,SCN5A,BLOCKER,Sodium channel alpha subunit blocker
+KJADKKWYZYXHBB,SCN4A,BLOCKER,Sodium channel alpha subunit blocker
+KJADKKWYZYXHBB,SCN7A,BLOCKER,Sodium channel alpha subunit blocker
+KJADKKWYZYXHBB,SCN2A,BLOCKER,Sodium channel alpha subunit blocker
+KJADKKWYZYXHBB,SCN9A,BLOCKER,Sodium channel alpha subunit blocker
+KJADKKWYZYXHBB,SCN3A,BLOCKER,Sodium channel alpha subunit blocker
+KJADKKWYZYXHBB,SCN11A,BLOCKER,Sodium channel alpha subunit blocker
+KJADKKWYZYXHBB,SCN8A,BLOCKER,Sodium channel alpha subunit blocker
+KJADKKWYZYXHBB,SCN10A,BLOCKER,Sodium channel alpha subunit blocker
+GHASVSINZRGABV,TYMS,INHIBITOR,Thymidylate synthase inhibitor
+MPVGZUGXCQEXTM,CSF1R,INHIBITOR,Macrophage colony stimulating factor receptor inhibitor
+MPVGZUGXCQEXTM,FLT3,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+MPVGZUGXCQEXTM,PDGFRB,INHIBITOR,Platelet-derived growth factor receptor inhibitor
+MPVGZUGXCQEXTM,PDGFRA,INHIBITOR,Platelet-derived growth factor receptor inhibitor
+MPVGZUGXCQEXTM,FLT1,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+MPVGZUGXCQEXTM,FLT4,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+MPVGZUGXCQEXTM,KDR,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+ZCGNOVWYSGBHAU,PA,INHIBITOR,RNA-directed RNA polymerase inhibitor
+ZCGNOVWYSGBHAU,PB1,INHIBITOR,RNA-directed RNA polymerase inhibitor
+ZCGNOVWYSGBHAU,PB2,INHIBITOR,RNA-directed RNA polymerase inhibitor
+WBXPDJSOTKVWSJ,DHFR,INHIBITOR,Dihydrofolate reductase inhibitor
+WBXPDJSOTKVWSJ,TYMS,INHIBITOR,Thymidylate synthase inhibitor
+WBXPDJSOTKVWSJ,GART,INHIBITOR,GAR transformylase inhibitor
+JYGXADMDTFJGBT,NR3C1,AGONIST,Glucocorticoid receptor agonist
+WHQCHUCQKNIQEC,SLC22A12,INHIBITOR,Solute carrier family 22 member 12 inhibitor
+HPJKCIUCZWXJDR,CYP19A1,INHIBITOR,Cytochrome P450 19A1 inhibitor
+XPOQHMRABVBWPR,pol,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor
+GFNANZIMVAIWHM,NR3C1,AGONIST,Glucocorticoid receptor agonist
+YUTIXVXZQIQWGY,TRPV1,ANTAGONIST,Vanilloid receptor antagonist
+RTGDFNSFWBGLEC,IMPDH1,INHIBITOR,Inosine-5'-monophosphate dehydrogenase (IMPDH) inhibitor
+RTGDFNSFWBGLEC,IMPDH2,INHIBITOR,Inosine-5'-monophosphate dehydrogenase (IMPDH) inhibitor
+NEMGRZFTLSKBAP,MAOB,INHIBITOR,Monoamine oxidase B inhibitor
+YQEZLKZALYSWHR,GRIN1,NEGATIVE ALLOSTERIC MODULATOR,Glutamate [NMDA] receptor negative allosteric modulator
+YQEZLKZALYSWHR,GRIN2A,NEGATIVE ALLOSTERIC MODULATOR,Glutamate [NMDA] receptor negative allosteric modulator
+YQEZLKZALYSWHR,GRIN2B,NEGATIVE ALLOSTERIC MODULATOR,Glutamate [NMDA] receptor negative allosteric modulator
+YQEZLKZALYSWHR,GRIN2D,NEGATIVE ALLOSTERIC MODULATOR,Glutamate [NMDA] receptor negative allosteric modulator
+YQEZLKZALYSWHR,GRIN3B,NEGATIVE ALLOSTERIC MODULATOR,Glutamate [NMDA] receptor negative allosteric modulator
+YQEZLKZALYSWHR,GRIN2C,NEGATIVE ALLOSTERIC MODULATOR,Glutamate [NMDA] receptor negative allosteric modulator
+YQEZLKZALYSWHR,GRIN3A,NEGATIVE ALLOSTERIC MODULATOR,Glutamate [NMDA] receptor negative allosteric modulator
+OFCNXPDARWKPPY,XDH,INHIBITOR,Xanthine dehydrogenase inhibitor
+QNZCBYKSOIHPEH,F10,INHIBITOR,Coagulation factor X inhibitor
+LTXREWYXXSTFRX,DPP4,INHIBITOR,Dipeptidyl peptidase IV inhibitor
+WMWTYOKRWGGJOA,NR3C1,AGONIST,Glucocorticoid receptor agonist
+POZRVZJJTULAOH,PGR,AGONIST,Progesterone receptor agonist
+POZRVZJJTULAOH,AR,AGONIST,Androgen Receptor agonist
+WIGIZIANZCJQQY,KCNJ11,BLOCKER,"Sulfonylurea receptor 1, Kir6.2 blocker"
+WIGIZIANZCJQQY,ABCC8,BLOCKER,"Sulfonylurea receptor 1, Kir6.2 blocker"
+QXWZQTURMXZVHJ,PTGIR,AGONIST,Prostanoid IP receptor agonist
+ZHKNLJLMDFQVHJ,PPARA,AGONIST,Peroxisome proliferator-activated receptor alpha agonist
+OEKWJQXRCDYSHL,P2RY12,NEGATIVE ALLOSTERIC MODULATOR,Purinergic receptor P2Y12 negative allosteric modulator
+NMUSYJAQQFHJEW,DNMT3A,INHIBITOR,DNA (cytosine-5)-methyltransferase 3A inhibitor
+NMUSYJAQQFHJEW,DNMT1,INHIBITOR,DNA (cytosine-5)-methyltransferase 1 inhibitor
+NDAZATDQFDPQBD,HSP90AA1,INHIBITOR,Heat shock protein HSP90 inhibitor
+NDAZATDQFDPQBD,HSP90AB1,INHIBITOR,Heat shock protein HSP90 inhibitor
+SNHRLVCMMWUAJD,NR3C1,AGONIST,Glucocorticoid receptor agonist
+HYIMSNHJOBLJNT,CACNA1C,BLOCKER,Voltage-gated L-type calcium channel blocker
+HYIMSNHJOBLJNT,CACNA1S,BLOCKER,Voltage-gated L-type calcium channel blocker
+HYIMSNHJOBLJNT,CACNA1D,BLOCKER,Voltage-gated L-type calcium channel blocker
+HYIMSNHJOBLJNT,CACNA1F,BLOCKER,Voltage-gated L-type calcium channel blocker
+SUBDBMMJDZJVOS,ATP4A,INHIBITOR,Potassium-transporting ATPase inhibitor
+SUBDBMMJDZJVOS,ATP4B,INHIBITOR,Potassium-transporting ATPase inhibitor
+YNDXUCZADRHECN,NR3C1,AGONIST,Glucocorticoid receptor agonist
+METQSPRSQINEEU,NR3C2,ANTAGONIST,Mineralocorticoid receptor antagonist
+METQSPRSQINEEU,PGR,AGONIST,Progesterone receptor agonist
+YOSHYTLCDANDAN,AGTR1,ANTAGONIST,Type-1 angiotensin II receptor antagonist
+PMRYVIKBURPHAH,TPO,INHIBITOR,Thyroid peroxidase inhibitor
+VTRAEEWXHOVJFV,AGTR1,ANTAGONIST,Type-1 angiotensin II receptor antagonist
+KNAHARQHSZJURB,TPO,INHIBITOR,Thyroid peroxidase inhibitor
+KNAHARQHSZJURB,DIO1,INHIBITOR,Type I iodothyronine deiodinase (Type-I 5'-deiodinase) (DIOI) (Type 1 DI) (5DI) inhibitor
+GBBSUAFBMRNDJC,GABRG2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GBBSUAFBMRNDJC,GABRG3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GBBSUAFBMRNDJC,GABRQ,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GBBSUAFBMRNDJC,GABRP,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GBBSUAFBMRNDJC,GABRD,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GBBSUAFBMRNDJC,GABRG1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GBBSUAFBMRNDJC,GABRE,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+RLLPVAHGXHCWKJ,vssc,BLOCKER,Voltage-sensitive sodium channel blocker
+NOOLISFMXDJSKH,TRPM8,OPENER,Transient receptor potential cation channel subfamily M member 8 opener
+NOOLISFMXDJSKH,TRPA1,OPENER,Transient receptor potential cation channel subfamily A member 1 opener
+OOUGLTULBSNHNF,RPSA,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS27,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS6,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS2,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS3,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS3A,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS4X,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS4Y1,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS5,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS7,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS8,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS9,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS10,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS11,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS12,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS13,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS14,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS15,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS15A,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS16,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS17,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS18,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS19,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS20,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS21,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS23,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS24,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS25,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS26,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS27A,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS28,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPS29,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,FAU,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL3,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL4,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL5,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL6,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL7,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL7A,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL8,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL9,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL9P7,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL9P8,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL9P9,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL10,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL10A,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL11,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL12,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL13,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL13A,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL14,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL15,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL17,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL18,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL18A,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL19,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL21,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL22,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL23,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL23A,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL24,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL26,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL27,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL27A,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL28,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL29,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL30,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL31,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL32,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL34,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL35,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL35A,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL36,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL36A,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL37,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL37A,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL38,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL39,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPL41,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPLP0,MODULATOR,80S Ribosome modulator
+OOUGLTULBSNHNF,RPLP1,MODULATOR,80S Ribosome modulator
+ZISJNXNHJRQYJO,AHR,AGONIST,Aryl hydrocarbon receptor agonist
+LMEKQMALGUDUQG,PPAT,INHIBITOR,Amidophosphoribosyltransferase inhibitor
+OOLLAFOLCSJHRE,PGR,MODULATOR,Progesterone receptor modulator
+UPNUIXSCZBYVBB,OPRM1,ANTAGONIST,Mu opioid receptor antagonist
+XUFXOAAUWZOOIT,AMY2A,INHIBITOR,Pancreatic alpha-amylase inhibitor
+XUFXOAAUWZOOIT,MGAM,INHIBITOR,Maltase-glucoamylase inhibitor
+UVIQSJCZCSLXRZ,CYP17A1,INHIBITOR,Cytochrome P450 17A1 inhibitor
+JVHXJTBJCFBINQ,SLC5A2,INHIBITOR,Sodium/glucose cotransporter 2 inhibitor
+RKUNBYITZUJHSG,CHRM3,ANTAGONIST,Muscarinic acetylcholine receptor M3 antagonist
+RKUNBYITZUJHSG,CHRM1,ANTAGONIST,Muscarinic acetylcholine receptor M1 antagonist
+RKUNBYITZUJHSG,CHRM2,ANTAGONIST,Muscarinic acetylcholine receptor M2 antagonist
+RMRJXGBAOAMLHD,OPRM1,AGONIST,Mu opioid receptor agonist
+RMRJXGBAOAMLHD,OPRK1,AGONIST,Kappa opioid receptor agonist
+DHHVAGZRUROJKS,SLC6A2,RELEASING AGENT,Norepinephrine transporter releasing agent
+FPVKHBSQESCIEP,ADA,INHIBITOR,Adenosine deaminase inhibitor
+NNACHAUCXXVJSP,HRH3,INVERSE AGONIST,Histamine H3 receptor inverse agonist
+IMOZEMNVLZVGJZ,PDE4A,INHIBITOR,Phosphodiesterase 4 inhibitor
+IMOZEMNVLZVGJZ,PDE4D,INHIBITOR,Phosphodiesterase 4 inhibitor
+IMOZEMNVLZVGJZ,PDE4B,INHIBITOR,Phosphodiesterase 4 inhibitor
+IMOZEMNVLZVGJZ,PDE4C,INHIBITOR,Phosphodiesterase 4 inhibitor
+XHOLNRLADUSQLD,F10,INHIBITOR,Coagulation factor X inhibitor
+QWEWGXUTRTXFRF,DPP4,INHIBITOR,Dipeptidyl peptidase IV inhibitor
+BPQMGSKTAYIVFO,SMO,INHIBITOR,Smoothened homolog inhibitor
+VWPOSFSPZNDTMJ,ADRB1,ANTAGONIST,Beta-1 adrenergic receptor antagonist
+VWPOSFSPZNDTMJ,ADRB2,ANTAGONIST,Beta-2 adrenergic receptor antagonist
+NZCRJKRKKOLAOJ,rpoB,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+NZCRJKRKKOLAOJ,rpoA,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+NZCRJKRKKOLAOJ,rpoC,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+NZCRJKRKKOLAOJ,rpoZ,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+PMXMIIMHBWHSKN,DRD2,ANTAGONIST,Dopamine D2 receptor antagonist
+PMXMIIMHBWHSKN,HTR2A,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+FDLYAMZZIXQODN,PARP1,INHIBITOR,"PARP 1, 2 and 3 inhibitor"
+FDLYAMZZIXQODN,PARP3,INHIBITOR,"PARP 1, 2 and 3 inhibitor"
+FDLYAMZZIXQODN,PARP2,INHIBITOR,"PARP 1, 2 and 3 inhibitor"
+IWUCXVSUMQZMFG,IMPDH1,INHIBITOR,Inosine-5'-monophosphate dehydrogenase 1 inhibitor
+IWUCXVSUMQZMFG,NS5b,INHIBITOR,RNA-directed RNA polymerase inhibitor
+HMJIYCCIJYRONP,CACNA1C,BLOCKER,Voltage-gated L-type calcium channel blocker
+HMJIYCCIJYRONP,CACNA1S,BLOCKER,Voltage-gated L-type calcium channel blocker
+HMJIYCCIJYRONP,CACNA1D,BLOCKER,Voltage-gated L-type calcium channel blocker
+HMJIYCCIJYRONP,CACNA1F,BLOCKER,Voltage-gated L-type calcium channel blocker
+ITRJWOMZKQRYTA,NR3C1,AGONIST,Glucocorticoid receptor agonist
+JNAHVYVRKWKWKQ,PARP1,INHIBITOR,"PARP 1, 2 and 3 inhibitor"
+JNAHVYVRKWKWKQ,PARP3,INHIBITOR,"PARP 1, 2 and 3 inhibitor"
+JNAHVYVRKWKWKQ,PARP2,INHIBITOR,"PARP 1, 2 and 3 inhibitor"
+PIQCTGMSNWUMAF,FGFR3,INHIBITOR,Fibroblast growth factor receptor 3 inhibitor
+PIQCTGMSNWUMAF,FLT3,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+PIQCTGMSNWUMAF,KIT,INHIBITOR,Stem cell growth factor receptor inhibitor
+PIQCTGMSNWUMAF,PDGFRB,INHIBITOR,Platelet-derived growth factor receptor inhibitor
+PIQCTGMSNWUMAF,PDGFRA,INHIBITOR,Platelet-derived growth factor receptor inhibitor
+PIQCTGMSNWUMAF,FLT1,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+PIQCTGMSNWUMAF,FLT4,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+PIQCTGMSNWUMAF,KDR,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+ZCCUWMICIWSJIX,mecA,INHIBITOR,Penicillin-binding protein 2a inhibitor
+ZCCUWMICIWSJIX,pbpX,INHIBITOR,Penicillin-binding protein 2x inhibitor
+ZCCUWMICIWSJIX,dacB,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+ZCCUWMICIWSJIX,ftsI,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+ZCCUWMICIWSJIX,mrcA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+ZCCUWMICIWSJIX,mrcB,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+ZCCUWMICIWSJIX,dacA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+ZCCUWMICIWSJIX,mrdA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+ZCCUWMICIWSJIX,dacC,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+WDZCUPBHRAEYDL,rpoB,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+WDZCUPBHRAEYDL,rpoA,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+WDZCUPBHRAEYDL,rpoC,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+WDZCUPBHRAEYDL,rpoZ,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+XTULMSXFIHGYFS,NR3C1,AGONIST,Glucocorticoid receptor agonist
+KJFBVJALEQWJBS,UL97,INHIBITOR,Phosphotransferase pUL97 inhibitor
+USZAGAREISWJDP,PDE4A,INHIBITOR,Phosphodiesterase 4 inhibitor
+USZAGAREISWJDP,PDE4D,INHIBITOR,Phosphodiesterase 4 inhibitor
+USZAGAREISWJDP,PDE4B,INHIBITOR,Phosphodiesterase 4 inhibitor
+USZAGAREISWJDP,PDE4C,INHIBITOR,Phosphodiesterase 4 inhibitor
+AZEXWHKOMMASPA,PDE10A,INHIBITOR,Phosphodiesterase 10A inhibitor
+RAHBGWKEPAQNFF,KIT,INHIBITOR,Stem cell growth factor receptor inhibitor
+RAHBGWKEPAQNFF,RET,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+RAHBGWKEPAQNFF,FLT1,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+RAHBGWKEPAQNFF,FLT4,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+RAHBGWKEPAQNFF,KDR,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+RAHBGWKEPAQNFF,PDGFRB,INHIBITOR,Platelet-derived growth factor receptor inhibitor
+RAHBGWKEPAQNFF,PDGFRA,INHIBITOR,Platelet-derived growth factor receptor inhibitor
+ZXERDUOLZKYMJM,NR1H4,AGONIST,Bile acid receptor FXR agonist
+NLVFBUXFDBBNBW,rpsJ,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsK,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsL,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsM,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsN,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsO,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsP,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsQ,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsR,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsS,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsA,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsT,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsU,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsB,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsC,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsD,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsE,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsF,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsG,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsH,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpsI,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplJ,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplK,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplM,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplN,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplO,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplP,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplQ,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplR,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplS,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplA,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplT,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplU,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplV,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplW,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplX,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplY,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpmA,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpmB,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpmC,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplB,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpmD,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpmE2,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpmE,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpmF,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpmG,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpmH,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpmI,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpmJ2,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rpmJ,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplC,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplD,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplE,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplF,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplL,INHIBITOR,70S ribosome inhibitor
+NLVFBUXFDBBNBW,rplI,INHIBITOR,70S ribosome inhibitor
+STECJAGHUSJQJN,CHRM1,ANTAGONIST,Muscarinic acetylcholine receptor M1 antagonist
+HUNGUWOZPQBXGX,SRC,INHIBITOR,Tyrosine-protein kinase SRC inhibitor
+WDDPHFBMKLOVOX,RRM1,INHIBITOR,Ribonucleoside-diphosphate reductase RR1 inhibitor
+WDDPHFBMKLOVOX,RRM2B,INHIBITOR,Ribonucleoside-diphosphate reductase RR1 inhibitor
+WDDPHFBMKLOVOX,RRM2,INHIBITOR,Ribonucleoside-diphosphate reductase RR1 inhibitor
+WDDPHFBMKLOVOX,POLA1,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+WDDPHFBMKLOVOX,POLD4,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+WDDPHFBMKLOVOX,POLD3,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+WDDPHFBMKLOVOX,POLD1,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+WDDPHFBMKLOVOX,POLD2,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+WDDPHFBMKLOVOX,POLE,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+WDDPHFBMKLOVOX,POLA2,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+WDDPHFBMKLOVOX,PRIM1,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+WDDPHFBMKLOVOX,PRIM2,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+WDDPHFBMKLOVOX,POLE2,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+WDDPHFBMKLOVOX,POLE3,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+LTMHDMANZUZIPE,ATP1A1,INHIBITOR,Sodium/potassium-transporting ATPase inhibitor
+LTMHDMANZUZIPE,ATP1B2,INHIBITOR,Sodium/potassium-transporting ATPase inhibitor
+LTMHDMANZUZIPE,ATP1B1,INHIBITOR,Sodium/potassium-transporting ATPase inhibitor
+LTMHDMANZUZIPE,ATP1A2,INHIBITOR,Sodium/potassium-transporting ATPase inhibitor
+LTMHDMANZUZIPE,ATP1B3,INHIBITOR,Sodium/potassium-transporting ATPase inhibitor
+LTMHDMANZUZIPE,ATP1A3,INHIBITOR,Sodium/potassium-transporting ATPase inhibitor
+LTMHDMANZUZIPE,ATP1A4,INHIBITOR,Sodium/potassium-transporting ATPase inhibitor
+LTMHDMANZUZIPE,FXYD2,INHIBITOR,Sodium/potassium-transporting ATPase inhibitor
+GAGWJHPBXLXJQN,TYMS,INHIBITOR,Thymidylate synthase inhibitor
+KTEIFNKAUNYNJU,MET,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+KTEIFNKAUNYNJU,ALK,INHIBITOR,ALK tyrosine kinase receptor inhibitor
+KTEIFNKAUNYNJU,EML4,INHIBITOR,EML4-ALK inhibitor
+KTEIFNKAUNYNJU,NPM1,INHIBITOR,NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor
+KTEIFNKAUNYNJU,ROS1,INHIBITOR,Proto-oncogene tyrosine-protein kinase ROS inhibitor
+KTEIFNKAUNYNJU,MST1R,INHIBITOR,Macrophage-stimulating protein receptor inhibitor
+MSYKRHVOOPPJKU,SV2A,MODULATOR,Synaptic vesicle glycoprotein 2A modulator
+JQSHBVHOMNKWFT,CHRNB2,PARTIAL AGONIST,Neuronal acetylcholine receptor; alpha4/beta2 partial agonist
+JQSHBVHOMNKWFT,CHRNA4,PARTIAL AGONIST,Neuronal acetylcholine receptor; alpha4/beta2 partial agonist
+ULDXWLCXEDXJGE,AKT2,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor
+ULDXWLCXEDXJGE,AKT3,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor
+ULDXWLCXEDXJGE,AKT1,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor
+ZVHNDZWQTBEVRY,JAK1,INHIBITOR,Tyrosine-protein kinase JAK1 inhibitor
+ZVHNDZWQTBEVRY,JAK2,INHIBITOR,Tyrosine-protein kinase JAK2 inhibitor
+PKCDDUHJAFVJJB,IGF1R,INHIBITOR,Insulin-like growth factor I receptor inhibitor
+PKCDDUHJAFVJJB,INSR,INHIBITOR,Insulin receptor inhibitor
+PCHKPVIQAHNQLW,PARP2,INHIBITOR,Poly [ADP-ribose] polymerase 2 inhibitor
+PCHKPVIQAHNQLW,PARP1,INHIBITOR,Poly [ADP-ribose] polymerase-1 inhibitor
+MWUFVYLAWAXDHQ,MAP2K1,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+MWUFVYLAWAXDHQ,MAP3K1,INHIBITOR,Mitogen-activated protein kinase kinase kinase 1 inhibitor
+JUKPWJGBANNWMW,NR3C2,ANTAGONIST,Mineralocorticoid receptor antagonist
+LPAUOXUZGSBGDU,S1PR1,AGONIST,Sphingosine 1-phosphate receptor Edg-1 agonist
+JYTNQNCOQXFQPK,HCRTR2,ANTAGONIST,Orexin receptor antagonist
+JYTNQNCOQXFQPK,HCRTR1,ANTAGONIST,Orexin receptor antagonist
+WXCXUHSOUPDCQV,AR,ANTAGONIST,Androgen Receptor antagonist
+HMABYWSNWIZPAG,PARP1,INHIBITOR,"PARP 1, 2 and 3 inhibitor"
+HMABYWSNWIZPAG,PARP3,INHIBITOR,"PARP 1, 2 and 3 inhibitor"
+HMABYWSNWIZPAG,PARP2,INHIBITOR,"PARP 1, 2 and 3 inhibitor"
+BFYIZQONLCFLEV,CYP19A1,INHIBITOR,Cytochrome P450 19A1 inhibitor
+KUVIULQEHSCUHY,NR3C1,AGONIST,Glucocorticoid receptor agonist
+BPKAHTKRCLCHEA,VDR,AGONIST,Vitamin D receptor agonist
+DFEYYRMXOJXZRJ,GLRA1,POSITIVE MODULATOR,Glycine receptor (alpha-1/beta) positive modulator
+DFEYYRMXOJXZRJ,GLRB,POSITIVE MODULATOR,Glycine receptor (alpha-1/beta) positive modulator
+DFEYYRMXOJXZRJ,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRB2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRG2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRB3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRA4,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRG3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRQ,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRA3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRP,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRD,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRG1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRB1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRE,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRA2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRA5,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,GABRA6,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DFEYYRMXOJXZRJ,KCNK10,OPENER,Potassium channel subfamily K member 10 opener
+DFEYYRMXOJXZRJ,KCNK18,OPENER,Potassium channel subfamily K member 18 opener
+DFEYYRMXOJXZRJ,KCNK3,OPENER,Potassium channel subfamily K member 3 opener
+DFEYYRMXOJXZRJ,KCNK9,OPENER,Potassium channel subfamily K member 9 opener
+DFEYYRMXOJXZRJ,KCNK2,OPENER,Potassium channel subfamily K member 2 opener
+DPYMFVXJLLWWEU,GLRA1,POSITIVE MODULATOR,Glycine receptor (alpha-1/beta) positive modulator
+DPYMFVXJLLWWEU,GLRB,POSITIVE MODULATOR,Glycine receptor (alpha-1/beta) positive modulator
+DPYMFVXJLLWWEU,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRB2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRG2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRB3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRA4,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRG3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRQ,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRA3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRP,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRD,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRG1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRB1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRE,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRA2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRA5,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,GABRA6,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+DPYMFVXJLLWWEU,KCNK10,OPENER,Potassium channel subfamily K member 10 opener
+DPYMFVXJLLWWEU,KCNK18,OPENER,Potassium channel subfamily K member 18 opener
+DPYMFVXJLLWWEU,KCNK3,OPENER,Potassium channel subfamily K member 3 opener
+DPYMFVXJLLWWEU,KCNK9,OPENER,Potassium channel subfamily K member 9 opener
+DPYMFVXJLLWWEU,KCNK2,OPENER,Potassium channel subfamily K member 2 opener
+MKPLKVHSHYCHOC,PTGFR,AGONIST,Prostanoid FP receptor agonist
+JGMOKGBVKVMRFX,PGR,AGONIST,Progesterone receptor agonist
+NHTGHBARYWONDQ,TH,INHIBITOR,Tyrosine 3-hydroxylase inhibitor
+DMKSVUSAATWOCU,NR3C1,AGONIST,Glucocorticoid receptor agonist
+TZIZWYVVGLXXFV,NR3C1,AGONIST,Glucocorticoid receptor agonist
+JWJOTENAMICLJG,SRD5A1,INHIBITOR,Steroid 5-alpha-reductase inhibitor
+JWJOTENAMICLJG,SRD5A2,INHIBITOR,Steroid 5-alpha-reductase inhibitor
+JWJOTENAMICLJG,SRD5A3,INHIBITOR,Steroid 5-alpha-reductase inhibitor
+GUTXTARXLVFHDK,HTR2A,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+GUTXTARXLVFHDK,DRD2,INVERSE AGONIST,D2-like dopamine receptor inverse agonist
+GUTXTARXLVFHDK,DRD3,INVERSE AGONIST,D2-like dopamine receptor inverse agonist
+GUTXTARXLVFHDK,DRD4,INVERSE AGONIST,D2-like dopamine receptor inverse agonist
+KORNTPPJEAJQIU,DRD2,AGONIST,Dopamine D2 receptor agonist
+GNXFOGHNGIVQEH,CA1,INHIBITOR,Carbonic anhydrase I inhibitor
+XAUDJQYHKZQPEU,DNMT3A,INHIBITOR,DNA (cytosine-5)-methyltransferase 3A inhibitor
+XAUDJQYHKZQPEU,DNMT1,INHIBITOR,DNA (cytosine-5)-methyltransferase 1 inhibitor
+WGFOBBZOWHGYQH,CLCN2,OPENER,Chloride channel protein 2 opener
+IMONTRJLAWHYGT,PGR,AGONIST,Progesterone receptor agonist
+OGSBUKJUDHAQEA,DHFR,INHIBITOR,Dihydrofolate reductase inhibitor
+BMQGVNUXMIRLCK,TUBB4B,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBB1,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBA3C,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBA4A,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBB3,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBA1A,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBB4A,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBB8,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBB,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBA1B,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBA1C,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBA3E,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBB2A,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBB2B,INHIBITOR,Tubulin inhibitor
+BMQGVNUXMIRLCK,TUBB6,INHIBITOR,Tubulin inhibitor
+POGQSBRIGCQNEG,SCN1A,BLOCKER,Sodium channel alpha subunit blocker
+POGQSBRIGCQNEG,SCN5A,BLOCKER,Sodium channel alpha subunit blocker
+POGQSBRIGCQNEG,SCN4A,BLOCKER,Sodium channel alpha subunit blocker
+POGQSBRIGCQNEG,SCN7A,BLOCKER,Sodium channel alpha subunit blocker
+POGQSBRIGCQNEG,SCN2A,BLOCKER,Sodium channel alpha subunit blocker
+POGQSBRIGCQNEG,SCN9A,BLOCKER,Sodium channel alpha subunit blocker
+POGQSBRIGCQNEG,SCN3A,BLOCKER,Sodium channel alpha subunit blocker
+POGQSBRIGCQNEG,SCN11A,BLOCKER,Sodium channel alpha subunit blocker
+POGQSBRIGCQNEG,SCN8A,BLOCKER,Sodium channel alpha subunit blocker
+POGQSBRIGCQNEG,SCN10A,BLOCKER,Sodium channel alpha subunit blocker
+LCQLHJZYVOQKHU,CPS1,POSITIVE ALLOSTERIC MODULATOR,"Carbamoyl-phosphate synthase [ammonia], mitochondrial positive allosteric modulator"
+FBHSPRKOSMHSIF,NR3C1,AGONIST,Glucocorticoid receptor agonist
+TZRHLKRLEZJVIJ,PTGS2,INHIBITOR,Cyclooxygenase-2 inhibitor
+HEAUOKZIVMZVQL,GNRHR,ANTAGONIST,Gonadotropin-releasing hormone receptor antagonist
+PRMWGUBFXWROHD,GRIA4,ANTAGONIST,Glutamate receptor ionotropic AMPA antagonist
+PRMWGUBFXWROHD,GRIA3,ANTAGONIST,Glutamate receptor ionotropic AMPA antagonist
+PRMWGUBFXWROHD,GRIA2,ANTAGONIST,Glutamate receptor ionotropic AMPA antagonist
+PRMWGUBFXWROHD,GRIA1,ANTAGONIST,Glutamate receptor ionotropic AMPA antagonist
+GPXBXXGIAQBQNI,BRAF,INHIBITOR,Serine/threonine-protein kinase B-raf inhibitor
+KPBZROQVTHLCDU,CACNA1C,BLOCKER,Voltage-gated L-type calcium channel blocker
+KPBZROQVTHLCDU,CACNA1S,BLOCKER,Voltage-gated L-type calcium channel blocker
+KPBZROQVTHLCDU,CACNA1D,BLOCKER,Voltage-gated L-type calcium channel blocker
+KPBZROQVTHLCDU,CACNA1F,BLOCKER,Voltage-gated L-type calcium channel blocker
+FWYSMLBETOMXAG,TRM1,INHIBITOR,DNA terminase inhibitor
+FWYSMLBETOMXAG,TRM2,INHIBITOR,DNA terminase inhibitor
+FWYSMLBETOMXAG,TRM3,INHIBITOR,DNA terminase inhibitor
+ZVGNESXIJDCBKN,rpoA,INHIBITOR,DNA-directed RNA polymerase inhibitor
+ZVGNESXIJDCBKN,rpoB,INHIBITOR,DNA-directed RNA polymerase inhibitor
+ZVGNESXIJDCBKN,rpoC,INHIBITOR,DNA-directed RNA polymerase inhibitor
+ZVGNESXIJDCBKN,rpoZ,INHIBITOR,DNA-directed RNA polymerase inhibitor
+TTZHDVOVKQGIBA,NS5b,INHIBITOR,RNA-directed RNA polymerase inhibitor
+VKHAHZOOUSRJNA,NR3C1,ANTAGONIST,Glucocorticoid receptor antagonist
+VKHAHZOOUSRJNA,PGR,ANTAGONIST,Progesterone receptor antagonist
+JOOXLOJCABQBSG,FLT3,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+JOOXLOJCABQBSG,JAK2,INHIBITOR,Tyrosine-protein kinase JAK2 inhibitor
+SPMVMDHWKHCIDT,FLT1,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+SPMVMDHWKHCIDT,FLT4,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+SPMVMDHWKHCIDT,KDR,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+PLBHSZGDDKCEHR,NR3C1,AGONIST,Glucocorticoid receptor agonist
+PGTVWKLGGCQMBR,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRB2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRG2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRB3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRA4,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRG3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRQ,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRA3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRP,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRD,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRG1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRB1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRE,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRA2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRA5,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+PGTVWKLGGCQMBR,GABRA6,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+NNYBQONXHNTVIJ,RXRA,MODULATOR,Retinoid X receptor alpha modulator
+JNGVJMBLXIUVRD,AR,MODULATOR,Androgen Receptor modulator
+WMDSZGFJQKSLLH,ADRB1,ANTAGONIST,Beta-1 adrenergic receptor antagonist
+WPTTVJLTNAWYAO,PPARG,ANTAGONIST,Peroxisome proliferator-activated receptor gamma antagonist
+WPTTVJLTNAWYAO,IKBKB,INHIBITOR,Inhibitor of nuclear factor kappa B kinase beta subunit inhibitor
+WPTTVJLTNAWYAO,NFE2L2,INHIBITOR,Keap1/Nrf2 inhibitor
+WPTTVJLTNAWYAO,KEAP1,INHIBITOR,Keap1/Nrf2 inhibitor
+MCIACXAZCBVDEE,SLC5A2,INHIBITOR,Sodium/glucose cotransporter 2 inhibitor
+KSGCNXAZROJSNW,UTRN,MODULATOR,Utrophin modulator
+LCDDAGSJHKEABN,DPP4,INHIBITOR,Dipeptidyl peptidase IV inhibitor
+BZCALJIHZVNMGJ,FFAR1,POSITIVE ALLOSTERIC MODULATOR,Free fatty acid receptor 1 positive allosteric modulator
+XYFPWWZEPKGCCK,BTK,INHIBITOR,Tyrosine-protein kinase BTK inhibitor
+JOGKUKXHTYWRGZ,MTOR,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor
+JOGKUKXHTYWRGZ,PIK3R1,INHIBITOR,PI3-kinase class I inhibitor
+JOGKUKXHTYWRGZ,PIK3CB,INHIBITOR,PI3-kinase class I inhibitor
+JOGKUKXHTYWRGZ,PIK3CG,INHIBITOR,PI3-kinase class I inhibitor
+JOGKUKXHTYWRGZ,PIK3CA,INHIBITOR,PI3-kinase class I inhibitor
+JOGKUKXHTYWRGZ,PIK3R2,INHIBITOR,PI3-kinase class I inhibitor
+JOGKUKXHTYWRGZ,PIK3CD,INHIBITOR,PI3-kinase class I inhibitor
+JOGKUKXHTYWRGZ,PIK3R5,INHIBITOR,PI3-kinase class I inhibitor
+JOGKUKXHTYWRGZ,PIK3R3,INHIBITOR,PI3-kinase class I inhibitor
+ISBHYKVAFKTATD,HRH4,ANTAGONIST,Histamine H4 receptor antagonist
+ZHPMYDSXGRRERG,OPRK1,ANTAGONIST,Kappa opioid receptor antagonist
+LDXYBEHACFJIEL,DPP4,INHIBITOR,Dipeptidyl peptidase IV inhibitor
+FNHKPVJBJVTLMP,ABL1,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+FNHKPVJBJVTLMP,RAF1,INHIBITOR,Serine/threonine-protein kinase RAF inhibitor
+FNHKPVJBJVTLMP,KIT,INHIBITOR,Stem cell growth factor receptor inhibitor
+FNHKPVJBJVTLMP,FGFR1,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor
+FNHKPVJBJVTLMP,MAPK11,INHIBITOR,MAP kinase p38 beta inhibitor
+FNHKPVJBJVTLMP,FGFR2,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor
+FNHKPVJBJVTLMP,FRK,INHIBITOR,Tyrosine-protein kinase FRK inhibitor
+FNHKPVJBJVTLMP,DDR2,INHIBITOR,Discoidin domain-containing receptor 2 inhibitor
+FNHKPVJBJVTLMP,BRAF,INHIBITOR,Serine/threonine-protein kinase B-raf inhibitor
+FNHKPVJBJVTLMP,TEK,INHIBITOR,Tyrosine-protein kinase TIE-2 inhibitor
+FNHKPVJBJVTLMP,PDGFRB,INHIBITOR,Platelet-derived growth factor receptor inhibitor
+FNHKPVJBJVTLMP,PDGFRA,INHIBITOR,Platelet-derived growth factor receptor inhibitor
+FNHKPVJBJVTLMP,FLT1,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+FNHKPVJBJVTLMP,FLT4,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+FNHKPVJBJVTLMP,KDR,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+FNHKPVJBJVTLMP,RET,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+FNHKPVJBJVTLMP,EPHA2,INHIBITOR,Ephrin type-A receptor 2 inhibitor
+FNHKPVJBJVTLMP,NTRK1,INHIBITOR,Nerve growth factor receptor Trk-A inhibitor
+HLFSMUUOKPBTSM,rpsB,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplD,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsA,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsJ,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsK,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsL,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsM,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsN,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsO,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsP,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsQ,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsR,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsS,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsT,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsU,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsC,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsD,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsE,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsF,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsG,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsH,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpsI,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplJ,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplK,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplM,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplN,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplO,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplP,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplQ,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplR,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplS,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplA,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplT,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplU,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplV,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplW,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplX,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplY,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpmA,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpmB,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpmC,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplB,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpmD,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,ykgM,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpmE,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpmF,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpmG,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpmH,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpmI,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,ykgO,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rpmJ,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplC,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplE,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplF,INHIBITOR,Bacterial 70S ribosome inhibitor
+HLFSMUUOKPBTSM,rplL,INHIBITOR,Bacterial 70S ribosome inhibitor
+WEAJZXNPAWBCOA,PDE5A,INHIBITOR,Phosphodiesterase 5A inhibitor
+WSNODXPBBALQOF,PTGFR,AGONIST,Prostanoid FP receptor agonist
+BKWJAKQVGHWELA,WEE1,INHIBITOR,Serine/threonine-protein kinase WEE1 inhibitor
+PURKAOJPTOLRMP,CFTR,POSITIVE MODULATOR,Cystic fibrosis transmembrane conductance regulator positive modulator
+IHIUGIVXARLYHP,CETP,INHIBITOR,Cholesteryl ester transfer protein inhibitor
+CWHUFRVAEUJCEF,PIK3R1,INHIBITOR,PI3-kinase class I inhibitor
+CWHUFRVAEUJCEF,PIK3CB,INHIBITOR,PI3-kinase class I inhibitor
+CWHUFRVAEUJCEF,PIK3CG,INHIBITOR,PI3-kinase class I inhibitor
+CWHUFRVAEUJCEF,PIK3CA,INHIBITOR,PI3-kinase class I inhibitor
+CWHUFRVAEUJCEF,PIK3R2,INHIBITOR,PI3-kinase class I inhibitor
+CWHUFRVAEUJCEF,PIK3CD,INHIBITOR,PI3-kinase class I inhibitor
+CWHUFRVAEUJCEF,PIK3R5,INHIBITOR,PI3-kinase class I inhibitor
+CWHUFRVAEUJCEF,PIK3R3,INHIBITOR,PI3-kinase class I inhibitor
+HWXVIOGONBBTBY,JAK2,INHIBITOR,Tyrosine-protein kinase JAK2 inhibitor
+HWXVIOGONBBTBY,FLT3,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+LUKZNWIVRBCLON,NR3C1,AGONIST,Glucocorticoid receptor agonist
+SFNSLLSYNZWZQG,SMO,ANTAGONIST,Smoothened homolog antagonist
+JFOZKMSJYSPYLN,ITGAL,ANTAGONIST,Integrin alpha-L/beta-2 (LFA-1) antagonist
+JFOZKMSJYSPYLN,ITGB2,ANTAGONIST,Integrin alpha-L/beta-2 (LFA-1) antagonist
+WHXMKTBCFHIYNQ,PDE3A,INHIBITOR,Phosphodiesterase 3 inhibitor
+WHXMKTBCFHIYNQ,PDE3B,INHIBITOR,Phosphodiesterase 3 inhibitor
+WHXMKTBCFHIYNQ,TNNC1,POSITIVE MODULATOR,"Troponin, cardiac muscle positive modulator"
+WHXMKTBCFHIYNQ,TNNI3,POSITIVE MODULATOR,"Troponin, cardiac muscle positive modulator"
+WHXMKTBCFHIYNQ,TNNT2,POSITIVE MODULATOR,"Troponin, cardiac muscle positive modulator"
+QQLKULDARVNMAL,EGFR,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+PBAPPPCECJKMCM,ADRB3,AGONIST,Beta-3 adrenergic receptor agonist
+PTOIAAWZLUQTIO,MTNR1A,AGONIST,Melatonin receptor agonist
+PTOIAAWZLUQTIO,MTNR1B,AGONIST,Melatonin receptor agonist
+QXWYKJLNLSIPIN,ADRA1A,AGONIST,Adrenergic receptor agonist
+QXWYKJLNLSIPIN,ADRA2A,AGONIST,Adrenergic receptor agonist
+QXWYKJLNLSIPIN,ADRB1,AGONIST,Adrenergic receptor agonist
+QXWYKJLNLSIPIN,ADRB2,AGONIST,Adrenergic receptor agonist
+QXWYKJLNLSIPIN,ADRA2C,AGONIST,Adrenergic receptor agonist
+QXWYKJLNLSIPIN,ADRA1D,AGONIST,Adrenergic receptor agonist
+QXWYKJLNLSIPIN,ADRA1B,AGONIST,Adrenergic receptor agonist
+QXWYKJLNLSIPIN,ADRA2B,AGONIST,Adrenergic receptor agonist
+QXWYKJLNLSIPIN,ADRB3,AGONIST,Adrenergic receptor agonist
+GKDRMWXFWHEQQT,SYK,INHIBITOR,Tyrosine-protein kinase SYK inhibitor
+TXEIIPDJKFWEEC,TTR,STABILISER,Transthyretin stabiliser
+UFSKUSARDNFIRC,CFTR,STABILISER,Cystic fibrosis transmembrane conductance regulator stabiliser
+JGCMEBMXRHSZKX,EDNRB,ANTAGONIST,"Endothelin receptor, ET-A/ET-B antagonist"
+JGCMEBMXRHSZKX,EDNRA,ANTAGONIST,"Endothelin receptor, ET-A/ET-B antagonist"
+LIRYPHYGHXZJBZ,MAP2K2,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase; MEK1/2 inhibitor
+LIRYPHYGHXZJBZ,MAP2K1,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase; MEK1/2 inhibitor
+RVAQIUULWULRNW,HSP90AA1,INHIBITOR,Heat shock protein HSP90 inhibitor
+RVAQIUULWULRNW,HSP90AB1,INHIBITOR,Heat shock protein HSP90 inhibitor
+UCEQXRCJXIVODC,MET,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+OFZJKCQENFPZBH,MPL,AGONIST,Thrombopoietin receptor agonist
+LUMKNAVTFCDUIE,ESR2,MODULATOR,Estrogen receptor modulator
+LUMKNAVTFCDUIE,ESR1,MODULATOR,Estrogen receptor modulator
+YTFHCXIPDIHOIA,RARG,AGONIST,Retinoic acid receptor gamma agonist
+VJYDOJXJUCJUHL,PLA2G2A,INHIBITOR,Phospholipase A2 group IIA inhibitor
+VJYDOJXJUCJUHL,PLA2G10,INHIBITOR,Group X secretory phospholipase A2 inhibitor
+VJYDOJXJUCJUHL,PLA2G5,INHIBITOR,Phospholipase A2 group V inhibitor
+QCGUSIANLFXSGE,rpsB,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplD,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsA,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsJ,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsK,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsL,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsM,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsN,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsO,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsP,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsQ,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsR,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsS,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsT,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsU,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsC,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsD,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsE,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsF,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsG,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsH,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpsI,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplJ,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplK,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplM,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplN,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplO,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplP,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplQ,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplR,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplS,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplA,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplT,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplU,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplV,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplW,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplX,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplY,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpmA,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpmB,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpmC,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplB,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpmD,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,ykgM,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpmE,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpmF,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpmG,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpmH,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpmI,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,ykgO,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rpmJ,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplC,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplE,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplF,INHIBITOR,Bacterial 70S ribosome inhibitor
+QCGUSIANLFXSGE,rplL,INHIBITOR,Bacterial 70S ribosome inhibitor
+FGQFOYHRJSUHMR,SLC22A12,INHIBITOR,Solute carrier family 22 member 12 inhibitor
+XRWSZZJLZRKHHD,NS4A,INHIBITOR,"Hepatitis C virus serine protease, NS3/NS4A inhibitor"
+XRWSZZJLZRKHHD,NS3,INHIBITOR,"Hepatitis C virus serine protease, NS3/NS4A inhibitor"
+PAFKTGFSEFKSQG,AR,ANTAGONIST,Androgen Receptor antagonist
+PAFKTGFSEFKSQG,CYP17A1,INHIBITOR,Cytochrome P450 17A1 inhibitor
+XUZMWHLSFXCVMG,JAK1,INHIBITOR,Tyrosine-protein kinase JAK1 inhibitor
+XUZMWHLSFXCVMG,JAK2,INHIBITOR,Tyrosine-protein kinase JAK2 inhibitor
+ZKIAIYBUSXZPLP,DRD2,PARTIAL AGONIST,Dopamine D2 receptor partial agonist
+ZKIAIYBUSXZPLP,HTR1A,PARTIAL AGONIST,Serotonin 1a (5-HT1a) receptor partial agonist
+ZKIAIYBUSXZPLP,HTR2A,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+MKMPWKUAHLTIBJ,DPP4,INHIBITOR,Dipeptidyl peptidase IV inhibitor
+LDCRTTXIJACKKU,KEAP1,INHIBITOR,Kelch-like ECH-associated protein 1 inhibitor
+LDEKQSIMHVQZJK,pol,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor
+DJXRIQMCROIRCZ,ADRB3,AGONIST,Beta-3 adrenergic receptor agonist
+OBWASQILIWPZMG,SLC5A2,INHIBITOR,Sodium/glucose cotransporter 2 inhibitor
+NOZIJMHMKORZBA,MPL,AGONIST,Thrombopoietin receptor agonist
+NMDYYWFGPIMTKO,TUBB4B,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBB1,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBA3C,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBA4A,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBB3,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBA1A,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBB4A,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBB8,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBB,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBA1B,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBA1C,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBA3E,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBB2A,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBB2B,INHIBITOR,Tubulin inhibitor
+NMDYYWFGPIMTKO,TUBB6,INHIBITOR,Tubulin inhibitor
+PNDKCRDVVKJPKG,CCR5,ANTAGONIST,C-C chemokine receptor type 5 antagonist
+PNDKCRDVVKJPKG,CCR2,ANTAGONIST,C-C chemokine receptor type 2 antagonist
+BSMCAPRUBJMWDF,MAP2K1,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+BSMCAPRUBJMWDF,MAP2K2,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+WGRQANOPCQRCME,DPP4,INHIBITOR,Dipeptidyl peptidase IV inhibitor
+QFNHIDANIVGXPE,OPRM1,AGONIST,Mu opioid receptor agonist
+KRNAOFGYEFKHPB,CALCRL,ANTAGONIST,Calcitonin gene-related peptide type 1 receptor antagonist
+JRWROCIMSDXGOZ,CCR9,ANTAGONIST,C-C chemokine receptor type 9 antagonist
+IFSDAJWBUCMOAH,PIK3CD,INHIBITOR,PI3-kinase p110-delta subunit inhibitor
+JDUBGYFRJFOXQC,AKT2,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor
+JDUBGYFRJFOXQC,AKT3,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor
+JDUBGYFRJFOXQC,AKT1,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor
+KIHYPELVXPAIDH,S1PR1,AGONIST,Sphingosine 1-phosphate receptor Edg-1 agonist
+JUSFANSTBFGBAF,MTOR,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor
+YOZBGTLTNGAVFU,EGLN2,INHIBITOR,Hypoxia-inducible factor prolyl hydroxylase inhibitor
+YOZBGTLTNGAVFU,P4HTM,INHIBITOR,Hypoxia-inducible factor prolyl hydroxylase inhibitor
+YOZBGTLTNGAVFU,EGLN1,INHIBITOR,Hypoxia-inducible factor prolyl hydroxylase inhibitor
+YOZBGTLTNGAVFU,EGLN3,INHIBITOR,Hypoxia-inducible factor prolyl hydroxylase inhibitor
+ZIAOVIPSKUPPQW,pol,NEGATIVE ALLOSTERIC MODULATOR,Human immunodeficiency virus type 1 reverse transcriptase negative allosteric modulator
+LOVMMUBRQUFEAH,PTGFR,AGONIST,Prostanoid FP receptor agonist
+GXALXAKNHIROPE,DGAT1,INHIBITOR,Diacylglycerol O-acyltransferase 1 inhibitor
+DDOOFTLHJSMHLN,CALCRL,ANTAGONIST,Calcitonin gene-related peptide type 1 receptor antagonist
+GEJDGVNQKABXKG,SLC18A2,INHIBITOR,Synaptic vesicular amine transporter inhibitor
+VRTWBAAJJOHBQU,NS5A,INHIBITOR,Nonstructural protein 5A inhibitor
+BEUQXVWXFDOSAQ,PIK3R1,INHIBITOR,PI3-kinase class I inhibitor
+BEUQXVWXFDOSAQ,PIK3CB,INHIBITOR,PI3-kinase class I inhibitor
+BEUQXVWXFDOSAQ,PIK3CG,INHIBITOR,PI3-kinase class I inhibitor
+BEUQXVWXFDOSAQ,PIK3CA,INHIBITOR,PI3-kinase class I inhibitor
+BEUQXVWXFDOSAQ,PIK3R2,INHIBITOR,PI3-kinase class I inhibitor
+BEUQXVWXFDOSAQ,PIK3CD,INHIBITOR,PI3-kinase class I inhibitor
+BEUQXVWXFDOSAQ,PIK3R5,INHIBITOR,PI3-kinase class I inhibitor
+BEUQXVWXFDOSAQ,PIK3R3,INHIBITOR,PI3-kinase class I inhibitor
+STUWGJZDJHPWGZ,PIK3CA,INHIBITOR,PI3-kinase p110-alpha subunit inhibitor
+JJVAPHYEOZSKJZ,RAMP1,ANTAGONIST,"Calcitonin-gene-related peptide receptor, CALCRL/RAMP1 antagonist"
+JJVAPHYEOZSKJZ,CALCRL,ANTAGONIST,"Calcitonin-gene-related peptide receptor, CALCRL/RAMP1 antagonist"
+TVTXCJFHQKSQQM,TP53,INHIBITOR,Tumour suppressor p53/oncoprotein Mdm2 inhibitor
+TVTXCJFHQKSQQM,MDM2,INHIBITOR,Tumour suppressor p53/oncoprotein Mdm2 inhibitor
+VERWOWGGCGHDQE,ALK,INHIBITOR,ALK tyrosine kinase receptor inhibitor
+VERWOWGGCGHDQE,EML4,INHIBITOR,EML4-ALK inhibitor
+VERWOWGGCGHDQE,NPM1,INHIBITOR,NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor
+DFJSJLGUIXFDJP,ERBB2,INHIBITOR,Receptor protein-tyrosine kinase erbB-2 inhibitor
+DFJSJLGUIXFDJP,ERBB3,INHIBITOR,Receptor tyrosine-protein kinase erbB-3 inhibitor
+DFJSJLGUIXFDJP,EGFR,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+DMNOVGJWPASQDL,OPRM1,AGONIST,Mu opioid receptor agonist
+QKDRXGFQVGOQKS,SLC5A1,INHIBITOR,Sodium/glucose cotransporter 1 inhibitor
+QKDRXGFQVGOQKS,SLC5A2,INHIBITOR,Sodium/glucose cotransporter 2 inhibitor
+XEDHVZKDSYZQBF,HTR1F,AGONIST,Serotonin 1f (5-HT1f) receptor agonist
+PKWRMUKBEYJEIX,BIRC3,INHIBITOR,cIAP1/cIAP2 inhibitor
+PKWRMUKBEYJEIX,BIRC2,INHIBITOR,cIAP1/cIAP2 inhibitor
+NGYNBSHYFOFVLS,CXCR2,ANTAGONIST,Interleukin-8 receptor B antagonist
+ZFPZEYHRWGMJCV,GRM5,ANTAGONIST,Metabotropic glutamate receptor 5 antagonist
+DREIJXJRTLTGJC,JAK3,INHIBITOR,Janus Kinase (JAK) inhibitor
+DREIJXJRTLTGJC,JAK1,INHIBITOR,Janus Kinase (JAK) inhibitor
+DREIJXJRTLTGJC,JAK2,INHIBITOR,Janus Kinase (JAK) inhibitor
+DREIJXJRTLTGJC,TYK2,INHIBITOR,Janus Kinase (JAK) inhibitor
+LQBVNQSMGBZMKD,BCL2,INHIBITOR,Apoptosis regulator Bcl-2 inhibitor
+CTPOHARTNNSRSR,PTGIR,AGONIST,Prostanoid IP receptor agonist
+HWGQMRYQVZSGDQ,PARP1,INHIBITOR,Poly [ADP-ribose] polymerase-1 inhibitor
+HWGQMRYQVZSGDQ,PARP2,INHIBITOR,Poly [ADP-ribose] polymerase 2 inhibitor
+FWLMVFUGMHIOAA,PTK2,INHIBITOR,Focal adhesion kinase 1 inhibitor
+FWLMVFUGMHIOAA,PTK2B,INHIBITOR,Protein tyrosine kinase 2 beta inhibitor
+AXTAPYRUEKNRBA,AKT2,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor
+AXTAPYRUEKNRBA,AKT3,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor
+AXTAPYRUEKNRBA,AKT1,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor
+HJBWBFZLDZWPHF,AR,ANTAGONIST,Androgen Receptor antagonist
+ACWZRVQXLIRSDF,MAP2K1,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+ACWZRVQXLIRSDF,MAP2K2,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+PZBCKZWLPGJMAO,PIK3CA,INHIBITOR,PI3-kinase p110-alpha subunit inhibitor
+PZBCKZWLPGJMAO,PIK3CD,INHIBITOR,PI3-kinase p110-delta subunit inhibitor
+XSMSNFMDVXXHGJ,SYK,INHIBITOR,Tyrosine-protein kinase SYK inhibitor
+MPYACSQFXVMWNO,JAK1,INHIBITOR,Tyrosine-protein kinase JAK1 inhibitor
+RIJLVEAXPNLDTC,JAK1,INHIBITOR,Tyrosine-protein kinase JAK1 inhibitor
+RIJLVEAXPNLDTC,JAK2,INHIBITOR,Tyrosine-protein kinase JAK2 inhibitor
+RIJLVEAXPNLDTC,TYK2,INHIBITOR,Tyrosine-protein kinase TYK2 inhibitor
+RIJLVEAXPNLDTC,JAK3,INHIBITOR,Tyrosine-protein kinase JAK3 inhibitor
+FCRFVPZAXGJLPW,HRH4,ANTAGONIST,Histamine H4 receptor antagonist
+UZWDCWONPYILKI,CDK4,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+UZWDCWONPYILKI,CDK6,INHIBITOR,Cyclin-dependent kinase 6 inhibitor
+GYQYAJJFPNQOOW,FLT3,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+GYQYAJJFPNQOOW,AXL,INHIBITOR,Tyrosine-protein kinase receptor UFO inhibitor
+KXGCNMMJRFDFNR,GUCY2C,AGONIST,Heat-stable enterotoxin receptor agonist
+HOIIHACBCFLJET,HTR2A,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+HOIIHACBCFLJET,DRD2,ANTAGONIST,Dopamine D2 receptor antagonist
+HOIIHACBCFLJET,SLC6A4,INHIBITOR,Serotonin transporter inhibitor
+MAYQIFVKVAUMPD,HTR6,ANTAGONIST,Serotonin 6 (5-HT6) receptor antagonist
+MVGWUTBTXDYMND,S1PR1,AGONIST,Sphingosine 1-phosphate receptor Edg-1 agonist
+BDXXSFOJPYSYOC,ACACA,INHIBITOR,Acetyl-CoA carboxylase inhibitor
+BDXXSFOJPYSYOC,ACACB,INHIBITOR,Acetyl-CoA carboxylase inhibitor
+RUEYEZADQJCKGV,EGLN2,INHIBITOR,Hypoxia-inducible factor prolyl hydroxylase inhibitor
+RUEYEZADQJCKGV,P4HTM,INHIBITOR,Hypoxia-inducible factor prolyl hydroxylase inhibitor
+RUEYEZADQJCKGV,EGLN1,INHIBITOR,Hypoxia-inducible factor prolyl hydroxylase inhibitor
+RUEYEZADQJCKGV,EGLN3,INHIBITOR,Hypoxia-inducible factor prolyl hydroxylase inhibitor
+RHXHGRAEPCAFML,CDK4,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+RHXHGRAEPCAFML,CDK6,INHIBITOR,Cyclin-dependent kinase 6 inhibitor
+DEVSOMFAQLZNKR,XPO1,INHIBITOR,Exportin-1 inhibitor
+HYHMLYSLQUKXKP,ACLY,INHIBITOR,ATP-citrate synthase inhibitor
+MUGXRYIUWFITCP,HCRTR1,ANTAGONIST,Orexin receptor 1 antagonist
+MUGXRYIUWFITCP,HCRTR2,ANTAGONIST,Orexin receptor 2 antagonist
+MBOMYENWWXQSNW,PSMD1,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMB2,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMB1,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMB5,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMB8,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMB9,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMB6,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMD14,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMA1,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMA2,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMA3,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMA4,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMA5,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMA6,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMA7,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMA8,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMB10,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMB11,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMB3,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMB4,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMB7,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,ADRM1,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMC2,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMC1,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMC4,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMC6,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMC3,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMC5,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMD2,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMD3,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMD12,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMD11,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMD6,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMD7,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMD13,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMD4,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,PSMD8,INHIBITOR,26S proteasome inhibitor
+MBOMYENWWXQSNW,SEM1,INHIBITOR,26S proteasome inhibitor
+PPSNFPASKFYPMN,TACR3,ANTAGONIST,Neurokinin 3 receptor antagonist
+KTBSXLIQKWEBRB,JAK1,INHIBITOR,Tyrosine-protein kinase JAK1 inhibitor
+JUPOTOIJLKDAPF,CSF1R,INHIBITOR,Macrophage colony stimulating factor receptor inhibitor
+JGRXMPYUTJLTKT,EGLN1,INHIBITOR,Egl nine homolog 1 inhibitor
+JGRXMPYUTJLTKT,EGLN3,INHIBITOR,Egl nine homolog 3 inhibitor
+JGRXMPYUTJLTKT,EGLN2,INHIBITOR,Hypoxia-inducible factor prolyl hydroxylase 1 inhibitor
+PRAAPINBUWJLGA,GLS,INHIBITOR,"Glutaminase kidney isoform, mitochondrial inhibitor"
+AKQXQLUNFKDZBN,DRD1,PARTIAL AGONIST,Dopamine D1 receptor partial agonist
+AKQXQLUNFKDZBN,DRD5,PARTIAL AGONIST,Dopamine D5 receptor partial agonist
+LCFFREMLXLZNHE,BTK,INHIBITOR,Tyrosine-protein kinase BTK inhibitor
+XRVDGNKRPOAQTN,S1PR5,MODULATOR,Sphingosine 1-phosphate receptor 5 modulator
+MFBCDACCJCDGBA,RARG,AGONIST,Retinoic acid receptor gamma agonist
+WDENQIQQYWYTPO,BTK,INHIBITOR,Tyrosine-protein kinase BTK inhibitor
+AFLFKFHDSCQHOL,PPARA,AGONIST,Peroxisome proliferator-activated receptor alpha agonist
+AFLFKFHDSCQHOL,PPARD,AGONIST,Peroxisome proliferator-activated receptor delta agonist
+HLWURFKMDLAKOD,P2RX3,ANTAGONIST,P2X purinoceptor 3 antagonist
+JQLBBYLGWHUHRW,NFKB2,INHIBITOR,Nuclear factor NF-kappa-B complex inhibitor
+JQLBBYLGWHUHRW,NFKB1,INHIBITOR,Nuclear factor NF-kappa-B complex inhibitor
+JQLBBYLGWHUHRW,RELA,INHIBITOR,Nuclear factor NF-kappa-B complex inhibitor
+KXMZDGSRSGHMMK,AXL,INHIBITOR,Tyrosine-protein kinase receptor UFO inhibitor
+JGWRKYUXBBNENE,CSF1R,INHIBITOR,Macrophage colony stimulating factor receptor inhibitor
+JGWRKYUXBBNENE,FLT3,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+JGWRKYUXBBNENE,KIT,INHIBITOR,Stem cell growth factor receptor inhibitor
+REQQVBGILUTQNN,ENPP2,INHIBITOR,Autotaxin inhibitor
+PDGKHKMBHVFCMG,CDK4,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+PDGKHKMBHVFCMG,CDK6,INHIBITOR,Cyclin-dependent kinase 6 inhibitor
+BLGWHBSBBJNKJO,PIK3CA,INHIBITOR,PI3-kinase p110-alpha subunit inhibitor
+RNOAOAWBMHREKO,BTK,INHIBITOR,Tyrosine-protein kinase BTK inhibitor
+UXIPFQUBOVWAQW,HTR2A,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+SDEAXTCZPQIFQM,ERBB2,INHIBITOR,Receptor protein-tyrosine kinase erbB-2 inhibitor
+PUKBOVABABRILL,C5AR1,ANTAGONIST,C5a anaphylatoxin chemotactic receptor antagonist
+KJNNWYBAOPXVJY,AGER,ANTAGONIST,Advanced glycosylation end product-specific receptor antagonist
+YIMYDTCOUQIDMT,KEAP1,INHIBITOR,Kelch-like ECH-associated protein 1 inhibitor
+WKDNQONLGXOZRG,BACE1,INHIBITOR,Beta-secretase 1 inhibitor
+GFHAXPJGXSQLPT,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRB2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRG2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRB3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRA4,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRG3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRQ,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRA3,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRP,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRD,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRG1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRB1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRE,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRA2,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRA5,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,GABRA6,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor; anion channel positive allosteric modulator
+GFHAXPJGXSQLPT,SCN1A,INHIBITOR,Sodium channel alpha subunit inhibitor
+GFHAXPJGXSQLPT,SCN5A,INHIBITOR,Sodium channel alpha subunit inhibitor
+GFHAXPJGXSQLPT,SCN4A,INHIBITOR,Sodium channel alpha subunit inhibitor
+GFHAXPJGXSQLPT,SCN7A,INHIBITOR,Sodium channel alpha subunit inhibitor
+GFHAXPJGXSQLPT,SCN2A,INHIBITOR,Sodium channel alpha subunit inhibitor
+GFHAXPJGXSQLPT,SCN9A,INHIBITOR,Sodium channel alpha subunit inhibitor
+GFHAXPJGXSQLPT,SCN3A,INHIBITOR,Sodium channel alpha subunit inhibitor
+GFHAXPJGXSQLPT,SCN11A,INHIBITOR,Sodium channel alpha subunit inhibitor
+GFHAXPJGXSQLPT,SCN8A,INHIBITOR,Sodium channel alpha subunit inhibitor
+GFHAXPJGXSQLPT,SCN10A,INHIBITOR,Sodium channel alpha subunit inhibitor
+DBPPRLRVDVJOCL,dacB,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+DBPPRLRVDVJOCL,ftsI,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+DBPPRLRVDVJOCL,mrcA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+DBPPRLRVDVJOCL,mrcB,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+DBPPRLRVDVJOCL,dacA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+DBPPRLRVDVJOCL,mrdA,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+DBPPRLRVDVJOCL,dacC,INHIBITOR,Bacterial penicillin-binding protein inhibitor
+XPIJWUTXQAGSLK,gyrB,INHIBITOR,DNA gyrase inhibitor
+XPIJWUTXQAGSLK,gyrA,INHIBITOR,DNA gyrase inhibitor
+XPIJWUTXQAGSLK,parC,INHIBITOR,Topoisomerase IV inhibitor
+XPIJWUTXQAGSLK,parE,INHIBITOR,Topoisomerase IV inhibitor
+QIVUCLWGARAQIO,CALCRL,ANTAGONIST,Calcitonin gene-related peptide type 1 receptor antagonist
+WNEODWDFDXWOLU,BTK,INHIBITOR,Tyrosine-protein kinase BTK inhibitor
+RWWYLEGWBNMMLJ,L,INHIBITOR,RNA-directed RNA polymerase L inhibitor
+RWWYLEGWBNMMLJ,rep,INHIBITOR,Replicase polyprotein 1ab inhibitor
+QZFHIXARHDBPBY,GUCY1B1,ACTIVATOR,Soluble guanylate cyclase activator
+QZFHIXARHDBPBY,GUCY1B2,ACTIVATOR,Soluble guanylate cyclase activator
+QZFHIXARHDBPBY,GUCY1A2,ACTIVATOR,Soluble guanylate cyclase activator
+QZFHIXARHDBPBY,GUCY1A1,ACTIVATOR,Soluble guanylate cyclase activator
+QUIWHXQETADMGN,BTK,INHIBITOR,Tyrosine-protein kinase BTK inhibitor
+HKTBYUWLRDZAJK,MKNK2,INHIBITOR,MAP kinase-interacting serine/threonine-protein kinase 1/2 inhibitor
+HKTBYUWLRDZAJK,MKNK1,INHIBITOR,MAP kinase-interacting serine/threonine-protein kinase 1/2 inhibitor
+JUVQLZBJFOGEEO,CHRM1,POSITIVE ALLOSTERIC MODULATOR,Muscarinic acetylcholine receptor M1 positive allosteric modulator
+FWCVZAQENIZVMY,HBA1,POSITIVE MODULATOR,Hemoglobin HbA positive modulator
+FWCVZAQENIZVMY,HBA2,POSITIVE MODULATOR,Hemoglobin HbA positive modulator
+FWCVZAQENIZVMY,HBB,POSITIVE MODULATOR,Hemoglobin HbA positive modulator
+GRTDDIZIUSADLD,REN,INHIBITOR,Renin inhibitor
+DWYRIWUZIJHQKQ,KIT,INHIBITOR,Stem cell growth factor receptor inhibitor
+DWYRIWUZIJHQKQ,PDGFRA,INHIBITOR,Platelet-derived growth factor receptor alpha inhibitor
+AACUJFVOHGRMTR,BACE1,INHIBITOR,Beta-secretase 1 inhibitor
+VOVZXURTCKPRDQ,ABL1,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+PIBARDGJJAGJAJ,CFD,INHIBITOR,Complement factor D inhibitor
+ACCFLVVUVBJNGT,MTOR,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor
+ACCFLVVUVBJNGT,PIK3R1,INHIBITOR,PI3-kinase class I inhibitor
+ACCFLVVUVBJNGT,PIK3CB,INHIBITOR,PI3-kinase class I inhibitor
+ACCFLVVUVBJNGT,PIK3CG,INHIBITOR,PI3-kinase class I inhibitor
+ACCFLVVUVBJNGT,PIK3CA,INHIBITOR,PI3-kinase class I inhibitor
+ACCFLVVUVBJNGT,PIK3R2,INHIBITOR,PI3-kinase class I inhibitor
+ACCFLVVUVBJNGT,PIK3CD,INHIBITOR,PI3-kinase class I inhibitor
+ACCFLVVUVBJNGT,PIK3R5,INHIBITOR,PI3-kinase class I inhibitor
+ACCFLVVUVBJNGT,PIK3R3,INHIBITOR,PI3-kinase class I inhibitor
+GMPZPHGHNDMRKL,AVPR1A,ANTAGONIST,Vasopressin V1a receptor antagonist
+OZOGDCZJYVSUBR,NCBP2,MODULATOR,Cap binding complex modulator
+OZOGDCZJYVSUBR,NCBP1,MODULATOR,Cap binding complex modulator
+RZVPBGBYGMDSBG,PA,INHIBITOR,Polymerase acidic protein inhibitor
+SIFNOOUKXBRGGB,ESR1,DEGRADER,Estrogen receptor alpha degrader
+HJPXZXVKLGEMGP,ENPEP,INHIBITOR,Aminopeptidase A inhibitor
+RLCLASQCAPXVLM,MYH7,INHIBITOR,Cardiac myosin inhibitor
+RLCLASQCAPXVLM,MYH6,INHIBITOR,Cardiac myosin inhibitor
+RLCLASQCAPXVLM,MYH7B,INHIBITOR,Cardiac myosin inhibitor
+RLCLASQCAPXVLM,MYL3,INHIBITOR,Cardiac myosin inhibitor
+RLCLASQCAPXVLM,MYL2,INHIBITOR,Cardiac myosin inhibitor
+RLCLASQCAPXVLM,MYL7,INHIBITOR,Cardiac myosin inhibitor
+RLCLASQCAPXVLM,MYL4,INHIBITOR,Cardiac myosin inhibitor
+HCDMJFOHIXMBOV,FGFR2,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor
+HCDMJFOHIXMBOV,FGFR3,INHIBITOR,Fibroblast growth factor receptor 3 inhibitor
+HCDMJFOHIXMBOV,FGFR1,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor
+XULSCZPZVQIMFM,SLC10A2,INHIBITOR,Ileal bile acid transporter inhibitor
+NBGABHGMJVIVBW,HCRTR2,ANTAGONIST,Orexin receptor antagonist
+NBGABHGMJVIVBW,HCRTR1,ANTAGONIST,Orexin receptor antagonist
+MQXWPWOCXGARRK,TNNI2,ACTIVATOR,Fast skeletal troponin complex activator
+MQXWPWOCXGARRK,TNNT3,ACTIVATOR,Fast skeletal troponin complex activator
+MQXWPWOCXGARRK,TNNC2,ACTIVATOR,Fast skeletal troponin complex activator
+YFHRCLAKZBDRHN,UGCG,INHIBITOR,Ceramide glucosyltransferase inhibitor
+KZSKGLFYQAYZCO,NR1H4,AGONIST,Bile acid receptor FXR agonist
+ZQPDJCIXJHUERQ,PIK3CD,INHIBITOR,PI3-kinase p110-delta subunit inhibitor
+MUJMYVFVAWFUJL,ERBB2,INHIBITOR,Epidermal growth factor receptor inhibitor
+MUJMYVFVAWFUJL,EGFR,INHIBITOR,Epidermal growth factor receptor inhibitor
+MUJMYVFVAWFUJL,ERBB4,INHIBITOR,Epidermal growth factor receptor inhibitor
+MUJMYVFVAWFUJL,ERBB3,INHIBITOR,Epidermal growth factor receptor inhibitor
+XAYGBKHKBBXDAK,PKLR,ACTIVATOR,Pyruvate kinase isozymes R/L activator
+BBGHHIUQOKQCBW,GRM2,AGONIST,Metabotropic glutamate receptor 2 agonist
+URCMKDJBULWNAI,TRPV4,ANTAGONIST,Transient receptor potential cation channel subfamily V member 4 antagonist
+KISZAGQTIXIVAR,ESR1,DEGRADER,Estrogen receptor alpha degrader
+GBLBJPZSROAGMF,RET,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+GBLBJPZSROAGMF,CCDC6,INHIBITOR,Coiled-coil domain-containing protein 6/Tyrosine-protein kinase receptor RET inhibitor
+GBLBJPZSROAGMF,KIF5B,INHIBITOR,Kinesin-1 heavy chain/ Tyrosine-protein kinase receptor RET inhibitor
+HIIMPSTXUQUYOO,GHSR,AGONIST,Ghrelin receptor agonist
+JNPRPMBJODOFEC,MAPK3,INHIBITOR,Mitogen-activated protein kinase; ERK1/ERK2 inhibitor
+JNPRPMBJODOFEC,MAPK1,INHIBITOR,Mitogen-activated protein kinase; ERK1/ERK2 inhibitor
+KZFFYEPYCVDOGE,PKLR,ACTIVATOR,Pyruvate kinase isozymes R/L activator
+MKXOUIKTXREBLX,CXCR4,ANTAGONIST,C-X-C chemokine receptor type 4 antagonist
+BJXYHBKEQFQVES,TLR8,ANTAGONIST,Toll-like receptor 8 antagonist
+BJXYHBKEQFQVES,TLR7,ANTAGONIST,Toll-like receptor 7 antagonist
+QVCAATSEPLQVBX,MT-ND6,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA10,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFS8,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,MT-ND4L,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA6,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,MT-ND1,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFB6,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA4,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA11,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFB7,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,MT-ND2,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFS2,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,MT-ND5,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA8,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFB5,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,MT-ND4,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,MT-ND3,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFAB1,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA1,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFS4,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFB3,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFC1,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA2,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFS5,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFS7,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFS6,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFB1,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFS3,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA3,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFB4,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFB8,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFB2,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA7,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFC2,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFB10,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFV2,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFS1,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFV1,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFV3,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA5,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA9,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFAF2,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFAF3,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA4L2,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFB11,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFAF4,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA13,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFA12,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFAF1,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+QVCAATSEPLQVBX,NDUFB9,INHIBITOR,Mitochondrial complex I (NADH dehydrogenase) inhibitor
+JYVSYFGHYFXYBE,AXL,INHIBITOR,TAM-family receptor tyrosine kinase inhibitor
+JYVSYFGHYFXYBE,MERTK,INHIBITOR,TAM-family receptor tyrosine kinase inhibitor
+JYVSYFGHYFXYBE,TYRO3,INHIBITOR,TAM-family receptor tyrosine kinase inhibitor
+SOJDTNUCCXWTMG,LPAR1,ANTAGONIST,lysophosphatidic acid receptor 1 antagonist
+QMPBBNUOBOFBFS,nsp5,INHIBITOR,SARS-CoV-2 3CL/main protease (Mpro) inhibitor
+ROTWSDMXHVGAHZ,ALOX5AP,INHIBITOR,5-lipoxygenase-activating protein (FLAP) inhibitor
+GTQPEQGDLVSFJO,P2RX3,ANTAGONIST,P2X3 purinergic receptor antagonist
+PYOQIOLRFIRRSO,MAPKAPK2,INHIBITOR,covalent MK2 (MAPKAPK2) kinase inhibitor
+VYKCLMALANGCDF,CDK9,INHIBITOR,CDK9 transcriptional kinase inhibitor
+UXHQLGLGLZKHTC,NR3C2,ANTAGONIST,non-steroidal mineralocorticoid receptor antagonist
+OROAFUQRIXKEMV,AGTR1,ANTAGONIST,angiotensin II type 1 receptor blocker
+JPIAJLPRTOWAEC,CFTR,MODULATOR,CFTR corrector (folding/trafficking modulator)
+PSIFNNKUMBGKDQ,AGTR1,ANTAGONIST,angiotensin II type 1 receptor blocker
+LSXUTRRVVSPWDZ,BIRC2,ANTAGONIST,IAP antagonist (SMAC mimetic) targeting cIAP1
+LSXUTRRVVSPWDZ,BIRC3,ANTAGONIST,IAP antagonist (SMAC mimetic) targeting cIAP2
+LSXUTRRVVSPWDZ,XIAP,ANTAGONIST,IAP antagonist (SMAC mimetic) targeting XIAP
+OIPILFWXSMYKGL,CHRM1,AGONIST,acetylcholine muscarinic receptor agonist
+OIPILFWXSMYKGL,CHRNA1,AGONIST,acetylcholine nicotinic receptor agonist
+DCYBPMFXJCWXNB,POLA1,INHIBITOR,deoxycytidine nucleoside analog; DNA polymerase inhibitor/DNA-incorporating
+CUHVIMMYOGQXCV,ADRA2A,AGONIST,alpha-2 adrenergic receptor agonist
+VLULRUCCHYVXOH,DRD2,ANTAGONIST,dopamine D2 receptor antagonist and ClpP agonist (imipridone)
+VLULRUCCHYVXOH,CLPP,AGONIST,dopamine D2 receptor antagonist and ClpP agonist (imipridone)
+KTUFNOKKBVMGRW,ABL1,INHIBITOR,BCR-ABL tyrosine kinase inhibitor
+KTUFNOKKBVMGRW,KIT,INHIBITOR,"BCR-ABL tyrosine kinase inhibitor (also KIT, PDGFR)"
+KTUFNOKKBVMGRW,PDGFRA,INHIBITOR,"BCR-ABL tyrosine kinase inhibitor (also KIT, PDGFR)"
+NHTKGYOMICWFQZ,RRM1,INHIBITOR,gemcitabine ProTide; ribonucleotide reductase inhibitor (active dFdCDP/dFdCTP)
+VUJZFNSWCNSGDV,EBNA1,INHIBITOR,Epstein-Barr virus nuclear antigen 1 (EBNA1) inhibitor
+BZZKEPGENYLQSC,TYK2,INHIBITOR,allosteric TYK2 (JH2 pseudokinase) inhibitor
+ONIQOQHATWINJY,MET,INHIBITOR,"multikinase inhibitor (MET, VEGFR2, AXL, RET)"
+ONIQOQHATWINJY,KDR,INHIBITOR,"multikinase inhibitor (MET, VEGFR2, AXL, RET)"
+ONIQOQHATWINJY,AXL,INHIBITOR,"multikinase inhibitor (MET, VEGFR2, AXL, RET)"
+ONIQOQHATWINJY,RET,INHIBITOR,"multikinase inhibitor (MET, VEGFR2, AXL, RET)"
+WOSKHXYHFSIKNG,KDR,INHIBITOR,multikinase VEGFR/FGFR/RET inhibitor
+WOSKHXYHFSIKNG,FGFR1,INHIBITOR,multikinase VEGFR/FGFR/RET inhibitor
+WOSKHXYHFSIKNG,RET,INHIBITOR,multikinase VEGFR/FGFR/RET inhibitor
+MLDQJTXFUGDVEO,BRAF,INHIBITOR,multikinase RAF/VEGFR inhibitor
+MLDQJTXFUGDVEO,KDR,INHIBITOR,multikinase RAF/VEGFR inhibitor
+MLDQJTXFUGDVEO,PDGFRB,INHIBITOR,multikinase RAF/VEGFR inhibitor
+KDGFLJKFZUIJMX,ALK,INHIBITOR,ALK tyrosine kinase inhibitor
+XZWYZXLIPXDOLR,PRKAB1,ACTIVATOR,biguanide; AMPK activation / mitochondrial complex I inhibition
+XZWYZXLIPXDOLR,MT-ND1,INHIBITOR,biguanide; mitochondrial respiratory complex I inhibition
+XZXHXSATPCNXJR,KDR,INHIBITOR,multikinase VEGFR/FGFR/PDGFR inhibitor
+XZXHXSATPCNXJR,FGFR1,INHIBITOR,multikinase VEGFR/FGFR/PDGFR inhibitor
+XZXHXSATPCNXJR,PDGFRA,INHIBITOR,multikinase VEGFR/FGFR/PDGFR inhibitor
+WHMMKPWGWNYYFE,AXL,INHIBITOR,AXL/MERTK tyrosine kinase inhibitor
+WHMMKPWGWNYYFE,MERTK,INHIBITOR,AXL/MERTK tyrosine kinase inhibitor
+JHDKZFFAIZKUCU,HDAC1,INHIBITOR,histone deacetylase (HDAC) inhibitor
+JHDKZFFAIZKUCU,HDAC2,INHIBITOR,histone deacetylase (HDAC) inhibitor
+JHDKZFFAIZKUCU,HDAC3,INHIBITOR,histone deacetylase (HDAC) inhibitor
+VSZGPKBBMSAYNT,,INHIBITOR,influenza neuraminidase inhibitor (oseltamivir prodrug active oseltamivir carboxylate)
+TYNLGDBUJLVSMA,IL1B,INHIBITOR,diacerein/rhein; inhibits IL-1beta synthesis and signaling
+TYNLGDBUJLVSMA,IL1R1,ANTAGONIST,diacerein/rhein; inhibits IL-1beta signaling
+WDOGQTQEKVLZIJ,TUBB,INHIBITOR,combretastatin A4 prodrug; tubulin polymerization inhibitor (colchicine site)
+IUBSYMUCCVWXPE,ADRB1,ANTAGONIST,selective beta-1 adrenergic receptor blocker
+CYXKNKQEMFBLER,CPT1A,INHIBITOR,carnitine palmitoyltransferase-1 inhibitor (perhexiline)
+KLPWJLBORRMFGK,DRD2,ANTAGONIST,molindone; dopamine D2/D5 receptor antagonist
+KLPWJLBORRMFGK,DRD5,ANTAGONIST,molindone; dopamine D2/D5 receptor antagonist
+CMQOKZCYVZFZLZ,HSD11B1,INHIBITOR,11beta-hydroxysteroid dehydrogenase type 1 inhibitor
+ULXXDDBFHOBEHA,EGFR,INHIBITOR,irreversible EGFR/HER2 (ErbB) tyrosine kinase inhibitor
+ULXXDDBFHOBEHA,ERBB2,INHIBITOR,irreversible EGFR/HER2 (ErbB) tyrosine kinase inhibitor
+OGWKCGZFUXNPDA,TUBB,INHIBITOR,vinca alkaloid; tubulin polymerization inhibitor (vinca site)
+XTOSKUWVIRIKJD,SERPINC1,ACTIVATOR,heparin; potentiates antithrombin (SERPINC1) inhibition of thrombin/factor Xa
+HFNKQEVNSGCOJV,JAK1,INHIBITOR,JAK1 tyrosine kinase inhibitor
+HFNKQEVNSGCOJV,JAK2,INHIBITOR,JAK2 tyrosine kinase inhibitor
+DAPFMGRCDFSUSN,CHRNA7,MODULATOR,alpha7 nicotinic acetylcholine receptor ligand with anti-muscarinic activity
+DTGLZDAWLRGWQN,P2RY12,ANTAGONIST,active metabolite irreversibly blocks platelet P2Y12 ADP receptor
+GXJABQQUPOEUTA,PSMB5,INHIBITOR,reversible 26S proteasome beta5 subunit inhibitor
+HCYAFALTSJYZDH,SLC6A2,INHIBITOR,norepinephrine transporter (NET) reuptake inhibitor
+BUGYDGFZZOZRHP,GRIN1,ANTAGONIST,uncompetitive NMDA receptor antagonist
+VOBHXZCDAVEXEY,SLC6A3,INHIBITOR,dopamine transporter reuptake inhibitor / releaser (active d-amphetamine)
+VOBHXZCDAVEXEY,SLC6A2,INHIBITOR,norepinephrine transporter reuptake inhibitor / releaser (active d-amphetamine)
+CUIHSIWYWATEQL,KDR,INHIBITOR,VEGFR2 (KDR) receptor tyrosine kinase inhibitor
+CUIHSIWYWATEQL,PDGFRB,INHIBITOR,PDGFR-beta receptor tyrosine kinase inhibitor
+CUIHSIWYWATEQL,KIT,INHIBITOR,KIT receptor tyrosine kinase inhibitor
+BPRHUIZQVSMCRT,HMGCR,INHIBITOR,HMG-CoA reductase inhibitor
+ZEUITGRIYCTCEM,SLC6A4,INHIBITOR,serotonin transporter reuptake inhibitor
+ZEUITGRIYCTCEM,SLC6A2,INHIBITOR,norepinephrine transporter reuptake inhibitor
+ZUZXCJZLFRPFBD,FAF1,INHIBITOR,Fas-associated factor 1 (FAF1) inhibitor
+ZRUFVDPYHLTYPD,KLKB1,INHIBITOR,plasma kallikrein inhibitor
+VOSAWOSMGPKQEQ,HCRTR2,AGONIST,orexin receptor 2 (OX2R) selective agonist
+SJVQHLPISAIATJ,PIK3CD,INHIBITOR,PI3K-delta catalytic subunit inhibitor
+SJVQHLPISAIATJ,PIK3CG,INHIBITOR,PI3K-gamma catalytic subunit inhibitor
+YNBBKDMAVRSYRE,KRAS,INHIBITOR,covalent KRAS G12C inhibitor
+JFRWOHRGXFCADF,AKR1C3,INHIBITOR,aldo-keto reductase 1C3 (AKR1C3) inhibitor
+PSBBWFNMHDUTRH,BACE1,INHIBITOR,beta-secretase 1 (BACE1) inhibitor
+WPEWQEMJFLWMLV,KDR,INHIBITOR,VEGFR2 (KDR) receptor tyrosine kinase inhibitor
+HGVDHZBSSITLCT,F10,INHIBITOR,direct factor Xa inhibitor
+VZSAMEOETVNDQH,BRD4,INHIBITOR,BET bromodomain (BRD4/BRD2/BRD3) inhibitor
+VZSAMEOETVNDQH,BRD2,INHIBITOR,BET bromodomain inhibitor
+VZSAMEOETVNDQH,BRD3,INHIBITOR,BET bromodomain inhibitor
+BQJCRHHNABKAKU,OPRM1,AGONIST,mu-opioid receptor agonist
+PHXJVRSECIGDHY,ABL1,INHIBITOR,BCR-ABL1 tyrosine kinase inhibitor (multi-kinase)
+FPOHNWQLNRZRFC,HDAC1,INHIBITOR,pan-histone deacetylase inhibitor
+SDUQYLNIPVEERB,RRM1,INHIBITOR,ribonucleotide reductase inhibitor / nucleoside antimetabolite
+VDHAWDNDOKGFTD,CASR,POSITIVE ALLOSTERIC MODULATOR,calcium-sensing receptor (CASR) calcimimetic
+UFNVPOGXISZXJD,TUBB,INHIBITOR,microtubule (tubulin) dynamics inhibitor
+ZQTNQVWKHCQYLQ,KCNH2,BLOCKER,multichannel blocker (hERG/IKr)
+ZQTNQVWKHCQYLQ,SCN5A,BLOCKER,cardiac sodium channel blocker
+ZQTNQVWKHCQYLQ,CACNA1C,BLOCKER,L-type calcium channel blocker
+ZQTNQVWKHCQYLQ,ADRB1,ANTAGONIST,beta-1 adrenergic receptor antagonism
+AAKJLRGGTJKAMG,EGFR,INHIBITOR,EGFR tyrosine kinase inhibitor
+HHZIURLSWUIHRB,ABL1,INHIBITOR,BCR-ABL1 tyrosine kinase inhibitor
+GKTWGGQPFAXNFI,P2RY12,ANTAGONIST,active metabolite irreversibly blocks platelet P2Y12 ADP receptor
+CYHWMBVXXDIZNZ,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor positive allosteric modulator (benzodiazepine)
+XFYDIVBRZNQMJC,ADRA2A,AGONIST,alpha-2 adrenergic receptor agonist
+RWTNPBWLLIMQHL,HRH1,ANTAGONIST,histamine H1 receptor antagonist
+TTWJBBZEZQICBI,DRD2,ANTAGONIST,dopamine D2 receptor antagonist
+UCHDWCPVSPXUMX,CYSLTR1,ANTAGONIST,cysteinyl leukotriene receptor 1 antagonist
+ZKMNUMMKYBVTFN,SCN9A,BLOCKER,voltage-gated sodium channel blocker (local anesthetic)
+UCTRAOBQFUDCSR,SLC6A3,INHIBITOR,Dopamine reuptake inhibitor
+UCTRAOBQFUDCSR,SLC6A2,INHIBITOR,Norepinephrine reuptake inhibitor
+DRHKJLXJIQTDTD,ADRA1A,ANTAGONIST,Alpha-1A adrenoceptor antagonist
+DRHKJLXJIQTDTD,ADRA1D,ANTAGONIST,Alpha-1D adrenoceptor antagonist
+UJLAWZDWDVHWOW,JAK1,INHIBITOR,Janus kinase 1 inhibitor
+UJLAWZDWDVHWOW,JAK3,INHIBITOR,Janus kinase 3 inhibitor
+TVYLLZQTGLZFBW,OPRM1,AGONIST,Mu-opioid receptor agonist
+TVYLLZQTGLZFBW,SLC6A2,INHIBITOR,Norepinephrine reuptake inhibitor
+TVYLLZQTGLZFBW,SLC6A4,INHIBITOR,Serotonin reuptake inhibitor
+MBUVEWMHONZEQD,HRH1,ANTAGONIST,Histamine H1 receptor antagonist (inverse agonist)
+XYLJNLCSTIOKRM,ADRA2A,AGONIST,Alpha-2A adrenoceptor agonist
+QWCRAEMEVRGPNT,HTR1A,PARTIAL AGONIST,Serotonin 5-HT1A receptor partial agonist
+KPWSJANDNDDRMB,DRD3,PARTIAL AGONIST,Dopamine D3 receptor partial agonist
+KPWSJANDNDDRMB,DRD2,PARTIAL AGONIST,Dopamine D2 receptor partial agonist
+XDXWLKQMMKQXPV,MPL,AGONIST,Thrombopoietin receptor agonist
+WSEQXVZVJXJVFP,SLC6A4,INHIBITOR,Serotonin reuptake inhibitor
+OZWKMVRBQXNZKK,PTGS1,INHIBITOR,Cyclooxygenase-1 inhibitor
+OZWKMVRBQXNZKK,PTGS2,INHIBITOR,Cyclooxygenase-2 inhibitor
+SFLSHLFXELFNJZ,ADRA1A,AGONIST,Alpha-1 adrenoceptor agonist
+SFLSHLFXELFNJZ,ADRB1,AGONIST,Beta-1 adrenoceptor agonist
+VGKDLMBJGBXTGI,SLC6A4,INHIBITOR,Serotonin reuptake inhibitor
+GGCSSNBKKAUURC,OPRM1,AGONIST,Mu-opioid receptor agonist
+WYQFJHHDOKWSHR,JAK1,INHIBITOR,Janus kinase 1 selective inhibitor
+ZKLPARSLTMPFCP,HRH1,ANTAGONIST,Histamine H1 receptor antagonist
+LUZRJRNZXALNLM,HTR1B,AGONIST,Serotonin 5-HT1B receptor agonist
+LUZRJRNZXALNLM,HTR1D,AGONIST,Serotonin 5-HT1D receptor agonist
+VLPIATFUUWWMKC,SCN5A,BLOCKER,Cardiac sodium channel blocker (class IB antiarrhythmic)
+PHVGLTMQBUFIQQ,SLC6A2,INHIBITOR,Norepinephrine reuptake inhibitor
+ZTVQQQVZCWLTDF,OPRM1,AGONIST,Mu-opioid receptor agonist
+MFFMDFFZMYYVKS,DPP4,INHIBITOR,Dipeptidyl peptidase-4 inhibitor
+VHYCDWMUTMEGQY,ADRB1,ANTAGONIST,Beta-1 adrenoceptor antagonist
+SNPPWIUOZRMYNY,SLC6A3,INHIBITOR,Dopamine reuptake inhibitor
+SNPPWIUOZRMYNY,SLC6A2,INHIBITOR,Norepinephrine reuptake inhibitor
+SNPPWIUOZRMYNY,CHRNA4,ANTAGONIST,Nicotinic acetylcholine receptor antagonist
+JRWZLRBJNMZMFE,ADRB1,AGONIST,Beta-1 adrenoceptor agonist
+INJOMKTZOLKMBF,ADRA2A,AGONIST,Alpha-2A adrenoceptor agonist
+MBBCVAKAJPKAKM,MTTP,INHIBITOR,Microsomal triglyceride transfer protein inhibitor
+XNKCCCKFOQNXKV,OPRM1,ANTAGONIST,Peripherally-acting mu-opioid receptor antagonist
+ZBBHBTPTTSWHBA,CACNA1C,BLOCKER,L-type calcium channel blocker (dihydropyridine)
+RKEWSXXUOLRFBX,HTR2A,ANTAGONIST,Serotonin 5-HT2A receptor inverse agonist/antagonist
+PJVWKTKQMONHTI,VKORC1,INHIBITOR,Vitamin K epoxide reductase inhibitor
+ZZVUWRFHKOJYTH,HRH1,ANTAGONIST,Histamine H1 receptor antagonist
+ZSBOMTDTBDDKMP,DPP4,INHIBITOR,Dipeptidyl peptidase-4 inhibitor
+XUKUURHRXDUEBC,HMGCR,INHIBITOR,HMG-CoA reductase inhibitor
+PTOAARAWEBMLNO,RRM1,INHIBITOR,Purine nucleoside analog inhibiting ribonucleotide reductase (active triphosphate form)
+GBXSMTUPTTWBMN,ACE,INHIBITOR,Angiotensin-converting enzyme inhibitor (active form enalaprilat)
+SONNWYBIRXJNDC,ADRA1A,AGONIST,Alpha-1 adrenoceptor agonist
+UHSKFQJFRQCDBE,DRD2,AGONIST,Dopamine D2 receptor agonist
+UHSKFQJFRQCDBE,DRD3,AGONIST,Dopamine D3 receptor agonist
+FKENQMMABCRJMK,blaZ,INHIBITOR,Irreversible beta-lactamase inhibitor (bacterial)
+HXHWSAZORRCQMX,TUBB,INHIBITOR,"Binds beta-tubulin of helminths, inhibits microtubule polymerization"
+XSDQTOBWRPYKKA,SCNN1A,BLOCKER,Blocks epithelial sodium channel (ENaC)
+XSDQTOBWRPYKKA,SCNN1B,BLOCKER,Blocks epithelial sodium channel (ENaC)
+XSDQTOBWRPYKKA,SCNN1G,BLOCKER,Blocks epithelial sodium channel (ENaC)
+SGEIEGAXKLMUIZ,HSF1,ACTIVATOR,Heat shock protein co-inducer; prolongs activated HSF1 binding to heat shock elements
+JURKNVYFZMSNLP,HTR2A,ANTAGONIST,Serotonin 5-HT2A receptor antagonist (TCA-related skeletal muscle relaxant)
+JURKNVYFZMSNLP,HRH1,ANTAGONIST,Histamine H1 receptor antagonist
+RTHCYVBBDHJXIQ,SLC6A4,INHIBITOR,Selective serotonin reuptake transporter (SERT) inhibitor
+WVLOADHCBXTIJK,OPRM1,AGONIST,Mu-opioid receptor agonist
+NZWOPGCLSHLLPA,CHRM3,AGONIST,Muscarinic acetylcholine receptor agonist (bronchoprovocation)
+NETZHAKZCGBWSS,OPRK1,AGONIST,Kappa-opioid receptor agonist
+NETZHAKZCGBWSS,OPRM1,ANTAGONIST,Mu-opioid receptor partial antagonist/agonist
+IQPSEEYGBUAQFF,ATP4A,INHIBITOR,Irreversible H+/K+-ATPase (gastric proton pump) inhibitor
+VGYFMXBACGZSIL,HMGCR,INHIBITOR,HMG-CoA reductase inhibitor (statin)
+NKANXQFJJICGDU,ESR1,ANTAGONIST,Selective estrogen receptor modulator; active metabolites antagonize ER in breast
+DNHPDWGIXIMXSA,SLC9A3,INHIBITOR,Sodium/hydrogen exchanger isoform 3 (NHE3) inhibitor in gut
+UCFGDBYHRUNTLO,TOP1,INHIBITOR,Topoisomerase I inhibitor (camptothecin analog)
+PHLBKPHSAVXXEF,HTR2A,ANTAGONIST,Serotonin 5-HT2A receptor antagonist
+PHLBKPHSAVXXEF,SLC6A4,INHIBITOR,Serotonin transporter (SERT) inhibitor
+FBOUYBDGKBSUES,CHRM3,ANTAGONIST,Muscarinic M3 receptor antagonist (bladder)
+DKNWSYNQZKUICI,GRIN1,ANTAGONIST,NMDA receptor antagonist
+DKNWSYNQZKUICI,GRIN2A,ANTAGONIST,NMDA receptor antagonist
+IYIKLHRQXLHMJQ,KCNH2,BLOCKER,Potassium channel blocker (class III antiarrhythmic)
+IYIKLHRQXLHMJQ,SCN5A,BLOCKER,Sodium channel blocker
+IYIKLHRQXLHMJQ,CACNA1C,BLOCKER,L-type calcium channel blocker
+IYIKLHRQXLHMJQ,ADRB1,ANTAGONIST,Beta-adrenergic receptor antagonist
+RUZYUOTYCVRMRZ,ADRA1A,ANTAGONIST,Alpha-1 adrenergic receptor antagonist
+RUZYUOTYCVRMRZ,ADRA1B,ANTAGONIST,Alpha-1 adrenergic receptor antagonist
+RUZYUOTYCVRMRZ,ADRA1D,ANTAGONIST,Alpha-1 adrenergic receptor antagonist
+UWKQSNNFCGGAFS,TOP1,INHIBITOR,Prodrug of SN-38; topoisomerase I inhibitor
+GJJFMKBJSRMPLA,SLC6A2,INHIBITOR,Norepinephrine reuptake transporter (NET) inhibitor
+GJJFMKBJSRMPLA,SLC6A4,INHIBITOR,Serotonin reuptake transporter (SERT) inhibitor
+OURRXQUGYQRVML,ROCK1,INHIBITOR,Rho-associated kinase (ROCK) inhibitor
+OURRXQUGYQRVML,ROCK2,INHIBITOR,Rho-associated kinase (ROCK) inhibitor
+OURRXQUGYQRVML,SLC6A2,INHIBITOR,Norepinephrine transporter (NET) inhibitor
+WYWIFABBXFUGLM,ADRA1A,AGONIST,Alpha-1 adrenergic receptor agonist (vasoconstrictor decongestant)
+WYWIFABBXFUGLM,ADRA2A,AGONIST,Alpha-2 adrenergic receptor agonist
+ZLHZLMOSPGACSZ,ddn,INHIBITOR,Nitroimidazole prodrug activated by mycobacterial Ddn; inhibits mycolic acid synthesis / generates reactive nitrogen species
+URKOMYMAXPYINW,DRD2,ANTAGONIST,Dopamine D2 receptor antagonist
+URKOMYMAXPYINW,HTR2A,ANTAGONIST,Serotonin 5-HT2A receptor antagonist
+YQNWZWMKLDQSAC,SLC6A4,INHIBITOR,Serotonin transporter (SERT) inhibitor
+YQNWZWMKLDQSAC,HTR1A,AGONIST,Serotonin 5-HT1A receptor agonist
+YQNWZWMKLDQSAC,HTR3A,ANTAGONIST,Serotonin 5-HT3 receptor antagonist
+YALNUENQHAQXEA,HDAC1,INHIBITOR,Pan-HDAC inhibitor (class I)
+YALNUENQHAQXEA,HDAC2,INHIBITOR,Pan-HDAC inhibitor (class I)
+YALNUENQHAQXEA,HDAC3,INHIBITOR,Pan-HDAC inhibitor (class I)
+YALNUENQHAQXEA,HDAC6,INHIBITOR,Pan-HDAC inhibitor (class II)
+PQXKDMSYBGKCJA,DRD2,ANTAGONIST,Dopamine D2 receptor antagonist
+PQXKDMSYBGKCJA,HTR2A,ANTAGONIST,Serotonin 5-HT2A receptor antagonist
+PQXKDMSYBGKCJA,HTR7,ANTAGONIST,Serotonin 5-HT7 receptor antagonist
+PQXKDMSYBGKCJA,HTR1A,PARTIAL AGONIST,Serotonin 5-HT1A receptor partial agonist
+USSIQXCVUWKGNF,OPRM1,AGONIST,Mu-opioid receptor agonist
+USSIQXCVUWKGNF,GRIN1,ANTAGONIST,NMDA receptor antagonist
+YXRDKMPIGHSVRX,CHRNA1,ANTAGONIST,Nicotinic acetylcholine receptor antagonist (non-depolarizing neuromuscular blocker)
+KSGXQBZTULBEEQ,F2,INHIBITOR,Prodrug of dabigatran; direct thrombin (factor IIa) inhibitor
+DYDCPNMLZGFQTM,gyrA,INHIBITOR,Fluoroquinolone; inhibits bacterial DNA gyrase
+DYDCPNMLZGFQTM,parC,INHIBITOR,Fluoroquinolone; inhibits bacterial topoisomerase IV
+OCJYIGYOJCODJL,HRH1,ANTAGONIST,Histamine H1 receptor antagonist (antiemetic)
+OCJYIGYOJCODJL,CHRM1,ANTAGONIST,Muscarinic acetylcholine receptor antagonist
+FABPRXSRWADJSP,gyrA,INHIBITOR,Fluoroquinolone; inhibits bacterial DNA gyrase
+FABPRXSRWADJSP,parC,INHIBITOR,Fluoroquinolone; inhibits bacterial topoisomerase IV
+ZAFYATHCZYHLPB,GABRA1,POSITIVE ALLOSTERIC MODULATOR,GABA-A receptor positive allosteric modulator (alpha1-selective)
+FKRSSPOQAMALKA,NS5A,INHIBITOR,Hepatitis C virus NS5A replication complex inhibitor
+USUZGMWDZDXMDG,CYP11B1,INHIBITOR,Inhibits 11-beta-hydroxylase blocking cortisol synthesis
+USUZGMWDZDXMDG,CYP11B2,INHIBITOR,Inhibits aldosterone synthase
+LERNTVKEWCAPOY,CHRM3,ANTAGONIST,Long-acting muscarinic M3 receptor antagonist (bronchodilator)
+LERNTVKEWCAPOY,CHRM1,ANTAGONIST,Muscarinic M1 receptor antagonist
+KRMDCWKBEZIMAB,SLC6A4,INHIBITOR,Serotonin transporter reuptake inhibition (TCA)
+KRMDCWKBEZIMAB,SLC6A2,INHIBITOR,Norepinephrine transporter reuptake inhibition
+QJFSABGVXDWMIW,AGTR1,ANTAGONIST,Angiotensin II type 1 receptor blocker (prodrug)
+YXSLJKQTIDHPOT,CHRNA1,ANTAGONIST,Nondepolarizing nicotinic acetylcholine receptor antagonist at neuromuscular junction
+DCCSDBARQIPTGU,CHRM3,ANTAGONIST,"Muscarinic M3 receptor antagonist (active 5-HMT, antimuscarinic)"
+XWLUWCNOOVRFPX,SCN2A,BLOCKER,Voltage-gated sodium channel blocker (phenytoin prodrug)
+QZZUEBNBZAPZLX,ADRB2,AGONIST,Long-acting beta-2 adrenergic receptor agonist
+VDJHFHXMUKFKET,PRKCD,ACTIVATOR,Protein kinase C activator inducing cell death
+VDJHFHXMUKFKET,PRKCB,ACTIVATOR,Protein kinase C activator
+KSMAGQUYOIHWFS,ADRA2A,AGONIST,Alpha-2A adrenergic receptor agonist
+DDBREPKUVSBGFI,GABRA1,POSITIVE ALLOSTERIC MODULATOR,Barbiturate potentiation of GABA-A receptor chloride current
+KWTWDQCKEHXFFR,OPRM1,AGONIST,Mu-opioid receptor agonist
+KWTWDQCKEHXFFR,SLC6A2,INHIBITOR,Norepinephrine reuptake inhibition
+DAFYYTQWSAWIGS,ADRB2,AGONIST,Long-acting beta-2 adrenergic receptor agonist
+SGEGOXDYSFKCPT,SLC6A4,INHIBITOR,Serotonin transporter reuptake inhibition
+SGEGOXDYSFKCPT,HTR1A,PARTIAL AGONIST,5-HT1A receptor partial agonist
+UZHSEJADLWPNLE,OPRM1,ANTAGONIST,Mu-opioid receptor antagonist
+HTIQEAQVCYTUBX,CACNA1C,BLOCKER,Dihydropyridine L-type calcium channel blocker
+OROGSEYTTFOCAN,OPRM1,AGONIST,Mu-opioid receptor agonist (active via morphine)
+HXGBXQDTNZMWGS,CHRM3,ANTAGONIST,Selective muscarinic M3 receptor antagonist
+QIGBRXMKCJKVMJ,TYR,INHIBITOR,Tyrosinase inhibitor reducing melanin synthesis
+RDOIQAHITMMDAJ,OPRM1,AGONIST,Peripheral mu-opioid receptor agonist in gut
+PTKSEFOSCHHMPD,ADRA1A,AGONIST,Alpha-1 adrenergic receptor agonist (active desglymidodrine)
+JBIMVDZLSHOPLA,HRH1,ANTAGONIST,Histamine H1 receptor antagonist
+FVTWTVQXNAJTQP,CHRM3,ANTAGONIST,Long-acting muscarinic M3 receptor antagonist
+NTHPAPBPFQJABD,HTR3A,ANTAGONIST,5-HT3 receptor antagonist (antiemetic)
+IDBPHNDTYPBSNI,OPRM1,AGONIST,Mu-opioid receptor agonist
+VLCYCQAOQCDTCN,ODC1,INHIBITOR,Irreversible ornithine decarboxylase inhibitor
+INWLQCZOYSRPNW,SCN5A,BLOCKER,Local anesthetic voltage-gated sodium channel blocker
+KOHIRBRYDXPAMZ,ADRB1,ANTAGONIST,Selective beta-1 adrenergic receptor antagonist
+PWWVAXIEGOYWEE,HRH1,ANTAGONIST,Histamine H1 receptor antagonist
+YREYEVIYCVEVJK,ATP4A,INHIBITOR,Gastric H+/K+-ATPase proton pump inhibitor
+VSWBSWWIRNCQIJ,HTR2A,ANTAGONIST,5-HT2A receptor antagonist (atypical antipsychotic)
+VSWBSWWIRNCQIJ,DRD2,ANTAGONIST,Dopamine D2 receptor antagonist
+KKGQTZUTZRNORY,S1PR1,MODULATOR,Sphingosine-1-phosphate receptor modulator (functional antagonist)
+KANJSNBRCNMZMV,SERPINC1,ACTIVATOR,Activates antithrombin III to inhibit factor Xa
+ZCVMWBYGMWKGHF,HRH1,ANTAGONIST,H1 antihistamine and mast cell stabilizer
+FIVSJYGQAIEMOC,TACR1,ANTAGONIST,Neurokinin-1 (substance P) receptor antagonist
+PNVNVHUZROJLTJ,SLC6A4,INHIBITOR,Serotonin reuptake inhibition (SNRI)
+PNVNVHUZROJLTJ,SLC6A2,INHIBITOR,Norepinephrine reuptake inhibition (SNRI)
+RUOKEQAAGRXIBM,MAOB,INHIBITOR,Irreversible monoamine oxidase B inhibitor
+YSXKPIUOCJLQIE,CHRM1,ANTAGONIST,Anticholinergic (muscarinic) antiparkinsonian agent
+GDLIGKIOYRNHDA,SLC6A4,INHIBITOR,Serotonin reuptake inhibition (tricyclic)
+GDLIGKIOYRNHDA,SLC6A2,INHIBITOR,Norepinephrine reuptake inhibition (tricyclic)
+KAQKFAOMNZTLHT,PTGIR,AGONIST,Prostacyclin (IP) receptor agonist
+DOMXUEMWDBAQBQ,ERG1,INHIBITOR,Squalene epoxidase inhibitor (fungal ERG1)
+MVWVFYHBGMAFLY,DRD2,ANTAGONIST,Dopamine D2 receptor antagonist (atypical antipsychotic)
+MVWVFYHBGMAFLY,HTR2A,ANTAGONIST,Serotonin 5-HT2A receptor antagonist
+MVWVFYHBGMAFLY,HTR1A,PARTIAL AGONIST,Serotonin 5-HT1A partial agonist
+KWGRBVOPPLSCSI,ADRA1A,AGONIST,Sympathomimetic alpha-adrenergic agonist (decongestant)
+KWGRBVOPPLSCSI,ADRB2,AGONIST,Indirect/direct beta-adrenergic agonism
+UXOWGYHJODZGMF,REN,INHIBITOR,Direct renin inhibitor
+JVLBPIPGETUEET,OPRM1,ANTAGONIST,Peripherally-restricted mu-opioid receptor antagonist
+KKZJGLLVHKMTCM,TOP2A,INHIBITOR,Topoisomerase II inhibitor / DNA intercalator (anthracenedione)
+HYAFETHFCAUJAY,PPARG,AGONIST,PPAR-gamma agonist (thiazolidinedione)
+SJZRECIVHVDYJC,GABBR1,AGONIST,GHB acting at GABA-B receptor
+OOGJQPCLVADCPB,CHRM3,ANTAGONIST,Muscarinic M3 receptor antagonist (overactive bladder)
+XFCLJVABOIYOMF,ESR1,ANTAGONIST,Selective estrogen receptor modulator (antagonist in breast)
+HDOVUKNUBWVHOX,UL30,INHIBITOR,Prodrug of acyclovir inhibiting herpesvirus DNA polymerase (HSV UL30)
+IPVQLZZIHOAWMC,ACE,INHIBITOR,Angiotensin-converting enzyme inhibitor (active perindoprilat)
+TUZYXOIXSAXUGO,HMGCR,INHIBITOR,HMG-CoA reductase inhibitor (statin)
+IENZQIKPVFGBNW,ADRA1A,ANTAGONIST,Alpha-1 adrenergic receptor antagonist
+LWGUASZLXHYWIV,ITGA2,INHIBITOR,Suppresses integrin alpha-2 expression via RBM39 degradation
+LWGUASZLXHYWIV,RBM39,INHIBITOR,DCAF15-mediated degradation of splicing factor RBM39 (CAPERalpha)
+DOMQFIFVDIAOOT,APLNR,AGONIST,Apelin receptor (APJ) agonist
+NKGSHRLGUQURMS,USP1,INHIBITOR,Allosteric USP1 deubiquitinase inhibitor
+DWKNOLCXIFYNFV,CCR3,ANTAGONIST,C-C chemokine receptor type 3 (eotaxin receptor) antagonist
+CJCYTUJOSMYXLE,DDX58,AGONIST,RIG-I (DDX58) agonist; innate immune antiviral activation
+CJCYTUJOSMYXLE,NOD2,AGONIST,NOD2 pathway agonist (dinucleotide prodrug)
+KXVKOYCGACSUPP,PDE4B,INHIBITOR,Topical phosphodiesterase-4 inhibitor (PDE4B/PDE4D)
+UAQOKKXVCNQHIP,PPARD,AGONIST,PPAR-delta agonist (mavodelpar)
+CSCLQCHKUAMZOY,RIPK1,INHIBITOR,Brain-penetrant RIPK1 kinase inhibitor
+QBQMUMMSYHUDFM,DAO,INHIBITOR,D-amino acid oxidase inhibitor
+OYFMQDVLFYKOPZ,JAK1,INHIBITOR,Topical JAK1/JAK3 inhibitor
+OYFMQDVLFYKOPZ,JAK3,INHIBITOR,Topical JAK1/JAK3 inhibitor
+MJHOMTRKVMKCNE,SYK,INHIBITOR,Dual SYK/FLT3 tyrosine kinase inhibitor (mivavotinib)
+MJHOMTRKVMKCNE,FLT3,INHIBITOR,Dual SYK/FLT3 tyrosine kinase inhibitor (mivavotinib)
+AUUKUAHPMHVZJL,MC1R,AGONIST,Synthetic alpha-MSH analog; melanocortin receptor agonist
+AUUKUAHPMHVZJL,MC4R,AGONIST,Synthetic alpha-MSH analog; melanocortin receptor agonist
+XXSMGPRMXLTPCZ,TLR7,INHIBITOR,Endosomal TLR signaling inhibitor (blocks nucleic-acid ligand recognition); web-verified Cenac 2022 EJI / PMC12541592 [curated jun26]
+XXSMGPRMXLTPCZ,TLR9,INHIBITOR,Endosomal TLR signaling inhibitor (blocks nucleic-acid ligand recognition); web-verified Cenac 2022 EJI / PMC12541592 [curated jun26]
