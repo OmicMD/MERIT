@@ -167,7 +167,8 @@ The modelling cohorts and feature tables needed to reproduce the reported analys
 | OncoKB | Cancer driver gene annotation | https://www.oncokb.org |
 | Human Protein Atlas | Tissue-specific expression | https://www.proteinatlas.org |
 | Ensembl | Gene and transcript identifier mapping | https://www.ensembl.org |
-| LINCS L1000 / CLUE | Transcriptomic perturbation signatures | https://clue.io |
+| LINCS L1000 (NIH LINCS Program) | Transcriptomic perturbation signatures; consensus signatures derive from the L1000 Connectivity Map, deposited in GEO as GSE92742 (Phase I) and GSE70138 (Phase II) | https://lincsproject.org |
+| Drug Repurposing Hub, Broad Institute | Bridges LINCS L1000 signatures to compound structures | https://repo-hub.broadinstitute.org/repurposing |
 
 ### Safety and toxicity
 
