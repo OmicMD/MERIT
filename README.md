@@ -9,12 +9,12 @@ This repository contains the analysis code accompanying the manuscript. It is pr
 - `notebooks/` - the nine entry-point notebooks, retaining their executed outputs so the reported numbers can be inspected without re-running the analyses.
 - `scripts/` - the Python modules invoked by those notebooks, including the `benchmark/`, `phase1/`, `lincs/` and `strengthening/` sub-packages.
 - `data/` - the trial-level and arm-level modelling cohorts, together with the feature and lookup tables the analyses read.
-- `results/` - committed model outputs: per-fold and headline metrics, out-of-fold predictions, benchmark comparisons and figure inputs.
 - `model/` - the pre-trained model bundle, a self-contained predictor, container definitions and a worked example.
-- `prediction/` - the locked, outcome-blind prospective-registration predictions with their SHA-256 commitments.
 
 ## What is not included
 
+- `prediction/` - the locked, outcome-blind prospective-registration predictions with their SHA-256 commitments. Archived on Zenodo at https://doi.org/10.5281/zenodo.21824277. The Zenodo record fixes these predictions to a date independently of this repository, which is the point of a prospective lock.
+- `results/` - the model outputs: per-fold and headline metrics, out-of-fold predictions, benchmark comparisons and figure inputs. Archived on Zenodo under the same DOI, and restored by unpacking the archive into a `results/` directory at the repository root.
 - The structure-to-target binding profiles produced by our STAR pipeline. These total approximately 3 TB, far beyond what a Git repository can host, and are available from the authors on request.
 - The large third-party databases that the analyses query or download at run time, listed under [Data availability](#data-availability). Each carries its own licence and redistribution terms.
 - `data/processed/` - the SIDER and DILIrank derivative tables used by the external safety-axis validation.
@@ -42,25 +42,12 @@ scripts/
 data/
   sources/        modelling cohorts, feature and lookup tables
   herg.tab        hERG blockade labels
-results/
-  benchmark/      benchmark comparisons, AACT-scale exhibits, prereg_C artefacts
-  phase1/         figure inputs and repositioning contrasts
-  production_*/   per-run metrics, fold metrics and out-of-fold predictions
-  arm_level_v18/  arm-level cohort metrics
-  temporal_v8/    leave-future-out and feature-ablation results
-  strengthening/  bootstrap CIs, exclusion sensitivity, selective prediction
 model/
   predict.py             self-contained predictor
   model_bundle.pkl       serialised pre-trained model
   serialize_model_bundle.py  rebuilds the bundle from trained artefacts
   Dockerfile, main.nf    container and Nextflow definitions
   test/                  worked example: three compounds and expected output
-prediction/
-  prereg_C_registered_predictions.csv   the 55 registered novel drug-indication pairs
-  prereg_C_confident_bets.csv           the 27 high-confidence pairs
-  prereg_C_abstained.csv                the 28 uncertain pairs
-  prereg_C_registration.md              lock date, generating commit and SHA-256
-  *.sha256                              commitments for each locked file
 ```
 
 Notebook `00_reproduce_full_pipeline.ipynb` is the canonical driver: it documents the order in which the dataset-construction and retraining scripts are executed.
@@ -130,11 +117,19 @@ nextflow run model/main.nf --input_dir <dir> --output_dir <dir>
 - Absolute filesystem paths appearing in stored notebook outputs have been replaced with the placeholder `<repo>`. No other output content was altered.
 - The "Arm-Level Pipeline" section of `01_data_provenance_rebuild_executed.ipynb` (later cells) invokes an earlier arm-level rebuild toolchain that has since been superseded and is not distributed in this repository. Those cells will not execute. The section is retained as a record of provenance; the canonical workflow is the one driven by notebook `00_reproduce_full_pipeline.ipynb`. All other notebooks reference only code included here.
 - `scripts/` contains the dependency closure of the entry-point notebooks together with every script named in Supplementary Table S16.
-- The locked prospective-registration predictions in `prediction/` carry SHA-256 commitments. Verify them with `sha256sum -c`, normalising line endings first if the files were checked out on Windows (`tr -d '\r' < FILE.csv | sha256sum`).
+- The locked prospective-registration predictions are archived on Zenodo (see [Data availability](#data-availability)) and carry SHA-256 commitments. Verify them with `sha256sum -c`, normalising line endings first if the files were checked out on Windows (`tr -d '\r' < FILE.csv | sha256sum`).
 
 ## Data availability
 
-The modelling cohorts and feature tables needed to reproduce the reported analyses are included in `data/`. The resources below are the public databases and knowledgebases those tables were derived from; the analyses query or download several of them at run time. Each is subject to its own licence and terms of use. Construction steps are recorded in `01_data_provenance_rebuild_executed.ipynb`.
+The modelling cohorts and feature tables needed to reproduce the reported analyses are included in `data/`. The model outputs and the locked prospective predictions are archived on Zenodo:
+
+| Archive | Contents | DOI |
+|---|---|---|
+| MERIT frozen outputs | `results/` model outputs and `prediction/` locked prospective-registration predictions | https://doi.org/10.5281/zenodo.21824276 |
+
+Download `MERIT.zip` and unpack it at the repository root, restoring `results/` and `prediction/`, before running notebooks that read existing outputs. `SHA256SUMS.txt` is a separate file on the same record and lists every file's SHA-256; place it at the repository root and verify with `sha256sum -c SHA256SUMS.txt`.
+
+The resources below are the public databases and knowledgebases the `data/` tables were derived from; the analyses query or download several of them at run time. Each is subject to its own licence and terms of use. Construction steps are recorded in `01_data_provenance_rebuild_executed.ipynb`.
 
 ### Trials and clinical outcomes
 
