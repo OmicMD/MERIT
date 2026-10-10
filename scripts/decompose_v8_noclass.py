@@ -9,8 +9,9 @@ and drops has_black_box (survivorship). Reports the honest block decomposition:
   DM  = FLAGS + DENC + MOL    (+ full molecular profile, nested top-20)
   M   = MOL only              (molecular mechanism alone)
 
-Single-GBM block models (fit_predict), 5x5 StratifiedGroupKFold by SMILES,
-mean-of-folds AUC — matches the manuscript decomposition methodology. The
+Block models via fit_predict, which matches production per task: single GBM for
+overall/safety, GBM+XGB+LGBM ensemble for efficacy. 5x5 StratifiedGroupKFold by SMILES,
+mean-of-folds AUROC — matches the manuscript decomposition methodology. The
 production head (noisy-OR safety) is reported separately; this isolates WHERE
 the signal lives, not the head architecture.
 """
@@ -86,7 +87,10 @@ def run_task(df_task, mol_cols, task):
                 pred = fit_predict(np.column_stack(ctr), y[tr],
                                    np.column_stack(cte), task, seed)
                 perfold[v][(seed, fold)] = roc_auc_score(y[te], pred)
-    return {v: np.mean(list(d.values())) for v, d in perfold.items()}
+    return {v: {'mean': float(np.mean(list(d.values()))),
+                'sd': float(np.std(list(d.values()), ddof=1)),
+                'n_folds': len(d)}
+            for v, d in perfold.items()}
 
 
 def main():
@@ -131,16 +135,26 @@ def main():
         r = run_task(dft, task_mol, tname)
         res[tname] = r
         for v in VARIANTS:
-            print(f"  {v:3s} {r[v]:.4f}")
-        print(f"  -- disease-difficulty over flags (D - F)  = {r['D']-r['F']:+.4f}")
-        print(f"  -- molecular over disease       (DM - D)  = {r['DM']-r['D']:+.4f}")
+            print(f"  {v:3s} {r[v]['mean']:.4f} +/- {r[v]['sd']:.4f}")
+        print(f"  -- disease-difficulty over flags (D - F)  = {r['D']['mean']-r['F']['mean']:+.4f}")
+        print(f"  -- molecular over disease       (DM - D)  = {r['DM']['mean']-r['D']['mean']:+.4f}")
 
-    print("\n======== v8 DECOMPOSITION SUMMARY (mean-of-folds AUC, single-GBM) ========")
-    print(f"{'task':9s} {'M':>7s} {'F':>7s} {'D':>7s} {'DM':>7s}  {'D-F':>8s} {'DM-D':>8s}")
+    print("\n======== v8 DECOMPOSITION SUMMARY (mean-of-folds AUROC +/- SD, production heads) ========")
+    print(f"{'task':9s} {'M':>16s} {'F':>16s} {'D':>16s} {'DM':>16s}  {'D-F':>8s} {'DM-D':>8s}")
+    rows = []
     for tname in tasks:
         r = res[tname]
-        print(f"{tname:9s} {r['M']:7.4f} {r['F']:7.4f} {r['D']:7.4f} {r['DM']:7.4f}  "
-              f"{r['D']-r['F']:+8.4f} {r['DM']-r['D']:+8.4f}")
+        cells = ' '.join(f"{r[v]['mean']:.4f}+/-{r[v]['sd']:.4f}" for v in VARIANTS)
+        print(f"{tname:9s} {cells}  "
+              f"{r['D']['mean']-r['F']['mean']:+8.4f} {r['DM']['mean']-r['D']['mean']:+8.4f}")
+        for v in VARIANTS:
+            rows.append({'task': tname, 'variant': v, 'auc_mean': r[v]['mean'],
+                         'auc_sd': r[v]['sd'], 'n_folds': r[v]['n_folds']})
+
+    out = ROOT / 'results' / 'strengthening' / 'decomposition_folds.csv'
+    out.parent.mkdir(parents=True, exist_ok=True)
+    pd.DataFrame(rows).to_csv(out, index=False)
+    print(f"\nSaved: {out}")
 
 
 if __name__ == "__main__":

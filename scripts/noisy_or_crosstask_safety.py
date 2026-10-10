@@ -4,11 +4,11 @@ used by the risk-zone triage?
 
 Production triage scores safety on the full overall cohort by training a single
 GBM on the safety subset of each outer-train fold and predicting on the full
-outer-test (run_overall_crosstask in retrain_calibrated.py) -> safety AUC 0.648,
+outer-test (run_overall_crosstask in retrain_calibrated.py) -> safety AUROC 0.648,
 below the per-task noisy-OR head (0.716). This script swaps ONLY that head:
 within the identical overall-cohort folds it trains, on the safety subset of
 outer-train, (a) the production single GBM and (b) a noisy-OR over per-mechanism
-detectors, predicts both on the full outer-test, and compares the safety-axis AUC
+detectors, predicts both on the full outer-test, and compares the safety-axis AUROC
 (evaluated on the safety-cohort test rows, label y_safety).
 
 Does NOT modify the locked production pipeline; imports its helpers verbatim.

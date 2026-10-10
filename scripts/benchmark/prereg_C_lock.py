@@ -401,7 +401,7 @@ and applied to the novel pairs. Report `P_fail_overall_calibrated`.
 
 ## Evaluation (prospective, at readout)
 Score `P_fail_overall_calibrated` against the realized PASS/FAIL under the
-manuscript's label-audit protocol; report ROC-AUC with a compound-clustered 95% CI.
+manuscript's label-audit protocol; report AUROC with a compound-clustered 95% CI.
 This file + SHA-256 + commit fix the predictions before any trial reports.
 
 ## Reproduce

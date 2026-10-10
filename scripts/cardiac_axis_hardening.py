@@ -59,15 +59,15 @@ def cv_auc(X, y, reps=30):
     return np.mean(aucs), np.std(aucs)
 
 a_f, s_f = cv_auc(Xf, y); a_cf, s_cf = cv_auc(Xcf, y)
-print(f"  confounds only (promiscuity+lipophilicity): CV-AUC {a_f:.3f} ± {s_f:.3f}")
-print(f"  confounds + cardiac panel:                  CV-AUC {a_cf:.3f} ± {s_cf:.3f}")
-print(f"  cardiac panel ADDS: {a_cf-a_f:+.3f} AUC over confounds")
+print(f"  confounds only (promiscuity+lipophilicity): AUROC {a_f:.3f} ± {s_f:.3f}")
+print(f"  confounds + cardiac panel:                  AUROC {a_cf:.3f} ± {s_cf:.3f}")
+print(f"  cardiac panel ADDS: {a_cf-a_f:+.3f} AUROC over confounds")
 
 # residualized single feature: tox_cardiac_n_bound minus its confound-prediction
 from sklearn.linear_model import LinearRegression
 res = d["tox_cardiac_n_bound"].values - LinearRegression().fit(Xf, d["tox_cardiac_n_bound"].values).predict(Xf)
 auc_res = roc_auc_score(y, res)
-# bootstrap CI (resample drugs) for residualized-cardiac AUC and raw cardiac-panel AUC
+# bootstrap CI (resample drugs) for residualized-cardiac AUROC and raw cardiac-panel AUROC
 boot_res, boot_panel = [], []
 for _ in range(2000):
     idx = RNG.integers(0, len(y), len(y))
@@ -76,9 +76,9 @@ for _ in range(2000):
     # panel: use confound+cardiac OOF proxy via single-split logistic for speed -> use raw best feature
     boot_panel.append(roc_auc_score(y[idx], imp(d[CARD].values)[idx, 2]))  # n_bound
 ci = lambda b: (np.percentile(b, 2.5), np.percentile(b, 97.5))
-print(f"  tox_cardiac_n_bound raw AUC {roc_auc_score(y, imp(d[CARD].values)[:,2]):.3f}  "
+print(f"  tox_cardiac_n_bound raw AUROC {roc_auc_score(y, imp(d[CARD].values)[:,2]):.3f}  "
       f"95% CI [{ci(boot_panel)[0]:.3f}, {ci(boot_panel)[1]:.3f}]")
-print(f"  cardiac residual (confounds removed) AUC {auc_res:.3f}  "
+print(f"  cardiac residual (confounds removed) AUROC {auc_res:.3f}  "
       f"95% CI [{ci(boot_res)[0]:.3f}, {ci(boot_res)[1]:.3f}]  "
       f"({'EXCLUDES' if ci(boot_res)[0] > 0.5 else 'includes'} 0.5)")
 

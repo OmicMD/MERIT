@@ -2,7 +2,7 @@
 """Figure 1 (dataset + architecture) on the v8 honest cohort.
 Figure 1 has two panels: a) trial-selection funnel, b) computational-architecture
 schematic (nine modules). Also writes figS1_module_auc, the per-module standalone
-AUC bar, which is a standalone Supplementary Fig. S3, not a Figure 1 panel.
+AUROC bar, which is a standalone Supplementary Fig. S3, not a Figure 1 panel.
 Counts read from the v8 dataset + module_ablation_v8.csv so they cannot drift.
 Out: manuscript/figures_v8/
 """
@@ -252,7 +252,7 @@ for ext in ("png", "svg"):
     fig.savefig(OUT / f"fig1b_architecture.{ext}", bbox_inches="tight")
 plt.close(fig); print("wrote fig1b_architecture")
 
-# ---- Supplementary Fig. S3: per-module standalone AUC ----
+# ---- Supplementary Fig. S3: per-module standalone AUROC ----
 mod = mod.sort_values("auc")
 # Names must match the module boxes in panel a (same modules, one label each).
 labelmap = {"network": "Pathway engagement", "tissue": "Tissue-specific binding",
@@ -266,7 +266,7 @@ for yi, a in zip(y, mod.auc):
 ax.set_yticks(list(y)); ax.set_yticklabels([labelmap.get(m, m) for m in mod.module], fontsize=11)
 ax.set_xlim(0.50, 1.00); ax.set_xticks(np.arange(0.50, 1.001, 0.10))
 ax.axvline(0.5, color="k", lw=0.5)
-ax.set_xlabel("standalone AUC", fontsize=11)
+ax.set_xlabel("standalone AUROC", fontsize=11)
 fig.tight_layout()
 for ext in ("png", "svg"):
     fig.savefig(OUT / f"figS1_module_auc.{ext}", bbox_inches="tight")

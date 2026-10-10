@@ -22,7 +22,7 @@ Design (real feature rows only — no mechanism recompute):
          The COVID/coronavirus synonym cluster is normalized to one indication, so the
          2020 pandemic surge (which registered e.g. HCQ->COVID as ~15 separate trials)
          counts once instead of dominating the pool. Trial-level is kept as a sensitivity
-         line. Discrimination AUC (PASS vs FAIL) + bootstrap CI + Mann-Whitney + precision@K
+         line. Discrimination AUROC (PASS vs FAIL) + bootstrap CI + Mann-Whitney + precision@K
          vs a random-nomination null.
        - Within-drug concordance: among stranded drugs that later attempted BOTH a
          PASS and a FAIL new indication, fraction where fit(PASS) > fit(FAIL). This holds
@@ -94,7 +94,7 @@ def score_reverse(tr, cand, feats):
 
 
 def bootstrap_auc(y, score, n=2000):
-    """y: 1=PASS(positive for 'fit ranks it high'); paired bootstrap CI of AUC."""
+    """y: 1=PASS(positive for 'fit ranks it high'); paired bootstrap CI of AUROC."""
     idx = np.arange(len(y))
     aucs = []
     for _ in range(n):
@@ -183,7 +183,7 @@ def disease_support(df_full, T):
 
 
 def metric_block(y, s, ks=(3, 5)):
-    """AUC + bootstrap CI + Mann-Whitney + precision@k vs random null on one unit set."""
+    """AUROC + bootstrap CI + Mann-Whitney + precision@k vs random null on one unit set."""
     y = np.asarray(y); s = np.asarray(s)
     if len(y) < 3 or len(np.unique(y)) < 2:
         return {"status": "insufficient", "n": int(len(y))}
@@ -291,7 +291,7 @@ def main():
                 print(f"  {tag:26s} n={b.get('n')} -> {b.get('status')}", flush=True); return
             ci = b["auc_ci95"]
             print(f"  {tag:26s} n={b['n']:3d} ({b['n_pass']}P/{b['n_fail']}F)  "
-                  f"AUC={b['auc']:.3f} [{ci[0]:.2f},{ci[1]:.2f}]  MWp={b['mannwhitney_p_greater']:.3f}  "
+                  f"AUROC={b['auc']:.3f} [{ci[0]:.2f},{ci[1]:.2f}]  MWp={b['mannwhitney_p_greater']:.3f}  "
                   f"prec@3={b['precision_at_k']['3']:.2f}(null {b['random_null_precision']['3']['mean']:.2f})",
                   flush=True)
         show("trial-level (sensitivity)", r["trial_level"])

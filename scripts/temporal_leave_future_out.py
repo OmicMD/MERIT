@@ -8,7 +8,7 @@ DRUG-DISJOINT (any SMILES present in train is removed from test), for all three 
   - safety   : noisy-OR over per-mechanism detectors (production safety head)
 
 Cohorts/labels/exclusions/protect mirror retrain_calibrated.main() exactly.
-Reports mean-over-seeds test AUC per task per cutoff. This is the honest prospective
+Reports mean-over-seeds test AUROC per task per cutoff. This is the honest prospective
 proxy: every test compound is both temporally future AND structurally absent from train.
 
 Runs on the canonical clean_mort cohort, the same one the production model uses; this is
@@ -134,7 +134,7 @@ def main():
             r = eval_task(tr, te, feats, task, protect_cols=prot)
             cut_res[task] = r
             if r:
-                print(f"  {task:9s} AUC={r['auc']:.3f}±{r['auc_sd']:.3f} "
+                print(f"  {task:9s} AUROC={r['auc']:.3f}±{r['auc_sd']:.3f} "
                       f"train n={r['n_train']}/{r['pos_train']} "
                       f"test n={r['n_test']}/{r['pos_test']}", flush=True)
             else:

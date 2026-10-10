@@ -134,7 +134,7 @@ def fit_predict(X_tr, y_tr, X_te, task, seed):
 
 
 def fit_predict_gbm_only(X_tr, y_tr, X_te, seed):
-    """GBM-only variant (for efficacy AUC-gap diagnostic)."""
+    """GBM-only variant (for efficacy AUROC-gap diagnostic)."""
     mod = fit_gbm(X_tr, y_tr, seed)
     return mod.predict_proba(X_te)[:, 1]
 
@@ -219,7 +219,7 @@ def run_task_cv(df_task, feature_cols, task, calibrate, protect_cols=None):
 # mechanism_groups from here). Decomposes the safety feature set into biological
 # mechanism detectors, trains each as its own GBM (so the dominant promiscuity
 # signal can't wash out minority detectors), and combines parameter-free by
-# noisy-OR P=1-prod(1-p_m) ("fail if ANY mechanism trips"). Lifts safety AUC
+# noisy-OR P=1-prod(1-p_m) ("fail if ANY mechanism trips"). Lifts safety AUROC
 # +0.020 over the single GBM, replicated in two independent cohorts (arm-level
 # 144 pos, 4/5 seeds; trial-level 97 pos, 4/5 seeds). See
 # notes/safety_figured_out_jun7.md and notes/metab_dili_redirect_jun7.md.
@@ -273,7 +273,7 @@ def noisy_or_safety_oof(df_safety, feature_cols, protect_cols=None,
         det_auc = np.mean([roc_auc_score(gg.y, gg.raw_prob)
                            for _, gg in oof_g.groupby(['seed', 'fold'])
                            if gg.y.nunique() == 2])
-        print(f'    detector {g:13s} ({len(cs):3d} feats) AUC {det_auc:.4f}',
+        print(f'    detector {g:13s} ({len(cs):3d} feats) AUROC {det_auc:.4f}',
               flush=True)
     M = pd.concat(list(dets.values()), axis=1)
     nor = (1.0 - (1.0 - M.clip(0, 0.999)).prod(axis=1)).rename('raw_prob').reset_index()
@@ -284,7 +284,7 @@ def noisy_or_safety_oof(df_safety, feature_cols, protect_cols=None,
     # same molecule) -> it multiplies moderate risks into false certainty (the elagolix p=1.00
     # cry-wolf; 49% of the 181 cry-wolf had no single detector >0.7). A leak-aware cross-fold
     # LOGISTIC stacker over the per-detector OOF gives calibrated probabilities (caps ~0.5 at the
-    # 3% base rate, cry-wolf-free) at ~-0.012 AUC. raw_prob KEEPS noisy-OR for the ranking/AUC
+    # 3% base rate, cry-wolf-free) at ~-0.012 AUROC. raw_prob KEEPS noisy-OR for the ranking/AUROC
     # headline; calibrated_prob = logistic stack (use for any probability/threshold).
     from sklearn.linear_model import LogisticRegression
     detcols = list(M.columns)
@@ -500,9 +500,9 @@ def main():
     ap.add_argument('--safety-head', choices=['single', 'noisy_or'],
                     default='single',
                     help='single GBM (default, reproduces published headlines) or '
-                         'noisy-OR over per-mechanism detectors (+0.020 safety AUC).')
+                         'noisy-OR over per-mechanism detectors (+0.020 safety AUROC).')
     ap.add_argument('--eff-diag', action='store_true',
-                    help='Also compute GBM-only efficacy OOF for AUC-gap diag.')
+                    help='Also compute GBM-only efficacy OOF for AUROC-gap diag.')
     ap.add_argument('--data', default=None,
                     help='Override training CSV (default: v5_unified -> production_v2).')
     ap.add_argument('--out', default=None,
@@ -609,7 +609,7 @@ def main():
     # is_cytotoxic (ATC L01A-D class flag, Jun 2026) is an EFFICACY class signal — cytotoxics
     # pass in their proliferative-malignancy indications (real antiproliferative MOA the
     # target->disease mechanism module is blind to: these rows have mech_*=0). Leak-safe
-    # (value AUC 0.540, shuffle Δ~0; outcome-blind ChEMBL ATC; class transfer under group folds).
+    # (value AUROC 0.540, shuffle Δ~0; outcome-blind ChEMBL ATC; class transfer under group folds).
     # Held out of the SAFETY head (cytotoxic myelosuppression is a separate axis, unaudited here)
     # so safety stays byte-identical. No-op when the column is absent (canonical reproducibility).
     # endpoint_cvevent_match (Gap B) and precedent_* (Gap D) are EFFICACY-specific signals
@@ -633,7 +633,7 @@ def main():
     oof_s.to_parquet(OUT_DIR / 'oof_safety.parquet', index=False)
     all_fold_metrics.append(fm_s)
 
-    # Trial-design primitives (design_*) are weak-univariate (AUC 0.52-0.60) but add
+    # Trial-design primitives (design_*) are weak-univariate (AUROC 0.52-0.60) but add
     # orthogonal leak-safe signal that top-20 selection would otherwise drop. Protected
     # for efficacy/overall only (the efficacy-bar signal is design-context, not safety).
     # Auto-detected: runs on datasets without design_* columns are unaffected.
@@ -645,13 +645,13 @@ def main():
     # keeps the protect-on-presence behavior for any future leak-free zone-mechanism feature.
     # endpoint_directness_signed (Jun 16): leak-safe endpoint-anchored directness (+1 drug can move the
     # measured biomarker / -1 cannot / 0 N/A). Weak-univariate (non-zero on ~10% of trials) but real in
-    # interaction; availability AUC 0.482, shuffle p=0.0000, residual coef +1.26 p=0.037. Protected for
+    # interaction; availability AUROC 0.482, shuffle p=0.0000, residual coef +1.26 p=0.037. Protected for
     # efficacy/overall only (SAFETY-neutral). Auto-detected: absent -> no-op.
     efficacy_protect = (design_protect + [c for c in feature_cols if c.startswith('mech_ot_')]
                         + [c for c in feature_cols if c.startswith('endpoint_')]
                         + [c for c in feature_cols if c.startswith('population_leverage')]
                         + [c for c in feature_cols if c.startswith('xseff_')]
-                        # mech_coverage_* are weak-univariate by design (leak-safe, avail AUC ~0.51); their
+                        # mech_coverage_* are weak-univariate by design (leak-safe, avail AUROC ~0.51); their
                         # value is the INTERACTION coverage=0 -> discount missing-mechanism zeros, so they
                         # must bypass top-k selection. efficacy/overall only (mechanism stays out of safety).
                         + [c for c in feature_cols if c.startswith('mech_coverage_')]
@@ -662,7 +662,7 @@ def main():
                         # precedent_neg_class (Gap D, Jun 28): as-of-date BINARY flag = a same-MOA-class
                         # agent already had a Phase-3 EFFICACY failure in this indication before this trial
                         # started. Leak-safe (as-of-date, negative-only, binary): shuffle p=0.004,
-                        # availability AUC 0.511, NON-redundant vs difficulty (coef 0.65 p=0.007). The
+                        # availability AUROC 0.511, NON-redundant vs difficulty (coef 0.65 p=0.007). The
                         # efficacy precedent stays OUT of the noisy-OR safety head. No-op when absent.
                         + [c for c in feature_cols if c.startswith('precedent_')])
 
@@ -699,12 +699,12 @@ def main():
         }
         print(f'{name}: mean-of-folds raw={mof_raw:.4f}±{mof_raw_sd:.4f} '
               f'cal={mof_cal:.4f}±{mof_cal_sd:.4f} | '
-              f'pooled raw AUC={metrics[name]["raw"]["auc"]:.4f} '
+              f'pooled raw AUROC={metrics[name]["raw"]["auc"]:.4f} '
               f'ECE={metrics[name]["raw"]["ece"]:.3f} | '
-              f'pooled cal AUC={metrics[name]["calibrated"]["auc"]:.4f} '
+              f'pooled cal AUROC={metrics[name]["calibrated"]["auc"]:.4f} '
               f'ECE={metrics[name]["calibrated"]["ece"]:.3f}', flush=True)
 
-    # --- Efficacy GBM-only diagnostic (AUC-gap reconciliation) ---
+    # --- Efficacy GBM-only diagnostic (AUROC-gap reconciliation) ---
     if args.eff_diag:
         print('\n=== EFFICACY DIAGNOSTIC: GBM-only ===', flush=True)
         df_eff_g = df_eff.copy()
@@ -730,7 +730,7 @@ def main():
         metrics['efficacy_gbmonly'] = {
             'raw': summarize(oof_eg.y.values, oof_eg.raw_prob.values),
         }
-        print(f'efficacy GBM-only: AUC={metrics["efficacy_gbmonly"]["raw"]["auc"]:.4f}'
+        print(f'efficacy GBM-only: AUROC={metrics["efficacy_gbmonly"]["raw"]["auc"]:.4f}'
               f' ECE={metrics["efficacy_gbmonly"]["raw"]["ece"]:.3f}', flush=True)
 
     # --- Cross-task OOF on overall cohort ---
@@ -786,7 +786,7 @@ def main():
             metrics['crosstask_skip']['flag_in_methods'] = True
         else:
             metrics['crosstask_skip']['flag_in_methods'] = False
-        # Restrict to in-cohort rows for fair comparison with per-task AUCs.
+        # Restrict to in-cohort rows for fair comparison with per-task AUROCs.
         for task, key_in, key_y, key_raw, key_cal in [
             ('overall_ct', None, 'y_overall', 'raw_prob_overall', 'calibrated_prob_overall'),
             ('safety_ct', 'in_safety_cohort', 'y_safety', 'raw_prob_safety', 'calibrated_prob_safety'),
@@ -797,8 +797,8 @@ def main():
                 'raw': summarize(sub[key_y].values, sub[key_raw].values),
                 'calibrated': summarize(sub[key_y].values, sub[key_cal].values),
             }
-            print(f'{task}: raw AUC={metrics[task]["raw"]["auc"]:.4f}'
-                  f' cal AUC={metrics[task]["calibrated"]["auc"]:.4f}'
+            print(f'{task}: raw AUROC={metrics[task]["raw"]["auc"]:.4f}'
+                  f' cal AUROC={metrics[task]["calibrated"]["auc"]:.4f}'
                   f' n={metrics[task]["raw"]["n"]}', flush=True)
         fm_ct['task'] = 'crosstask'
         all_fold_metrics.append(fm_ct)

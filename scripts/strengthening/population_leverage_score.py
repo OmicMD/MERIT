@@ -9,7 +9,7 @@ For targeted drug classes (data/sources/drug_target_population_v1.csv), score ea
 
 Leak-safe: drug pharmacology (the map) + trial protocol text (eligibility/title/conditions from
 data/cache/ctgov_elig/), both pre-trial and blind to outcome. Validated (within-phase gate): Phase-3
-off-target 24% fail (n=17) vs on-target 9% (n=43); flag AUC 0.706 vs model 0.584 on the 69 targeted trials.
+off-target 24% fail (n=17) vs on-target 9% (n=43); flag AUROC 0.706 vs model 0.584 on the 69 targeted trials.
 gating_strictness column marks classes whose benefit is strictly biomarker-gated (EGFR/ALK/BRAF/KRAS/FLT3/
 HER2) vs softly enriched (PARP/CDK4-6/JAK) -- the off-target failure signal is sharpest for strict classes.
 """

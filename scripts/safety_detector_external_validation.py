@@ -53,7 +53,7 @@ for f in HEP + CAR + PROM:
     if f in h:
         a, n = auc_safe(h["dili"].values, h[f].values)
         tag = "hepatic" if f in HEP else ("cardiac" if f in CAR else "promisc")
-        print(f"  [{tag:7s}] {f:24s} AUC(DILI) = {a:.3f}")
+        print(f"  [{tag:7s}] {f:24s} AUROC(DILI) = {a:.3f}")
 
 # ---------- CARDIAC: hERG (needs RDKit for SMILES->IK14) ----------
 print("\n=== CARDIAC axis vs hERG blockers ===")
@@ -77,7 +77,7 @@ try:
             if f in c:
                 a, n = auc_safe(c["herg"].values, c[f].values)
                 tag = "cardiac" if f in CAR else ("hepatic" if f in HEP else "promisc")
-                print(f"  [{tag:7s}] {f:24s} AUC(hERG) = {a:.3f}")
+                print(f"  [{tag:7s}] {f:24s} AUROC(hERG) = {a:.3f}")
     else:
         print("  too few cohort drugs overlap the hERG set for a powered test")
 except ImportError:

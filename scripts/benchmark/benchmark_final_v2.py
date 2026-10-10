@@ -50,10 +50,10 @@ def _midrank(x):
 
 
 def delong_pertrial(star_csv, hint_csv):
-    """Per-sample DeLong test (Sun & Xu 2014) comparing our vs HINT AUC on the
+    """Per-sample DeLong test (Sun & Xu 2014) comparing our vs HINT AUROC on the
     aligned per-trial predictions (seed 0, one row per NCT). A canonical
-    two-correlated-AUC test that complements the per-fold paired t-test; it is
-    computed on the pooled single-seed AUC, so its AUC values run below the
+    two-correlated-AUROC test that complements the per-fold paired t-test; it is
+    computed on the pooled single-seed AUROC, so its AUROC values run below the
     mean-of-folds headline and it is reported only as confirmation."""
     s = pd.read_csv(star_csv).groupby("nct").agg(label=("label", "first"), m=("proba", "mean")).reset_index()
     h = pd.read_csv(hint_csv).groupby("nctid").agg(h=("pred", "mean")).reset_index().rename(columns={"nctid": "nct"})

@@ -108,8 +108,8 @@ def main():
     h = res[res.arm == "holdout"].roc_auc
     b = res[res.arm == "blind"].roc_auc
     print(f"\nSTAR features, clean 2,787-NCT cohort, same model/protocol, split varied:")
-    print(f"  structure-HOLDOUT AUC : {h.mean():.4f} ± {h.std(ddof=1):.4f}  ({len(h)} folds)")
-    print(f"  structure-BLIND   AUC : {b.mean():.4f} ± {b.std(ddof=1):.4f}  ({len(b)} folds)")
+    print(f"  structure-HOLDOUT AUROC : {h.mean():.4f} ± {h.std(ddof=1):.4f}  ({len(h)} folds)")
+    print(f"  structure-BLIND   AUROC : {b.mean():.4f} ± {b.std(ddof=1):.4f}  ({len(b)} folds)")
     print(f"  inflation (blind - holdout): {b.mean()-h.mean():+.4f}")
     print(f"\nwrote {OUT/'star_phase3_split_compare_clean.csv'}")
 

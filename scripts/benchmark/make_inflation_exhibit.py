@@ -58,7 +58,7 @@ def _split_panel(stem, labels, honest, loose):
     for t, lbl in zip(ax.get_yticklabels(), labels):
         if "ours" in lbl.lower():
             t.set_fontweight("bold")
-    ax.set_xlim(0.5, 0.98); ax.set_xlabel("ROC-AUC")
+    ax.set_xlim(0.5, 0.98); ax.set_xlabel("AUROC")
     ax.invert_yaxis()
     ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.16), ncol=2,
               fontsize=7.5, frameon=False)

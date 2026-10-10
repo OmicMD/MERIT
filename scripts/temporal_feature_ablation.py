@@ -4,7 +4,7 @@ the LLM causal-plausibility feature, and is that feature's lift the same on tria
 LLM could vs could not have known?
 
 Re-runs the EXACT leave-future-out protocol of temporal_leave_future_out.py (same cutoffs,
-same seeds, same future-only + SMILES-disjoint test construction, same mean-over-seeds AUC)
+same seeds, same future-only + SMILES-disjoint test construction, same mean-over-seeds AUROC)
 for several feature sets, then stratifies the plausibility increment by an LLM-knowability
 flag, then re-runs efficacy on the data-derived Open Targets genetic axis alone.
 
@@ -88,7 +88,7 @@ def step1_and_step3(df, feats):
                                  metric="mean_test_auc", auc=r["auc"], auc_sd=r["auc_sd"],
                                  n_train=r["n_train"], n_test=r["n_test"],
                                  pos_train=r["pos_train"], pos_test=r["pos_test"]))
-                print(f"  {sname:16s} {task:9s} AUC={r['auc']:.3f}±{r['auc_sd']:.3f} "
+                print(f"  {sname:16s} {task:9s} AUROC={r['auc']:.3f}±{r['auc_sd']:.3f} "
                       f"test n={r['n_test']}/{r['pos_test']}")
             # safety only for FULL as the published reference
             if sname == "FULL":
@@ -99,7 +99,7 @@ def step1_and_step3(df, feats):
                                      metric="mean_test_auc", auc=r["auc"], auc_sd=r["auc_sd"],
                                      n_train=r["n_train"], n_test=r["n_test"],
                                      pos_train=r["pos_train"], pos_test=r["pos_test"]))
-                    print(f"  {'FULL':16s} {'safety':9s} AUC={r['auc']:.3f}±{r['auc_sd']:.3f} "
+                    print(f"  {'FULL':16s} {'safety':9s} AUROC={r['auc']:.3f}±{r['auc_sd']:.3f} "
                           f"test n={r['n_test']}/{r['pos_test']}")
 
     # assert FULL reproduces published Table 3
@@ -133,17 +133,17 @@ def step1_and_step3(df, feats):
                              metric="mean_test_auc", auc=r["auc"], auc_sd=r["auc_sd"],
                              n_train=r["n_train"], n_test=r["n_test"],
                              pos_train=r["pos_train"], pos_test=r["pos_test"]))
-            print(f"  cut {cut} {task:9s} AUC={r['auc']:.3f}±{r['auc_sd']:.3f} "
+            print(f"  cut {cut} {task:9s} AUROC={r['auc']:.3f}±{r['auc_sd']:.3f} "
                   f"test n={r['n_test']}/{r['pos_test']} (genetic non-null in test: "
                   f"{int(te['ot_genetic_score'].notna().sum())})")
     return rows
 
 
 def step2(df, feats):
-    """Incremental efficacy AUC of plausibility, stratified by LLM-knowability of each
+    """Incremental efficacy AUROC of plausibility, stratified by LLM-knowability of each
     post-cutoff test trial. Train FULL and FULL_NO_PLAUS on the past (identical to STEP 1),
     average predictions over seeds, then split the future test set into knowable /
-    not-yet-knowable and compute AUC (and the increment) within each subset.
+    not-yet-knowable and compute AUROC (and the increment) within each subset.
     """
     aact = pd.read_csv(AACT, usecols=["nct_id", "completion_date"]).drop_duplicates("nct_id")
     aact["cdate"] = pd.to_datetime(aact["completion_date"], errors="coerce")
@@ -165,7 +165,7 @@ def step2(df, feats):
         for label, mask in [("knowable", know), ("not_knowable", ~know)]:
             n = int(mask.sum()); pos = int(y[mask].sum())
             if n < 1 or len(set(y[mask])) < 2:
-                print(f"  cut {cut} {label:13s} n={n} pos={pos}  -> too small to compute AUC")
+                print(f"  cut {cut} {label:13s} n={n} pos={pos}  -> too small to compute AUROC")
                 rows.append(dict(step=2, cutoff=cut, feature_set="STRAT", task="efficacy",
                                  metric=f"increment_{label}", auc=np.nan, auc_sd=np.nan,
                                  n_train=len(tr), n_test=n, pos_train=int(tr['_y'].sum()),

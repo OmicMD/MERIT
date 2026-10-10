@@ -5,14 +5,14 @@ NOT compressed the variance?
 
 Population result was null (feature_catalog). Hypothesis (3-layer framing, L1):
 established-target trials are survivorship-selected (their targets are genetically
-validated by construction -> no variance -> AUC~0.5); novel/unproven targets retain
+validated by construction -> no variance -> AUROC~0.5); novel/unproven targets retain
 real variance, so genetic causality should discriminate there.
 
 Three disciplined tests, all leak-controlled, NO peeking at outcome to define subsets:
-  A. DECOMPRESSION: univariate genetic AUC on novel- vs established-target arms.
+  A. DECOMPRESSION: univariate genetic AUROC on novel- vs established-target arms.
   B. ORTHOGONALITY: within-disease — does genetic separate after the disease
      base-rate (difficulty prior) is removed? (the production null's redundancy q)
-  C. PROXY CHECK: coverage/availability AUC < 0.58 ?
+  C. PROXY CHECK: coverage/availability AUROC < 0.58 ?
 Target novelty = # distinct approved (max_phase 4) molecules hitting the drug's
 target gene(s) in ChEMBL. Lower = more novel/unproven target.
 """
@@ -83,7 +83,7 @@ def main():
 
     # ---- PROXY CHECK (C): is coverage itself outcome-correlated?
     e["_covered"] = e.ot_genetic_score.notna().astype(int)
-    print(f"=== C. PROXY CHECK ===\ncoverage availability AUC: {auc(e._y, e._covered):.3f} "
+    print(f"=== C. PROXY CHECK ===\ncoverage availability AUROC: {auc(e._y, e._covered):.3f} "
           f"(covered fail {e[e._covered==1]._y.mean():.1%} vs uncovered {e[e._covered==0]._y.mean():.1%})")
 
     cov = e[e.ot_genetic_score.notna() & e.target_n_approved.notna()].copy()
@@ -91,15 +91,15 @@ def main():
     print(f"\ncovered+novelty arms: {len(cov)} (pos {int(cov._y.sum())}); non-onco {len(nonco)} (pos {int(nonco._y.sum())})")
     print(f"target_n_approved dist: {cov.target_n_approved.describe()[['25%','50%','75%','max']].to_dict()}")
 
-    # ---- DECOMPRESSION (A): genetic AUC by target-novelty tier (non-onco, leak-free univariate)
-    print("\n=== A. DECOMPRESSION — univariate genetic AUC by target novelty (NON-ONCO) ===")
+    # ---- DECOMPRESSION (A): genetic AUROC by target-novelty tier (non-onco, leak-free univariate)
+    print("\n=== A. DECOMPRESSION — univariate genetic AUROC by target novelty (NON-ONCO) ===")
     for lab, mask in [("NOVEL  target_n_approved<=1", nonco.target_n_approved <= 1),
                       ("MID    2-5",  nonco.target_n_approved.between(2, 5)),
                       ("ESTAB  >5",   nonco.target_n_approved > 5)]:
         s = nonco[mask]
         a = auc(s._y, s.ot_genetic_score)
         z = s[s.ot_genetic_score == 0]; p = s[s.ot_genetic_score > 0]
-        print(f"  {lab:28s} n={len(s):4d} pos={int(s._y.sum()):3d}  genetic-AUC={a:.3f}"
+        print(f"  {lab:28s} n={len(s):4d} pos={int(s._y.sum()):3d}  genetic-AUROC={a:.3f}"
               f"  | fail g==0 {z._y.mean():.1%} (n{len(z)}) vs g>0 {p._y.mean():.1%} (n{len(p)})")
 
     # ---- ORTHOGONALITY (B): within-disease — control for disease base rate
@@ -109,9 +109,9 @@ def main():
     keep = [d for d, x in g if len(x) >= 15 and (x.ot_genetic_score > 0).sum() >= 3 and (x.ot_genetic_score == 0).sum() >= 3]
     wd = nonco[nonco.Disease.isin(keep)].copy()
     print(f"  {len(keep)} diseases qualify, {len(wd)} arms")
-    # within-disease centered genetic score & outcome -> pooled within AUC
+    # within-disease centered genetic score & outcome -> pooled within AUROC
     wd["_gc"] = wd.groupby("Disease").ot_genetic_score.transform(lambda s: s - s.mean())
-    print(f"  within-disease-centered genetic AUC: {auc(wd._y, wd._gc):.3f}")
+    print(f"  within-disease-centered genetic AUROC: {auc(wd._y, wd._gc):.3f}")
     # per-disease fail rate g==0 vs g>0
     rows = []
     for d in keep:

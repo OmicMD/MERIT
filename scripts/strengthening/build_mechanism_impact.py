@@ -1,7 +1,7 @@
 """Domain-conditional mechanism-impact score: 'is the drug's known target the right one to impact THIS
 disease?' Routes to the domain-appropriate CLEAN source — DepMap selective dependency for oncology
 (oncogene addiction), Open Targets human genetic/somatic/animal evidence elsewhere. Within-disease
-efficacy AUC 0.627 pooled (oncology 0.71), ~63% of the LLM's within-disease edge, no clinical-outcome info.
+efficacy AUROC 0.627 pooled (oncology 0.71), ~63% of the LLM's within-disease edge, no clinical-outcome info.
 Writes data/sources/mechanism_impact_v1.csv."""
 import pandas as pd, numpy as np
 ROOT='.'

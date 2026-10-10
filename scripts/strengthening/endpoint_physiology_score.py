@@ -7,7 +7,7 @@ Score per trial: +1 the drug's target controls the process the endpoint demands 
 0 (endpoint demand unresolved OR drug has no curated target). Disease-conditioned: the SAME endpoint
 (6MWD) demands pulmonary_vascular_tone in PAH but cardiac_contractile_function in HF.
 
-Evaluates the cardiopulmonary cluster (the first domain) with the leak gates: availability AUC, shuffle,
+Evaluates the cardiopulmonary cluster (the first domain) with the leak gates: availability AUROC, shuffle,
 within-phase, and NON-REDUNDANCY vs the model (does it disagree with the model where the model is wrong).
 """
 import json, sys, re
@@ -84,7 +84,7 @@ def main():
           f'| p={(np.abs(null) >= abs(real)).mean():.4f}')
     cp['has_tgt'] = cp.ik14.map(lambda k: 1 if tgtmap.get(k) else 0)
     cov = cp[cp.score != 0]
-    print(f'[availability] has-curated-demand+target vs fail AUC: '
+    print(f'[availability] has-curated-demand+target vs fail AUROC: '
           f'{roc_auc_score(cp.fail, (cp.score!=0).astype(int)):.3f} (want <0.58)')
     print('[within-phase] (Phase 3 only):')
     p3 = act[act.Phase.astype(str).str.contains('3')]

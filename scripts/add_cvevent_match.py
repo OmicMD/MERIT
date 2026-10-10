@@ -22,7 +22,7 @@ of validated rate-limiting axes; a drug with a known target NOT among them is a 
 bet against precedent. A targetless drug is genuinely unknown -> 0 (conservative).
 
 Leak-validated (efficacy cohort, training_dataset_v8_clean_mort): MATCH n=32 fail 0.219 vs
-MISMATCH n=13 fail 0.538, shuffle p=0.008, availability AUC 0.508 (<0.58), survives within-Phase-3.
+MISMATCH n=13 fail 0.538, shuffle p=0.008, availability AUROC 0.508 (<0.58), survives within-Phase-3.
 Match does NOT zero residual risk (apixaban-ESUS, ticagrelor-acute-stroke still fail) — it lowers it.
 Protected for efficacy/overall via the endpoint_ prefix in retrain_calibrated / prereg_C_lock.
 """
@@ -81,7 +81,7 @@ def main():
     null = np.array([act.fail.values[rng.permutation(sc) == -1].mean()
                      - act.fail.values[rng.permutation(sc) == 1].mean() for _ in range(5000)])
     print(f'[shuffle] mismatch-minus-match {real:+.3f} | p={(np.abs(null) >= abs(real)).mean():.4f}')
-    print(f'[availability] scored!=0 vs fail AUC: '
+    print(f'[availability] scored!=0 vs fail AUROC: '
           f'{roc_auc_score(eff.fail, (eff.endpoint_cvevent_match != 0).astype(int)):.3f} (want <0.58)')
     df.to_csv(out, index=False)
     print(f'\nwrote {out.name} (candidate; canonical untouched)')

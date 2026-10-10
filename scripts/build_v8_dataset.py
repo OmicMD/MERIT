@@ -80,7 +80,7 @@ def attach_plausibility(df):
 
 
 def proxy_guard(df):
-    """Missingness must NOT be a leak (availability AUC<0.58); score orthogonal to base rate."""
+    """Missingness must NOT be a leak (availability AUROC<0.58); score orthogonal to base rate."""
     e = df[df["Corrected_Outcome"].isin(["PASS", "FAIL_EFFICACY", "FAIL_BOTH"])].copy()
     e["_y"] = e["Corrected_Outcome"].str.startswith("FAIL").astype(int)
     avail = e["causal_plausibility_blind"].notna().astype(int)
@@ -101,9 +101,9 @@ def main():
     df = attach_plausibility(df)
     a, r, cov = proxy_guard(df)
     print(f"[feat] causal_plausibility_blind merged; efficacy-cohort coverage {cov:.1%}")
-    print(f"       PROXY availability AUC (missing->fail) {a:.3f} (<0.58 required)  "
+    print(f"       PROXY availability AUROC (missing->fail) {a:.3f} (<0.58 required)  "
           f"Spearman(score,baserate) {r:+.3f}")
-    assert a < 0.58, f"availability is a leak (AUC {a:.3f})"
+    assert a < 0.58, f"availability is a leak (AUROC {a:.3f})"
 
     df, n_drop, n_listed, missing = apply_l3a(df)
     print(f"[L3a] dropped {n_drop}/{n_listed} listed combo-attribution label-noise rows")

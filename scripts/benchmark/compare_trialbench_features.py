@@ -115,12 +115,12 @@ def main():
         "STAR + their design minus enrollment": star_feats + tb_noenroll,
         "combined (all)": tb_feats + star_feats,
     }
-    print("\nPredicting TrialBench approval label, compound-holdout 3x5 CV (mean-of-folds AUC):")
+    print("\nPredicting TrialBench approval label, compound-holdout 3x5 CV (mean-of-folds AUROC):")
     rows = []
     for name, feats in feat_sets.items():
         X = j[feats].apply(pd.to_numeric, errors="coerce").to_numpy(dtype=float)
         m, sd, k = cv_auc(X, y, g)
-        print(f"  {name:24s}  AUC {m:.3f} ± {sd:.3f}  ({len(feats)} feats, {k} folds)")
+        print(f"  {name:24s}  AUROC {m:.3f} ± {sd:.3f}  ({len(feats)} feats, {k} folds)")
         rows.append(dict(feature_set=name, auc=m, sd=sd, n_feats=len(feats), n_folds=k))
     res = pd.DataFrame(rows)
     res.to_csv(OUT / "trialbench_approval_feature_headtohead.csv", index=False)

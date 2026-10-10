@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Absolute headline AUC, full cohort vs Phase-III-only, for all three tasks.
+"""Absolute headline AUROC, full cohort vs Phase-III-only, for all three tasks.
 
 PASS requires Phase III completion, so terminated failures skew to earlier phases and the
-full-cohort AUC could in principle ride a phase confound. Restricting to Phase III (where
+full-cohort AUROC could in principle ride a phase confound. Restricting to Phase III (where
 both PASS and failing drugs are present) tests that directly: if the headline holds within
 Phase III, it is not a phase artifact. Complements phase_matched_decomposition.py (which
 does the molecular *increment*). Reads the canonical OOF; mean-of-folds, matching the headline.

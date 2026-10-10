@@ -21,7 +21,7 @@ feature, but the GBM down-weights it relative to "this is a strong drug for this
 off-mechanism-endpoint trials stay confident-pass. A high-precision targeted signal nets ~0 on retrain
 (redistribution) but a real confident-miss reduction applied SURGICALLY post-hoc.
 
-Guardrails (all pass): flag is outcome-blind by construction; flag-vs-outcome AUC 0.515 (<0.58); shuffle
+Guardrails (all pass): flag is outcome-blind by construction; flag-vs-outcome AUROC 0.515 (<0.58); shuffle
 p<1e-4; within Phase 3 fail 0.556 (n=27) vs base 0.126; the recovered FN span 7 distinct drugs and all 5
 folds; floor robust across 0.30-0.50 (all -9 confident misses). FLOOR raises P(fail) to the cohort's
 honest empirical fail rate region (0.50), NOT to near-certainty (the off-mech cohort fails ~0.59, not

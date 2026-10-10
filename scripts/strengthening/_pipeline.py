@@ -20,7 +20,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.utils.class_weight import compute_sample_weight
 
 BASE_DIR = Path(__file__).resolve().parents[2]
-DATA_PATH = BASE_DIR / 'data' / 'sources' / 'training_dataset_v5_unified.csv'
+DATA_PATH = BASE_DIR / 'data' / 'sources' / 'training_dataset_v8_clean_mort.csv'
 OUT_ROOT = BASE_DIR / 'results' / 'strengthening'
 OUT_ROOT.mkdir(parents=True, exist_ok=True)
 
@@ -165,7 +165,7 @@ def cv_oof(X, y, groups, diseases, feature_names, seeds=SEEDS, top_k=20,
     Returns dict with:
       seed_oof: dict[seed] -> np.array of OOF probs (len = len(y))
       mean_oof: np.array averaged across seeds
-      fold_aucs: list of all per-fold AUCs (len = len(seeds)*5)
+      fold_aucs: list of all per-fold AUROCs (len = len(seeds)*5)
       selected_features: list[list[str]] per fold
     """
     n = len(y)

@@ -45,7 +45,7 @@ Composition rules (jun17, verified here — not re-derived)
   one confident FN. That is one of the cap cohort's expected ~4% effect-size failures (an on-mechanism
   surrogate can still fall short on effect size in a specific severe genetic cardiomyopathy), NOT a
   composition error. Flagged for Gabe as the framing call; net effect on the combined count is 0.
-* Tiers stay a separate column; they never move P_fail (AUC unchanged, only the confidence label / operating
+* Tiers stay a separate column; they never move P_fail (AUROC unchanged, only the confidence label / operating
   point moves).
 
 Outputs
@@ -167,11 +167,11 @@ def compose_safety() -> pd.DataFrame:
     # Operating thresholds on the RAW safety ranker (Jun 19 re-tune, Gabe). The original
     # (0.65/0.45/0.25) redistributed by clinical cost but doubled false positives (22% vs 11% flat):
     # the aggressive benign/serious-chronic low thresholds flooded FP because the ranker is weak
-    # (AUC 0.74) — C_benign 0.25 fired 247 FP to catch 5 of 7 real fails. Re-tuned to compress the low
+    # (AUROC 0.74) — C_benign 0.25 fired 247 FP to catch 5 of 7 real fails. Re-tuned to compress the low
     # end while preserving the clinical ordering (more-tolerant indication -> stricter-to-flag):
     # A 0.65 / B 0.45->0.60 / C 0.25->0.50. Cuts total FP 553->297 (-46%) at recall 48%->45% (the 3
     # lost catches are all benign-indication; oncology + serious-chronic recall unchanged).
-    # notes/safety_fp_operating_point_jun19.md. AUC unchanged (operating-point only).
+    # notes/safety_fp_operating_point_jun19.md. AUROC unchanged (operating-point only).
     g["tier_threshold"] = g.confidence_tier.map(
         {"A_tox_tolerated": 0.65, "B_serious_chronic": 0.60, "C_benign": 0.50})
 

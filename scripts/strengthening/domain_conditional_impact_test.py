@@ -16,16 +16,16 @@ e['impact_raw']=np.where(onc, -e.depmap_dep_lin, e.ot_impact)
 # rank-normalize WITHIN disease so scales uniform across domains
 e['impact']=e.groupby('Disease').impact_raw.rank(pct=True)
 big=e.groupby('Disease').filter(lambda g:g.y.nunique()==2 and len(g)>=6)
-# pooled within-disease AUC (impact already disease-rank-normalized; higher impact => pass => lower y)
+# pooled within-disease AUROC (impact already disease-rank-normalized; higher impact => pass => lower y)
 auc=roc_auc_score(big.y, -big.impact)
-print(f'DOMAIN-CONDITIONAL mechanism-impact, pooled within-disease AUC: {auc:.3f}  (naive combined was 0.582; per-domain 0.6-0.74; LLM 0.724)')
-# mean of per-disease AUC (weighted by n)
+print(f'DOMAIN-CONDITIONAL mechanism-impact, pooled within-disease AUROC: {auc:.3f}  (naive combined was 0.582; per-domain 0.6-0.74; LLM 0.724)')
+# mean of per-disease AUROC (weighted by n)
 rows=[]
 for dis,g in big.groupby('Disease'):
     try: rows.append((dis,len(g),roc_auc_score(g.y,-g.impact_raw)))
     except: pass
 pd=__import__('pandas'); R=pd.DataFrame(rows,columns=['dis','n','auc'])
-print(f'mean per-disease AUC (n-weighted): {np.average(R.auc,weights=R.n):.3f} across {len(R)} diseases')
+print(f'mean per-disease AUROC (n-weighted): {np.average(R.auc,weights=R.n):.3f} across {len(R)} diseases')
 # bootstrap
 rng=np.random.RandomState(0); a=[]; drugs=big.IK14.unique()
 for _ in range(400):

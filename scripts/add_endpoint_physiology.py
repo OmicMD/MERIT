@@ -11,7 +11,7 @@ endpoint is narrow AND decoupled from the disease-benefit pathway.
 Files (outcome-blind): data/sources/endpoint_physiology_v1.csv (endpoint,disease->demand) +
 data/sources/target_physiology_v1.csv (target->process). Validated (scripts/strengthening/
 endpoint_physiology_score.py): structural category 80 trials, mismatch 59% vs match 10% fail, shuffle
-p=0.0000, availability AUC 0.507, model_p AUC 0.454 (chance) -> +score 0.775, residual coef -1.36 p<1e-4.
+p=0.0000, availability AUROC 0.507, model_p AUROC 0.454 (chance) -> +score 0.775, residual coef -1.36 p<1e-4.
 Protected for EFFICACY/overall via the endpoint_ prefix in retrain_calibrated.py.
 """
 import sys

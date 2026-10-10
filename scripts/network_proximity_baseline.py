@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Network-proximity (Guney & Barabasi 2016) efficacy baseline on the R08 v8 cohort.
 
-Feeds the negative-control AUC reported in Results and Methods (0.470, 95% CI 0.406-0.538;
+Feeds the negative-control AUROC reported in Results and Methods (0.470, 95% CI 0.406-0.538;
 results/benchmark/network_proximity_summary.json).
 
 NOT CURRENTLY RUNNABLE (Jul 2026): three inputs are absent from the repo --
@@ -12,7 +12,7 @@ network_proximity_summary.json is intact and is what the manuscript reports.
 
 Computes the closest network distance d_c between each drug's target set S and the
 disease gene module T over the STRING v12 PPI graph, z-scored against degree-preserving
-random reference gene sets. Reports the STANDALONE efficacy AUC of the proximity z-score
+random reference gene sets. Reports the STANDALONE efficacy AUROC of the proximity z-score
 on the subset of efficacy trials where both a drug-target annotation and a disease gene
 module are available, for the benchmarking section (alongside TrialBench / HINT).
 
@@ -29,7 +29,7 @@ Predictor: higher z (drug targets FARTHER from disease module) => more likely FA
 
 Outputs:
   results/benchmark/network_proximity_efficacy.csv   (per trial: z, d_c, label)
-  results/benchmark/network_proximity_summary.json   (AUC + bootstrap CI + coverage)
+  results/benchmark/network_proximity_summary.json   (AUROC + bootstrap CI + coverage)
 """
 import json, sqlite3, sys, warnings
 from pathlib import Path

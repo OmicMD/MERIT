@@ -9,10 +9,10 @@ Runs AFTER add_disease_mortality.py in the reproduce chain. Appends, in place:
   driver (biomarker-required-in-eligibility OR canonical-driver-indication). File:
   data/sources/drug_target_population_v1.csv + data/cache/ctgov_elig/. See population_leverage_score.py.
 
-Both leak-safe (drug pharmacology + pre-trial protocol text, outcome-blind), gated (availability AUC<0.58,
+Both leak-safe (drug pharmacology + pre-trial protocol text, outcome-blind), gated (availability AUROC<0.58,
 shuffle p<1e-4, survive within-Phase-3), and protected for EFFICACY/overall in retrain_calibrated.py via
 the endpoint_ / population_leverage prefixes. They identify the small set where the model is otherwise
-INVERTED (leverage-mismatch trials, model AUC 0.35). notes/leverage_matching_framework_jun17.md.
+INVERTED (leverage-mismatch trials, model AUROC 0.35). notes/leverage_matching_framework_jun17.md.
 """
 import sys
 from pathlib import Path

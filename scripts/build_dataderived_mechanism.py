@@ -150,7 +150,7 @@ def main():
             # zero means "no data", not "poor mechanism fit". Without these flags the model conflates the
             # two and reads missing-mechanism as a (weak) FAIL signal (empty-module rows predicted P_fail
             # 0.32 vs true 0.16; faithful counterfactual Δ-0.067). Leak-safe: coverage availability carries
-            # ~no outcome signal (avail AUC ≈0.51). Let the model discount the zeros when coverage=0.
+            # ~no outcome signal (avail AUROC ≈0.51). Let the model discount the zeros when coverage=0.
             rec["coverage_disease"] = int(bool(dgenes) or bool(dmap))
             rec["coverage_drug"] = int(bool(tg))
             recs.append(rec)
@@ -188,8 +188,8 @@ def main():
     shuf = cv_auc(yshuf)
 
     print(f"data-derived mechanism feature ({len(fcols)} leak-safe biology features):")
-    print(f"  standalone efficacy AUC (real)    = {real:.3f}")
-    print(f"  standalone efficacy AUC (shuffled) = {shuf:.3f}   (should be ~0.50)")
+    print(f"  standalone efficacy AUROC (real)    = {real:.3f}")
+    print(f"  standalone efficacy AUROC (shuffled) = {shuf:.3f}   (should be ~0.50)")
     print(f"  -> signal is {'REAL' if real - shuf > 0.05 else 'SUSPECT'} (real-shuf = {real-shuf:+.3f})")
     print(f"\nwrote data/sources/mechanism_dataderived_v1.csv")
 

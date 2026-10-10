@@ -87,7 +87,7 @@ def apply_and_report(dec):
     print(f"  confident-FAIL (P>{CONF}) false-positives: {fp0} -> {fp1}  (removes {fp0 - fp1})")
     print(f"  confident-FAIL true-positives:            {tp0} -> {tp1}  (lost {tp0 - tp1})")
     print(f"  confident-FAIL precision: {tp0/max(tp0+fp0,1):.2f} -> {tp1/max(tp1+fp1,1):.2f}")
-    print(f"  safety AUC: {auc0:.3f} -> {auc1:.3f}  ({auc1-auc0:+.3f})")
+    print(f"  safety AUROC: {auc0:.3f} -> {auc1:.3f}  ({auc1-auc0:+.3f})")
     capped = s[s.safety_cytotoxic_cap == 1]
     print(f"  capped rows: {len(capped)} (fail-rate {capped.y.mean():.3f}); "
           f"genuine cytotoxic fails demoted from >{CAP}: "

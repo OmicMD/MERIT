@@ -46,10 +46,10 @@ except ImportError:
 SCRIPT_DIR = Path(__file__).resolve().parent
 if (SCRIPT_DIR.parent / 'data' / 'sources').exists():
     BASE_DIR = SCRIPT_DIR.parent
-    DATA_PATH = BASE_DIR / 'data' / 'sources' / 'training_dataset_v5_unified.csv'
+    DATA_PATH = BASE_DIR / 'data' / 'sources' / 'training_dataset_v8_clean_mort.csv'
 else:
     BASE_DIR = SCRIPT_DIR
-    DATA_PATH = BASE_DIR / 'training_dataset_v5_unified.csv'
+    DATA_PATH = BASE_DIR / 'training_dataset_v8_clean_mort.csv'
 
 OUTPUT_DIR = BASE_DIR / 'results'
 OUTPUT_DIR.mkdir(exist_ok=True)
@@ -131,7 +131,7 @@ def compute_disease_encoding(diseases_train, y_train, diseases_test, smoothing_n
 
 
 def nested_feature_selection(X_train, y_train, feature_names, top_k=20):
-    """Select top-k features by univariate AUC within training fold."""
+    """Select top-k features by univariate AUROC within training fold."""
     aucs = []
     for j in range(X_train.shape[1]):
         col = X_train[:, j]
@@ -227,11 +227,11 @@ def train_cv(X, y, groups, diseases, feature_names, task_name, seeds=SEEDS):
             auc = roc_auc_score(y_test, proba)
             fold_aucs.append(auc)
             selected_names = [feature_names[i] for i in top_idx]
-            print(f'    Fold {fold}: AUC={auc:.3f}, top features: {selected_names[:5]}...',
+            print(f'    Fold {fold}: AUROC={auc:.3f}, top features: {selected_names[:5]}...',
                   flush=True)
 
         seed_auc = np.mean(fold_aucs)
-        print(f'  Seed {seed}: AUC = {seed_auc:.4f} (folds: {[f"{a:.3f}" for a in fold_aucs]})',
+        print(f'  Seed {seed}: AUROC = {seed_auc:.4f} (folds: {[f"{a:.3f}" for a in fold_aucs]})',
               flush=True)
         all_fold_aucs.extend(fold_aucs)
 

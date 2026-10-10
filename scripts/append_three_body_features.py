@@ -5,7 +5,7 @@ These describe the BIOLOGY OF THE INFECTION, not the drug molecule — the axis 
 pipeline is structurally blind to, and the reason anti-pathogen trials were excluded from the efficacy
 model. Scored A-PRIORI from textbook pathogen/host biology (fixed rule tables) + MEASURED regimen depth
 (blind to outcome). Validated in scripts/strengthening/three_body_axis_test.py (a-priori composite raw
-AUC 0.809, shuffle 0.497; mono-vs-combo 3x within combination-required classes).
+AUROC 0.809, shuffle 0.497; mono-vs-combo 3x within combination-required classes).
 
 add_three_body_columns(df) adds tb_* columns for is_anti_pathogen rows (neutral 0 elsewhere). They are
 PREFIX-GUARDED out of the main model (get_features skips 'tb_'); a dedicated anti-pathogen efficacy head

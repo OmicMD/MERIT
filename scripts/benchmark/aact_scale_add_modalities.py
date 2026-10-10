@@ -18,7 +18,7 @@ aact_scale_add_design.py (+ trial design, 0.811/0.738). This adds:
       trial start -> pre-readout, structure-blind-legitimate.
 
 Reports each cumulative stack as structure-BLIND | structure-HOLDOUT | inflation, vs inClinico 0.88,
-on the full cohort AND on the OT-covered subset, plus a leak audit (availability->outcome AUC, #8).
+on the full cohort AND on the OT-covered subset, plus a leak audit (availability->outcome AUROC, #8).
 """
 import json
 import sys
@@ -149,7 +149,7 @@ def attach_design_and_elig(pairs):
 
 
 def leak_audit(pairs, cols, y):
-    """CLAUDE.md #8: availability(notnull)->outcome AUC must be <0.58; report value AUC too."""
+    """CLAUDE.md #8: availability(notnull)->outcome AUROC must be <0.58; report value AUROC too."""
     rows = []
     for c in cols:
         avail = pairs[c].notna().astype(int).values
@@ -233,7 +233,7 @@ def main():
                                                       "inflation": round(b - h, 4)}
         print(f"{name:42s} {b:7.4f} {h:7.4f} {b-h:+7.4f}")
 
-    print("\nLEAK AUDIT (new features; availability->outcome AUC must be <0.58):")
+    print("\nLEAK AUDIT (new features; availability->outcome AUROC must be <0.58):")
     audit = leak_audit(pairs, ot_cols + e_cols + s_cols + f_cols, y)
     print(audit.to_string(index=False))
     flagged = audit[audit["FLAG_avail>0.58"]]

@@ -3,7 +3,7 @@
 
 Single-panel exhibit (the flat-vs-collapse panel was removed Jul 2026: the apparent
 precedent-independence was carried by the n_phase2_trials leak, not by biology).
-Shows the descent of the Phase 2->3 transition AUC as the leak is removed:
+Shows the descent of the Phase 2->3 transition AUROC as the leak is removed:
   reported 0.88 -> reproduced under inClinico's random-CV eval (gCV) -> honest structure-holdout
   with n_phase2_trials -> honest with the leak removed (chance).
 
@@ -35,8 +35,8 @@ def main():
             ic["honest_trial_sponsor_only"], ic["honest_compound_precedent_only"]]
     colors = ["#95a5a6", "#2c7fb8", "#e08214", "#c0392b"]
 
-    # The first value is inClinico's own reported AUC, quoted at the 3 dp their publication
-    # gives it to. Our three computed AUCs are shown at 3 dp, matching the Supplementary
+    # The first value is inClinico's own reported AUROC, quoted at the 3 dp their publication
+    # gives it to. Our three computed AUROCs are shown at 3 dp, matching the Supplementary
     # Fig. S2 legend.
     fmt = ["{:.3f}", "{:.3f}", "{:.3f}", "{:.3f}"]
 
@@ -52,7 +52,7 @@ def main():
     ax.text(len(vals) - 0.5, 0.5, "chance", fontsize=8, color="black",
             ha="left", va="bottom")
     ax.set_xticks(list(x)); ax.set_xticklabels(steps, fontsize=8.3)
-    ax.set_ylim(0.45, 0.95); ax.set_ylabel("Phase 2→3 transition ROC-AUC")
+    ax.set_ylim(0.45, 0.95); ax.set_ylabel("Phase 2→3 transition AUROC")
     # Title and explanatory caption both live in the Supplementary Fig. S3 legend, not in the figure.
     fig.tight_layout()
     for ext in ("png", "svg"):

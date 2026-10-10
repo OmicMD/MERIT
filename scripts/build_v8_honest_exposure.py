@@ -6,7 +6,7 @@
 
 get_features() is a denylist over numeric cols, so these become standing features automatically
 and per-fold median-imputation handles them. Validated (Jun 7): non-onc safety base 0.52 ->
-+dose+offtarget*dose 0.62 (+0.101, 5/5 seeds), leak-clean (dose availability AUC 0.51).
++dose+offtarget*dose 0.62 (+0.101, 5/5 seeds), leak-clean (dose availability AUROC 0.51).
 
 Out: data/sources/training_dataset_v8_honest_exposure.csv (+ .provenance.json)
 """
@@ -80,7 +80,7 @@ def main():
         s = df[df["Corrected_Outcome"].isin(["PASS"] + pos)].copy()
         y = s["Corrected_Outcome"].isin(pos).astype(int)
         a = roc_auc_score(y, s["max_daily_dose_mg"].notna().astype(int))
-        print(f"  {task} dose-availability proxy AUC {max(a, 1 - a):.3f} (<0.58 required)")
+        print(f"  {task} dose-availability proxy AUROC {max(a, 1 - a):.3f} (<0.58 required)")
         assert max(a, 1 - a) < 0.58, "dose availability is a leak"
 
     made = []
@@ -115,7 +115,7 @@ def main():
     # Jun 16 2026 — THREE-BODY anti-pathogen axes (pathogen x host x drug-at-site). These describe the
     # biology of the INFECTION, not the molecule — the axis the human-target binding pipeline is blind to,
     # and the reason anti-pathogen trials were excluded from efficacy. Scored a-priori from pathogen/host
-    # biology + measured regimen depth (blind to outcome); validated a-priori composite raw AUC 0.809
+    # biology + measured regimen depth (blind to outcome); validated a-priori composite raw AUROC 0.809
     # (shuffle 0.497). tb_* are PREFIX-GUARDED out of the canonical model (get_features skips 'tb_') and
     # consumed only by the anti-pathogen efficacy head (scripts/strengthening/antipathogen_efficacy_head.py),
     # so the canonical small-molecule model is unchanged. notes/three_body_characterizations_antipathogen.md.
@@ -125,7 +125,7 @@ def main():
     # Jun 14 2026 — TARGET -> AE-CLASS pharmacology priors: TESTED & NOT BANKED (characterized
     # honest negative; notes/target_ae_class_result_jun14.md). Drug MoA target(s) -> union of the
     # targets' known on-target organ-tox classes (aeclass_*), scored BLIND to drug/outcome from pure
-    # target physiology (leak-safe; availability-proxy AUC 0.513). The flags correctly hit the right
+    # target physiology (leak-safe; availability-proxy AUROC 0.513). The flags correctly hit the right
     # organ per-case (cinacalcet->metabolic/endocrine, dexmedetomidine->cardiac/vascular,
     # perampanel->cns) BUT flip 0/32 confident-miss safety FN (max move +0.02, well short of a 0.3
     # threshold) and add 9 new PASS false alarms; pooled safety mof -0.0028 (noise). The on-target
@@ -140,7 +140,7 @@ def main():
     # (notes/forward_paths_both_negative_jun14.md). Leak-safe structural-alert bioactivation score
     # (RDKit SMARTS, Kalgutkar). The alerts fire CORRECTLY per-case on the iDILI FN (sitaxentan->
     # thiophene+methylenedioxy, duloxetine->thiophene, fasiglifam->acyl-glucuronide) but are
-    # NON-DISCRIMINATIVE (within confident-PASS region AUC 0.516; reactive groups are common — thiophene
+    # NON-DISCRIMINATIVE (within confident-PASS region AUROC 0.516; reactive groups are common — thiophene
     # in 130 drugs, carboxylic_acid in 412, mostly safe) -> 0/32 FN flipped, safety mof -0.0026. The
     # structure flags the liability; only the patient's risk-HLA converts it to injury -> irreducible
     # patient-level, confirms the PROSPECTIVE-enrichment-tool framing. Build standalone with
@@ -155,9 +155,9 @@ def main():
     # The replacement asks the SHARP question — "is the target the CAUSAL, RATE-LIMITING driver of THIS
     # disease in THIS population" — scored blind-to-outcome by an anchored LLM judge for every drug-disease
     # pair (committed determination: data/sources/causal_centrality_jun12.csv). Validated: right-mechanism
-    # drugs fail 7% vs wrong-mechanism 27%, holding WITHIN every disease area; +0.21 AUC over disease flags;
+    # drugs fail 7% vs wrong-mechanism 27%, holding WITHIN every disease area; +0.21 AUROC over disease flags;
     # leak guards hold (within-disease consistency; scores failed-but-sound drugs high). 4 components carry
-    # distinct signal (population_fit is strongest, AUC 0.78). notes/causal_centrality_two_bar_jun12.md.
+    # distinct signal (population_fit is strongest, AUROC 0.78). notes/causal_centrality_two_bar_jun12.md.
     # Jun 16 2026 — ARCHIVED the LLM mechanism judge. The causal_centrality_jun12.csv scores were produced
     # by an anchored LLM judge that sees ONLY the drug + disease names, so "reason from biology, not recalled
     # outcomes" is unenforceable — it can memorise known trial results. Decomposition (Jun-14/15) showed only
@@ -226,16 +226,16 @@ def main():
     # winners. Per-case flip test FAILED (0/12 even with corrected zones): the leak-free OT
     # disease→target signal is structurally too weak in psychiatry/dermatology (CNS ~0.6, atopic
     # dermatitis ~0.4 — OT genetics is sparse there) to override the model. The signal that WOULD flip
-    # them is the LEAKY LLM population_fit (within-zone AUC 0.83–0.93), which is excluded by policy.
+    # them is the LEAKY LLM population_fit (within-zone AUROC 0.83–0.93), which is excluded by policy.
     # Conclusion: the CNS/immune miss zone is EXPLAINED but not leak-free-fixable with current data;
-    # needs a stronger leak-free CNS/immune mechanism representation. Feature reverted (AUC-neutral, no
+    # needs a stronger leak-free CNS/immune mechanism representation. Feature reverted (AUROC-neutral, no
     # flip). The zone-coverage bug fix above (depress→MDD, atopic→immune) is kept (genuine correctness).
 
-    # Jun 12 2026 — drop has_black_box. It is (a) INVERTED for safety (univariate AUC 0.398: black-box
+    # Jun 12 2026 — drop has_black_box. It is (a) INVERTED for safety (univariate AUROC 0.398: black-box
     # drugs are 45% of safe vs 25% of safety-fails — survivorship, BBW only exists for approved/established
     # drugs whose risks are managed) and (b) temporally leaky (the warning is usually added POST-marketing,
     # after the trial). It contributes to the managed-risk safety false positives (metformin x44, paclitaxel
-    # x31). Removal is safety-AUC-neutral. notes/error_explainability_map_jun12.md.
+    # x31). Removal is safety-AUROC-neutral. notes/error_explainability_map_jun12.md.
     if "has_black_box" in df.columns:
         df = df.drop(columns=["has_black_box"])
         print("dropped has_black_box (inverted/leaky survivorship marker)")

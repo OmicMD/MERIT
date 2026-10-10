@@ -22,7 +22,7 @@ crowdedness proxy):
     NON-redundant: logit fail ~ has_np + endpoint_difficulty_tier(+oncology+mech_coverage) gives
     has_np coef ~0.65, p=0.007-0.012.
 Leak battery (efficacy cohort): WITH-precedent fail 0.278 vs 0.162, shuffle p=0.004, survives
-within-Phase-3 (0.26 vs 0.13), availability AUC 0.511 (<0.58). Protected for efficacy/overall via
+within-Phase-3 (0.26 vs 0.13), availability AUROC 0.511 (<0.58). Protected for efficacy/overall via
 the precedent_ prefix in retrain_calibrated / prereg_C_lock (NOT in the noisy-OR safety head).
 """
 import sys
@@ -90,7 +90,7 @@ def main():
     null = np.array([eff.fail.values[rng.permutation(hp) == 1].mean()
                      - eff.fail.values[rng.permutation(hp) == 0].mean() for _ in range(5000)])
     print(f'[shuffle] fail-gap {real:+.3f} | p={(np.abs(null) >= abs(real)).mean():.4f}')
-    print(f'[availability] has-precedent vs fail AUC: '
+    print(f'[availability] has-precedent vs fail AUROC: '
           f'{roc_auc_score(eff.fail, hp):.3f} (want <0.58)')
 
 

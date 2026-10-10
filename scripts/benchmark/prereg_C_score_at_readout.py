@@ -21,7 +21,7 @@ A 0/1 column (1 = FAIL) is also accepted. Rows not present in the registration a
 rows with no outcome yet are reported as still-pending and excluded from scoring.
 
 METRICS (all pre-committed):
-  1. Full-set discrimination: ROC-AUC of P_fail_overall_calibrated vs realized FAIL, with a
+  1. Full-set discrimination: AUROC of P_fail_overall_calibrated vs realized FAIL, with a
      DRUG-CLUSTERED bootstrap 95% CI (resample drugs with replacement — the same clustering the
      headline CI uses, scripts/strengthening/bootstrap_ci.py).
   2. Full-set calibration: Brier score + expected calibration error (ECE, 10 equal-width bins) +
@@ -31,7 +31,7 @@ METRICS (all pre-committed):
      (metoprolol→DMD) is reported separately, not in either stratum.
   4. Actionable highlight: PASS-band and FAIL-band precision (the high-confidence subset).
 The held-out expectation these will be compared against (canonical gapBD OOF, frozen at registration):
-full-set ranking AUC ~0.785, high-confidence band ~90% accurate vs ~63% in the uncertain middle.
+full-set ranking AUROC ~0.785, high-confidence band ~90% accurate vs ~63% in the uncertain middle.
 """
 import sys
 from pathlib import Path
@@ -47,7 +47,7 @@ PCOL = "P_fail_overall_calibrated"
 
 
 def _auc_clustered_ci(df, ycol="y", pcol=PCOL, cluster="drug", n_boot=5000, seed=0):
-    """Point AUC + drug-clustered bootstrap 95% CI (resample whole drugs with replacement).
+    """Point AUROC + drug-clustered bootstrap 95% CI (resample whole drugs with replacement).
     Index-based for speed: precompute each cluster's row positions, then concatenate position
     arrays per bootstrap draw rather than rebuilding DataFrames."""
     df = df.reset_index(drop=True)
@@ -114,9 +114,9 @@ def score(reg, outcomes):
     print("=== 1. FULL-SET discrimination (the primary, no selection) ===")
     if d.y.nunique() == 2:
         auc, lo, hi, nu = _auc_clustered_ci(d)
-        print(f"  ROC-AUC {auc:.3f}  drug-clustered 95% CI [{lo:.3f}, {hi:.3f}]  (n_drugs={nu})")
+        print(f"  AUROC {auc:.3f}  drug-clustered 95% CI [{lo:.3f}, {hi:.3f}]  (n_drugs={nu})")
     else:
-        print("  (only one outcome class present — AUC undefined yet)")
+        print("  (only one outcome class present — AUROC undefined yet)")
     print(f"  accuracy @0.5: {d.correct.mean():.3f}")
 
     print("\n=== 2. FULL-SET calibration ===")
@@ -166,7 +166,7 @@ def self_test():
                                              **{PCOL: ("calibrated_prob", "mean")}).reset_index()
     g = g.rename(columns={"SMILES": "drug"})
     auc, lo, hi, nu = _auc_clustered_ci(g, n_boot=2000)
-    print(f"  full-set ROC-AUC {auc:.3f}  drug-clustered 95% CI [{lo:.3f}, {hi:.3f}]")
+    print(f"  full-set AUROC {auc:.3f}  drug-clustered 95% CI [{lo:.3f}, {hi:.3f}]")
     tl, th = 0.20, 0.51
     g["correct"] = ((g[PCOL] >= 0.5).astype(int) == g.y).astype(int)
     band = g[(g[PCOL] <= tl) | (g[PCOL] >= th)]

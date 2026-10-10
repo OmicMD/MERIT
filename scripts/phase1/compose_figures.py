@@ -92,15 +92,15 @@ def main():
     # Panel order within each figure follows first mention in the Results text.
     # Figure 1: a selection funnel; b architecture (full-width overview). The text
     # introduces the cohort before the feature modules.
-    # The per-module standalone-AUC panel was relocated to Supplementary Fig. S1 (Jul 2026):
-    # it conflicted conceptually with the Fig. 2c decomposition and the headline AUC.
+    # The per-module standalone-AUROC panel was relocated to Supplementary Fig. S1 (Jul 2026):
+    # it conflicted conceptually with the Fig. 2c decomposition and the headline AUROC.
     # figS1_module_auc.png is now built as a standalone supplementary figure.
     compose([["fig1a_funnel.png"],
              ["fig1b_architecture.png"]],
             "fig1_composite", row_heights=[3.5, 4.2])
     # Figure 2 (trial-level only; arm-level moved to Supplementary): a ROC trial,
-    # b per-fold AUC distributions, c signal decomposition. Panel order follows the text,
-    # which reports the headline AUC and its fold spread before asking which input does the work.
+    # b per-fold AUROC distributions, c signal decomposition. Panel order follows the text,
+    # which reports the headline AUROC and its fold spread before asking which input does the work.
     compose([["fig2a_roc_trial.png", "fig2b_fold_distributions.png", "fig2c_decomposition.png"]],
             "fig2_composite")
     # Figure 3 (mechanism instrument): a case features + b pathway-overlap-by-outcome.

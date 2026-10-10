@@ -212,7 +212,7 @@ def main():
     # ---- PRIMARY artifact (Jun 28): the FULL registered+scored set ---------------------------
     # Rather than locking only the confident subset and discarding the rest, we REGISTER every
     # cleanly-attributable novel pair with its calibrated P_fail + pre-registered confidence stratum,
-    # and SCORE THE WHOLE SET at readout (ROC-AUC + calibration). The confidence stratum is a
+    # and SCORE THE WHOLE SET at readout (AUROC + calibration). The confidence stratum is a
     # PRE-REGISTERED stratifier, not a selection filter: the headline hypothesis is that the
     # high-confidence subset out-performs the uncertain middle (grounded on held-out OOF below).
     # This removes the cherry-picking critique and tests the model's calibration over the full forward
@@ -244,10 +244,10 @@ def main():
     print(f"  predicted @0.5: {int((f.predicted_label=='PASS').sum())} PASS / "
           f"{int((f.predicted_label=='FAIL').sum())} FAIL  |  strata: "
           f"{f.confidence_stratum.value_counts().to_dict()}")
-    print(f"  readout scoring: full-set ROC-AUC + calibration, stratified by confidence.")
+    print(f"  readout scoring: full-set AUROC + calibration, stratified by confidence.")
     print(f"  PRE-REGISTERED stratifier grounded on held-out OOF:")
     print(f"    high-confidence band  acc {oof_acc(conf_oof):.3f} (n={len(conf_oof)})  vs  "
-          f"uncertain middle acc {oof_acc(mid_oof):.3f} (n={len(mid_oof)})  | full-set AUC {_auc(g.y,g.p):.3f}")
+          f"uncertain middle acc {oof_acc(mid_oof):.3f} (n={len(mid_oof)})  | full-set AUROC {_auc(g.y,g.p):.3f}")
     print(f"  registered SHA-256 {reg_sha}")
 
     n_pass, n_fail = int((bets.bet == "PASS").sum()), int((bets.bet == "FAIL").sum())

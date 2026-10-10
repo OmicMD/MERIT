@@ -14,7 +14,7 @@ Approach:
   1. Split safety subset by disease_is_oncology flag
   2. Train separate GBM on each half (same hyperparams, same nested top-20 selection)
   3. Combine OOF predictions (oncology preds for oncology arms, non-onco for the rest)
-  4. Report combined AUC + per-stratum AUC
+  4. Report combined AUROC + per-stratum AUROC
 
 Uses TDC features from v11 (must run compute_tdc_safety_scores.py first).
 """
@@ -96,7 +96,7 @@ def main():
     oof_nonco, fm_nonco = run_task_cv(df_nonco, feature_cols, "safety_nonco", calibrate=False)
 
     # -------------------------------------------------------------------------
-    # Combined safety AUC (merge OOF preds back)
+    # Combined safety AUROC (merge OOF preds back)
     # -------------------------------------------------------------------------
     oof_onco["stratum"]  = "oncology"
     oof_nonco["stratum"] = "non_oncology"
@@ -115,9 +115,9 @@ def main():
     aucs_comb  = fold_aucs(oof_combined)
 
     print(f"\n=== RESULTS ===")
-    print(f"Oncology-only  safety AUC: {np.mean(aucs_onco):.3f} ± {np.std(aucs_onco):.3f}")
-    print(f"Non-onco-only  safety AUC: {np.mean(aucs_nonco):.3f} ± {np.std(aucs_nonco):.3f}")
-    print(f"Combined       safety AUC: {np.mean(aucs_comb):.3f} ± {np.std(aucs_comb):.3f}")
+    print(f"Oncology-only  safety AUROC: {np.mean(aucs_onco):.3f} ± {np.std(aucs_onco):.3f}")
+    print(f"Non-onco-only  safety AUROC: {np.mean(aucs_nonco):.3f} ± {np.std(aucs_nonco):.3f}")
+    print(f"Combined       safety AUROC: {np.mean(aucs_comb):.3f} ± {np.std(aucs_comb):.3f}")
     print(f"v8 baseline              : 0.613 ± 0.097")
     print(f"v11 (TDC)                : 0.621 ± 0.100")
 

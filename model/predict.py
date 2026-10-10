@@ -1037,7 +1037,7 @@ def compute_features_for_compound(zinc_id, disease, target, input_dir,
 
     # NOTE: Binding specificity (24), disease binding (7), drug-level binding (3),
     # and derived binding (2) features REMOVED per science team review (Mar 2026).
-    # Δ AUC < 0.01 for both tasks. These were additional analysis layers on
+    # Δ AUROC < 0.01 for both tasks. These were additional analysis layers on
     # Binding scores that are scientifically questionable.
     # transcript_scores and scores_array are still needed downstream for
     # cancer/oncology/infectious domain features.

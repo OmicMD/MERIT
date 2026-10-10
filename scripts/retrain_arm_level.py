@@ -40,7 +40,7 @@ v8 (May 28 2026): CT.gov-mislabel recovery in build_arm_level_dataset.py
   2,964 → 3,233 arms (+240 PASS, +25 FE, +4 FS). Sensitivity (WITH/WITHOUT,
   toggle on is_recovered_test_arm) is performance-neutral: overall 0.767→0.763,
   safety 0.757→0.767, efficacy 0.767→0.760, all within fold SD; survivorship
-  check clean (recovered-indicator→FAIL AUC 0.480). Justification is label
+  check clean (recovered-indicator→FAIL AUROC 0.480). Justification is label
   correctness. See scripts/retrain_recovery_sensitivity.py.
 trial-level prod_v2: 0.837 overall / 0.772 safety / 0.828 efficacy
 """
@@ -80,7 +80,7 @@ EXCLUSION_FLAGS = [
 # --- Training-population toggles (May 29 2026) ---------------------------------
 # These admit two arm classes the user asked to represent faithfully. Both are
 # kept behind toggles so the with/without ablation can be run and flipped off if
-# they degrade experimental-only AUC or show a survivorship proxy signal.
+# they degrade experimental-only AUROC or show a survivorship proxy signal.
 #   INCLUDE_COMPARATOR_ARMS: distinct active-comparator treatment arms (e.g.
 #     mitoxantrone/prednisone vs cabozantinib). 99% PASS (established SOC) → risks
 #     a "recognized SOC = PASS" survivorship signal; evaluate before trusting.
@@ -163,10 +163,10 @@ def prepare_arm_dataset() -> pd.DataFrame:
     # Active-comparator treatment arms and small-molecule+biologic combination arms
     # are admitted via the INCLUDE_COMPARATOR_ARMS / INCLUDE_BIO_COMBO_ARMS toggles
     # (see training_mask). Ablation (scripts/ablation_comparator_arms.py, May 29):
-    # including comparators IMPROVED EXPERIMENTAL-only AUC 0.729→0.742 (the honest
+    # including comparators IMPROVED EXPERIMENTAL-only AUROC 0.729→0.742 (the honest
     # same-population comparison) while the feature→is_comparator proxy was only
-    # 0.585 (marginal). NOTE: report EXPERIMENTAL-only AUC as the honest headline —
-    # the all-arms AUC (~0.752) is inflated ~0.01 by easy comparator-PASS arms.
+    # 0.585 (marginal). NOTE: report EXPERIMENTAL-only AUROC as the honest headline —
+    # the all-arms AUROC (~0.752) is inflated ~0.01 by easy comparator-PASS arms.
     pipeline_feat_cols = [c for c in df.columns
                           if c.startswith(("net_", "binding_", "tissue_", "tox_"))]
     has_pipeline_features = df[pipeline_feat_cols].notna().any(axis=1)
@@ -282,14 +282,14 @@ def main():
     # the filtered training set (all 0), so they add no value. n_drugs and
     # n_investigational duplicate trial_n_drugs / is_combination semantically.
     # Noise / leakage features excluded from arm-level training.
-    # net_mech_* features score AUC 0.503-0.524 (effectively 0.50) and carry
+    # net_mech_* features score AUROC 0.503-0.524 (effectively 0.50) and carry
     # zero RF importance — they are noise at this dataset size.
     # n_high_protein_in_* features also carry zero RF importance.
     # net_n/frac_disease_in_ppi: 92.6% zero across training arms — dead feature.
     # max_*_interaction tissue features: 87-90% of arms score exactly 1.0 (ceiling
     #   saturation from a single high-binding transcript) — no discriminative power.
     #   min_* and mean_* variants have real variance; min_sensory_interaction is the
-    #   best single tissue feature (safety AUC 0.639, efficacy 0.589).
+    #   best single tissue feature (safety AUROC 0.639, efficacy 0.589).
     ARM_LEVEL_BLOCKLIST = {
         "n_drugs", "n_investigational",
         "is_methodology_study", "is_dosing_schedule_trial",
@@ -320,7 +320,7 @@ def main():
     # context), NOT a single GBM. A single class-balanced GBM lets the dominant
     # promiscuity signal wash out the minority-mechanism detectors; noisy-OR
     # ("fail if ANY mechanism trips") matches the biology and lifts arm-level
-    # safety AUC +0.033 (5/5 seeds, p=0.012). calibrate=False throughout: nested
+    # safety AUROC +0.033 (5/5 seeds, p=0.012). calibrate=False throughout: nested
     # isotonic hurts safety (too few positives for inner 3-fold). Class balancing
     # is applied via compute_sample_weight('balanced') inside each detector's GBM.
     oof_s, fm_s, detail_s = run_safety_noisy_or(df_safety, feature_cols)
@@ -338,8 +338,8 @@ def main():
     nor_fold = [roc_auc_score(g["y"], g["raw_prob"])
                 for _, g in oof_s.groupby(["seed", "fold"])
                 if g["y"].nunique() == 2]
-    print(f"  safety single-GBM AUC {np.mean(single_fold):.4f} | "
-          f"noisy-OR AUC {np.mean(nor_fold):.4f} | "
+    print(f"  safety single-GBM AUROC {np.mean(single_fold):.4f} | "
+          f"noisy-OR AUROC {np.mean(nor_fold):.4f} | "
           f"Δ{np.mean(nor_fold) - np.mean(single_fold):+.4f}", flush=True)
 
     print("\n=== EFFICACY ===", flush=True)

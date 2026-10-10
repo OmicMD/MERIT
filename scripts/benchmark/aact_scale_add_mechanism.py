@@ -25,7 +25,7 @@ LEAK DISCIPLINE: these are EXTERNAL biology snapshots, not registry-derived -- t
 trials never enter, so no self-exclusion is needed. The forward-looking snapshot bias hits the
 structure-BLIND and structure-HOLDOUT splits equally, so the inflation delta stays clean (same
 caveat the harness already states for OT). Every new feature is leak-audited (availability->outcome
-AUC must be < 0.58, CLAUDE.md #8). Per the inflation thesis, real gene->disease biology should lift
+AUROC must be < 0.58, CLAUDE.md #8). Per the inflation thesis, real gene->disease biology should lift
 the DISCIPLINED (holdout) number more than the inflated blind one.
 
 Reports registry -> +ALL-modalities -> +mech as BLIND | HOLDOUT | inflation, on the full cohort and
@@ -266,7 +266,7 @@ def main():
         print(f"{name:42s} {b:7.4f} {h:7.4f} {b-h:+7.4f}")
 
     # leak audit (CLAUDE.md #8)
-    print("\nLEAK AUDIT (mechanism features; availability->outcome AUC must be <0.58):")
+    print("\nLEAK AUDIT (mechanism features; availability->outcome AUROC must be <0.58):")
     audit = M.leak_audit(pairs, m_cols, y)
     print(audit.to_string(index=False))
     flagged = audit[audit["FLAG_avail>0.58"]]
