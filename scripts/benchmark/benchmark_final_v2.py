@@ -21,8 +21,10 @@ B = ROOT / "results/benchmark"
 sys.path.insert(0, str(ROOT / "scripts/benchmark"))
 
 # feature scopes ------------------------------------------------------------------
-FL = pd.read_csv(ROOT / "data/sources/feature_list_v8.csv")
-MOD9 = set(FL[FL.module_family == "9_endpoint_population_design_leverage"].feature)
+FL = pd.read_csv(ROOT / "data/sources/feature_list_final.csv")
+MOD9 = set(FL[FL.module_family == "9_trial_design"].feature)
+# feature_list_final.csv renames two module-9 features; the dataset keeps the original column names
+RENAMED = {"population_leverage": "population_eligibility", "precedent_neg_class": "feature_precedent"}
 # our trial-context / non-molecule features to exclude for a "biology, no trial-design" set
 OUR_TRIAL_CTX = MOD9 | {"trial_n_drugs", "is_combination", "is_healthy_volunteer",
                         "is_multi_drug_exclude", "is_procedural_exclude",
@@ -77,6 +79,7 @@ def trialbench():
     import trialbench_split_compare as T
     import importlib; importlib.reload(T)
     tb, tb_feats = T.load_trialbench(); ours, star = T.load_ours()
+    ours = ours.rename(columns=RENAMED); star = [RENAMED.get(c, c) for c in star]
     j = ours.merge(tb, on="nct", how="inner").drop_duplicates("nct")
     y = j.outcome.astype(int).values; g = j.ik14.values
     bio = [c for c in star if c not in OUR_TRIAL_CTX]

@@ -1,28 +1,22 @@
 #!/usr/bin/env python3
-"""MAJOR 3 robustness: does the efficacy molecular increment survive with
-PUBLIC-derivable molecular features only (no proprietary binding/tissue/tox)?
+"""Molecular increment computed with public-derivable molecular features only
+(no proprietary binding/tissue/tox features).
 
-Mirrors decompose_v8_noclass.py exactly (same FLAGS, single-GBM, 5x5 SGKF by
-SMILES, nested top-20, within-fold disease encoding) but swaps the molecular
-pool for several public-only subsets. Reports D (flags+disease prior) and
+Mirrors decompose_v8_noclass.py exactly (same FLAGS, same per-task heads via
+fit_predict -- single GBM for overall, GBM+XGB+LGBM ensemble for efficacy --
+5x5 SGKF by SMILES, nested top-20, within-fold disease encoding) but swaps the
+molecular pool for several public-only subsets. Reports D (flags+disease prior) and
 DM (+molecular) and the molecular increment DM-D, for efficacy and overall.
 
 Public subsets (clean_mort: the blind causal-plausibility signal lives in the mech_* columns,
 which replaced the single causal_plausibility_blind feature dropped at build time):
-  FULL          : all molecular features (reproduces the manuscript decomposition)
+  FULL          : all molecular features
   PUBLIC        : mech_* + net_* (STRING/OpenTargets pathway) + drumap_* (public PK)
   PUB_NO_PK     : mech_* + net_*
   PLAUS_ONLY    : mech_* only
 
-NOT YET RE-RUN ON clean_mort (Jul 2026). This script supersedes decompose_v8_public.py
-(deleted), which read the honest_exposure cohort and filtered for causal_plausibility_blind
--- a column build_v8_honest_exposure.py DROPS at build time, so its plausibility subsets were
-silently empty. The committed values still quoted in notebooks/03_supporting_analyses.ipynb
-(efficacy public-only +0.119 vs full +0.113; plausibility-only +0.080) come from that OLD
-script on the OLD cohort and are NOT this script's output. Re-run to obtain current numbers.
-
-No manuscript number depends on them: the paper claims only that a public-only feature set
-"recovers most of the efficacy increment" (Results; Code availability), with no figure quoted.
+Supersedes decompose_v8_public.py (deleted), which read the honest_exposure cohort and
+filtered for causal_plausibility_blind, a column that build_v8_honest_exposure.py drops.
 """
 from __future__ import annotations
 import sys

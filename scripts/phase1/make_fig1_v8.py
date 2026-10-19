@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Figure 1 (dataset + architecture) on the v8 honest cohort.
 Figure 1 has two panels: a) trial-selection funnel, b) computational-architecture
-schematic (nine modules). Also writes figS1_module_auc, the per-module standalone
-AUROC bar, which is a standalone Supplementary Fig. S3, not a Figure 1 panel.
-Counts read from the v8 dataset + module_ablation_v8.csv so they cannot drift.
+schematic (nine modules, each box carrying its feature count). Also writes
+figS1_module_auc, the per-module standalone AUROC bar, which is a standalone
+Supplementary Fig. S3, not a Figure 1 panel.
+Counts read from the v8 dataset + feature_list_final.csv + module_ablation_v8.csv so
+they cannot drift.
 Out: manuscript/figures_v8/
 """
 from __future__ import annotations
@@ -132,11 +134,21 @@ print(f"wrote fig1a_funnel (profiled={_n_profiled}, cohort={_n_trials}, compound
       f"excluded={_n_excluded} [{n_nondrug}/{n_misscoped}/{n_noresults}])")
 
 # ---- panel b: computational architecture schematic ----
+# Each module box carries its feature count, read from feature_list_final.csv so the
+# counts cannot drift from the released feature list. The nine boxes map 1:1 onto the
+# nine module_family values there.
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 from matplotlib.lines import Line2D
 
-fig, ax = plt.subplots(figsize=(9.4, 6.2))
-ax.set_xlim(0, 100); ax.set_ylim(0, 100); ax.axis("off")
+fl = pd.read_csv(ROOT / "data/sources/feature_list_final.csv")
+N = fl.module_family.value_counts().to_dict()
+N_TOTAL = len(fl)
+
+# Taller canvas + extended y-range: the module stack is 9 boxes at MOD_H=9, so the
+# legend is pushed below y=0 into the added headroom. The column coordinates below
+# assume an x-range of 100 -- do not widen it without respreading them.
+fig, ax = plt.subplots(figsize=(9.4, 8.2))
+ax.set_xlim(0, 100); ax.set_ylim(-12, 107); ax.axis("off")
 
 C_IN = "#dce6f1"; C_STR = "#d7e8d2"; C_PRIOR = "#fce4c4"; C_CTX = "#e8dcec"
 C_INT = "#cfd8dc"; C_HEAD = "#f4cccc"; C_OUT = "#eeeeee"; C_GATE = "#fdf2d0"
@@ -158,12 +170,26 @@ def arrow(x1, y1, x2, y2, lw=1.0, color=ARROW):
 def stub(x1, x2, y):  # short horizontal connector into a bus rail
     ax.add_line(Line2D([x1, x2], [y, y], color=BUS, lw=0.8, zorder=0))
 
+def modbox(x, y, w, h, label, n, fc, ls="-"):
+    """Module box: name on one line, feature count in brackets on the line below.
+    The box is wide enough for every module name to fit unwrapped."""
+    ax.add_patch(FancyBboxPatch((x, y), w, h,
+                 boxstyle="round,pad=0,rounding_size=1.6",
+                 fc=fc, ec=EDGE, lw=0.9, ls=ls, mutation_aspect=h / w))
+    ax.text(x + w / 2, y + h * 0.66, label, ha="center", va="center",
+            fontsize=10)
+    ax.text(x + w / 2, y + h * 0.28, f"({n} features)", ha="center", va="center",
+            fontsize=8.5, color="black")
+
 # --- column geometry ---
 IN_X, IN_W = 2.0, 18.0
-MOD_X, MOD_W = 28.0, 27.0
-INT_X, INT_W = 62.0, 17.0
+# Module column is wide (36) so every module name fits on one line. It grows both ways
+# from the old 27, so the bus rails on either side sit closer in and the two connecting
+# arrows are correspondingly shorter.
+MOD_X, MOD_W = 24.0, 36.0
+INT_X, INT_W = 64.0, 15.0
 HEAD_X, HEAD_W = 81.0, 13.0
-IN_BUS, MOD_BUS = 21.5, 56.5
+IN_BUS, MOD_BUS = 21.5, 61.5
 CY = 54.0  # vertical centre of the data spine
 
 # Column headers (clear above the boxes)
@@ -171,7 +197,7 @@ for hx, ht in [(IN_X + IN_W / 2, "Pre-trial inputs"),
                (MOD_X + MOD_W / 2, "Pre-trial modules"),
                (INT_X + INT_W / 2, "Integration"),
                (HEAD_X + HEAD_W / 2, "Predictions")]:
-    ax.text(hx, 94, ht, ha="center", va="center", fontsize=12.5, style="italic",
+    ax.text(hx, 103, ht, ha="center", va="center", fontsize=12.5, style="italic",
             color="black")
 
 # Inputs (col 1) — centred on the spine
@@ -185,44 +211,59 @@ ax.add_line(Line2D([IN_BUS, IN_BUS], [in_centres[-1], in_centres[0]],
                    color=BUS, lw=1.0, zorder=0))
 arrow(IN_BUS, CY, MOD_X, CY)
 
-# Modules (col 2): eight core modules (1-8), evenly stacked, plus the gated
-# ninth (module 9; endpoint/population/trial-design leverage) drawn distinctly
-# (dashed border) to mark it as gated and added during cross-validation.
-mod_specs = (
-    [(t, C_STR) for t in ["Tissue-specific binding",
-                          "Pathway engagement",
-                          "Binding specificity", "Safety pharmacology",
-                          "Pharmacokinetics"]]
-    + [(t, C_PRIOR) for t in ["Target–disease\nmechanism",
-                              "Genetics"]]
-    + [("Disease complexity\n+ trial context", C_CTX)]
-)
-mod_centres = np.linspace(86.0, 20.0, len(mod_specs) + 1)  # +1 slot for module 9
-MOD_H = 7.0
-for (t, fc), cy in zip(mod_specs, mod_centres):
-    box(MOD_X, cy - MOD_H / 2, MOD_W, MOD_H, t, fc, fs=10)
+# Modules (col 2): modules 1-8, evenly stacked, plus the gated ninth (module 9;
+# trial-design context) drawn distinctly (dashed border) to mark it as gated and
+# added during cross-validation. Boxes map 1:1 onto the module_family values in
+# feature_list_final.csv.
+mod_specs = [
+    ("Tissue interaction", N["1_tissue_interaction"], C_STR),
+    ("Network-pathway enrichment", N["2_network_pathway"], C_STR),
+    ("Binding specificity", N["3_binding_specificity"], C_STR),
+    ("Safety pharmacology", N["4_safety_pharmacology"], C_STR),
+    ("Pharmacokinetic predictions", N["5_pharmacokinetics"], C_STR),
+    ("Target-disease biology", N["6_target_disease_biology"], C_PRIOR),
+    ("Genetics", N["7_genetics"], C_PRIOR),
+    ("Disease complexity and trial context",
+     N["8_disease_complexity_trial"], C_CTX),
+]
+# Centres spaced 11.0 apart against MOD_H=9.0, leaving a 2.0 gap between boxes.
+mod_centres = np.linspace(93.0, 5.0, len(mod_specs) + 1)  # +1 slot for module 9
+MOD_H = 9.0
+for (t, n, fc), cy in zip(mod_specs, mod_centres):
+    modbox(MOD_X, cy - MOD_H / 2, MOD_W, MOD_H, t, n, fc)
     stub(MOD_X + MOD_W, MOD_BUS, cy)
 g_cy = mod_centres[-1]
-ax.add_patch(FancyBboxPatch((MOD_X, g_cy - MOD_H / 2), MOD_W, MOD_H,
-             boxstyle="round,pad=0,rounding_size=1.6",
-             fc=C_GATE, ec=EDGE, lw=0.9, ls="--", mutation_aspect=MOD_H / MOD_W))
-ax.text(MOD_X + MOD_W / 2, g_cy, "Trial design &\nendpoint context",
-        ha="center", va="center", fontsize=10, linespacing=1.25)
+modbox(MOD_X, g_cy - MOD_H / 2, MOD_W, MOD_H, "Trial-design context",
+       N["9_trial_design"], C_GATE, ls="--")
 stub(MOD_X + MOD_W, MOD_BUS, g_cy)
 ax.add_line(Line2D([MOD_BUS, MOD_BUS], [g_cy, mod_centres[0]],
                    color=BUS, lw=1.0, zorder=0))
 arrow(MOD_BUS, CY, INT_X, CY)
 
 # Integration (col 3)
-box(INT_X, CY - 12, INT_W, 24,
-    "285\nfeatures", C_INT, fs=15, weight="bold")
+box(INT_X, CY - 8, INT_W, 16, f"{N_TOTAL}\nfeatures", C_INT, fs=12, weight="bold")
 
-# Task heads (col 4)
+def headbox(x, y, w, h, title, sub, fc, t_frac, s_frac):
+    """Prediction head: bold title with a non-bold bracketed subtitle directly
+    beneath it (no blank line between), so the two need separate text calls.
+    The two heads carry different line counts and so are different heights;
+    t_frac/s_frac place the title and subtitle within each box."""
+    ax.add_patch(FancyBboxPatch((x, y), w, h,
+                 boxstyle="round,pad=0,rounding_size=1.6",
+                 fc=fc, ec=EDGE, lw=0.9, mutation_aspect=h / w))
+    ax.text(x + w / 2, y + h * t_frac, title, ha="center", va="center",
+            fontsize=10, weight="bold", linespacing=1.25)
+    ax.text(x + w / 2, y + h * s_frac, sub, ha="center", va="center",
+            fontsize=9.5, linespacing=1.25)
+
+# Task heads (col 4). The efficacy head wraps to two title lines + two subtitle lines,
+# so it is taller than the safety head; both stay centred on their spine points.
+EFF_H, SAF_H = 20.0, 12.0
 eff_cy, saf_cy = 64.0, 41.0
-box(HEAD_X, eff_cy - 7, HEAD_W, 14,
-    "Efficacy / overall\n\ncalibrated\nclassifier", C_HEAD, fs=10)
-box(HEAD_X, saf_cy - 8, HEAD_W, 16,
-    "Safety\n\nsingle classifier\nover mechanism\ngroups", C_HEAD, fs=10)
+headbox(HEAD_X, eff_cy - EFF_H / 2, HEAD_W, EFF_H,
+        "Efficacy /\noverall", "(calibrated\nclassifier)", C_HEAD, 0.70, 0.29)
+headbox(HEAD_X, saf_cy - SAF_H / 2, HEAD_W, SAF_H,
+        "Safety", "(single classifier)", C_HEAD, 0.62, 0.30)
 arrow(INT_X + INT_W, CY + 2, HEAD_X, eff_cy)
 arrow(INT_X + INT_W, CY - 2, HEAD_X, saf_cy)
 
@@ -230,22 +271,23 @@ arrow(INT_X + INT_W, CY - 2, HEAD_X, saf_cy)
 OY = 8.0
 box(68.0, OY - 4.5, 30.0, 9.0,
     "Trial outcome\nPASS · FAIL_EFFICACY · FAIL_SAFETY", C_OUT, fs=9.5)
-arrow(HEAD_X + 5, saf_cy - 8, HEAD_X + 5, OY + 4.7)          # safety straight down
+arrow(HEAD_X + 5, saf_cy - SAF_H / 2, HEAD_X + 5, OY + 4.7)  # safety straight down
 ax.add_patch(FancyArrowPatch((HEAD_X + HEAD_W, eff_cy), (HEAD_X + HEAD_W + 3, OY + 4.7),
              arrowstyle="-|>", mutation_scale=11, lw=1.0, color=ARROW,
              connectionstyle="angle,angleA=0,angleB=90", shrinkA=0, shrinkB=0))
 
-# module-type legend: sits fully below the module column's lowest (gated) box,
-# whose bottom edge is at y = g_cy - MOD_H/2 = 16.5, so the long legend labels can
-# extend right into the module x-range without colliding with any box.
-for i, (sw, lab) in enumerate([(C_STR, "structure-computed mechanism"),
-                                (C_PRIOR, "prior target–disease evidence"),
-                                (C_CTX, "disease / trial context"),
-                                (C_GATE, "trial-design context (gated, module 9)")]):
-    ly = 12.5 - i * 4.0
-    ax.add_patch(FancyBboxPatch((IN_X, ly), 3, 3,
+# module-type legend, in two columns of two so it stays clear of the module stack's
+# lowest (gated) box; it sits in the headroom below y=0 added by the extended y-range.
+_legend = [(C_STR, "structure-computed features"),
+           (C_PRIOR, "prior target–disease evidence"),
+           (C_CTX, "disease complexity and trial context"),
+           (C_GATE, "trial-design context (gated, module 9)")]
+for i, (sw, lab) in enumerate(_legend):
+    lx = IN_X + (i // 2) * 38.0
+    ly = -6.0 - (i % 2) * 4.2
+    ax.add_patch(FancyBboxPatch((lx, ly), 3, 3,
                  boxstyle="round,pad=0,rounding_size=0.8", fc=sw, ec=EDGE, lw=0.7))
-    ax.text(IN_X + 4.5, ly + 1.5, lab, fontsize=10.5, va="center", ha="left")
+    ax.text(lx + 4.5, ly + 1.5, lab, fontsize=10.5, va="center", ha="left")
 
 fig.tight_layout()
 for ext in ("png", "svg"):

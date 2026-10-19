@@ -28,7 +28,7 @@ plt.rcParams.update({"font.family": "sans-serif", "font.size": 9,
 def main():
     ic = json.loads((B / "benchmark_final_v2.json").read_text())["inclinico"]
     steps = ["inClinico\nreported",
-             "honest split\n(all features)",
+             "structure-holdout\n(all features)",
              "trial-design +\nsponsor only",
              "compound +\nprecedent only"]
     vals = [ic["reported_inclinico"], ic["honest_full"],
@@ -52,7 +52,7 @@ def main():
     ax.text(len(vals) - 0.5, 0.5, "chance", fontsize=8, color="black",
             ha="left", va="bottom")
     ax.set_xticks(list(x)); ax.set_xticklabels(steps, fontsize=8.3)
-    ax.set_ylim(0.45, 0.95); ax.set_ylabel("Phase 2→3 transition AUROC")
+    ax.set_ylim(0.45, 0.95); ax.set_ylabel("Phase II→III transition AUROC")
     # Title and explanatory caption both live in the Supplementary Fig. S3 legend, not in the figure.
     fig.tight_layout()
     for ext in ("png", "svg"):

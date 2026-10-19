@@ -239,7 +239,7 @@ def fig4b(rec):
 def fig4a(paired, genetic, rec):
     tests = [("Within-drug\n(mechanism-fit)", paired["frac"], paired["p"], f"{paired['pos']}/{paired['measurable']}"),
              ("Within-drug\n(genetic axis)", genetic["frac"], genetic["p"], f"{genetic['pos']}/{genetic['measurable']}"),
-             ("Known-rescue\nrecovery", rec["frac"], rec["p"], f"{rec['above']}/{rec['n']}")]
+             ("Known\nrepositionings", rec["frac"], rec["p"], f"{rec['above']}/{rec['n']}")]
     fig, ax = plt.subplots(figsize=(6.8, 4.0))
     x = np.arange(len(tests)) * 1.4          # extra gap between bars
     ax.bar(x, [t[1] * 100 for t in tests], color=["#1f77b4", "#9467bd", "#2ca02c"], alpha=0.85, width=0.9)

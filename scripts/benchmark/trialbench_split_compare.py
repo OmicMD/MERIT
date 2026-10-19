@@ -58,6 +58,9 @@ def cv(X, y, groups, blind):
 def main():
     tb, tb_feats = load_trialbench()
     ours, star_feats = load_ours()
+    # feature_list_final.csv renames two module-9 features; the dataset keeps the original column names
+    renamed = {"population_leverage": "population_eligibility", "precedent_neg_class": "feature_precedent"}
+    ours = ours.rename(columns=renamed); star_feats = [renamed.get(c, c) for c in star_feats]
     j = ours.merge(tb, on="nct", how="inner").drop_duplicates("nct")
     y = j.outcome.astype(int).values
     g = j.ik14.values
@@ -68,8 +71,8 @@ def main():
     # drug-count, combination, healthy-volunteer, cleaning flags). Their side: legitimate
     # trial-design only, after removing the enrollment leak AND establishment metadata
     # (sponsor / oversight / regulatory / data-sharing) that acts as a reverse-causation proxy.
-    fl = pd.read_csv(ROOT / "data/sources/feature_list_v8.csv")
-    mod9 = set(fl[fl.module_family == "9_endpoint_population_design_leverage"].feature)
+    fl = pd.read_csv(ROOT / "data/sources/feature_list_final.csv")
+    mod9 = set(fl[fl.module_family == "9_trial_design"].feature)
     our_ctx = mod9 | {"trial_n_drugs", "is_combination", "is_healthy_volunteer",
                       "is_multi_drug_exclude", "is_procedural_exclude",
                       "is_mispaired_supportive", "attr_misindexed"}

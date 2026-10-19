@@ -4,7 +4,7 @@ Calibrated production pipeline (v2).
 
 Adds to retrain_corrected.py:
   1. Isotonic calibration via nested 3-fold CV, applied to overall + efficacy only
-     (safety left raw; Analysis 2 showed ECE already acceptable).
+     (safety left uncalibrated).
   2. Cross-task prediction: within overall's outer folds, safety and efficacy
      models are also trained (on their task-specific subsets of outer-train)
      and predicted on the full outer-test. Fixes Analysis 3 intersection bug.
@@ -163,7 +163,7 @@ def fit_isotonic_nested(X_raw, y, groups, diseases, feature_names, task, seed,
 
 
 # ---------------------------------------------------------------------------
-# Per-task OOF producer (reproduces published numbers)
+# Per-task OOF producer
 # ---------------------------------------------------------------------------
 def run_task_cv(df_task, feature_cols, task, calibrate, protect_cols=None):
     X_raw = df_task[feature_cols].values
@@ -219,9 +219,7 @@ def run_task_cv(df_task, feature_cols, task, calibrate, protect_cols=None):
 # mechanism_groups from here). Decomposes the safety feature set into biological
 # mechanism detectors, trains each as its own GBM (so the dominant promiscuity
 # signal can't wash out minority detectors), and combines parameter-free by
-# noisy-OR P=1-prod(1-p_m) ("fail if ANY mechanism trips"). Lifts safety AUROC
-# +0.020 over the single GBM, replicated in two independent cohorts (arm-level
-# 144 pos, 4/5 seeds; trial-level 97 pos, 4/5 seeds). See
+# noisy-OR P=1-prod(1-p_m) ("fail if ANY mechanism trips"). See
 # notes/safety_figured_out_jun7.md and notes/metab_dili_redirect_jun7.md.
 # ---------------------------------------------------------------------------
 def mechanism_groups(feature_cols):
@@ -279,13 +277,9 @@ def noisy_or_safety_oof(df_safety, feature_cols, protect_cols=None,
     nor = (1.0 - (1.0 - M.clip(0, 0.999)).prod(axis=1)).rename('raw_prob').reset_index()
     oof = meta.merge(nor, on=key, how='left')
 
-    # Honest-probability combiner (Jun 14, notes/calibration_result_jun14.md): the noisy-OR
-    # (raw_prob) assumes detector INDEPENDENCE, but the 6 detectors are correlated (all read the
-    # same molecule) -> it multiplies moderate risks into false certainty (the elagolix p=1.00
-    # cry-wolf; 49% of the 181 cry-wolf had no single detector >0.7). A leak-aware cross-fold
-    # LOGISTIC stacker over the per-detector OOF gives calibrated probabilities (caps ~0.5 at the
-    # 3% base rate, cry-wolf-free) at ~-0.012 AUROC. raw_prob KEEPS noisy-OR for the ranking/AUROC
-    # headline; calibrated_prob = logistic stack (use for any probability/threshold).
+    # Probability combiner: the noisy-OR (raw_prob) assumes the detectors are independent.
+    # A cross-fold logistic stacker over the per-detector OOF predictions gives calibrated_prob.
+    # raw_prob keeps the noisy-OR value for ranking/AUROC; calibrated_prob is the logistic stack.
     from sklearn.linear_model import LogisticRegression
     detcols = list(M.columns)
     ML = M.reset_index().merge(oof[['row_idx', 'seed', 'fold', 'y']], on=key, how='left')
@@ -499,20 +493,17 @@ def main():
     ap.add_argument('--skip-crosstask', action='store_true')
     ap.add_argument('--safety-head', choices=['single', 'noisy_or'],
                     default='single',
-                    help='single GBM (default, reproduces published headlines) or '
-                         'noisy-OR over per-mechanism detectors (+0.020 safety AUROC).')
+                    help='single GBM (default) or noisy-OR over per-mechanism detectors.')
     ap.add_argument('--eff-diag', action='store_true',
                     help='Also compute GBM-only efficacy OOF for AUROC-gap diag.')
     ap.add_argument('--data', default=None,
-                    help='Override training CSV (default: v5_unified -> production_v2).')
+                    help='Override training CSV (default: training_dataset_v8_clean_mort.csv).')
     ap.add_argument('--out', default=None,
                     help='Override output dir (default: results/production_v2).')
     ap.add_argument('--sanity', action='store_true',
-                    help='Assert mean-of-folds match the published 0.837/0.772/0.828.')
+                    help='Assert mean-of-folds match the reference values in `targets`.')
     ap.add_argument('--include-endogenous', action='store_true',
-                    help='Include is_endogenous trials in the efficacy cohort. They act on HUMAN targets '
-                         'and the mechanism (causal_centrality) feature already represents them leak-free '
-                         '(CV 0.703 vs binding-only 0.505); the original exclusion was over-conservative.')
+                    help='Include is_endogenous trials in the efficacy cohort.')
     args = ap.parse_args()
 
     # Allow running an alternate dataset/out-dir (e.g. v8) without touching defaults.
@@ -571,50 +562,21 @@ def main():
     metrics = {}
     calibrate = args.calibrate == 'isotonic'
 
-    # --- Per-task CV (reproduces published headline) ---
-    # Exposure axis (logdose + off-target*dose) is protected for SAFETY only — it is
-    # weak-univariate (top-20 selection drops it) but real in interaction, and it HURTS
-    # efficacy/overall. Auto-detected so default v5_unified runs are unaffected.
-    # tdc_* = external structure->toxicity classifiers (DILI/AMES/carcinogen, trained on TDC
-    # ground truth, NOT our labels). Weak-univariate vs top-20 binding feats but orthogonal
-    # (r<0.20) and the only signal on binding-invisible idiosyncratic DILI. Protected for
-    # SAFETY only (auto-detected; absent -> no-op). See notes/tdc_safety_dili_jun13.md.
+    # --- Per-task CV ---
+    # Safety-only protected features (bypass top-k selection; absent columns are skipped):
+    # exposure (logdose, *_xdose), external structure->toxicity classifiers (tdc_*),
+    # dose x lipophilicity (dili_*), target->AE-class priors (aeclass_*) and
+    # reactive-metabolite/haptenation alerts (rmet_*).
     safety_protect = [c for c in feature_cols
                       if c == 'logdose' or c.endswith('_xdose') or c.startswith('tdc_')
                       or c.startswith('dili_')
-                      # aeclass_ = target->AE-class on-target organ-tox priors (jun14): TESTED & NOT
-                      # BANKED (0/32 FN flipped, pooled safety -0.0028; notes/target_ae_class_result_jun14.md).
-                      # No-op guard kept (columns absent from the canonical build) so a re-test inherits
-                      # safety-only protection; same pattern as the mech_ot_/tdc_ tested-not-banked guards.
                       or c.startswith('aeclass_')
-                      or c.startswith('rmet_')]   # reactive-metabolite/haptenation alerts (jun14, testing)
+                      or c.startswith('rmet_')]
 
-    # mech_* (causal-centrality) is an EFFICACY mechanism-fitness construct: clean for efficacy
-    # (availability gate 0.502, shuffle-validated) but a SURVIVORSHIP proxy for SAFETY. Two leaks
-    # (Jun 12): (a) availability — mech was enumerated over the efficacy cohort so FAIL_SAFETY pairs
-    # were unscored -> "has real mech" ≈ "is PASS" (gate 0.948; FIXED by scoring the 85 safety-fail
-    # pairs, now 0.500); (b) VALUE — mech correlates with drug establishment/approval (approved score
-    # ~10pts higher AND fail safety 1% vs 86%), so mech_population_fit still trips the safety value gate
-    # (0.699 > 0.58) even with complete coverage. Within approved-only drugs mech is ~chance for safety
-    # (0.53-0.57): there is no real safety signal to lose. Exclude mech_* from the safety head only
-    # (kept for efficacy/overall). notes/mech_safety_leak_jun12.md.
-    # NB (Jun 14): tested excluding design_* from the safety head (hypothesis: they leak into the context
-    # detector and drive the elagolix p=1.0 cry-wolf). FALSIFIED — exclusion LOWERED safety mof 0.734->0.725
-    # and did NOT resolve the cry-wolf. design_* carry real signal in the safety context detector; kept.
-    # The elagolix cry-wolf is the noisy-OR independence artifact (already mitigated by calibrated_prob).
-    # xseff_* = cross-species EFFICACY-translation axes (disease-model fidelity, target species
-    # divergence; notes/cross_species_translation_axis_jun19.md) — efficacy-only, excluded from the
-    # safety head like mech_*. xssafe_* (reactive-metabolite iDILI, HLA) stays in the safety head.
-    # No-op on datasets without these columns (canonical reproducibility preserved).
-    # is_cytotoxic (ATC L01A-D class flag, Jun 2026) is an EFFICACY class signal — cytotoxics
-    # pass in their proliferative-malignancy indications (real antiproliferative MOA the
-    # target->disease mechanism module is blind to: these rows have mech_*=0). Leak-safe
-    # (value AUROC 0.540, shuffle Δ~0; outcome-blind ChEMBL ATC; class transfer under group folds).
-    # Held out of the SAFETY head (cytotoxic myelosuppression is a separate axis, unaudited here)
-    # so safety stays byte-identical. No-op when the column is absent (canonical reproducibility).
-    # endpoint_cvevent_match (Gap B) and precedent_* (Gap D) are EFFICACY-specific signals
-    # (CV-event mechanism-match and negative efficacy-precedent); held out of the safety head so
-    # safety stays byte-identical, matching is_cytotoxic and the mechanism-out-of-safety design.
+    # Features used by the efficacy/overall heads only and removed from the safety head:
+    # target->disease mechanism (mech_*), cross-species efficacy-translation axes (xseff_*),
+    # negative efficacy precedent (precedent_*), the ATC L01A-D cytotoxic class flag
+    # (is_cytotoxic) and the CV-event mechanism match (endpoint_cvevent_match).
     safety_feature_cols = [c for c in feature_cols
                            if not c.startswith('mech_') and not c.startswith('xseff_')
                            and not c.startswith('precedent_')
@@ -633,37 +595,20 @@ def main():
     oof_s.to_parquet(OUT_DIR / 'oof_safety.parquet', index=False)
     all_fold_metrics.append(fm_s)
 
-    # Trial-design primitives (design_*) are weak-univariate (AUROC 0.52-0.60) but add
-    # orthogonal leak-safe signal that top-20 selection would otherwise drop. Protected
-    # for efficacy/overall only (the efficacy-bar signal is design-context, not safety).
-    # Auto-detected: runs on datasets without design_* columns are unaffected.
+    # Efficacy/overall protected features (bypass top-k selection; absent columns are skipped):
+    # trial-design primitives (design_*), zone-scoped mechanism (mech_ot_*), endpoint features
+    # (endpoint_*, incl. endpoint_directness_signed: +1 drug can move the measured biomarker,
+    # -1 cannot, 0 not applicable), population leverage, cross-species efficacy-translation axes
+    # (xseff_*), mechanism-coverage indicators (mech_coverage_*), the cytotoxic class flag
+    # (is_cytotoxic) and precedent_neg_class (as-of-date binary flag: a same-MOA-class agent had
+    # a Phase-3 efficacy failure in this indication before the trial started).
     design_protect = [c for c in feature_cols if c.startswith('design_')]
-
-    # mech_ot_* (zone-scoped leak-free mechanism) is auto-protected here IF present — but the Jun 13
-    # test showed the leak-free signal is too weak in CNS/immune to flip the misses, so the feature
-    # was reverted in build_v8_honest_exposure.py. This filter is a no-op on the current dataset and
-    # keeps the protect-on-presence behavior for any future leak-free zone-mechanism feature.
-    # endpoint_directness_signed (Jun 16): leak-safe endpoint-anchored directness (+1 drug can move the
-    # measured biomarker / -1 cannot / 0 N/A). Weak-univariate (non-zero on ~10% of trials) but real in
-    # interaction; availability AUROC 0.482, shuffle p=0.0000, residual coef +1.26 p=0.037. Protected for
-    # efficacy/overall only (SAFETY-neutral). Auto-detected: absent -> no-op.
     efficacy_protect = (design_protect + [c for c in feature_cols if c.startswith('mech_ot_')]
                         + [c for c in feature_cols if c.startswith('endpoint_')]
                         + [c for c in feature_cols if c.startswith('population_leverage')]
                         + [c for c in feature_cols if c.startswith('xseff_')]
-                        # mech_coverage_* are weak-univariate by design (leak-safe, avail AUROC ~0.51); their
-                        # value is the INTERACTION coverage=0 -> discount missing-mechanism zeros, so they
-                        # must bypass top-k selection. efficacy/overall only (mechanism stays out of safety).
                         + [c for c in feature_cols if c.startswith('mech_coverage_')]
-                        # is_cytotoxic: ATC L01A-D efficacy class flag (weak-univariate, real in
-                        # interaction; +0.009 efficacy on top of canonical, 22/25 folds, leak-clean).
-                        # efficacy/overall only. No-op when absent (canonical reproducibility).
                         + [c for c in feature_cols if c == 'is_cytotoxic']
-                        # precedent_neg_class (Gap D, Jun 28): as-of-date BINARY flag = a same-MOA-class
-                        # agent already had a Phase-3 EFFICACY failure in this indication before this trial
-                        # started. Leak-safe (as-of-date, negative-only, binary): shuffle p=0.004,
-                        # availability AUROC 0.511, NON-redundant vs difficulty (coef 0.65 p=0.007). The
-                        # efficacy precedent stays OUT of the noisy-OR safety head. No-op when absent.
                         + [c for c in feature_cols if c.startswith('precedent_')])
 
     print('\n=== EFFICACY (ensemble, calibrated) ===', flush=True)
@@ -679,8 +624,7 @@ def main():
     all_fold_metrics.append(fm_o)
 
     # --- Summaries ---
-    # Mean-of-folds is primary (matches published headline + per-fold SDs);
-    # pooled-OOF is secondary (right metric for calibration: Brier/ECE).
+    # Mean-of-folds AUROC with per-fold SD, plus pooled-OOF AUROC, Brier and ECE.
     for name, oof, fm in [('overall', oof_o, fm_o),
                           ('safety', oof_s, fm_s),
                           ('efficacy', oof_e, fm_e)]:
@@ -815,10 +759,10 @@ def main():
                              inputs=[str(DATA_PATH)],
                              note=f'retrain_calibrated.py --calibrate={args.calibrate}')
     print(f'\nSaved to {OUT_DIR}', flush=True)
-    print('\n=== Mean-of-folds vs published production_v2 (0.837/0.772/0.828) ===', flush=True)
-    targets = {'overall': (0.837, 'auc_raw'),
-               'safety':  (0.772, 'auc_raw'),
-               'efficacy':(0.828, 'auc_raw')}
+    print('\n=== Mean-of-folds vs reference values ===', flush=True)
+    targets = {'overall': (0.770, 'auc_raw'),
+               'safety':  (0.784, 'auc_raw'),
+               'efficacy':(0.765, 'auc_raw')}
     tol = 0.005
     all_pass = True
     for name, (tgt, key) in targets.items():

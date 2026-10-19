@@ -47,16 +47,16 @@ def _split_panel(stem, labels, honest, loose):
     """
     fig, ax = plt.subplots(figsize=(5.6, 3.6))
     y = np.arange(len(labels)); h = 0.36
-    ax.barh(y + h/2, honest, h, color=HONEST, label="honest test (drug held out)")
-    ax.barh(y - h/2, loose, h, color=LOOSE, label="looser test (drug recognizable)")
+    ax.barh(y + h/2, honest, h, color=HONEST, label="strict structure-holdout")
+    ax.barh(y - h/2, loose, h, color=LOOSE, label="loose structure-blind")
     for i, (a, b) in enumerate(zip(honest, loose)):
         ax.text(a + 0.004, y[i] + h/2, f"{a:.3f}", va="center", fontsize=7.5, color=HONEST, fontweight="bold")
         ax.text(b + 0.004, y[i] - h/2, f"{b:.3f}", va="center", fontsize=7.5, color=LOOSE)
-        ax.text(0.975, y[i], f"+{b-a:.3f}\nspurious", va="center", ha="right",
+        ax.text(0.975, y[i], f"+{b-a:.3f}", va="center", ha="right",
                 fontsize=7, color="black")
     ax.set_yticks(y); ax.set_yticklabels(labels, fontsize=8)
     for t, lbl in zip(ax.get_yticklabels(), labels):
-        if "ours" in lbl.lower():
+        if "merit" in lbl.lower():
             t.set_fontweight("bold")
     ax.set_xlim(0.5, 0.98); ax.set_xlabel("AUROC")
     ax.invert_yaxis()
@@ -80,13 +80,13 @@ def fig_inflation(tb, sh, sb, hh, hb):
     # arms must start from the same leak-free scope; feature-scope leakage is Table 1's job.
     _split_panel(
         "figS2a_trialbench",
-        ["Our model\n(ours)", "TrialBench design features\n(leak-free set)"],
+        ["MERIT", "TrialBench\n(design features)"],
         [tb.loc["our biology", "holdout_auc"],
          tb.loc["their legit design", "holdout_auc"]],
         [tb.loc["our biology", "blind_auc"],
          tb.loc["their legit design", "blind_auc"]])
     _split_panel(
-        "figS2b_phase3", ["Our model\n(ours)", "HINT\n(Phase III)"],
+        "figS2b_phase3", ["MERIT", "HINT\n(Phase III)"],
         [sh, hh], [sb, hb])
     print(f"  (ours Phase III {sh:.3f}->{sb:.3f}; HINT {hh:.3f}->{hb:.3f})")
 

@@ -5,7 +5,6 @@ overlap by outcome. Writes to manuscript/figures_v8/; composited by compose_figu
 into fig3_composite. Also prints case z-scores to reconcile legend.
 """
 from __future__ import annotations
-import sys
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -14,8 +13,13 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(ROOT / "scripts" / "phase1"))
-from make_mechanism_figures import OUTCOME_COLORS
+
+OUTCOME_COLORS = {
+    "PASS":          "#2ca02c",
+    "FAIL_EFFICACY": "#ff7f0e",
+    "FAIL_SAFETY":   "#d62728",
+    "FAIL_BOTH":     "#7f4f24",
+}
 
 plt.rcParams.update({"font.family": "sans-serif", "font.size": 9,
                      "figure.dpi": 150, "savefig.dpi": 300})

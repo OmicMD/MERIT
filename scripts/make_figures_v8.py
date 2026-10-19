@@ -46,11 +46,12 @@ ax.text(0.98, 0.02, "curve: pooled out-of-fold", transform=ax.transAxes,
 save(fig, "fig2a_roc_trial")
 
 # --- Fig 2c: signal decomposition (overall + safety + efficacy), ending at the full model ---
-# The first three groups are additive single-GBM blocks (Supplementary Table S1); the fourth is the full
+# The first three groups are additive blocks using the production head per task (single GBM for
+# overall/safety, GBM+XGB+LGBM ensemble for efficacy; Supplementary Table S12); the fourth is the full
 # integrated model, so the final bars EQUAL Fig. 2a / the headline (0.770 / 0.784 / 0.765) and the
 # decomposition no longer appears to fall short of the reported AUROC.
 fig, ax = plt.subplots(figsize=(5.6, 3.6))
-steps = ["flags", "+disease\ndifficulty", "+molecular\nmechanism", "full\nmodel"]
+steps = ["indication/\ntrial", "+disease\ncomplexity", "+molecular-\nmechanism", "full\nmodel"]
 ov = [0.615, 0.689, 0.740, 0.770]; sa = [0.667, 0.630, 0.719, 0.784]; ef = [0.641, 0.667, 0.717, 0.765]
 x = np.arange(len(steps)); w = 0.27
 ax.bar(x - w, ov, w, color=C["overall"], label="overall")
@@ -72,7 +73,8 @@ for t in ["overall", "safety", "efficacy"]:
     d = pd.read_parquet(TRIAL / f"oof_{t}.parquet")
     aucs = [roc_auc_score(x.y, x.raw_prob) for _, x in d.groupby(["seed", "fold"]) if x.y.nunique() == 2]
     data.append(aucs)
-bp = ax.boxplot(data, labels=["overall", "safety", "efficacy"], patch_artist=True)
+bp = ax.boxplot(data, labels=["overall", "safety", "efficacy"], patch_artist=True,
+                medianprops=dict(color="0.25"))
 for patch, t in zip(bp["boxes"], ["overall", "safety", "efficacy"]):
     patch.set_facecolor(C[t]); patch.set_alpha(0.6)
 ax.set(ylabel="AUROC"); save(fig, "fig2b_fold_distributions")
